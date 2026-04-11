@@ -6,5 +6,5 @@ print(lzy.login_by_cookie(cookie) == LanZouCloud.SUCCESS)
 # can get True
 folders = lzy.get_move_folders()
 print(folders)
-fol = lzy.get_file_info_by_url('https://423down.lanzouo.com/b0f1g80ne')
+fol = lzy.get_file_info_by_url('https://wangfei.lanzoux.com/b0ei1zlje','huihui')
 print(fol)
