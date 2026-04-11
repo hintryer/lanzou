@@ -5,6 +5,6 @@ cookie = {'ylogin': '984259', 'phpdisk_info': 'WGVVbwVjBzlQZwNqXQ5bNVUMUWIMYFw5A
 print(lzy.login_by_cookie(cookie) == LanZouCloud.SUCCESS)
 # can get True
 folders = lzy.get_move_folders()
-print(folders)
-fol = lzy.get_folder_info_by_url('https://wangfei.lanzoum.com/b0ei1zlje','huihui')
+# print(folders)
+fol = lzy.get_folder_info_by_url('https://wangfei.lanzouy.com/b0ei1zlje','huihui')
 print(fol)
