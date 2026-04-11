@@ -1,0 +1,26 @@
+name: 自动推送文件到仓库
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  push-files:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v5
+
+      - name: 生成/修改文件
+        run: |
+           python lan.py
+
+      - name: Git Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.com"
+          git add .
+          git commit -a -m "Update $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git push
