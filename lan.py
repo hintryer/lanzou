@@ -56,5 +56,8 @@ if __name__ == "__main__":
     }
 
     variables = run_checkver(config["checkver"])
+    
     print("提取结果：")
+    data = fetch_data("https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest")
+    print(data)
     print(json.dumps(variables, indent=2))
