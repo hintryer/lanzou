@@ -22,10 +22,10 @@ def extract_value(data, jsonpath: str= None, regex: str = None):
         # 1. JSONPath 提取
         if jsonpath:
 			data=jsonpath.findall("$.users[0].~", data)
-	if regex:
+		if regex:
             match = re.search(regex, data)
 	
-	return match
+		return match
     except Exception as e:
         return None
 
