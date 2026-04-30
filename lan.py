@@ -22,3 +22,4 @@ data = {
 }
 
 user_names = jsonpath.findall("$.users.*.name", data)
+print(user_names)
