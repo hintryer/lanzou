@@ -21,5 +21,5 @@ data = {
     ]
 }
 
-user_names = jsonpath.findall("$.users.*.name", data)
+user_names = jsonpath.findall("$.users[0].~", data)
 print(user_names)
