@@ -1,7 +1,7 @@
 import requests
 import re
 import json
-from jsonpath import JSONPath
+from jsonpath import jsonpath
 
 # ===================== 1. 核心请求函数（只需要 url） =====================
 def fetch_data(url: str):
@@ -17,15 +17,20 @@ def fetch_data(url: str):
         return None
 
 # ===================== 2. 变量提取函数（适配你的精简格式） =====================
-def extract_value(data, jsonpath: str= None, regex: str = None):
+def extract_value(data, jsonpath_str: str= None, regex: str = None):
     try:
         # 1. JSONPath 提取
-        if jsonpath:
-			data=jsonpath.findall("$.users[0].~", data)
-		if regex:
-            match = re.search(regex, data)
-	
-		return match
+        if jsonpath_str:
+            data = jsonpath(data, jsonpath_str)
+            if isinstance(data, list):
+                data = data[0] if data else ""
+                
+        # 2. 正则提取
+        match = None
+        if regex:
+            match = re.search(regex, str(data))
+
+        return match
     except Exception as e:
         return None
 
@@ -37,8 +42,10 @@ def run_checkver(checkver_list):
     for config in checkver_list:
         data = fetch_data(config["url"])
         if data:
-            vars = extract_variables(data, config["items"])
-            result.update(vars)
+            for key, (jp, reg) in config["items"].items():
+                val = extract_value(data, jp, reg)
+                if val:
+                    result[key] = val.groups()[0] if val.groups() else val.group()
     return result
 
 # ===================== 测试（你的格式） =====================
@@ -60,7 +67,7 @@ if __name__ == "__main__":
     print("提取结果：")
     data = fetch_data("https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest")
     print("提取结果：", data)
-	txt=extract_value(data,"$..browser_download_url", "([^/]+\\.zip)$")
+    txt = extract_value(data, "$..browser_download_url", "([^/]+\\.zip)$")
     print("提取结果：", txt)
-    print(jsonpath.findall("$.checkver[0].~", config))
+    print(jsonpath(config, "$.checkver[0].~"))
     print(json.dumps(variables, indent=2))
