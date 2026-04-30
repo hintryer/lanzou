@@ -17,19 +17,19 @@ def fetch_data(url: str):
         return None
 
 # ===================== 2. 变量提取函数（适配你的精简格式） =====================
-def extract_variables(data, items):
-    variables = {}
-    for var_name, (jpath, regex) in items.items():
-        try:
-            matches = [str(m.value) for m in parse(jpath).find(data)]
-            for text in matches:
-                match = re.search(regex, text)
-                if match:
-                    variables[var_name] = match.group("v") if "v" in match.groupdict() else match.group(1)
-                    break
-        except Exception as e:
-            print(f"{var_name} 提取失败：{e}")
-    return variables
+def extract_value(data, jsonpath: str= None, regex: str = None):
+    try:
+        # 1. JSONPath 提取
+        if jsonpath:
+			data=jsonpath.findall("$.users[0].~", data)
+	if regex:
+            match = re.search(regex, data)
+	
+	return match
+    except Exception as e:
+        return None
+
+    return None
 
 # ===================== 3. 总执行函数（一行调用） =====================
 def run_checkver(checkver_list):
