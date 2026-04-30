@@ -22,8 +22,6 @@ def extract_value(data, jsonpath_str: str= None, regex: str = None):
         # 1. JSONPath 提取
         if jsonpath_str:
             data = jsonpath.findall(jsonpath_str, data)
-            if isinstance(data, list):
-                data = data[0] if data else ""
                 
         # 2. 正则提取
         match = None
