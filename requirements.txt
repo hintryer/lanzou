@@ -1,2 +1,2 @@
-jsonpath-python
+python-jsonpath
 requests
