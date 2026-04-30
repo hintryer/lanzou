@@ -46,7 +46,7 @@ if __name__ == "__main__":
     config = {
         "checkver": [
             {
-                "url": "https://api.github.com/repos/zhongyang219/MusicPlayer2/releases/latest",
+                "url": "https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest",
                 "items": {
                     "version": ["$.tag_name", "(?<v>.+)"],
                     "filename": ["$..browser_download_url", "([^/]+\\.zip)$"]
