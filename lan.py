@@ -1,7 +1,7 @@
 import requests
 import re
 import json
-from jsonpath_ng import parse
+from jsonpath import JSONPath
 
 # ===================== 1. 核心请求函数（只需要 url） =====================
 def fetch_data(url: str):
