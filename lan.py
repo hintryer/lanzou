@@ -1,12 +1,60 @@
-from lanzou.api import LanZouCloud
+import requests
+import re
+import json
+from jsonpath_ng import parse
 
-lzy = LanZouCloud()
-cookie = {'ylogin': '984259', 'phpdisk_info': 'WGVVbwVjBzlQZwNqXQ5bNVUMUWIMYFw5AzIBZwU7UGJXZlFmAmdWbAcMAGNdMVBrBm4EMlw2UDYHNQViAzMHNVg9VWEFbwdvUDADMV02WzJVNlEyDDZcPgNiAWYFO1BqVzJRMQI1VmsHMQBZXTZQPwZkBDRcM1A%2FBzQFYAMwBzJYag%3D%3D'}
-print(lzy.login_by_cookie(cookie) == LanZouCloud.SUCCESS)
-# can get True
-folders = lzy.get_move_folders()
-# print(folders)
-fol = lzy.get_folder_info_by_url('https://423down.lanzouo.com/b0f19imab')
-print(fol)
-fol = lzy.get_file_info_by_url('https://423down.lanzouo.com/b0f19imab')
-print(fol)
+# ===================== 1. 核心请求函数（只需要 url） =====================
+def fetch_data(url: str):
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    try:
+        resp = requests.get(url, headers=headers, timeout=10)
+        resp.raise_for_status()
+        return resp.json()
+    except Exception as e:
+        print(f"请求失败：{e}")
+        return None
+
+# ===================== 2. 变量提取函数（适配你的精简格式） =====================
+def extract_variables(data, items):
+    variables = {}
+    for var_name, (jpath, regex) in items.items():
+        try:
+            matches = [str(m.value) for m in parse(jpath).find(data)]
+            for text in matches:
+                match = re.search(regex, text)
+                if match:
+                    variables[var_name] = match.group("v") if "v" in match.groupdict() else match.group(1)
+                    break
+        except Exception as e:
+            print(f"{var_name} 提取失败：{e}")
+    return variables
+
+# ===================== 3. 总执行函数（一行调用） =====================
+def run_checkver(checkver_list):
+    result = {}
+    for config in checkver_list:
+        data = fetch_data(config["url"])
+        if data:
+            vars = extract_variables(data, config["items"])
+            result.update(vars)
+    return result
+
+# ===================== 测试（你的格式） =====================
+if __name__ == "__main__":
+    config = {
+        "checkver": [
+            {
+                "url": "https://api.github.com/repos/zhongyang219/MusicPlayer2/releases/latest",
+                "items": {
+                    "version": ["$.tag_name", "(?<v>.+)"],
+                    "filename": ["$..browser_download_url", "([^/]+\\.zip)$"]
+                }
+            }
+        ]
+    }
+
+    variables = run_checkver(config["checkver"])
+    print("提取结果：")
+    print(json.dumps(variables, indent=2))
