@@ -60,4 +60,5 @@ if __name__ == "__main__":
     print("提取结果：")
     data = fetch_data("https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest")
     print("提取结果：", data)
+    print(jsonpath.findall("$.checkver[0].~", config))
     print(json.dumps(variables, indent=2))
