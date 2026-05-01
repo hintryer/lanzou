@@ -16,23 +16,42 @@ def fetch_data(url: str):
         print(f"请求失败：{e}")
         return None
 
-# ===================== 2. 变量提取函数（适配你的精简格式） =====================
-def extract_value(data, jsonpath_str: str= None, regex: str = None):
+# ===================== 2. 变量提取函数（自动识别 JSONPath / 正则） =====================
+def extract_value(data, expr: str = None):
     try:
-        # 1. JSONPath 提取
-        if jsonpath_str:
-            data = jsonpath.findall(jsonpath_str, data)
-        print("JSONPath提取结果：", data)         
-        # 2. 正则提取
-        match = None
-        if regex:
-            match = re.search(regex, str(data))
+        # 如果表达式为空
+        if not expr:
+            return None
 
-        return match
-    except Exception as e:
+        # ======================================
+        # 自动判断：如果以 $ 开头 → 按 JSONPath 处理
+        # 否则 → 按正则处理
+        # ======================================
+        if expr.startswith("$"):
+            # JSONPath 提取
+            data = jsonpath.findall(expr, data)
+            print("JSONPath提取结果：", data)
+            # 列表转字符串
+            if isinstance(data, (list, tuple)):
+                data = data[0] if len(data) > 0 else ""
+
+        # 正则提取（无论是否走了JSONPath，最后都可以用正则过滤）
+        match = None
+        if not expr.startswith("$"):
+            # 直接当正则
+            match = re.search(expr, str(data))
+        else:
+            # 已经JSONPath提取过，不做正则
+            return data
+
+        # 返回匹配到的内容，不是match对象
+        if match:
+            return match.group(1) if match.groups() else match.group()
+
         return None
 
-    return None
+    except Exception as e:
+        return None
 
 # ===================== 3. 总执行函数（一行调用） =====================
 def run_checkver(checkver_list):
