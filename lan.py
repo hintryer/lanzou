@@ -62,9 +62,10 @@ def run_checkver(json_path):
     checkver_list=jsonpath.findall("$.checkver", config)
     final_result = []
 
-    matches = jsonpath.finditer("$.checkver", config)
+    matches = jsonpath.finditer("$.checkver..url", config)
     for match in matches:
         print(match.obj)
+        print(match.path)
     
 def load_json(file_path="config.json"):
     """加载配置文件，安全容错"""
