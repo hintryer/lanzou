@@ -57,16 +57,40 @@ def extract_value(data, expr: str = None):
         return None
 
 # ===================== 3. 总执行函数（一行调用） =====================
-def run_checkver(checkver_list):
-    result = {}
-    for config in checkver_list:
-        data = fetch_data(config["url"])
-        if data:
-            for key, (jp, reg) in config["items"].items():
-                val = extract_value(data, jp, reg)
-                if val:
-                    result[key] = val.groups()[0] if val.groups() else val.group()
-    return result
+def run_checkver(json_path):
+    config = load_json(json_path)
+    checkver_list=jsonpath.findall("$.checkver", config)
+    final_result = []
+
+    for item in checkver_list:
+        # 🔥 用 ~ 取出当前层级所有 键名：url、version、name...
+        keys = findall("[~]", item)
+        print("提取到键名：", keys)
+
+        # 获取 url
+        url = item.get("url")
+        api_data = fetch_data(url)
+        if not api_data:
+            continue
+
+        # 🔥 自动遍历键名，动态生成 result
+        res = {}
+        for key in keys:
+            # url 不参与提取
+            if key == "url":
+                continue
+
+            # 取出对应 jsonpath 表达式
+            jsonpath_expr = item.get(key)
+            # 提取值
+            value = extract_py_jsonpath(api_data, jsonpath_expr)
+            # 🔥 键名直接作为 key，值为提取结果
+            res[key] = value
+
+        final_result.append(res)
+
+    print(f"\n总 URL 数量：{len(config)}")
+    return final_result
     
 def load_json(file_path="config.json"):
     """加载配置文件，安全容错"""
@@ -105,5 +129,7 @@ if __name__ == "__main__":
     data = fetch_data("https://geekuninstaller.com/download")
     # print("提取结果：", data)
     txt = extract_value(data, "<b>(.*?)</b>")
-    print("下载结果：", txt)
-    # print(jsonpath.findall( "$.checkver[0].~",config))
+    print("提取结果：=============================================================")
+    data= run_checkver("./bucket/lanzouyun.json")
+    print("提取结果：", data)
+
