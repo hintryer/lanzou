@@ -62,35 +62,9 @@ def run_checkver(json_path):
     checkver_list=jsonpath.findall("$.checkver", config)
     final_result = []
 
-    for item in checkver_list:
-        # 🔥 用 ~ 取出当前层级所有 键名：url、version、name...
-        keys = jsonpath.findall("[~]", item)
-        print("提取到键名：", keys)
-
-        # 获取 url
-        url = item.get("url")
-        api_data = fetch_data(url)
-        if not api_data:
-            continue
-
-        # 🔥 自动遍历键名，动态生成 result
-        res = {}
-        for key in keys:
-            # url 不参与提取
-            if key == "url":
-                continue
-
-            # 取出对应 jsonpath 表达式
-            jsonpath_expr = item.get(key)
-            # 提取值
-            value = extract_value(api_data, jsonpath_expr)
-            # 🔥 键名直接作为 key，值为提取结果
-            res[key] = value
-
-        final_result.append(res)
-
-    print(f"\n总 URL 数量：{len(config)}")
-    return final_result
+    matches = jsonpath.finditer("$.checkver", config)
+    for match in matches:
+        print(matches)
     
 def load_json(file_path="config.json"):
     """加载配置文件，安全容错"""
