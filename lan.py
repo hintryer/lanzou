@@ -74,10 +74,12 @@ def load_json(file_path="config.json"):
     config_file_path = os.path.join(base_dir, file_path)
     config_file_path=file_path
     if not os.path.exists(config_file_path):
-        return []
+        print(f"文件不存在：{config_file_path}")
+        return {}
+
     try:
         with open(config_file_path, "r", encoding="utf-8") as f:
-            return json.load(f) or []
+            return json.load(f) or {}
     except (json.JSONDecodeError, ValueError):
         return []
 
