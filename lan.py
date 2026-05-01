@@ -30,7 +30,6 @@ def extract_value(data, expr: str = None):
         if expr.startswith("$"):
             # JSONPath 提取
             data = jsonpath.findall(expr, data)
-            print("JSONPath提取结果：", data)
             # 列表转字符串
             if isinstance(data, (list, tuple)):
                 data = data[0] if len(data) > 0 else ""
@@ -89,7 +88,7 @@ if __name__ == "__main__":
     # print(jsonpath.findall( "$.checkver[0].~",config))
     
     data = fetch_data("https://geekuninstaller.com/download")
-    # print("提取结果：", data)
+    print("提取结果：", data)
     txt = extract_value(data, "$.assets[?(@.browser_download_url =~  /.*zip/)].browser_download_url")
     print("下载结果：", txt)
     txt = extract_value(data, "$.assets[?(@.browser_download_url =~  /.*zip/)].name")
