@@ -11,7 +11,10 @@ def fetch_data(url: str):
     try:
         resp = requests.get(url, headers=headers, timeout=10)
         resp.raise_for_status()
-        return resp.json()
+        if "application/json" in response.headers.get("Content-Type", ""):
+            return response.json()
+        else:
+            return response.text
     except Exception as e:
         print(f"请求失败：{e}")
         return None
