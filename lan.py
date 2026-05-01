@@ -64,7 +64,7 @@ def run_checkver(json_path):
 
     for item in checkver_list:
         # 🔥 用 ~ 取出当前层级所有 键名：url、version、name...
-        keys = findall("[~]", item)
+        keys = jsonpath.findall("[~]", item)
         print("提取到键名：", keys)
 
         # 获取 url
@@ -83,7 +83,7 @@ def run_checkver(json_path):
             # 取出对应 jsonpath 表达式
             jsonpath_expr = item.get(key)
             # 提取值
-            value = extract_py_jsonpath(api_data, jsonpath_expr)
+            value = extract_value(api_data, jsonpath_expr)
             # 🔥 键名直接作为 key，值为提取结果
             res[key] = value
 
