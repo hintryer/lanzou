@@ -72,7 +72,7 @@ def load_json(file_path="config.json"):
     """加载配置文件，安全容错"""
     base_dir = os.path.dirname(os.path.abspath(__file__))
     config_file_path = os.path.join(base_dir, file_path)
-    
+    config_file_path=file_path
     if not os.path.exists(config_file_path):
         return []
     try:
