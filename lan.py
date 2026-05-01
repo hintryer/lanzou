@@ -22,7 +22,7 @@ def extract_value(data, jsonpath_str: str= None, regex: str = None):
         # 1. JSONPath 提取
         if jsonpath_str:
             data = jsonpath.findall(jsonpath_str, data)
-                
+        print("JSONPath提取结果：", data)         
         # 2. 正则提取
         match = None
         if regex:
