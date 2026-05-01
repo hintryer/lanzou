@@ -90,7 +90,7 @@ def save_json(config_list, file_path="config.json"):
         
 # ===================== 测试（你的格式） =====================
 if __name__ == "__main__":
-    config =load_json("/bucket/lanzouyun.json")
+    config =load_json("./bucket/lanzouyun.json")
     data = jsonpath.findall("$.checkver", config)
     print("结果：", data)
     # variables = run_checkver(config["checkver"])
