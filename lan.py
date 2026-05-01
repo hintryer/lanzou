@@ -66,7 +66,25 @@ def run_checkver(checkver_list):
                 if val:
                     result[key] = val.groups()[0] if val.groups() else val.group()
     return result
+    
+def load_json(file_path="config.json"):
+    """加载配置文件，安全容错"""
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    config_file_path = os.path.join(base_dir, file_path)
+    
+    if not os.path.exists(config_file_path):
+        return []
+    try:
+        with open(config_file_path, "r", encoding="utf-8") as f:
+            return json.load(f) or []
+    except (json.JSONDecodeError, ValueError):
+        return []
 
+def save_json(config_list, file_path="config.json"):
+    """保存配置到 JSON 文件"""
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(config_list, f, ensure_ascii=False, indent=2)
+        
 # ===================== 测试（你的格式） =====================
 if __name__ == "__main__":
     config = {
