@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
     variables = run_checkver(config["checkver"])
     data = fetch_data("https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest")
-    print("提取结果：", data)
+    # print("提取结果：", data)
     txt = extract_value(data, "$..browser_download_url[?@ =~ /[^/]+\\.zip$/]")
     print("下载结果：", txt)
-    print(jsonpath.findall( "$.checkver[0].~",config))
+    # print(jsonpath.findall( "$.checkver[0].~",config))
