@@ -11,7 +11,7 @@ def fetch_data(url: str):
     try:
         resp = requests.get(url, headers=headers, timeout=10)
         resp.raise_for_status()
-        if "application/json" in response.headers.get("Content-Type", ""):
+        if "application/json" in resp.headers.get("Content-Type", ""):
             return resp.json()
         else:
             return resp.text
