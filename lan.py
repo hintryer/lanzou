@@ -57,15 +57,7 @@ def extract_value(data, expr: str = None):
         return None
 
 # ===================== 3. 总执行函数（一行调用） =====================
-def run_checkver(json_path):
-    config = load_json(json_path)
-    checkver_list=jsonpath.findall("$.checkver", config)
-    final_result = []
 
-    matches = jsonpath.finditer("$.checkver..url", config)
-    for match in matches:
-        print(match.obj)
-        print(match.path)
     
 def load_json(file_path="config.json"):
     """加载配置文件，安全容错"""
@@ -86,24 +78,25 @@ def save_json(config_list, file_path="config.json"):
     """保存配置到 JSON 文件"""
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(config_list, f, ensure_ascii=False, indent=2)
-        
+
+def run_checkver(json_path):
+    config = load_json(json_path)
+    checkver_list=jsonpath.findall("$.checkver", config)
+    final_result = []
+
+    matches = jsonpath.finditer("$.checkver", config)
+    for match in matches:
+        print(match.obj)
+        print(match.path)   
+        reslut=match.obj 
+        final = f"{match.path}..~"
+        print(final)    
+        checkver_list=jsonpath.findall(f"{match.path}..~", config)
+        print(checkver_list) 
+
 # ===================== 测试（你的格式） =====================
 if __name__ == "__main__":
-    config =load_json("./bucket/lanzouyun.json")
-    data = jsonpath.findall("$.checkver", config)
-    print("结果：", data)
-    # variables = run_checkver(config["checkver"])
-    data = fetch_data("https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest")
-    # print("提取结果：", data)
-    txt = extract_value(data, "$.assets[?(@.browser_download_url =~  /.*zip/)].browser_download_url")
-    print("下载结果：", txt)
-    txt = extract_value(data, "$.assets[?(@.browser_download_url =~  /.*zip/)].name")
-    print("下载结果：", txt)
-    # print(jsonpath.findall( "$.checkver[0].~",config))
-    
-    data = fetch_data("https://geekuninstaller.com/download")
-    # print("提取结果：", data)
-    txt = extract_value(data, "<b>(.*?)</b>")
+
     print("提取结果：=============================================================")
     data= run_checkver("./bucket/lanzouyun.json")
     print("提取结果：", data)
