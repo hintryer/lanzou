@@ -87,18 +87,9 @@ def save_json(config_list, file_path="config.json"):
         
 # ===================== 测试（你的格式） =====================
 if __name__ == "__main__":
-    config = {
-        "checkver": [
-            {
-                "url": "https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest",
-                "items": {
-                    "version": ["$.tag_name", "(?<v>.+)"],
-                    "filename": ["$..browser_download_url", "([^/]+\\.zip)$"]
-                }
-            }
-        ]
-    }
-
+    config = load_json(/bucket/lanzouyun.json)
+    data = jsonpath.findall("$.checkver", config)
+    print("结果：", data)
     # variables = run_checkver(config["checkver"])
     data = fetch_data("https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest")
     # print("提取结果：", data)
