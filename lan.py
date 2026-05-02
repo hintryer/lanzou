@@ -87,8 +87,9 @@ def run_checkver(json_path):
         for item in item_list:
             if item != "apiurl":
                 expr=jsonpath.findall(f"{match.path}..{item}", config)
-                apiurl=jsonpath.findall(f"{match.path}..url", config)
+                apiurl=jsonpath.findall(f"{match.path}..apiurl", config)
                 data=fetch_data(apiurl[0])
+                
                 final_result[item] = extract_value(data,expr[0])
     config.update(final_result)
     save_json(config,json_path)   
