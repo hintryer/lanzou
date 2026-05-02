@@ -27,7 +27,6 @@ def extract_value(data, expr: str = None):
         if not expr:
             print('表达式为空')
             return None
-        # print(expr)
         # ======================================
         # 自动判断：如果以 $ 开头 → 按 JSONPath 处理
         # 否则 → 按正则处理
@@ -38,7 +37,7 @@ def extract_value(data, expr: str = None):
             # 列表转字符串
             if isinstance(data, (list, tuple)):
                 data = data[0] if len(data) > 0 else ""
-        print(data)
+
         # 正则提取（无论是否走了JSONPath，最后都可以用正则过滤）
         match = None
         if not expr.startswith("$"):
@@ -95,6 +94,18 @@ def run_checkver(json_path):
     save_json(config,json_path)   
     return final_result
 
+def run_all_checkver(bucket_dir="bucket"):
+    # 遍历 bucket 文件夹
+    for filename in os.listdir(bucket_dir):
+        # 只处理 .json 文件
+        if filename.endswith(".json"):
+            file_path = os.path.join(bucket_dir, filename)
+
+            # 对每个文件执行 run_checkver
+            run_checkver(file_path)
+
+    print("\n🎉 所有文件检查完成！")
+
 def ceshi():
     item = "url"
     final_result ={}
@@ -103,7 +114,5 @@ def ceshi():
 # ===================== 测试（你的格式） =====================
 if __name__ == "__main__":
     # ceshi()
-    print("提取结果：=============================================================")
-    data= run_checkver("./bucket/lanzouyun.json")
-    print("提取结果：", data)
+    run_all_checkver()
 

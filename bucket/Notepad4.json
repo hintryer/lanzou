@@ -1,0 +1,20 @@
+{
+    "name": "",
+    "category": "文本办公",
+    "version": "",
+    "description": "轻量级文本编辑器",
+    "homepage": "https://github.com/zufuliu/notepad4",
+    "url": "",
+    "checkver": [
+        {
+            "apiurl": "https://api.github.com/repos/zufuliu/notepad4/releases/latest",
+            "url": "$.assets[?(@.browser_download_url =~ /Notepad4.*zh-Hans_x64.*/)].browser_download_url",
+            "name": "$.assets[?(@.browser_download_url =~ /Notepad4.*zh-Hans_x64.*/)].name",
+            "version": "$.tag_name"
+        }
+    ],
+    "autoupdate": {
+        "url": "https://github.com/zufuliu/notepad4/releases/download/v$version/$filename",
+        "name": "$filename"
+    }
+}

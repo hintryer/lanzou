@@ -1,0 +1,20 @@
+{
+    "name": "",
+    "category": "影音工具",
+    "version": "",
+    "description": "简洁本地音乐播放器",
+    "homepage": "https://github.com/zhongyang219/MusicPlayer2",
+    "url": "",
+    "checkver": [
+        {
+            "apiurl": "https://api.github.com/repos/zhongyang219/MusicPlayer2/releases/latest",
+            "url": "$.assets[?(@.browser_download_url =~ /MusicPlayer2.*_V.*_x64.zip/)].browser_download_url",
+            "name": "$.assets[?(@.browser_download_url =~ /MusicPlayer2.*_V.*_x64.zip/)].name",
+            "version": "$.tag_name"
+        }
+    ],
+    "autoupdate": {
+        "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/$version/$filename",
+        "name": "$filename"
+    }
+}

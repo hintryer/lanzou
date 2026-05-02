@@ -1,0 +1,69 @@
+[
+    {
+        "filename": "donet9.json",
+        "content": {
+            "version": "9.0.15",
+            "description": ".NET 9 Runtime",
+            "homepage": "https://dotnet.microsoft.com/",
+            "license": "MIT",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.15/dotnet-runtime-9.0.15-win-x64.exe",
+            "filename": "dotnet-runtime-9.0.15-win-x64.exe",
+            "savedir": "./soft/NET",
+            "hash": "25a49b68083ada134ec47cbd8d921eeff7fef7beb8b420694e595e90b72c1f46",
+            "checkver": {
+                "url": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
+                "jsonpath": "$.releases-index[?(@.channel-version=='9.0')].latest-release"
+            },
+            "autoupdate": {
+                "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/$version/dotnet-runtime-$version-win-x64.exe",
+                "filename": "dotnet-runtime-$version-win-x64.exe"
+            }
+        }
+    },
+    {
+        "filename": "GeekUninstaller.json",
+        "content": {
+            "name": "GeekUninstaller",
+            "savedir": "下载传输",
+            "version": "1.5.3.170",
+            "description": "蓝奏云盘",
+            "homepage": "https://geekuninstaller.com/",
+            "license": "MIT",
+            "url": "https://geekuninstaller.com/geek.zip",
+            "hash": "auto",
+            "checkver": [
+                {
+                    "apiurl": "https://geekuninstaller.com/download",
+                    "version": "<b>(.*?)</b>"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://geekuninstaller.com/geek.zip",
+                "name": "$filename"
+            }
+        }
+    },
+    {
+        "filename": "lanzouyun.json",
+        "content": {
+            "name": "",
+            "category": "下载传输",
+            "version": "",
+            "description": "蓝奏云盘",
+            "homepage": "https://github.com/chenhb23/lanzouyun-disk",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest",
+                    "url": "$.assets[?(@.browser_download_url =~  /.*zip/)].browser_download_url",
+                    "name": "$.assets[?(@.browser_download_url =~  /.*zip/)].name",
+                    "version": "$.tag_name"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://github.com/chenhb23/lanzouyun-disk/releases/download/v$version/$filename",
+                "name": "$filename"
+            }
+        }
+    }
+]

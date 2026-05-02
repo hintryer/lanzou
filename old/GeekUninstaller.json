@@ -1,0 +1,20 @@
+{
+  "name": "GeekUninstaller",
+  "savedir": "下载传输",
+  "version": "1.5.3.170",
+  "description": "蓝奏云盘",
+  "homepage": "https://geekuninstaller.com/",
+  "license": "MIT",
+  "url": "https://geekuninstaller.com/geek.zip",
+  "hash": "auto",
+  "checkver": [
+    {
+      "apiurl": "https://geekuninstaller.com/download",
+      "version": "<b>(.*?)</b>"
+    }
+  ],
+  "autoupdate": {
+    "url": "https://geekuninstaller.com/geek.zip",
+    "name": "$filename"
+  }
+}

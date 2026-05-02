@@ -1,12 +1,10 @@
 {
   "name": "",
-  "savedir": "下载传输",
+  "category": "下载传输",
   "version": "",
   "description": "蓝奏云盘",
   "homepage": "https://github.com/chenhb23/lanzouyun-disk",
-  "license": "MIT",
   "url": "",
-  "hash": "auto",
   "checkver": [
     {
       "apiurl": "https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest",

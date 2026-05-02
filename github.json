@@ -1,0 +1,301 @@
+[
+    {
+        "filename": "MouseClickTool.json",
+        "content": {
+            "name": "",
+            "category": "单文件",
+            "version": "",
+            "description": "鼠标自动点击工具",
+            "homepage": "https://github.com/lalakii/MouseClickTool",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/lalakii/MouseClickTool/releases/latest",
+                    "url": "$.assets[?(@.browser_download_url =~ /MouseClickTool.exe/)].browser_download_url",
+                    "name": "$.assets[?(@.browser_download_url =~ /MouseClickTool.exe/)].name",
+                    "version": "$.tag_name"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://github.com/lalakii/MouseClickTool/releases/download/$version/$filename",
+                "name": "$filename"
+            }
+        }
+    },
+    {
+        "filename": "Notepad4.json",
+        "content": {
+            "name": "",
+            "category": "文本办公",
+            "version": "",
+            "description": "轻量级文本编辑器",
+            "homepage": "https://github.com/zufuliu/notepad4",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/zufuliu/notepad4/releases/latest",
+                    "url": "$.assets[?(@.browser_download_url =~ /Notepad4.*zh-Hans_x64.*/)].browser_download_url",
+                    "name": "$.assets[?(@.browser_download_url =~ /Notepad4.*zh-Hans_x64.*/)].name",
+                    "version": "$.tag_name"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://github.com/zufuliu/notepad4/releases/download/v$version/$filename",
+                "name": "$filename"
+            }
+        }
+    },
+    {
+        "filename": "MusicPlayer2.json",
+        "content": {
+            "name": "",
+            "category": "影音工具",
+            "version": "",
+            "description": "简洁本地音乐播放器",
+            "homepage": "https://github.com/zhongyang219/MusicPlayer2",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/zhongyang219/MusicPlayer2/releases/latest",
+                    "url": "$.assets[?(@.browser_download_url =~ /MusicPlayer2.*_V.*_x64.zip/)].browser_download_url",
+                    "name": "$.assets[?(@.browser_download_url =~ /MusicPlayer2.*_V.*_x64.zip/)].name",
+                    "version": "$.tag_name"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/$version/$filename",
+                "name": "$filename"
+            }
+        }
+    },
+    {
+        "filename": "VideoCaptioner.json",
+        "content": {
+            "name": "",
+            "category": "影音工具",
+            "version": "",
+            "description": "视频字幕识别工具",
+            "homepage": "https://github.com/WEIFENG2333/VideoCaptioner",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/latest",
+                    "url": "$.assets[?(@.browser_download_url =~ /VideoCaptioner.*win64.*/)].browser_download_url",
+                    "name": "$.assets[?(@.browser_download_url =~ /VideoCaptioner.*win64.*/)].name",
+                    "version": "$.tag_name"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://github.com/WEIFENG2333/VideoCaptioner/releases/download/$version/$filename",
+                "name": "$filename"
+            }
+        }
+    },
+    {
+        "filename": "Scribe2SRT.json",
+        "content": {
+            "name": "",
+            "category": "影音工具",
+            "version": "",
+            "description": "音频转字幕工具",
+            "homepage": "https://github.com/cylind/scribe2srt",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/cylind/scribe2srt/releases/latest",
+                    "url": "$.assets[?(@.browser_download_url =~ /Scribe2SRT.*windows-x86_64.*/)].browser_download_url",
+                    "name": "$.assets[?(@.browser_download_url =~ /Scribe2SRT.*windows-x86_64.*/)].name",
+                    "version": "$.tag_name"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://github.com/cylind/scribe2srt/releases/download/v$version/$filename",
+                "name": "$filename"
+            }
+        }
+    },
+    {
+        "filename": "FFmpeg_Batch_AV_Converter.json",
+        "content": {
+            "name": "",
+            "category": "影音工具",
+            "version": "",
+            "description": "音视频批量转换工具",
+            "homepage": "https://github.com/eibols/ffmpeg_batch",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/eibols/ffmpeg_batch/releases/latest",
+                    "url": "$.assets[?(@.browser_download_url =~ /Portable/)].browser_download_url",
+                    "name": "$.assets[?(@.browser_download_url =~ /Portable/)].name",
+                    "version": "$.tag_name"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://github.com/eibols/ffmpeg_batch/releases/download/$version/$filename",
+                "name": "$filename"
+            }
+        }
+    },
+    {
+        "filename": "lanzouyun-disk.json",
+        "content": {
+            "name": "",
+            "category": "下载传输",
+            "version": "",
+            "description": "蓝奏云非官方客户端",
+            "homepage": "https://github.com/chenhb23/lanzouyun-disk",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest",
+                    "url": "$.assets[?(@.browser_download_url =~ /lanzouyun.*x64-win.*/)].browser_download_url",
+                    "name": "$.assets[?(@.browser_download_url =~ /lanzouyun.*x64-win.*/)].name",
+                    "version": "$.tag_name"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://github.com/chenhb23/lanzouyun-disk/releases/download/v$version/$filename",
+                "name": "$filename"
+            }
+        }
+    },
+    {
+        "filename": "LocalSend.json",
+        "content": {
+            "name": "",
+            "category": "下载传输",
+            "version": "",
+            "description": "局域网文件互传工具",
+            "homepage": "https://localsend.org/",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/localsend/localsend/releases/latest",
+                    "url": "$.assets[?(@.browser_download_url =~ /windows-x86-64.zip/)].browser_download_url",
+                    "name": "$.assets[?(@.browser_download_url =~ /windows-x86-64.zip/)].name",
+                    "version": "$.tag_name"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://github.com/localsend/localsend/releases/download/v$version/$filename",
+                "name": "$filename"
+            }
+        }
+    },
+    {
+        "filename": "Bili23-Downloader.json",
+        "content": {
+            "name": "",
+            "category": "其他工具",
+            "version": "",
+            "description": "B站视频下载工具",
+            "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/ScottSloan/Bili23-Downloader/releases/latest",
+                    "url": "$.assets[?(@.browser_download_url =~ /windows-x64.zip/)].browser_download_url",
+                    "name": "$.assets[?(@.browser_download_url =~ /windows-x64.zip/)].name",
+                    "version": "$.tag_name"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v$version/$filename",
+                "name": "$filename"
+            }
+        }
+    },
+    {
+        "filename": "clash-verge-rev.json",
+        "content": {
+            "name": "",
+            "category": "其他工具",
+            "version": "",
+            "description": "Clash图形化代理客户端",
+            "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases/latest",
+                    "url": "$.assets[?(@.browser_download_url =~ /x64-setup.exe/)].browser_download_url",
+                    "name": "$.assets[?(@.browser_download_url =~ /x64-setup.exe/)].name",
+                    "version": "$.tag_name"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v$version/$filename",
+                "name": "$filename"
+            }
+        }
+    },
+    {
+        "filename": "ffmpeg-essentials.json",
+        "content": {
+            "name": "",
+            "category": "编程工具",
+            "version": "",
+            "description": "精简版音视频处理工具",
+            "homepage": "https://ffmpeg.org/",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
+                    "url": "$.assets[?(@.browser_download_url =~ /essentials_build.7z/)].browser_download_url",
+                    "name": "$.assets[?(@.browser_download_url =~ /essentials_build.7z/)].name",
+                    "version": "$.tag_name"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://github.com/GyanD/codexffmpeg/releases/download/$version/$filename",
+                "name": "$filename"
+            }
+        }
+    },
+    {
+        "filename": "ffmpeg-full.json",
+        "content": {
+            "name": "",
+            "category": "编程工具",
+            "version": "",
+            "description": "完整版音视频处理工具",
+            "homepage": "https://ffmpeg.org/",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
+                    "url": "$.assets[?(@.browser_download_url =~ /full_build.7z/)].browser_download_url",
+                    "name": "$.assets[?(@.browser_download_url =~ /full_build.7z/)].name",
+                    "version": "$.tag_name"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://github.com/GyanD/codexffmpeg/releases/download/$version/$filename",
+                "name": "$filename"
+            }
+        }
+    },
+    {
+        "filename": "git-portable.json",
+        "content": {
+            "name": "",
+            "category": "编程工具",
+            "version": "",
+            "description": "便携版Git版本控制工具",
+            "homepage": "https://gitforwindows.org/",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/git-for-windows/git/releases/latest",
+                    "url": "$.assets[?(@.browser_download_url =~ /PortableGit.*64-bit/)].browser_download_url",
+                    "name": "$.assets[?(@.browser_download_url =~ /PortableGit.*64-bit/)].name",
+                    "version": "$.tag_name"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://github.com/git-for-windows/git/releases/download/v$version/$filename",
+                "name": "$filename"
+            }
+        }
+    }
+]

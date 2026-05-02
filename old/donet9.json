@@ -1,0 +1,18 @@
+{
+    "version": "9.0.15",
+    "description": ".NET 9 Runtime",
+    "homepage": "https://dotnet.microsoft.com/",
+    "license": "MIT",
+    "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.15/dotnet-runtime-9.0.15-win-x64.exe",
+    "filename": "dotnet-runtime-9.0.15-win-x64.exe",
+    "savedir": "./soft/NET",
+    "hash": "25a49b68083ada134ec47cbd8d921eeff7fef7beb8b420694e595e90b72c1f46",
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
+        "jsonpath": "$.releases-index[?(@.channel-version=='9.0')].latest-release"
+    },
+    "autoupdate": {
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/$version/dotnet-runtime-$version-win-x64.exe",
+        "filename": "dotnet-runtime-$version-win-x64.exe"
+    }
+}
