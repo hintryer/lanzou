@@ -25,8 +25,9 @@ def extract_value(data, expr: str = None):
     try:
         # 如果表达式为空
         if not expr:
+            print('表达式为空')
             return None
-
+        # print(expr)
         # ======================================
         # 自动判断：如果以 $ 开头 → 按 JSONPath 处理
         # 否则 → 按正则处理
@@ -37,7 +38,7 @@ def extract_value(data, expr: str = None):
             # 列表转字符串
             if isinstance(data, (list, tuple)):
                 data = data[0] if len(data) > 0 else ""
-
+        print(data)
         # 正则提取（无论是否走了JSONPath，最后都可以用正则过滤）
         match = None
         if not expr.startswith("$"):
@@ -60,16 +61,13 @@ def extract_value(data, expr: str = None):
 
     
 def load_json(file_path="config.json"):
-    """加载配置文件，安全容错"""
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    config_file_path = os.path.join(base_dir, file_path)
-    config_file_path=file_path
-    if not os.path.exists(config_file_path):
-        print(f"文件不存在：{config_file_path}")
+
+    if not os.path.exists(file_path):
+        print(f"文件不存在：{file_path}")
         return {}
 
     try:
-        with open(config_file_path, "r", encoding="utf-8") as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             return json.load(f) or {}
     except (json.JSONDecodeError, ValueError):
         return []
@@ -81,22 +79,29 @@ def save_json(config_list, file_path="config.json"):
 
 def run_checkver(json_path):
     config = load_json(json_path)
-    checkver_list=jsonpath.findall("$.checkver", config)
-    final_result = []
+    final_result = {}
 
     matches = jsonpath.finditer("$.checkver", config)
     for match in matches:
-        print(match.obj)
-        print(match.path)   
-        reslut=match.obj 
-        final = f"{match.path}..~"
-        print(final)    
-        checkver_list=jsonpath.findall(f"{match.path}..~", config)
-        print(checkver_list) 
+        item_list=jsonpath.findall(f"{match.path}..~", config)
+        for item in item_list:
+            if item != "apiurl":
+                expr=jsonpath.findall(f"{match.path}..{item}", config)
+                apiurl=jsonpath.findall(f"{match.path}..url", config)
+                data=fetch_data(apiurl[0])
+                final_result[item] = extract_value(data,expr[0])
+    config.update(final_result)
+    save_json(config,json_path)   
+    return final_result
 
+def ceshi():
+    item = "url"
+    final_result ={}
+    final_result[item]="ddd"
+    print(final_result)
 # ===================== 测试（你的格式） =====================
 if __name__ == "__main__":
-
+    # ceshi()
     print("提取结果：=============================================================")
     data= run_checkver("./bucket/lanzouyun.json")
     print("提取结果：", data)

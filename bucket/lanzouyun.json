@@ -1,21 +1,22 @@
 {
-        "name": "lanzouyun-3.5.3-x64-win.zip",
-        "savedir": "下载传输",
-        "version": "1.0",
-        "description": "蓝奏云盘",
-        "homepage": "https://github.com/chenhb23/lanzouyun-disk",
-        "license": "MIT",
-        "url": "https://github.com/chenhb23/lanzouyun-disk/releases/download/v3.5.3/lanzouyun-3.5.3-x64-win.zip",
-        "hash": "auto",
-        "checkver": [
-            {
-                "url": "https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest",
-                "version": "$.assets[?(@.browser_download_url =~  /.*zip/)].browser_download_url",
-                "name": "$.assets[?(@.browser_download_url =~  /.*zip/)].name"
-            }
-        ],
-        "autoupdate": {
-            "url": "https://github.com/chenhb23/lanzouyun-disk/releases/download/v$version/$filename",
-            "name": "$filename"
-        }
+  "name": "",
+  "savedir": "下载传输",
+  "version": "",
+  "description": "蓝奏云盘",
+  "homepage": "https://github.com/chenhb23/lanzouyun-disk",
+  "license": "MIT",
+  "url": "",
+  "hash": "auto",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest",
+      "url": "$.assets[?(@.browser_download_url =~  /.*zip/)].browser_download_url",
+      "name": "$.assets[?(@.browser_download_url =~  /.*zip/)].name",
+      "version": "$.tag_name"
+    }
+  ],
+  "autoupdate": {
+    "url": "https://github.com/chenhb23/lanzouyun-disk/releases/download/v$version/$filename",
+    "name": "$filename"
+  }
 }
