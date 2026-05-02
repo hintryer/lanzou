@@ -1,11 +1,11 @@
 {
-  "name": "",
+  "name": "lanzouyun-3.5.3-x64-win.zip",
   "savedir": "下载传输",
-  "version": "",
+  "version": "v3.5.3",
   "description": "蓝奏云盘",
   "homepage": "https://github.com/chenhb23/lanzouyun-disk",
   "license": "MIT",
-  "url": "",
+  "url": "https://github.com/chenhb23/lanzouyun-disk/releases/download/v3.5.3/lanzouyun-3.5.3-x64-win.zip",
   "hash": "auto",
   "checkver": [
     {
