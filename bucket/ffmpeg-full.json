@@ -8,8 +8,8 @@
     "checkver": [
         {
             "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
-            "url": "$.assets[?(@.browser_download_url =~ /full_build.7z/)].browser_download_url",
-            "name": "$.assets[?(@.browser_download_url =~ /full_build.7z/)].name",
+            "url": "$.assets[?(@.name =~ /full_build.7z/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /full_build.7z/)].name",
             "version": "$.tag_name"
         }
     ],

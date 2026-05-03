@@ -11,8 +11,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/lalakii/MouseClickTool/releases/latest",
-                    "url": "$.assets[?(@.browser_download_url =~ /MouseClickTool.exe/)].browser_download_url",
-                    "name": "$.assets[?(@.browser_download_url =~ /MouseClickTool.exe/)].name",
+                    "url": "$.assets[?(@.name =~ /MouseClickTool.exe/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /MouseClickTool.exe/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -34,8 +34,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/zufuliu/notepad4/releases/latest",
-                    "url": "$.assets[?(@.browser_download_url =~ /Notepad4.*zh-Hans_x64.*/)].browser_download_url",
-                    "name": "$.assets[?(@.browser_download_url =~ /Notepad4.*zh-Hans_x64.*/)].name",
+                    "url": "$.assets[?(@.name =~ /Notepad4.*zh-Hans_x64.*/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /Notepad4.*zh-Hans_x64.*/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -57,8 +57,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/zhongyang219/MusicPlayer2/releases/latest",
-                    "url": "$.assets[?(@.browser_download_url =~ /MusicPlayer2.*_V.*_x64.zip/)].browser_download_url",
-                    "name": "$.assets[?(@.browser_download_url =~ /MusicPlayer2.*_V.*_x64.zip/)].name",
+                    "url": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -80,8 +80,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/latest",
-                    "url": "$.assets[?(@.browser_download_url =~ /VideoCaptioner.*win64.*/)].browser_download_url",
-                    "name": "$.assets[?(@.browser_download_url =~ /VideoCaptioner.*win64.*/)].name",
+                    "url": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -103,8 +103,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/cylind/scribe2srt/releases/latest",
-                    "url": "$.assets[?(@.browser_download_url =~ /Scribe2SRT.*windows-x86_64.*/)].browser_download_url",
-                    "name": "$.assets[?(@.browser_download_url =~ /Scribe2SRT.*windows-x86_64.*/)].name",
+                    "url": "$.assets[?(@.name =~ /Scribe2SRT.*windows-x86_64.*/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /Scribe2SRT.*windows-x86_64.*/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -126,8 +126,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/eibols/ffmpeg_batch/releases/latest",
-                    "url": "$.assets[?(@.browser_download_url =~ /Portable/)].browser_download_url",
-                    "name": "$.assets[?(@.browser_download_url =~ /Portable/)].name",
+                    "url": "$.assets[?(@.name =~ /Portable/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /Portable/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -149,8 +149,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest",
-                    "url": "$.assets[?(@.browser_download_url =~ /lanzouyun.*x64-win.*/)].browser_download_url",
-                    "name": "$.assets[?(@.browser_download_url =~ /lanzouyun.*x64-win.*/)].name",
+                    "url": "$.assets[?(@.name =~ /lanzouyun.*x64-win.*/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /lanzouyun.*x64-win.*/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -172,8 +172,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/localsend/localsend/releases/latest",
-                    "url": "$.assets[?(@.browser_download_url =~ /windows-x86-64.zip/)].browser_download_url",
-                    "name": "$.assets[?(@.browser_download_url =~ /windows-x86-64.zip/)].name",
+                    "url": "$.assets[?(@.name =~ /windows-x86-64.zip/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /windows-x86-64.zip/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -195,8 +195,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/ScottSloan/Bili23-Downloader/releases/latest",
-                    "url": "$.assets[?(@.browser_download_url =~ /windows-x64.zip/)].browser_download_url",
-                    "name": "$.assets[?(@.browser_download_url =~ /windows-x64.zip/)].name",
+                    "url": "$.assets[?(@.name =~ /windows-x64.zip/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /windows-x64.zip/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -218,8 +218,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases/latest",
-                    "url": "$.assets[?(@.browser_download_url =~ /x64-setup.exe/)].browser_download_url",
-                    "name": "$.assets[?(@.browser_download_url =~ /x64-setup.exe/)].name",
+                    "url": "$.assets[?(@.name =~ /x64-setup.exe/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /x64-setup.exe/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -241,8 +241,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
-                    "url": "$.assets[?(@.browser_download_url =~ /essentials_build.7z/)].browser_download_url",
-                    "name": "$.assets[?(@.browser_download_url =~ /essentials_build.7z/)].name",
+                    "url": "$.assets[?(@.name =~ /essentials_build.7z/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /essentials_build.7z/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -264,8 +264,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
-                    "url": "$.assets[?(@.browser_download_url =~ /full_build.7z/)].browser_download_url",
-                    "name": "$.assets[?(@.browser_download_url =~ /full_build.7z/)].name",
+                    "url": "$.assets[?(@.name =~ /full_build.7z/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /full_build.7z/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -287,8 +287,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/git-for-windows/git/releases/latest",
-                    "url": "$.assets[?(@.browser_download_url =~ /PortableGit.*64-bit/)].browser_download_url",
-                    "name": "$.assets[?(@.browser_download_url =~ /PortableGit.*64-bit/)].name",
+                    "url": "$.assets[?(@.name =~ /PortableGit.*64-bit/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /PortableGit.*64-bit/)].name",
                     "version": "$.tag_name"
                 }
             ],

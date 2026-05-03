@@ -8,8 +8,8 @@
     "checkver": [
         {
             "apiurl": "https://api.github.com/repos/git-for-windows/git/releases/latest",
-            "url": "$.assets[?(@.browser_download_url =~ /PortableGit.*64-bit/)].browser_download_url",
-            "name": "$.assets[?(@.browser_download_url =~ /PortableGit.*64-bit/)].name",
+            "url": "$.assets[?(@.name =~ /PortableGit.*64-bit/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /PortableGit.*64-bit/)].name",
             "version": "$.tag_name"
         }
     ],

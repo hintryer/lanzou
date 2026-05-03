@@ -114,5 +114,6 @@ def ceshi():
 # ===================== 测试（你的格式） =====================
 if __name__ == "__main__":
     # ceshi()
+    run_checkver("./bucket/MouseClickTool.json")
     run_all_checkver()
 

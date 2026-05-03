@@ -8,8 +8,8 @@
     "checkver": [
         {
             "apiurl": "https://api.github.com/repos/zhongyang219/MusicPlayer2/releases/latest",
-            "url": "$.assets[?(@.browser_download_url =~ /MusicPlayer2.*_V.*_x64.zip/)].browser_download_url",
-            "name": "$.assets[?(@.browser_download_url =~ /MusicPlayer2.*_V.*_x64.zip/)].name",
+            "url": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].name",
             "version": "$.tag_name"
         }
     ],

@@ -8,8 +8,8 @@
     "checkver": [
         {
             "apiurl": "https://api.github.com/repos/localsend/localsend/releases/latest",
-            "url": "$.assets[?(@.browser_download_url =~ /windows-x86-64.zip/)].browser_download_url",
-            "name": "$.assets[?(@.browser_download_url =~ /windows-x86-64.zip/)].name",
+            "url": "$.assets[?(@.name =~ /windows-x86-64.zip/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /windows-x86-64.zip/)].name",
             "version": "$.tag_name"
         }
     ],

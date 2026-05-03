@@ -8,8 +8,8 @@
     "checkver": [
         {
             "apiurl": "https://api.github.com/repos/cylind/scribe2srt/releases/latest",
-            "url": "$.assets[?(@.browser_download_url =~ /Scribe2SRT.*windows-x86_64.*/)].browser_download_url",
-            "name": "$.assets[?(@.browser_download_url =~ /Scribe2SRT.*windows-x86_64.*/)].name",
+            "url": "$.assets[?(@.name =~ /Scribe2SRT.*windows-x86_64.*/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /Scribe2SRT.*windows-x86_64.*/)].name",
             "version": "$.tag_name"
         }
     ],
