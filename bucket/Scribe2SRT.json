@@ -1,20 +1,20 @@
 {
-    "name": "",
-    "category": "影音工具",
-    "version": "",
-    "description": "音频转字幕工具",
-    "homepage": "https://github.com/cylind/scribe2srt",
-    "url": "",
-    "checkver": [
-        {
-            "apiurl": "https://api.github.com/repos/cylind/scribe2srt/releases/latest",
-            "url": "$.assets[?(@.name =~ /Scribe2SRT.*windows-x86_64.*/)].browser_download_url",
-            "name": "$.assets[?(@.name =~ /Scribe2SRT.*windows-x86_64.*/)].name",
-            "version": "$.tag_name"
-        }
-    ],
-    "autoupdate": {
-        "url": "https://github.com/cylind/scribe2srt/releases/download/v$version/$filename",
-        "name": "$filename"
+  "name": "Scribe2SRT-v0.3.5-windows-x86_64.zip",
+  "category": "影音工具",
+  "version": "v0.3.5",
+  "description": "音频转字幕工具",
+  "homepage": "https://github.com/cylind/scribe2srt",
+  "url": "https://github.com/cylind/scribe2srt/releases/download/v0.3.5/Scribe2SRT-v0.3.5-windows-x86_64.zip",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/cylind/scribe2srt/releases/latest",
+      "url": "$.assets[?(@.name =~ /Scribe2SRT.*windows-x86_64.*/)].browser_download_url",
+      "name": "$.assets[?(@.name =~ /Scribe2SRT.*windows-x86_64.*/)].name",
+      "version": "$.tag_name"
     }
+  ],
+  "autoupdate": {
+    "url": "https://github.com/cylind/scribe2srt/releases/download/v$version/$filename",
+    "name": "$filename"
+  }
 }

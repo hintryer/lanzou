@@ -7,7 +7,8 @@ import jsonpath
 # ===================== 1. 核心请求函数（只需要 url） =====================
 def fetch_data(url: str):
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Authorization": f"token {GITHUB_TOKEN}",  # 👈 这一行就是加入 Token
     }
     try:
         resp = requests.get(url, headers=headers, timeout=10)
