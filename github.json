@@ -126,8 +126,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/eibols/ffmpeg_batch/releases/latest",
-                    "url": "$.assets[?(@.name =~ /Portable/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /Portable/)].name",
+                    "url": "$.assets[?(@.name =~ /.*Portable.*/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /.*Portable.*/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -138,7 +138,7 @@
         }
     },
     {
-        "filename": "lanzouyun-disk.json",
+        "filename": "lanzouyun.json",
         "content": {
             "name": "",
             "category": "下载传输",
@@ -149,8 +149,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest",
-                    "url": "$.assets[?(@.name =~ /lanzouyun.*x64-win.*/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /lanzouyun.*x64-win.*/)].name",
+                    "url": "$.assets[?(@.name =~ /.*lanzouyun.*x64-win.*/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /.*lanzouyun.*x64-win.*/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -172,8 +172,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/localsend/localsend/releases/latest",
-                    "url": "$.assets[?(@.name =~ /windows-x86-64.zip/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /windows-x86-64.zip/)].name",
+                    "url": "$.assets[?(@.name =~ /.*windows-x86-64.zip/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /.*windows-x86-64.zip/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -195,8 +195,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/ScottSloan/Bili23-Downloader/releases/latest",
-                    "url": "$.assets[?(@.name =~ /windows-x64.zip/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /windows-x64.zip/)].name",
+                    "url": "$.assets[?(@.name =~ /.*windows-x64.zip/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /.*windows-x64.zip/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -218,8 +218,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases/latest",
-                    "url": "$.assets[?(@.name =~ /x64-setup.exe/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /x64-setup.exe/)].name",
+                    "url": "$.assets[?(@.name =~ /.*x64-setup.exe/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /.*x64-setup.exe/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -241,8 +241,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
-                    "url": "$.assets[?(@.name =~ /essentials_build.7z/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /essentials_build.7z/)].name",
+                    "url": "$.assets[?(@.name =~ /.*essentials_build.7z/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /.*essentials_build.7z/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -264,8 +264,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
-                    "url": "$.assets[?(@.name =~ /full_build.7z/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /full_build.7z/)].name",
+                    "url": "$.assets[?(@.name =~ /.*full_build.7z/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /.*full_build.7z/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -287,8 +287,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/git-for-windows/git/releases/latest",
-                    "url": "$.assets[?(@.name =~ /PortableGit.*64-bit/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /PortableGit.*64-bit/)].name",
+                    "url": "$.assets[?(@.name =~ /.*PortableGit.*64-bit/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /.*PortableGit.*64-bit/)].name",
                     "version": "$.tag_name"
                 }
             ],

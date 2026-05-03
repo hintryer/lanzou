@@ -1,20 +1,20 @@
 {
-  "name": "",
-  "category": "其他工具",
-  "version": "v2.00.1",
-  "description": "B站视频下载工具",
-  "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
-  "url": "",
-  "checkver": [
-    {
-      "apiurl": "https://api.github.com/repos/ScottSloan/Bili23-Downloader/releases/latest",
-      "url": "$.assets[?(@.name =~ /windows-x64.zip/)].browser_download_url",
-      "name": "$.assets[?(@.name =~ /windows-x64.zip/)].name",
-      "version": "$.tag_name"
+    "name": "",
+    "category": "其他工具",
+    "version": "",
+    "description": "B站视频下载工具",
+    "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
+    "url": "",
+    "checkver": [
+        {
+            "apiurl": "https://api.github.com/repos/ScottSloan/Bili23-Downloader/releases/latest",
+            "url": "$.assets[?(@.name =~ /.*windows-x64.zip/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /.*windows-x64.zip/)].name",
+            "version": "$.tag_name"
+        }
+    ],
+    "autoupdate": {
+        "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v$version/$filename",
+        "name": "$filename"
     }
-  ],
-  "autoupdate": {
-    "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v$version/$filename",
-    "name": "$filename"
-  }
 }
