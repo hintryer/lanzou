@@ -4,6 +4,7 @@ import os
 import json
 import jsonpath
 
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 # ===================== 1. 核心请求函数（只需要 url） =====================
 def fetch_data(url: str):
     headers = {

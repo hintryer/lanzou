@@ -195,8 +195,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/ScottSloan/Bili23-Downloader/releases/latest",
-                    "url": "$.assets[?(@.name =~ /.*windows-x64.zip/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /.*windows-x64.zip/)].name",
+                    "url": "$.assets[?(@.name =~ /.*windows_x64_portable.zip/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /.*windows_x64_portable.zip/)].name",
                     "version": "$.tag_name"
                 }
             ],
@@ -287,8 +287,8 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/git-for-windows/git/releases/latest",
-                    "url": "$.assets[?(@.name =~ /.*PortableGit.*64-bit/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /.*PortableGit.*64-bit/)].name",
+                    "url": "$.assets[?(@.name =~ /PortableGit.*64-bit.7z.exe/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /PortableGit.*64-bit.7z.exe/)].name",
                     "version": "$.tag_name"
                 }
             ],

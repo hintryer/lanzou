@@ -26,6 +26,8 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 内置Token（API调用）
         run: |
           python lan.py
 
