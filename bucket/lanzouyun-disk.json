@@ -1,20 +1,20 @@
 {
-    "name": "",
-    "category": "下载传输",
-    "version": "",
-    "description": "蓝奏云非官方客户端",
-    "homepage": "https://github.com/chenhb23/lanzouyun-disk",
-    "url": "",
-    "checkver": [
-        {
-            "apiurl": "https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest",
-            "url": "$.assets[?(@.name =~ /lanzouyun.*x64-win.*/)].browser_download_url",
-            "name": "$.assets[?(@.name =~ /lanzouyun.*x64-win.*/)].name",
-            "version": "$.tag_name"
-        }
-    ],
-    "autoupdate": {
-        "url": "https://github.com/chenhb23/lanzouyun-disk/releases/download/v$version/$filename",
-        "name": "$filename"
+  "name": "lanzouyun-3.5.3-x64-win.zip",
+  "category": "下载传输",
+  "version": "v3.5.3",
+  "description": "蓝奏云非官方客户端",
+  "homepage": "https://github.com/chenhb23/lanzouyun-disk",
+  "url": "https://github.com/chenhb23/lanzouyun-disk/releases/download/v3.5.3/lanzouyun-3.5.3-x64-win.zip",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest",
+      "url": "$.assets[?(@.name =~ /lanzouyun.*x64-win.*/)].browser_download_url",
+      "name": "$.assets[?(@.name =~ /lanzouyun.*x64-win.*/)].name",
+      "version": "$.tag_name"
     }
+  ],
+  "autoupdate": {
+    "url": "https://github.com/chenhb23/lanzouyun-disk/releases/download/v$version/$filename",
+    "name": "$filename"
+  }
 }

@@ -1,20 +1,20 @@
 {
-    "name": "",
-    "category": "编程工具",
-    "version": "",
-    "description": "便携版Git版本控制工具",
-    "homepage": "https://gitforwindows.org/",
-    "url": "",
-    "checkver": [
-        {
-            "apiurl": "https://api.github.com/repos/git-for-windows/git/releases/latest",
-            "url": "$.assets[?(@.name =~ /PortableGit.*64-bit/)].browser_download_url",
-            "name": "$.assets[?(@.name =~ /PortableGit.*64-bit/)].name",
-            "version": "$.tag_name"
-        }
-    ],
-    "autoupdate": {
-        "url": "https://github.com/git-for-windows/git/releases/download/v$version/$filename",
-        "name": "$filename"
+  "name": "",
+  "category": "编程工具",
+  "version": "v2.54.0.windows.1",
+  "description": "便携版Git版本控制工具",
+  "homepage": "https://gitforwindows.org/",
+  "url": "",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/git-for-windows/git/releases/latest",
+      "url": "$.assets[?(@.name =~ /PortableGit.*64-bit/)].browser_download_url",
+      "name": "$.assets[?(@.name =~ /PortableGit.*64-bit/)].name",
+      "version": "$.tag_name"
     }
+  ],
+  "autoupdate": {
+    "url": "https://github.com/git-for-windows/git/releases/download/v$version/$filename",
+    "name": "$filename"
+  }
 }
