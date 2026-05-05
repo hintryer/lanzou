@@ -1,0 +1,45 @@
+[
+    {
+        "filename": "QQWubi.json",
+        "content": {
+            "name": "QQWubi_Setup_2.4.629.400.exe",
+            "category": "Compress",
+            "version": "2.4.629.400",
+            "description": "QQ五笔",
+            "homepage": "https://qq.pinyin.cn/wubi/",
+            "url": "https://qq.pinyin.cn/download_pc.php?t=wb",
+            "checkver": [
+                {
+                    "apiurl": "https://qq.pinyin.cn/wubi/",
+                    "version": "<p>版本：(.*?)</p>"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://qq.pinyin.cn/download_pc.php?t=wb",
+                "name": "QQWubi_Setup_{version}.exe"
+            }
+        }
+    },
+    {
+        "filename": "GeekUninstaller.json",
+        "content": {
+            "name": "GeekUninstaller",
+            "category": "单文件",
+            "version": "1.5.3.170",
+            "description": "GeekUninstaller",
+            "homepage": "https://geekuninstaller.com/",
+            "url": "https://geekuninstaller.com/geek.zip",
+            "hash": "auto",
+            "checkver": [
+                {
+                    "apiurl": "https://geekuninstaller.com/download",
+                    "version": "<b>(.*?)</b>"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://geekuninstaller.com/geek.zip",
+                "name": "GeekUninstaller_{version}.exe"
+            }
+        }
+    }
+]
