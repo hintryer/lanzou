@@ -96,7 +96,19 @@ def run_checkver(json_path):
     save_json(config,json_path)   
     return final_result
 
-def run_all_checkver(bucket_dir="bucket"):
+def run_update(json_path):
+    config = load_json(json_path)
+    final_result = {}
+
+    item_list=jsonpath.findall("$.autoupdate..~", config)
+    for item in item_list:
+        value=jsonpath.findall(f"$.autoupdate..{item}", config)
+        final_result[item] = value[0].format(**config)
+    config.update(final_result)
+    save_json(config,json_path)   
+    return final_result                
+
+def run_all(bucket_dir="bucket"):
     # 遍历 bucket 文件夹
     for filename in os.listdir(bucket_dir):
         # 只处理 .json 文件
@@ -105,7 +117,7 @@ def run_all_checkver(bucket_dir="bucket"):
 
             # 对每个文件执行 run_checkver
             run_checkver(file_path)
-
+            run_update(file_path)
     print("\n🎉 所有文件检查完成！")
 
 def ceshi():
@@ -116,6 +128,6 @@ def ceshi():
 # ===================== 测试（你的格式） =====================
 if __name__ == "__main__":
     # ceshi()
-    run_checkver("./bucket/MouseClickTool.json")
-    run_all_checkver()
+    #run_update("./bucket/donet9.json")
+    run_all()
 
