@@ -2,9 +2,9 @@
     {
         "filename": "QQWubi.json",
         "content": {
-            "name": "QQWubi_Setup_2.4.629.400.exe",
-            "category": "Compress",
-            "version": "2.4.629.400",
+            "name": "QQWubi_Setup.exe",
+            "category": "文件办公",
+            "version": "2.4",
             "description": "QQ五笔",
             "homepage": "https://qq.pinyin.cn/wubi/",
             "url": "https://qq.pinyin.cn/download_pc.php?t=wb",
@@ -25,7 +25,7 @@
         "content": {
             "name": "GeekUninstaller",
             "category": "单文件",
-            "version": "1.5.3.170",
+            "version": "1.5",
             "description": "GeekUninstaller",
             "homepage": "https://geekuninstaller.com/",
             "url": "https://geekuninstaller.com/geek.zip",
