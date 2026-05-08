@@ -1,0 +1,17 @@
+{
+    "name": "360文件夹",
+    "category": "文件工具",
+    "version": "1.0.0.1200",
+    "description": "360文件夹 多标签文件管理器",
+    "homepage": "https://baoku.360.cn/soft/show/appid/2000003908",
+    "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
+    "hash": "auto",
+    "checkver": {
+        "apiurl": "https://baoku.360.cn/soft/show/appid/2000003908",
+        "regex": "版本([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
+        "name": "360FileSetup_{version}.exe"
+    }
+}
