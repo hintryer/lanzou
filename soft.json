@@ -5,7 +5,7 @@
             "name": "QQWubi_Setup.exe",
             "category": "文件办公",
             "version": "2.4",
-            "description": "QQ五笔",
+            "description": "QQ五笔输入法",
             "homepage": "https://qq.pinyin.cn/wubi/",
             "url": "https://qq.pinyin.cn/download_pc.php?t=wb",
             "checkver": [
@@ -26,7 +26,7 @@
             "name": "GeekUninstaller",
             "category": "单文件",
             "version": "1.5",
-            "description": "GeekUninstaller",
+            "description": "Geek 卸载工具",
             "homepage": "https://geekuninstaller.com/",
             "url": "https://geekuninstaller.com/geek.zip",
             "hash": "auto",
@@ -48,19 +48,18 @@
             "name": "FSViewer",
             "category": "单文件",
             "version": "1.5",
-            "description": "FSViewer",
+            "description": "FastStone Image Viewer 图片查看器",
             "homepage": "https://www.faststone.org/",
             "url": "https://geekuninstaller.com/geek.zip",
             "hash": "auto",
             "checkver": [
                 {
-                    "apiurl": "https://www.faststone.org/FSViewerDetail.htm",
-                    "version": "Version (.*?)",
-                    "cleanVersion":"FastStone Image Viewer ([\\d.]+)"
+                    "apiurl": "https://www.faststone.org/FSViewerDownload.htm",
+                    "version": "FastStone Image Viewer ([\\d.]+)",
+                    "url":"<a class=\"button-primary\" href=\"([^\"]+)\""
                 }
             ],
             "autoupdate": {
-                "url": "https://www.faststonesoft.net/DN/FSViewer$cleanVersion.zip",
                 "name": "FSViewer_{version}.exe"
             }
         }
@@ -71,7 +70,7 @@
             "name": "steamcommunity",
             "category": "单文件",
             "version": "1.5",
-            "description": "steamcommunity",
+            "description": "Steam 社区访问工具",
             "homepage": "https://www.dogfight360.com/blog/18682/",
             "url": "https://geekuninstaller.com/geek.zip",
             "hash": "auto",
@@ -83,7 +82,7 @@
                 }
             ],
             "autoupdate": {
-                "name": "FSViewer_{version}.exe"
+                "name": "steamcommunity_302_AMD64_V{version}.zip"
             }
         }
     }
