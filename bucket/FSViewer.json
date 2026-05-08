@@ -1,0 +1,21 @@
+{
+  "name": "FSViewer_None.exe",
+  "category": "单文件",
+  "version": null,
+  "description": "FSViewer",
+  "homepage": "https://www.faststone.org/",
+  "url": "https://www.faststonesoft.net/DN/FSViewer$cleanVersion.zip",
+  "hash": "auto",
+  "checkver": [
+    {
+      "apiurl": "https://www.faststone.org/FSViewerDetail.htm",
+      "version": "Version (.*?)",
+      "cleanVersion": "FastStone Image Viewer ([\\d.]+)"
+    }
+  ],
+  "autoupdate": {
+    "url": "https://www.faststonesoft.net/DN/FSViewer$cleanVersion.zip",
+    "name": "FSViewer_{version}.exe"
+  },
+  "cleanVersion": null
+}

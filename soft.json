@@ -41,5 +41,50 @@
                 "name": "GeekUninstaller_{version}.exe"
             }
         }
+    },
+    {
+        "filename": "FSViewer.json",
+        "content": {
+            "name": "FSViewer",
+            "category": "单文件",
+            "version": "1.5",
+            "description": "FSViewer",
+            "homepage": "https://www.faststone.org/",
+            "url": "https://geekuninstaller.com/geek.zip",
+            "hash": "auto",
+            "checkver": [
+                {
+                    "apiurl": "https://www.faststone.org/FSViewerDetail.htm",
+                    "version": "Version (.*?)",
+                    "cleanVersion":"FastStone Image Viewer ([\\d.]+)"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://www.faststonesoft.net/DN/FSViewer$cleanVersion.zip",
+                "name": "FSViewer_{version}.exe"
+            }
+        }
+    },
+    {
+        "filename": "steamcommunity.json",
+        "content": {
+            "name": "steamcommunity",
+            "category": "单文件",
+            "version": "1.5",
+            "description": "steamcommunity",
+            "homepage": "https://www.dogfight360.com/blog/18682/",
+            "url": "https://geekuninstaller.com/geek.zip",
+            "hash": "auto",
+            "checkver": [
+                {
+                    "apiurl": "https://www.dogfight360.com/blog/18682/",
+                    "version": "<strong>下载: \\((V[\\d.]+)",
+                    "url":"<strong>常用<\\/strong><\\/mark>\\): <a href=\"([^\"]+)\""
+                }
+            ],
+            "autoupdate": {
+                "name": "FSViewer_{version}.exe"
+            }
+        }
     }
 ]
