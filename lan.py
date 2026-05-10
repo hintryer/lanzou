@@ -172,5 +172,5 @@ if __name__ == "__main__":
     # ceshi()
     #run_update("./bucket/donet9.json")
     # run_all()
-    print(fetch_data("https://lanzou.wunizy.workers.dev/?url=https://423down.lanzouo.com/iEuAX3nfyheh&debug=1"))
+    print(fetch_data("https://lanzou-zl.wunizy.workers.dev/?url=https://423down.lanzouo.com/iEuAX3nfyheh&debug=1"))
 
