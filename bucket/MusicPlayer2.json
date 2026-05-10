@@ -12,9 +12,5 @@
             "name": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].name",
             "version": "$.tag_name"
         }
-    ],
-    "autoupdate": {
-        "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/$version/$filename",
-        "name": "$filename"
-    }
+    ]
 }

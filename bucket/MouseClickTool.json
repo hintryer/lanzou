@@ -12,9 +12,5 @@
             "name": "$.assets[?(@.name =~ /MouseClickTool.exe/)].name",
             "version": "$.tag_name"
         }
-    ],
-    "autoupdate": {
-        "url": "https://github.com/lalakii/MouseClickTool/releases/download/$version/$filename",
-        "name": "$filename"
-    }
+    ]
 }

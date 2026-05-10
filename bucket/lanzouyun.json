@@ -12,9 +12,5 @@
             "name": "$.assets[?(@.name =~ /.*lanzouyun.*x64-win.*/)].name",
             "version": "$.tag_name"
         }
-    ],
-    "autoupdate": {
-        "url": "https://github.com/chenhb23/lanzouyun-disk/releases/download/v$version/$filename",
-        "name": "$filename"
-    }
+    ]
 }

@@ -12,9 +12,5 @@
             "name": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].name",
             "version": "$.tag_name"
         }
-    ],
-    "autoupdate": {
-        "url": "https://github.com/WEIFENG2333/VideoCaptioner/releases/download/$version/$filename",
-        "name": "$filename"
-    }
+    ]
 }

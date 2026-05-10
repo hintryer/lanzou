@@ -12,9 +12,5 @@
             "name": "$.assets[?(@.name =~ /PortableGit.*64-bit.7z.exe/)].name",
             "version": "$.tag_name"
         }
-    ],
-    "autoupdate": {
-        "url": "https://github.com/git-for-windows/git/releases/download/v$version/$filename",
-        "name": "$filename"
-    }
+    ]
 }

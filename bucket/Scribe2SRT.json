@@ -12,9 +12,5 @@
             "name": "$.assets[?(@.name =~ /Scribe2SRT.*windows-x86_64.*/)].name",
             "version": "$.tag_name"
         }
-    ],
-    "autoupdate": {
-        "url": "https://github.com/cylind/scribe2srt/releases/download/v$version/$filename",
-        "name": "$filename"
-    }
+    ]
 }
