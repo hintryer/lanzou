@@ -1,0 +1,20 @@
+{
+    "name": "",
+    "category": "下载传输",
+    "version": "",
+    "description": "局域网文件互传工具",
+    "homepage": "https://localsend.org/",
+    "url": "",
+    "checkver": [
+        {
+            "apiurl": "https://api.github.com/repos/localsend/localsend/releases/latest",
+            "url": "$.assets[?(@.name =~ /.*windows-x86-64.zip/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /.*windows-x86-64.zip/)].name",
+            "version": "$.tag_name"
+        }
+    ],
+    "autoupdate": {
+        "url": "https://github.com/localsend/localsend/releases/download/v$version/$filename",
+        "name": "$filename"
+    }
+}

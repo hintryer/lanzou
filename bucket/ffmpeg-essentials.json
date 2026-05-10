@@ -1,0 +1,22 @@
+{
+  "name": "$filename",
+  "category": "编程工具",
+  "version": "",
+  "description": "精简版音视频处理工具",
+  "homepage": "https://ffmpeg.org/",
+  "url": "https://github.com/GyanD/codexffmpeg/releases/download/$version/$filename",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
+      "url": "$.assets[?(@.name =~ /.*essentials_build.7z/)].browser_download_url",
+      "name": "$.assets[?(@.name =~ /.*essentials_build.7z/)].name",
+      "version": "$.tag_name"
+    }
+  ],
+  "autoupdate": {
+    "url": "https://github.com/GyanD/codexffmpeg/releases/download/$version/$filename",
+    "name": "$filename"
+  },
+  "Url": "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/$version/$filename",
+  "oldurl": "https://github.com/GyanD/codexffmpeg/releases/download/$version/$filename"
+}

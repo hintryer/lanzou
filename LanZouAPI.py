@@ -35,7 +35,7 @@ def acw_sc_v2_simple(arg1):
     return result
 
 # 解析主函数
-def lanzou_parse(url, pwd=""):
+def lanzou_zl(url, pwd=""):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
         "X-Forwarded-For": Rand_IP(),
@@ -180,7 +180,7 @@ def lanzou_parse(url, pwd=""):
 # ==================== 测试 ====================
 if __name__ == "__main__":
     # 无密码
-    print(lanzou_parse("https://xyyx.lanzoub.com/ivYMM04hqlfe"))
+    print(lanzou_zl("https://xyyx.lanzoub.com/ivYMM04hqlfe"))
 
     # 有密码
-    # print(lanzou_parse("https://xyyx.lanzoub.com/ivYMM04hqlfe", pwd="1234"))
+    # print(lanzou_zl("https://xyyx.lanzoub.com/ivYMM04hqlfe", pwd="1234"))

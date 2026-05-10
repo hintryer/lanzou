@@ -79,7 +79,7 @@ def pack_manifest(input_dir: str, output_file: str = "all_manifest.json"):
 # ====================== 使用示例 ======================
 if __name__ == "__main__":
     # 你只需要改这一行
-    unpack_manifest("soft.json")
+    unpack_manifest("github.json")
     
     # 如需自定义输出目录，用下面这行
     # unpack_manifest("github.json", output_dir="my_output_folder")

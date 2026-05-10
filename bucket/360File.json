@@ -13,5 +13,7 @@
   "autoupdate": {
     "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
     "name": "360FileSetup_{version}.exe"
-  }
+  },
+  "Url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
+  "oldurl": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140"
 }

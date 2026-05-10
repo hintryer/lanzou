@@ -13,5 +13,10 @@
   },
   "autoupdate": {
     "name": "微软常用运行库合集_{version}.exe"
-  }
+  },
+  "Url": {
+    "code": 400,
+    "msg": "解析失败：未找到iframe"
+  },
+  "oldurl": "https://423down.lanzouo.com/b0f1dlg3a"
 }

@@ -3,6 +3,7 @@ import re
 import os
 import json
 import jsonpath
+from LanZouAPI import  lanzou_zl
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 # ===================== 1. 核心请求函数（只需要 url） =====================
@@ -118,8 +119,49 @@ def run_all(bucket_dir="bucket"):
             # 对每个文件执行 run_checkver
             run_checkver(file_path)
             run_update(file_path)
+            update_url(file_path)
     print("\n🎉 所有文件检查完成！")
 
+def update_url(json_path):
+    config = load_json(json_path)
+    final_result = {}
+    url=jsonpath.findall("$.url", config)
+    # 提取 url
+    url_list = jsonpath.findall("$.url", config)
+    
+    # ========== 安全判断：防止空、防止 None ==========
+    if not url_list or url_list[0] is None:
+        final_result = {
+            "Url": "",
+            "oldurl": ""
+        }
+        return final_result
+
+    url = url_list[0].strip()  # 安全取出
+    oldurl = url
+    real_down_url = url
+
+    if "lanzou" in url.lower():
+        # 按 # 拆分链接
+        parts = url.split("#")
+        
+        # 第一段 = 链接
+        file_url = parts[0].strip()
+        
+        # 第二段 = 密码（如果有）
+        pwd = parts[1].strip() if len(parts) >= 2 and parts[1].strip() else ""
+        real_down_url =lanzou_zl(file_url,pwd)
+    if "github" in url.lower():
+        real_down_url = "https://gh-proxy.com/" + url
+
+    final_result = {
+        "Url": real_down_url,    # 解析后的直链
+        "oldurl": oldurl         # 原始传入的URL
+    }
+
+    config.update(final_result)
+    save_json(config,json_path)   
+    return final_result            
 def ceshi():
     item = "url"
     final_result ={}

@@ -1,0 +1,22 @@
+{
+  "name": "$filename",
+  "category": "影音工具",
+  "version": "",
+  "description": "音视频批量转换工具",
+  "homepage": "https://github.com/eibols/ffmpeg_batch",
+  "url": "https://github.com/eibols/ffmpeg_batch/releases/download/$version/$filename",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/eibols/ffmpeg_batch/releases/latest",
+      "url": "$.assets[?(@.name =~ /.*Portable.*/)].browser_download_url",
+      "name": "$.assets[?(@.name =~ /.*Portable.*/)].name",
+      "version": "$.tag_name"
+    }
+  ],
+  "autoupdate": {
+    "url": "https://github.com/eibols/ffmpeg_batch/releases/download/$version/$filename",
+    "name": "$filename"
+  },
+  "Url": "https://gh-proxy.com/https://github.com/eibols/ffmpeg_batch/releases/download/$version/$filename",
+  "oldurl": "https://github.com/eibols/ffmpeg_batch/releases/download/$version/$filename"
+}

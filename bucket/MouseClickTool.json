@@ -1,0 +1,20 @@
+{
+    "name": "",
+    "category": "单文件",
+    "version": "",
+    "description": "鼠标自动点击工具",
+    "homepage": "https://github.com/lalakii/MouseClickTool",
+    "url": "",
+    "checkver": [
+        {
+            "apiurl": "https://api.github.com/repos/lalakii/MouseClickTool/releases/latest",
+            "url": "$.assets[?(@.name =~ /MouseClickTool.exe/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /MouseClickTool.exe/)].name",
+            "version": "$.tag_name"
+        }
+    ],
+    "autoupdate": {
+        "url": "https://github.com/lalakii/MouseClickTool/releases/download/$version/$filename",
+        "name": "$filename"
+    }
+}

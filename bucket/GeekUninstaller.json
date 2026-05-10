@@ -15,5 +15,7 @@
   "autoupdate": {
     "url": "https://geekuninstaller.com/geek.zip",
     "name": "GeekUninstaller_{version}.exe"
-  }
+  },
+  "Url": "https://geekuninstaller.com/geek.zip",
+  "oldurl": "https://geekuninstaller.com/geek.zip"
 }
