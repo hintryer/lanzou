@@ -3,7 +3,6 @@ import re
 import os
 import json
 import jsonpath
-from LanZouAPI import  lanzou_zl
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
