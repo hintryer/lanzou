@@ -1,16 +1,14 @@
 import json
 import os
 
-def unpack_json(json_path: str, output_dir: str = None):
+def unpack_json(json_path="./setting/allsoftset.json", output_dir = "./bucket"):
     """
     从整合的 JSON 清单中批量解压出单个软件 JSON 文件
     
     :param json_path: 整合后的json文件路径 如："./setting/github.json"
     :param output_dir: 输出目录，默认为 目录下的bucket文件夹 如："./bucket"
     """
-    if output_dir is None:
-        output_dir = os.path.abspath("./bucket") 
-    
+
     os.makedirs(output_dir, exist_ok=True)
     
     # 读取整合清单
@@ -33,7 +31,7 @@ def unpack_json(json_path: str, output_dir: str = None):
 
     print(f"\n🎉 全部完成！文件保存在：\n{output_dir}")
 
-def pack_json(input_dir="./bucket", output_file: str = "allsoftset.json"):
+def pack_json(input_dir="./bucket", output_file= "./setting/allsoftset.json"):
     """
     合并文件夹内所有 JSON 文件 → 生成一个整合清单
     格式：[{"filename":"xxx.json", "content": {...}}, ...]
@@ -120,12 +118,54 @@ def merge_json(input_folder="./bucket", output_file="./result.json"):
     print(f"📁 输出文件：{output_file}")
     return merged_list
 
+def json_to_markdown(json_file="./result.json", md_file="./result.md"):
+    """
+    将 JSON 软件列表转换成 Markdown 表格 + 按分类排序
+    :param json_file: 输入的 JSON 文件
+    :param md_file: 输出的 MD 文件
+    """
+    # 读取 JSON
+    with open(json_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # ====================== 排序：按 分类 字母顺序排序 ======================
+    data = sorted(data, key=lambda x: x.get("category", "").lower())
+    # ======================================================================
+
+    # MD 表格头部
+    md_content = """# 软件清单
+
+| 名称 | 分类 | 版本 | 描述 | 主页 | 下载 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+"""
+
+    # 遍历生成表格行
+    for item in data:
+        name = item.get("name", "")
+        category = item.get("category", "")
+        version = item.get("version", "")
+        desc = item.get("description", "")
+        homepage = item.get("homepage", "")
+        url = item.get("url", "")
+
+        # 拼接 MD 表格行
+        md_content += f"| {name} | {category} | {version} | {desc} | [{homepage}]({homepage}) | [下载]({url}) |\n"
+
+    # 写入文件
+    with open(md_file, "w", encoding="utf-8") as f:
+        f.write(md_content)
+
+    print(f"✅ 转换完成！Markdown 文件已保存：{md_file}")
 # ====================== 使用示例 ======================
 if __name__ == "__main__":
     
-    unpack_json("./setting/github.json")
-    unpack_json("./setting/dotnet.json")
-    unpack_json("./setting/soft.json")
-    pack_json()
+    # unpack_json("./setting/github.json")
+    # unpack_json("./setting/dotnet.json")
+    # unpack_json("./setting/soft.json")
+    # unpack_json()
+
+    # pack_json()
+
     merge_json()
+    json_to_markdown()
     # pack_manifest("bucket", "all_manifest.json")

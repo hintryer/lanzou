@@ -2,9 +2,9 @@
     {
         "filename": "360File.json",
         "content": {
-            "name": "360文件夹",
+            "name": "360FileSetup_1.0.0.1180.exe",
             "category": "其它工具",
-            "version": "1.0.0",
+            "version": "1.0.0.1180",
             "description": "360文件夹 多标签文件管理器",
             "homepage": "https://baoku.360.cn/soft/show/appid/2000003908",
             "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
@@ -16,18 +16,19 @@
             "autoupdate": {
                 "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
                 "name": "360FileSetup_{version}.exe"
-            }
+            },
+            "oldurl": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140"
         }
     },
     {
         "filename": "Bili23-Downloader.json",
         "content": {
-            "name": "",
+            "name": "Bili23-Downloader_2.00.4_windows_x64_portable.zip",
             "category": "其他工具",
-            "version": "",
+            "version": "v2.00.4",
             "description": "B站视频下载工具",
             "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.4/Bili23-Downloader_2.00.4_windows_x64_portable.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/ScottSloan/Bili23-Downloader/releases/latest",
@@ -35,18 +36,19 @@
                     "name": "$.assets[?(@.name =~ /.*windows_x64_portable.zip/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.4/Bili23-Downloader_2.00.4_windows_x64_portable.zip"
         }
     },
     {
         "filename": "clash-verge-rev.json",
         "content": {
-            "name": "",
+            "name": "Clash.Verge_2.4.7_x64-setup.exe",
             "category": "其他工具",
-            "version": "",
+            "version": "v2.4.7",
             "description": "Clash图形化代理客户端",
             "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.4.7/Clash.Verge_2.4.7_x64-setup.exe",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases/latest",
@@ -54,18 +56,19 @@
                     "name": "$.assets[?(@.name =~ /.*x64-setup.exe/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.4.7/Clash.Verge_2.4.7_x64-setup.exe"
         }
     },
     {
         "filename": "dotnet10.json",
         "content": {
-            "name": "dotnet-runtime-10.0-win-x64.exe",
+            "name": "dotnet-runtime-10.0.8-win-x64.exe",
             "category": "运行库",
-            "version": "10.0",
+            "version": "10.0.8",
             "description": ".NET 10 Runtime",
             "homepage": "https://dotnet.microsoft.com/",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0/dotnet-runtime-10.0-win-x64.exe",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.8/dotnet-runtime-10.0.8-win-x64.exe",
             "checkver": [
                 {
                     "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
@@ -75,18 +78,19 @@
             "autoupdate": {
                 "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/{version}/dotnet-runtime-{version}-win-x64.exe",
                 "name": "dotnet-runtime-{version}-win-x64.exe"
-            }
+            },
+            "oldurl": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.8/dotnet-runtime-10.0.8-win-x64.exe"
         }
     },
     {
         "filename": "dotnet6.json",
         "content": {
-            "name": "dotnet-runtime-6.0-win-x64.exe",
+            "name": "dotnet-runtime-6.0.36-win-x64.exe",
             "category": "运行库",
-            "version": "6.0",
+            "version": "6.0.36",
             "description": ".NET 6 Runtime",
             "homepage": "https://dotnet.microsoft.com/",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/6.0/dotnet-runtime-6.0-win-x64.exe",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/6.0.36/dotnet-runtime-6.0.36-win-x64.exe",
             "checkver": [
                 {
                     "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
@@ -96,18 +100,19 @@
             "autoupdate": {
                 "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/{version}/dotnet-runtime-{version}-win-x64.exe",
                 "name": "dotnet-runtime-{version}-win-x64.exe"
-            }
+            },
+            "oldurl": "https://builds.dotnet.microsoft.com/dotnet/Runtime/6.0.36/dotnet-runtime-6.0.36-win-x64.exe"
         }
     },
     {
         "filename": "dotnet7.json",
         "content": {
-            "name": "dotnet-runtime-7.0-win-x64.exe",
+            "name": "dotnet-runtime-7.0.20-win-x64.exe",
             "category": "运行库",
-            "version": "7.0",
+            "version": "7.0.20",
             "description": ".NET 7 Runtime",
             "homepage": "https://dotnet.microsoft.com/",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0/dotnet-runtime-7.0-win-x64.exe",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe",
             "checkver": [
                 {
                     "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
@@ -117,18 +122,19 @@
             "autoupdate": {
                 "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/{version}/dotnet-runtime-{version}-win-x64.exe",
                 "name": "dotnet-runtime-{version}-win-x64.exe"
-            }
+            },
+            "oldurl": "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe"
         }
     },
     {
         "filename": "dotnet8.json",
         "content": {
-            "name": "dotnet-runtime-8.0-win-x64.exe",
+            "name": "dotnet-runtime-8.0.27-win-x64.exe",
             "category": "运行库",
-            "version": "8.0",
+            "version": "8.0.27",
             "description": ".NET 8 Runtime",
             "homepage": "https://dotnet.microsoft.com/",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0/dotnet-runtime-8.0-win-x64.exe",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.27/dotnet-runtime-8.0.27-win-x64.exe",
             "checkver": [
                 {
                     "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
@@ -138,18 +144,19 @@
             "autoupdate": {
                 "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/{version}/dotnet-runtime-{version}-win-x64.exe",
                 "name": "dotnet-runtime-{version}-win-x64.exe"
-            }
+            },
+            "oldurl": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.27/dotnet-runtime-8.0.27-win-x64.exe"
         }
     },
     {
         "filename": "dotnet9.json",
         "content": {
-            "name": "dotnet-runtime-9.0.15-win-x64.exe",
+            "name": "dotnet-runtime-9.0.16-win-x64.exe",
             "category": "运行库",
-            "version": "9.0.15",
+            "version": "9.0.16",
             "description": ".NET 9 Runtime",
             "homepage": "https://dotnet.microsoft.com/",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.15/dotnet-runtime-9.0.15-win-x64.exe",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.16/dotnet-runtime-9.0.16-win-x64.exe",
             "checkver": [
                 {
                     "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
@@ -159,18 +166,19 @@
             "autoupdate": {
                 "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/{version}/dotnet-runtime-{version}-win-x64.exe",
                 "name": "dotnet-runtime-{version}-win-x64.exe"
-            }
+            },
+            "oldurl": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.16/dotnet-runtime-9.0.16-win-x64.exe"
         }
     },
     {
         "filename": "ffmpeg-essentials.json",
         "content": {
-            "name": "",
+            "name": "ffmpeg-8.1.1-essentials_build.7z",
             "category": "编程工具",
-            "version": "",
+            "version": "8.1.1",
             "description": "精简版音视频处理工具",
             "homepage": "https://ffmpeg.org/",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-essentials_build.7z",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
@@ -178,18 +186,19 @@
                     "name": "$.assets[?(@.name =~ /.*essentials_build.7z/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-essentials_build.7z"
         }
     },
     {
         "filename": "ffmpeg-full.json",
         "content": {
-            "name": "",
+            "name": "ffmpeg-8.1.1-full_build.7z",
             "category": "编程工具",
-            "version": "",
+            "version": "8.1.1",
             "description": "完整版音视频处理工具",
             "homepage": "https://ffmpeg.org/",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-full_build.7z",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
@@ -197,18 +206,19 @@
                     "name": "$.assets[?(@.name =~ /.*full_build.7z/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-full_build.7z"
         }
     },
     {
         "filename": "FFmpeg_Batch_AV_Converter.json",
         "content": {
-            "name": "",
+            "name": "FFmpeg_Batch_AV_Converter_Portable_3.2.8_x64.zip",
             "category": "影音工具",
-            "version": "",
+            "version": "3.2.8",
             "description": "音视频批量转换工具",
             "homepage": "https://github.com/eibols/ffmpeg_batch",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/eibols/ffmpeg_batch/releases/download/3.2.8/FFmpeg_Batch_AV_Converter_Portable_3.2.8_x64.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/eibols/ffmpeg_batch/releases/latest",
@@ -216,18 +226,19 @@
                     "name": "$.assets[?(@.name =~ /.*Portable.*/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/eibols/ffmpeg_batch/releases/download/3.2.8/FFmpeg_Batch_AV_Converter_Portable_3.2.8_x64.zip"
         }
     },
     {
         "filename": "FSViewer.json",
         "content": {
-            "name": "FSViewer",
+            "name": "FSViewer_8.3.exe",
             "category": "单文件",
-            "version": "1.5",
+            "version": "8.3",
             "description": "FastStone Image Viewer 图片查看器",
             "homepage": "https://www.faststone.org/",
-            "url": "https://geekuninstaller.com/geek.zip",
+            "url": "https://www.faststonesoft.net/DN/FSViewerSetup83.exe",
             "hash": "auto",
             "checkver": [
                 {
@@ -238,15 +249,16 @@
             ],
             "autoupdate": {
                 "name": "FSViewer_{version}.exe"
-            }
+            },
+            "oldurl": "https://www.faststonesoft.net/DN/FSViewerSetup83.exe"
         }
     },
     {
         "filename": "GeekUninstaller.json",
         "content": {
-            "name": "GeekUninstaller",
+            "name": "GeekUninstaller_1.5.3.170.exe",
             "category": "单文件",
-            "version": "1.5",
+            "version": "1.5.3.170",
             "description": "Geek 卸载工具",
             "homepage": "https://geekuninstaller.com/",
             "url": "https://geekuninstaller.com/geek.zip",
@@ -260,18 +272,19 @@
             "autoupdate": {
                 "url": "https://geekuninstaller.com/geek.zip",
                 "name": "GeekUninstaller_{version}.exe"
-            }
+            },
+            "oldurl": "https://geekuninstaller.com/geek.zip"
         }
     },
     {
         "filename": "git-portable.json",
         "content": {
-            "name": "",
+            "name": "PortableGit-2.54.0-64-bit.7z.exe",
             "category": "编程工具",
-            "version": "",
+            "version": "v2.54.0.windows.1",
             "description": "便携版Git版本控制工具",
             "homepage": "https://gitforwindows.org/",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-64-bit.7z.exe",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/git-for-windows/git/releases/latest",
@@ -279,18 +292,19 @@
                     "name": "$.assets[?(@.name =~ /PortableGit.*64-bit.7z.exe/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-64-bit.7z.exe"
         }
     },
     {
         "filename": "lanzouyun.json",
         "content": {
-            "name": "",
+            "name": "lanzouyun-3.5.3-x64-win.zip",
             "category": "下载传输",
-            "version": "",
+            "version": "v3.5.3",
             "description": "蓝奏云非官方客户端",
             "homepage": "https://github.com/chenhb23/lanzouyun-disk",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/chenhb23/lanzouyun-disk/releases/download/v3.5.3/lanzouyun-3.5.3-x64-win.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest",
@@ -298,18 +312,19 @@
                     "name": "$.assets[?(@.name =~ /.*lanzouyun.*x64-win.*/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/chenhb23/lanzouyun-disk/releases/download/v3.5.3/lanzouyun-3.5.3-x64-win.zip"
         }
     },
     {
         "filename": "LocalSend.json",
         "content": {
-            "name": "",
+            "name": "LocalSend-1.17.0-windows-x86-64.zip",
             "category": "下载传输",
-            "version": "",
+            "version": "v1.17.0",
             "description": "局域网文件互传工具",
             "homepage": "https://localsend.org/",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-windows-x86-64.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/localsend/localsend/releases/latest",
@@ -317,18 +332,19 @@
                     "name": "$.assets[?(@.name =~ /.*windows-x86-64.zip/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-windows-x86-64.zip"
         }
     },
     {
         "filename": "MouseClickTool.json",
         "content": {
-            "name": "",
+            "name": "MouseClickTool.exe",
             "category": "单文件",
-            "version": "",
+            "version": "3.1.0.0",
             "description": "鼠标自动点击工具",
             "homepage": "https://github.com/lalakii/MouseClickTool",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/lalakii/MouseClickTool/releases/latest",
@@ -336,18 +352,19 @@
                     "name": "$.assets[?(@.name =~ /MouseClickTool.exe/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe"
         }
     },
     {
         "filename": "MusicPlayer2.json",
         "content": {
-            "name": "",
+            "name": "MusicPlayer2_V2.78_x64.zip",
             "category": "影音工具",
-            "version": "",
+            "version": "V2.78",
             "description": "简洁本地音乐播放器",
             "homepage": "https://github.com/zhongyang219/MusicPlayer2",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.78/MusicPlayer2_V2.78_x64.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/zhongyang219/MusicPlayer2/releases/latest",
@@ -355,18 +372,19 @@
                     "name": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.78/MusicPlayer2_V2.78_x64.zip"
         }
     },
     {
         "filename": "Notepad4.json",
         "content": {
-            "name": "",
+            "name": "Notepad4_HD_zh-Hans_x64_v26.03r6058.zip",
             "category": "文本办公",
-            "version": "",
+            "version": "v26.03r6058",
             "description": "轻量级文本编辑器",
             "homepage": "https://github.com/zufuliu/notepad4",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.03r6058/Notepad4_HD_zh-Hans_x64_v26.03r6058.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/zufuliu/notepad4/releases/latest",
@@ -374,15 +392,16 @@
                     "name": "$.assets[?(@.name =~ /Notepad4.*zh-Hans_x64.*/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/zufuliu/notepad4/releases/download/v26.03r6058/Notepad4_HD_zh-Hans_x64_v26.03r6058.zip"
         }
     },
     {
         "filename": "QQWubi.json",
         "content": {
-            "name": "QQWubi_Setup.exe",
+            "name": "QQWubi_Setup_2.4.629.400.exe",
             "category": "文件办公",
-            "version": "2.4",
+            "version": "2.4.629.400",
             "description": "QQ五笔输入法",
             "homepage": "https://qq.pinyin.cn/wubi/",
             "url": "https://qq.pinyin.cn/download_pc.php?t=wb",
@@ -395,18 +414,19 @@
             "autoupdate": {
                 "url": "https://qq.pinyin.cn/download_pc.php?t=wb",
                 "name": "QQWubi_Setup_{version}.exe"
-            }
+            },
+            "oldurl": "https://qq.pinyin.cn/download_pc.php?t=wb"
         }
     },
     {
         "filename": "Scribe2SRT.json",
         "content": {
-            "name": "",
+            "name": "Scribe2SRT-v0.3.5-windows-x86_64.zip",
             "category": "影音工具",
-            "version": "",
+            "version": "v0.3.5",
             "description": "音频转字幕工具",
             "homepage": "https://github.com/cylind/scribe2srt",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/cylind/scribe2srt/releases/download/v0.3.5/Scribe2SRT-v0.3.5-windows-x86_64.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/cylind/scribe2srt/releases/latest",
@@ -414,18 +434,19 @@
                     "name": "$.assets[?(@.name =~ /Scribe2SRT.*windows-x86_64.*/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/cylind/scribe2srt/releases/download/v0.3.5/Scribe2SRT-v0.3.5-windows-x86_64.zip"
         }
     },
     {
         "filename": "steamcommunity.json",
         "content": {
-            "name": "steamcommunity",
+            "name": "steamcommunity_302_AMD64_VV14.0.02.zip",
             "category": "单文件",
-            "version": "1.5",
+            "version": "V14.0.02",
             "description": "Steam 社区访问工具",
             "homepage": "https://www.dogfight360.com/blog/18682/",
-            "url": "https://geekuninstaller.com/geek.zip",
+            "url": "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip",
             "hash": "auto",
             "checkver": [
                 {
@@ -436,7 +457,8 @@
             ],
             "autoupdate": {
                 "name": "steamcommunity_302_AMD64_V{version}.zip"
-            }
+            },
+            "oldurl": "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip"
         }
     },
     {
@@ -444,7 +466,7 @@
         "content": {
             "name": "",
             "category": "影音工具",
-            "version": "",
+            "version": "v1.4.1",
             "description": "视频字幕识别工具",
             "homepage": "https://github.com/WEIFENG2333/VideoCaptioner",
             "url": "",
@@ -455,18 +477,19 @@
                     "name": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": ""
         }
     },
     {
         "filename": "yunxingku.json",
         "content": {
-            "name": "微软常用运行库合集",
+            "name": "微软常用运行库合集_2026.04.16.exe",
             "category": "运行库",
-            "version": "1.0.0.",
+            "version": "2026.04.16",
             "description": "微软常用运行库合集 by Dreamcast",
             "homepage": "https://wwa.lanzout.com/b0b8rs19a#9527",
-            "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
+            "url": "https://423down.lanzouo.com/b0f1dlg3a",
             "hash": "auto",
             "checkver": {
                 "apiurl": "https://www.423down.com/10835.html",
@@ -475,7 +498,8 @@
             },
             "autoupdate": {
                 "name": "微软常用运行库合集_{version}.exe"
-            }
+            },
+            "oldurl": "https://423down.lanzouo.com/b0f1dlg3a"
         }
     }
 ]
