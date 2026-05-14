@@ -155,7 +155,7 @@
         "filename": "Bili23-Downloader.json",
         "content": {
             "name": "",
-            "category": "其他工具",
+            "category": "其它工具",
             "version": "",
             "description": "B站视频下载工具",
             "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
@@ -174,7 +174,7 @@
         "filename": "clash-verge-rev.json",
         "content": {
             "name": "",
-            "category": "其他工具",
+            "category": "其它工具",
             "version": "",
             "description": "Clash图形化代理客户端",
             "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",

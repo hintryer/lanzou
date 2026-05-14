@@ -7,18 +7,14 @@
 | lanzouyun-3.5.3-x64-win.zip | v3.5.3 | 蓝奏云非官方客户端 | [主页](https://github.com/chenhb23/lanzouyun-disk) | [下载](https://gh-proxy.com/https://github.com/chenhb23/lanzouyun-disk/releases/download/v3.5.3/lanzouyun-3.5.3-x64-win.zip) |
 | LocalSend-1.17.0-windows-x86-64.zip | v1.17.0 | 局域网文件互传工具 | [主页](https://localsend.org/) | [下载](https://gh-proxy.com/https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-windows-x86-64.zip) |
 
-## 其他工具
-
-| 名称 | 版本 | 描述 | 主页 | 下载 |
-| ---- | ---- | ---- | ---- | ---- |
-| Bili23-Downloader_2.00.4_windows_x64_portable.zip | v2.00.4 | B站视频下载工具 | [主页](https://github.com/ScottSloan/Bili23-Downloader) | [下载](https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.4/Bili23-Downloader_2.00.4_windows_x64_portable.zip) |
-| Clash.Verge_2.4.7_x64-setup.exe | v2.4.7 | Clash图形化代理客户端 | [主页](https://github.com/clash-verge-rev/clash-verge-rev) | [下载](https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.4.7/Clash.Verge_2.4.7_x64-setup.exe) |
-
 ## 其它工具
 
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
 | 360FileSetup_1.0.0.1180.exe | 1.0.0.1180 | 360文件夹 多标签文件管理器 | [主页](https://baoku.360.cn/soft/show/appid/2000003908) | [下载](https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140) |
+| Bili23-Downloader_2.00.4_windows_x64_portable.zip | v2.00.4 | B站视频下载工具 | [主页](https://github.com/ScottSloan/Bili23-Downloader) | [下载](https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.4/Bili23-Downloader_2.00.4_windows_x64_portable.zip) |
+| Clash.Verge_2.4.7_x64-setup.exe | v2.4.7 | Clash图形化代理客户端 | [主页](https://github.com/clash-verge-rev/clash-verge-rev) | [下载](https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.4.7/Clash.Verge_2.4.7_x64-setup.exe) |
+| steamcommunity_302_AMD64_VV14.0.02.zip | V14.0.02 | Steam 社区访问工具 | [主页](https://www.dogfight360.com/blog/18682/) | [下载](https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip) |
 
 ## 单文件
 
@@ -27,7 +23,6 @@
 | FSViewer_8.3.exe | 8.3 | FastStone Image Viewer 图片查看器 | [主页](https://www.faststone.org/) | [下载](https://www.faststonesoft.net/DN/FSViewerSetup83.exe) |
 | GeekUninstaller_1.5.3.170.exe | 1.5.3.170 | Geek 卸载工具 | [主页](https://geekuninstaller.com/) | [下载](https://geekuninstaller.com/geek.zip) |
 | MouseClickTool.exe | 3.1.0.0 | 鼠标自动点击工具 | [主页](https://github.com/lalakii/MouseClickTool) | [下载](https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe) |
-| steamcommunity_302_AMD64_VV14.0.02.zip | V14.0.02 | Steam 社区访问工具 | [主页](https://www.dogfight360.com/blog/18682/) | [下载](https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip) |
 
 ## 影音工具
 
@@ -38,17 +33,12 @@
 | Scribe2SRT-v0.3.5-windows-x86_64.zip | v0.3.5 | 音频转字幕工具 | [主页](https://github.com/cylind/scribe2srt) | [下载](https://gh-proxy.com/https://github.com/cylind/scribe2srt/releases/download/v0.3.5/Scribe2SRT-v0.3.5-windows-x86_64.zip) |
 |  | v1.4.1 | 视频字幕识别工具 | [主页](https://github.com/WEIFENG2333/VideoCaptioner) |  |
 
-## 文件办公
-
-| 名称 | 版本 | 描述 | 主页 | 下载 |
-| ---- | ---- | ---- | ---- | ---- |
-| QQWubi_Setup_2.4.629.400.exe | 2.4.629.400 | QQ五笔输入法 | [主页](https://qq.pinyin.cn/wubi/) | [下载](https://qq.pinyin.cn/download_pc.php?t=wb) |
-
 ## 文本办公
 
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
 | Notepad4_HD_zh-Hans_x64_v26.03r6058.zip | v26.03r6058 | 轻量级文本编辑器 | [主页](https://github.com/zufuliu/notepad4) | [下载](https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.03r6058/Notepad4_HD_zh-Hans_x64_v26.03r6058.zip) |
+| QQWubi_Setup_2.4.629.400.exe | 2.4.629.400 | QQ五笔输入法 | [主页](https://qq.pinyin.cn/wubi/) | [下载](https://qq.pinyin.cn/download_pc.php?t=wb) |
 
 ## 编程工具
 

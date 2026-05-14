@@ -24,7 +24,7 @@
         "filename": "Bili23-Downloader.json",
         "content": {
             "name": "Bili23-Downloader_2.00.4_windows_x64_portable.zip",
-            "category": "其他工具",
+            "category": "其它工具",
             "version": "v2.00.4",
             "description": "B站视频下载工具",
             "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
@@ -44,7 +44,7 @@
         "filename": "clash-verge-rev.json",
         "content": {
             "name": "Clash.Verge_2.4.7_x64-setup.exe",
-            "category": "其他工具",
+            "category": "其它工具",
             "version": "v2.4.7",
             "description": "Clash图形化代理客户端",
             "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
@@ -400,7 +400,7 @@
         "filename": "QQWubi.json",
         "content": {
             "name": "QQWubi_Setup_2.4.629.400.exe",
-            "category": "文件办公",
+            "category": "文本办公",
             "version": "2.4.629.400",
             "description": "QQ五笔输入法",
             "homepage": "https://qq.pinyin.cn/wubi/",
@@ -442,7 +442,7 @@
         "filename": "steamcommunity.json",
         "content": {
             "name": "steamcommunity_302_AMD64_VV14.0.02.zip",
-            "category": "单文件",
+            "category": "其它工具",
             "version": "V14.0.02",
             "description": "Steam 社区访问工具",
             "homepage": "https://www.dogfight360.com/blog/18682/",

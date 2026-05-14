@@ -3,7 +3,7 @@
         "filename": "QQWubi.json",
         "content": {
             "name": "QQWubi_Setup.exe",
-            "category": "文件办公",
+            "category": "文本办公",
             "version": "2.4",
             "description": "QQ五笔输入法",
             "homepage": "https://qq.pinyin.cn/wubi/",
@@ -68,7 +68,7 @@
         "filename": "steamcommunity.json",
         "content": {
             "name": "steamcommunity",
-            "category": "单文件",
+            "category": "其它工具",
             "version": "1.5",
             "description": "Steam 社区访问工具",
             "homepage": "https://www.dogfight360.com/blog/18682/",
