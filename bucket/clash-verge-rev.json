@@ -1,16 +1,17 @@
 {
-    "name": "",
-    "category": "其他工具",
-    "version": "",
-    "description": "Clash图形化代理客户端",
-    "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
-    "url": "",
-    "checkver": [
-        {
-            "apiurl": "https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases/latest",
-            "url": "$.assets[?(@.name =~ /.*x64-setup.exe/)].browser_download_url",
-            "name": "$.assets[?(@.name =~ /.*x64-setup.exe/)].name",
-            "version": "$.tag_name"
-        }
-    ]
+  "name": "Clash.Verge_2.4.7_x64-setup.exe",
+  "category": "其他工具",
+  "version": "v2.4.7",
+  "description": "Clash图形化代理客户端",
+  "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
+  "url": "https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.4.7/Clash.Verge_2.4.7_x64-setup.exe",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases/latest",
+      "url": "$.assets[?(@.name =~ /.*x64-setup.exe/)].browser_download_url",
+      "name": "$.assets[?(@.name =~ /.*x64-setup.exe/)].name",
+      "version": "$.tag_name"
+    }
+  ],
+  "oldurl": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.4.7/Clash.Verge_2.4.7_x64-setup.exe"
 }

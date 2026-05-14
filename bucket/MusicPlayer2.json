@@ -1,16 +1,17 @@
 {
-    "name": "",
-    "category": "影音工具",
-    "version": "",
-    "description": "简洁本地音乐播放器",
-    "homepage": "https://github.com/zhongyang219/MusicPlayer2",
-    "url": "",
-    "checkver": [
-        {
-            "apiurl": "https://api.github.com/repos/zhongyang219/MusicPlayer2/releases/latest",
-            "url": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].browser_download_url",
-            "name": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].name",
-            "version": "$.tag_name"
-        }
-    ]
+  "name": "MusicPlayer2_V2.78_x64.zip",
+  "category": "影音工具",
+  "version": "V2.78",
+  "description": "简洁本地音乐播放器",
+  "homepage": "https://github.com/zhongyang219/MusicPlayer2",
+  "url": "https://gh-proxy.com/https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.78/MusicPlayer2_V2.78_x64.zip",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/zhongyang219/MusicPlayer2/releases/latest",
+      "url": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].browser_download_url",
+      "name": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].name",
+      "version": "$.tag_name"
+    }
+  ],
+  "oldurl": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.78/MusicPlayer2_V2.78_x64.zip"
 }
