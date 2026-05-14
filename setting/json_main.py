@@ -118,28 +118,22 @@ def merge_json(input_folder="./bucket", output_file="./result.json"):
     print(f"📁 输出文件：{output_file}")
     return merged_list
 
-def json_to_markdown(json_file="./result.json", md_file="./result.md"):
+def json_to_markdown2(json_file="./result.json", md_file="./result.md"):
     """
-    将 JSON 软件列表转换成 Markdown 表格 + 按分类排序
-    :param json_file: 输入的 JSON 文件
-    :param md_file: 输出的 MD 文件
+    JSON转MD表格 + 按分类排序 + 主页、下载统一为链接格式
     """
-    # 读取 JSON
     with open(json_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # ====================== 排序：按 分类 字母顺序排序 ======================
+    # 按分类排序
     data = sorted(data, key=lambda x: x.get("category", "").lower())
-    # ======================================================================
 
-    # MD 表格头部
     md_content = """# 软件清单
 
 | 名称 | 分类 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 """
 
-    # 遍历生成表格行
     for item in data:
         name = item.get("name", "")
         category = item.get("category", "")
@@ -148,15 +142,71 @@ def json_to_markdown(json_file="./result.json", md_file="./result.md"):
         homepage = item.get("homepage", "")
         url = item.get("url", "")
 
-        # 拼接 MD 表格行
-        md_content += f"| {name} | {category} | {version} | {desc} | [{homepage}]({homepage}) | [下载]({url}) |\n"
+        # 主页：有地址就 [主页](链接)，否则空
+        home_str = f"[主页]({homepage})" if homepage.strip() else ""
+        # 下载：有地址就 [下载](链接)，否则空
+        down_str = f"[下载]({url})" if url.strip() else ""
 
-    # 写入文件
+        md_content += f"| {name} | {category} | {version} | {desc} | {home_str} | {down_str} |\n"
+
     with open(md_file, "w", encoding="utf-8") as f:
         f.write(md_content)
 
     print(f"✅ 转换完成！Markdown 文件已保存：{md_file}")
-# ====================== 使用示例 ======================
+
+
+def json_to_markdown(json_file="./result.json", md_file="./README.md"):
+    """
+    JSON转MD
+    1. 自动按分类分组
+    2. 分类生成二级标题
+    3. 每个分类独立表格
+    4. 主页、下载统一为链接格式
+    """
+    with open(json_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # 按分类排序
+    data = sorted(data, key=lambda x: x.get("category", "").lower())
+
+    # 分组字典
+    group_dict = {}
+    for item in data:
+        cat = item.get("category", "未分类").strip()
+        if cat not in group_dict:
+            group_dict[cat] = []
+        group_dict[cat].append(item)
+
+    # 开始拼接MD
+    md_content = "# 软件清单\n\n"
+
+    # 遍历分组
+    for category, item_list in group_dict.items():
+        # 二级分类标题
+        md_content += f"## {category}\n\n"
+        # 表格表头
+        md_content += "| 名称 | 版本 | 描述 | 主页 | 下载 |\n"
+        md_content += "| ---- | ---- | ---- | ---- | ---- |\n"
+
+        for item in item_list:
+            name = item.get("name", "")
+            version = item.get("version", "")
+            desc = item.get("description", "")
+            homepage = item.get("homepage", "")
+            url = item.get("url", "")
+
+            home_str = f"[主页]({homepage})" if homepage.strip() else ""
+            down_str = f"[下载]({url})" if url.strip() else ""
+
+            md_content += f"| {name} | {version} | {desc} | {home_str} | {down_str} |\n"
+        md_content += "\n"
+
+    # 保存文件
+    with open(md_file, "w", encoding="utf-8") as f:
+        f.write(md_content)
+
+    print(f"✅ 分组转换完成！Markdown 文件已保存：{md_file}")
+
 if __name__ == "__main__":
     
     # unpack_json("./setting/github.json")
