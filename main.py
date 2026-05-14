@@ -6,6 +6,24 @@ import jsonpath
 from LanZouAPI import  lanzou_zl
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+
+def load_json(file_path="config.json"):
+
+    if not os.path.exists(file_path):
+        print(f"文件不存在：{file_path}")
+        return {}
+
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f) or {}
+    except (json.JSONDecodeError, ValueError):
+        return []
+
+def save_json(config_list, file_path="config.json"):
+    """保存配置到 JSON 文件"""
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(config_list, f, ensure_ascii=False, indent=2)
+
 # ===================== 1. 核心请求函数（只需要 url） =====================
 def fetch_data(url: str):
     headers = {
@@ -60,25 +78,6 @@ def extract_value(data, expr: str = None):
         return None
 
 # ===================== 3. 总执行函数（一行调用） =====================
-
-    
-def load_json(file_path="config.json"):
-
-    if not os.path.exists(file_path):
-        print(f"文件不存在：{file_path}")
-        return {}
-
-    try:
-        with open(file_path, "r", encoding="utf-8") as f:
-            return json.load(f) or {}
-    except (json.JSONDecodeError, ValueError):
-        return []
-
-def save_json(config_list, file_path="config.json"):
-    """保存配置到 JSON 文件"""
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(config_list, f, ensure_ascii=False, indent=2)
-
 def run_checkver(json_path):
     config = load_json(json_path)
     final_result = {}
@@ -141,27 +140,18 @@ def update_url(json_path):
     oldurl = url
     real_down_url = url
 
-    if "lanzou" in url.lower():
-        # 按 # 拆分链接
-        parts = url.split("#")
-        
-        # 第一段 = 链接
-        file_url = parts[0].strip()
-        
-        # 第二段 = 密码（如果有）
-        pwd = parts[1].strip() if len(parts) >= 2 and parts[1].strip() else ""
-        real_down_url =lanzou_zl(file_url,pwd)
     if "github" in url.lower():
         real_down_url = "https://gh-proxy.com/" + url
 
     final_result = {
-        "Url": real_down_url,    # 解析后的直链
+        "url": real_down_url,    # 解析后的直链
         "oldurl": oldurl         # 原始传入的URL
     }
 
     config.update(final_result)
     save_json(config,json_path)   
     return final_result            
+
 def ceshi():
     item = "url"
     final_result ={}
@@ -171,6 +161,6 @@ def ceshi():
 if __name__ == "__main__":
     # ceshi()
     #run_update("./bucket/donet9.json")
-    # run_all()
-    print(fetch_data("https://lanzou-zl.wunizy.workers.dev/?url=https://423down.lanzouo.com/iEuAX3nfyheh&debug=1"))
+    run_all()
+
 

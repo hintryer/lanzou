@@ -1,21 +1,19 @@
 {
-  "name": "steamcommunity_302_AMD64_VV14.0.02.zip",
-  "category": "单文件",
-  "version": "V14.0.02",
-  "description": "Steam 社区访问工具",
-  "homepage": "https://www.dogfight360.com/blog/18682/",
-  "url": "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip",
-  "hash": "auto",
-  "checkver": [
-    {
-      "apiurl": "https://www.dogfight360.com/blog/18682/",
-      "version": "<strong>下载: \\((V[\\d.]+)",
-      "url": "<strong>常用<\\/strong><\\/mark>\\): <a href=\"([^\"]+)\""
+    "name": "steamcommunity",
+    "category": "单文件",
+    "version": "1.5",
+    "description": "Steam 社区访问工具",
+    "homepage": "https://www.dogfight360.com/blog/18682/",
+    "url": "https://geekuninstaller.com/geek.zip",
+    "hash": "auto",
+    "checkver": [
+        {
+            "apiurl": "https://www.dogfight360.com/blog/18682/",
+            "version": "<strong>下载: \\((V[\\d.]+)",
+            "url": "<strong>常用<\\/strong><\\/mark>\\): <a href=\"([^\"]+)\""
+        }
+    ],
+    "autoupdate": {
+        "name": "steamcommunity_302_AMD64_V{version}.zip"
     }
-  ],
-  "autoupdate": {
-    "name": "steamcommunity_302_AMD64_V{version}.zip"
-  },
-  "Url": "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip",
-  "oldurl": "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip"
 }
