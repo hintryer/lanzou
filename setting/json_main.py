@@ -68,7 +68,7 @@ def pack_json(input_dir="./bucket", output_file= "./setting/allsoftset.json"):
 
     print(f"\n🎉 合并完成！文件保存在: {output_file}")
 
-def merge_json(input_folder="./bucket", output_file="./result.json"):
+def merge_json(input_folder="./bucket", output_file="./setting/result.json"):
     """
     合并文件夹下所有 JSON 只保留指定字段
     :param input_folder: 输入文件夹，默认 ./bucket
@@ -118,7 +118,7 @@ def merge_json(input_folder="./bucket", output_file="./result.json"):
     print(f"📁 输出文件：{output_file}")
     return merged_list
 
-def json_to_markdown2(json_file="./result.json", md_file="./result.md"):
+def json_to_markdown2(json_file="./setting/result.json", md_file="./setting/result.md"):
     """
     JSON转MD表格 + 按分类排序 + 主页、下载统一为链接格式
     """
@@ -155,7 +155,7 @@ def json_to_markdown2(json_file="./result.json", md_file="./result.md"):
     print(f"✅ 转换完成！Markdown 文件已保存：{md_file}")
 
 
-def json_to_markdown(json_file="./result.json", md_file="./README.md"):
+def json_to_markdown(json_file="./setting/result.json", md_file="./README.md"):
     """
     JSON转MD
     1. 自动按分类分组
@@ -212,7 +212,7 @@ if __name__ == "__main__":
     # unpack_json("./setting/github.json")
     # unpack_json("./setting/dotnet.json")
     # unpack_json("./setting/soft.json")
-    unpack_json()
+    # unpack_json()
 
     # pack_json()
 
