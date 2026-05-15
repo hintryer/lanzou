@@ -134,13 +134,13 @@
             "version": "24.1.0",
             "description": "EmEditor_24.1.0_portable.zip",
             "homepage": "https://www.emeditor.com/",
-            "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
+            "url": "https://download.emeditor.info/emed64_24.1.0_portable.zip",
             "notes": " 学习码: DMAZM-WHY52-AX222-ZQJXN-79JXH  ",
             "checkver": {
                 "apiurl": "https://www.emeditor.com/"
             },
             "autoupdate": {
-                "url": "https://download.emeditor.info/emed64_$version_portable.zip"
+                "url": "https://download.emeditor.info/emed64_{version}_portable.zip"
             }
         }
     }
