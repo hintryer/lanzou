@@ -1,16 +1,17 @@
 {
-    "name": "",
-    "category": "影音工具",
-    "version": "",
-    "description": "视频字幕识别工具",
-    "homepage": "https://github.com/WEIFENG2333/VideoCaptioner",
-    "url": "",
-    "checkver": [
-        {
-            "apiurl": "https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/latest",
-            "url": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].browser_download_url",
-            "name": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].name",
-            "version": "$.tag_name"
-        }
-    ]
+  "name": "",
+  "category": "影音工具",
+  "version": "v1.4.1",
+  "description": "视频字幕识别工具",
+  "homepage": "https://github.com/WEIFENG2333/VideoCaptioner",
+  "url": "",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/latest",
+      "url": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].browser_download_url",
+      "name": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].name",
+      "version": "$.tag_name"
+    }
+  ],
+  "oldurl": ""
 }

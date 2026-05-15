@@ -1,19 +1,20 @@
 {
-    "name": "FSViewer",
-    "category": "单文件",
-    "version": "1.5",
-    "description": "FastStone Image Viewer 图片查看器",
-    "homepage": "https://www.faststone.org/",
-    "url": "https://geekuninstaller.com/geek.zip",
-    "hash": "auto",
-    "checkver": [
-        {
-            "apiurl": "https://www.faststone.org/FSViewerDownload.htm",
-            "version": "FastStone Image Viewer ([\\d.]+)",
-            "url": "<a class=\"button-primary\" href=\"([^\"]+)\""
-        }
-    ],
-    "autoupdate": {
-        "name": "FSViewer_{version}.exe"
+  "name": "FSViewer_8.3.exe",
+  "category": "单文件",
+  "version": "8.3",
+  "description": "FastStone Image Viewer 图片查看器",
+  "homepage": "https://www.faststone.org/",
+  "url": "https://www.faststonesoft.net/DN/FSViewerSetup83.exe",
+  "hash": "auto",
+  "checkver": [
+    {
+      "apiurl": "https://www.faststone.org/FSViewerDownload.htm",
+      "version": "FastStone Image Viewer ([\\d.]+)",
+      "url": "<a class=\"button-primary\" href=\"([^\"]+)\""
     }
+  ],
+  "autoupdate": {
+    "name": "FSViewer_{version}.exe"
+  },
+  "oldurl": "https://www.faststonesoft.net/DN/FSViewerSetup83.exe"
 }
