@@ -1,7 +1,7 @@
 {
-    "name": "QQWubi_Setup_2.4.629.400.exe",
+    "name": "QQWubi_Setup.exe",
     "category": "文本办公",
-    "version": "2.4.629.400",
+    "version": "2.4",
     "description": "QQ五笔输入法",
     "homepage": "https://qq.pinyin.cn/wubi/",
     "url": "https://qq.pinyin.cn/download_pc.php?t=wb",
@@ -14,6 +14,5 @@
     "autoupdate": {
         "url": "https://qq.pinyin.cn/download_pc.php?t=wb",
         "name": "QQWubi_Setup_{version}.exe"
-    },
-    "oldurl": "https://qq.pinyin.cn/download_pc.php?t=wb"
+    }
 }

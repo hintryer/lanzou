@@ -1,10 +1,10 @@
 {
-    "name": "lanzouyun-3.5.3-x64-win.zip",
+    "name": "",
     "category": "下载传输",
-    "version": "v3.5.3",
+    "version": "",
     "description": "蓝奏云非官方客户端",
     "homepage": "https://github.com/chenhb23/lanzouyun-disk",
-    "url": "https://gh-proxy.com/https://github.com/chenhb23/lanzouyun-disk/releases/download/v3.5.3/lanzouyun-3.5.3-x64-win.zip",
+    "url": "",
     "checkver": [
         {
             "apiurl": "https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest",
@@ -12,6 +12,5 @@
             "name": "$.assets[?(@.name =~ /.*lanzouyun.*x64-win.*/)].name",
             "version": "$.tag_name"
         }
-    ],
-    "oldurl": "https://github.com/chenhb23/lanzouyun-disk/releases/download/v3.5.3/lanzouyun-3.5.3-x64-win.zip"
+    ]
 }

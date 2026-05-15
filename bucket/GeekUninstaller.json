@@ -1,7 +1,7 @@
 {
-    "name": "GeekUninstaller_1.5.3.170.exe",
+    "name": "GeekUninstaller",
     "category": "单文件",
-    "version": "1.5.3.170",
+    "version": "1.5",
     "description": "Geek 卸载工具",
     "homepage": "https://geekuninstaller.com/",
     "url": "https://geekuninstaller.com/geek.zip",
@@ -15,6 +15,5 @@
     "autoupdate": {
         "url": "https://geekuninstaller.com/geek.zip",
         "name": "GeekUninstaller_{version}.exe"
-    },
-    "oldurl": "https://geekuninstaller.com/geek.zip"
+    }
 }

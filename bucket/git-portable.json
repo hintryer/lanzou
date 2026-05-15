@@ -1,10 +1,10 @@
 {
-    "name": "PortableGit-2.54.0-64-bit.7z.exe",
+    "name": "",
     "category": "编程工具",
-    "version": "v2.54.0.windows.1",
+    "version": "",
     "description": "便携版Git版本控制工具",
     "homepage": "https://gitforwindows.org/",
-    "url": "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-64-bit.7z.exe",
+    "url": "",
     "checkver": [
         {
             "apiurl": "https://api.github.com/repos/git-for-windows/git/releases/latest",
@@ -12,6 +12,5 @@
             "name": "$.assets[?(@.name =~ /PortableGit.*64-bit.7z.exe/)].name",
             "version": "$.tag_name"
         }
-    ],
-    "oldurl": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-64-bit.7z.exe"
+    ]
 }

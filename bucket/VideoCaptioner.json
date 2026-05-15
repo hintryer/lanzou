@@ -1,7 +1,7 @@
 {
     "name": "",
     "category": "影音工具",
-    "version": "v1.4.1",
+    "version": "",
     "description": "视频字幕识别工具",
     "homepage": "https://github.com/WEIFENG2333/VideoCaptioner",
     "url": "",
@@ -12,6 +12,5 @@
             "name": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].name",
             "version": "$.tag_name"
         }
-    ],
-    "oldurl": ""
+    ]
 }

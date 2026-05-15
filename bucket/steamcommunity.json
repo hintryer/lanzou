@@ -1,10 +1,10 @@
 {
-    "name": "steamcommunity_302_AMD64_VV14.0.02.zip",
+    "name": "steamcommunity",
     "category": "其它工具",
-    "version": "V14.0.02",
+    "version": "1.5",
     "description": "Steam 社区访问工具",
     "homepage": "https://www.dogfight360.com/blog/18682/",
-    "url": "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip",
+    "url": "https://geekuninstaller.com/geek.zip",
     "hash": "auto",
     "checkver": [
         {
@@ -15,6 +15,5 @@
     ],
     "autoupdate": {
         "name": "steamcommunity_302_AMD64_V{version}.zip"
-    },
-    "oldurl": "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip"
+    }
 }

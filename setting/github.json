@@ -245,5 +245,62 @@
                 }
             ]
         }
+    },
+    {
+        "filename": "Typora.json",
+        "content": {
+            "name": "",
+            "category": "文本办公",
+            "version": "",
+            "description": " Markdown 编辑器和阅读器",
+            "homepage": "https://gitforwindows.org/",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/Delppine1024/TGreen/releases/latest",
+                    "url": "$.assets[?(@.name =~ /.*-x64-1.9.5.exe/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /.*-x64-1.9.5.exe/)].name",
+                    "version": "$.tag_name"
+                }
+            ]
+        }
+    },
+    {
+        "filename": "Typora_Crack.json",
+        "content": {
+            "name": "",
+            "category": "文本办公",
+            "version": "",
+            "description": " Typora_Crack",
+            "homepage": "https://gitforwindows.org/",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/Delppine1024/TGreen/releases/latest",
+                    "url" : "$.assets[?(@.name =~ /app_asar.*/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /app_asar.*/)].name",
+                    "version": "$.tag_name"
+                }
+            ]
+        }
+    },
+    {
+        "filename": "Typora_Plugin.json",
+        "content": {
+            "name": "",
+            "category": "文本办公",
+            "version": "",
+            "description": " Typora_Plugin",
+            "homepage": "https://github.com/obgnail/typora_plugin",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/obgnail/typora_plugin/releases/latest",
+                    "url" : "$.assets[?(@.name =~ /typora-plugin.*/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /typora-plugin.*/)].name",
+                    "version": "$.tag_name"
+                }
+            ]
+        }
     }
 ]

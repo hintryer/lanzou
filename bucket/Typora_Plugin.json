@@ -1,0 +1,16 @@
+{
+    "name": "",
+    "category": "文本办公",
+    "version": "",
+    "description": " Typora_Plugin",
+    "homepage": "https://github.com/obgnail/typora_plugin",
+    "url": "",
+    "checkver": [
+        {
+            "apiurl": "https://api.github.com/repos/obgnail/typora_plugin/releases/latest",
+            "url": "$.assets[?(@.name =~ /typora-plugin.*/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /typora-plugin.*/)].name",
+            "version": "$.tag_name"
+        }
+    ]
+}
