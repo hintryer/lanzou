@@ -30,6 +30,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 内置Token（API调用）
         run: |
           python main.py
+          python setting/json_main.py
 
       - name: Git push
         run: |
