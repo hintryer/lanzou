@@ -82,7 +82,7 @@
                 }
             ],
             "autoupdate": {
-                "name": "steamcommunity_302_AMD64_V{version}.zip"
+                "name": "steamcommunity_302_AMD64_{version}.zip"
             }
         }
     },
@@ -127,7 +127,7 @@
         }
     },
     {
-        "filename": "emeditor.json",
+        "filename": "EmEditor.json",
         "content": {
             "name": "EmEditor_24.1.0_portable.zip",
             "category": "文本办公",
