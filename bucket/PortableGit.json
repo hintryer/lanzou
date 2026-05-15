@@ -1,0 +1,16 @@
+{
+    "name": "",
+    "category": "开发工具",
+    "version": "",
+    "description": "便携版Git版本控制工具",
+    "homepage": "https://gitforwindows.org/",
+    "url": "",
+    "checkver": [
+        {
+            "apiurl": "https://api.github.com/repos/git-for-windows/git/releases/latest",
+            "url": "$.assets[?(@.name =~ /PortableGit.*64-bit.7z.exe/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /PortableGit.*64-bit.7z.exe/)].name",
+            "version": "$.tag_name"
+        }
+    ]
+}

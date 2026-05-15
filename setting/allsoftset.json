@@ -39,7 +39,7 @@
         }
     },
     {
-        "filename": "clash-verge-rev.json",
+        "filename": "Clash-verge-rev.json",
         "content": {
             "name": "",
             "category": "其它工具",
@@ -181,10 +181,29 @@
         }
     },
     {
-        "filename": "ffmpeg-essentials.json",
+        "filename": "FFmpeg_Batch_AV_Converter.json",
         "content": {
             "name": "",
-            "category": "编程工具",
+            "category": "影音工具",
+            "version": "",
+            "description": "音视频批量转换工具",
+            "homepage": "https://github.com/eibols/ffmpeg_batch",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/eibols/ffmpeg_batch/releases/latest",
+                    "url": "$.assets[?(@.name =~ /.*Portable.*/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /.*Portable.*/)].name",
+                    "version": "$.tag_name"
+                }
+            ]
+        }
+    },
+    {
+        "filename": "FFmpeg_Essentials.json",
+        "content": {
+            "name": "",
+            "category": "开发工具",
             "version": "",
             "description": "精简版音视频处理工具",
             "homepage": "https://ffmpeg.org/",
@@ -200,10 +219,10 @@
         }
     },
     {
-        "filename": "ffmpeg-full.json",
+        "filename": "FFmpeg_Full.json",
         "content": {
             "name": "",
-            "category": "编程工具",
+            "category": "开发工具",
             "version": "",
             "description": "完整版音视频处理工具",
             "homepage": "https://ffmpeg.org/",
@@ -213,25 +232,6 @@
                     "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
                     "url": "$.assets[?(@.name =~ /.*full_build.7z/)].browser_download_url",
                     "name": "$.assets[?(@.name =~ /.*full_build.7z/)].name",
-                    "version": "$.tag_name"
-                }
-            ]
-        }
-    },
-    {
-        "filename": "FFmpeg_Batch_AV_Converter.json",
-        "content": {
-            "name": "",
-            "category": "影音工具",
-            "version": "",
-            "description": "音视频批量转换工具",
-            "homepage": "https://github.com/eibols/ffmpeg_batch",
-            "url": "",
-            "checkver": [
-                {
-                    "apiurl": "https://api.github.com/repos/eibols/ffmpeg_batch/releases/latest",
-                    "url": "$.assets[?(@.name =~ /.*Portable.*/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /.*Portable.*/)].name",
                     "version": "$.tag_name"
                 }
             ]
@@ -282,26 +282,7 @@
         }
     },
     {
-        "filename": "git-portable.json",
-        "content": {
-            "name": "",
-            "category": "编程工具",
-            "version": "",
-            "description": "便携版Git版本控制工具",
-            "homepage": "https://gitforwindows.org/",
-            "url": "",
-            "checkver": [
-                {
-                    "apiurl": "https://api.github.com/repos/git-for-windows/git/releases/latest",
-                    "url": "$.assets[?(@.name =~ /PortableGit.*64-bit.7z.exe/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /PortableGit.*64-bit.7z.exe/)].name",
-                    "version": "$.tag_name"
-                }
-            ]
-        }
-    },
-    {
-        "filename": "lanzouyun.json",
+        "filename": "LanZouYun.json",
         "content": {
             "name": "",
             "category": "下载传输",
@@ -390,6 +371,25 @@
                     "apiurl": "https://api.github.com/repos/zufuliu/notepad4/releases/latest",
                     "url": "$.assets[?(@.name =~ /Notepad4.*zh-Hans_x64.*/)].browser_download_url",
                     "name": "$.assets[?(@.name =~ /Notepad4.*zh-Hans_x64.*/)].name",
+                    "version": "$.tag_name"
+                }
+            ]
+        }
+    },
+    {
+        "filename": "PortableGit.json",
+        "content": {
+            "name": "",
+            "category": "开发工具",
+            "version": "",
+            "description": "便携版Git版本控制工具",
+            "homepage": "https://gitforwindows.org/",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/git-for-windows/git/releases/latest",
+                    "url": "$.assets[?(@.name =~ /PortableGit.*64-bit.7z.exe/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /PortableGit.*64-bit.7z.exe/)].name",
                     "version": "$.tag_name"
                 }
             ]
@@ -525,7 +525,7 @@
             "url": "",
             "checkver": [
                 {
-                    "apiurl": "https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/latest",
+                    "apiurl": "https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/",
                     "url": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].browser_download_url",
                     "name": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].name",
                     "version": "$.tag_name"
@@ -534,7 +534,7 @@
         }
     },
     {
-        "filename": "yunxingku.json",
+        "filename": "YunXingKu.json",
         "content": {
             "name": "微软常用运行库合集",
             "category": "运行库",

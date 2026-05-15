@@ -1,0 +1,16 @@
+{
+    "name": "",
+    "category": "开发工具",
+    "version": "",
+    "description": "完整版音视频处理工具",
+    "homepage": "https://ffmpeg.org/",
+    "url": "",
+    "checkver": [
+        {
+            "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
+            "url": "$.assets[?(@.name =~ /.*full_build.7z/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /.*full_build.7z/)].name",
+            "version": "$.tag_name"
+        }
+    ]
+}

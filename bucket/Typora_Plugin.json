@@ -1,17 +1,16 @@
 {
-  "name": "typora-plugin@v1.17.10.zip",
-  "category": "文本办公",
-  "version": "1.17.10",
-  "description": " Typora_Plugin",
-  "homepage": "https://github.com/obgnail/typora_plugin",
-  "url": "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.17.10/typora-plugin%40v1.17.10.zip",
-  "checkver": [
-    {
-      "apiurl": "https://api.github.com/repos/obgnail/typora_plugin/releases/latest",
-      "url": "$.assets[?(@.name =~ /typora-plugin.*/)].browser_download_url",
-      "name": "$.assets[?(@.name =~ /typora-plugin.*/)].name",
-      "version": "$.tag_name"
-    }
-  ],
-  "oldurl": "https://github.com/obgnail/typora_plugin/releases/download/1.17.10/typora-plugin%40v1.17.10.zip"
+    "name": "",
+    "category": "文本办公",
+    "version": "",
+    "description": " Typora_Plugin",
+    "homepage": "https://github.com/obgnail/typora_plugin",
+    "url": "",
+    "checkver": [
+        {
+            "apiurl": "https://api.github.com/repos/obgnail/typora_plugin/releases/latest",
+            "url": "$.assets[?(@.name =~ /typora-plugin.*/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /typora-plugin.*/)].name",
+            "version": "$.tag_name"
+        }
+    ]
 }

@@ -218,4 +218,3 @@ if __name__ == "__main__":
 
     merge_json()
     json_to_markdown()
-    # pack_manifest("bucket", "all_manifest.json")

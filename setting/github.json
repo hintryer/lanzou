@@ -67,7 +67,7 @@
             "url": "",
             "checkver": [
                 {
-                    "apiurl": "https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/latest",
+                    "apiurl": "https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/",
                     "url": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].browser_download_url",
                     "name": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].name",
                     "version": "$.tag_name"
@@ -114,7 +114,7 @@
         }
     },
     {
-        "filename": "lanzouyun.json",
+        "filename": "LanZouYun.json",
         "content": {
             "name": "",
             "category": "下载传输",
@@ -171,7 +171,7 @@
         }
     },
     {
-        "filename": "clash-verge-rev.json",
+        "filename": "Clash-verge-rev.json",
         "content": {
             "name": "",
             "category": "其它工具",
@@ -190,10 +190,10 @@
         }
     },
     {
-        "filename": "ffmpeg-essentials.json",
+        "filename": "FFmpeg_Essentials.json",
         "content": {
             "name": "",
-            "category": "编程工具",
+            "category": "开发工具",
             "version": "",
             "description": "精简版音视频处理工具",
             "homepage": "https://ffmpeg.org/",
@@ -209,10 +209,10 @@
         }
     },
     {
-        "filename": "ffmpeg-full.json",
+        "filename": "FFmpeg_Full.json",
         "content": {
             "name": "",
-            "category": "编程工具",
+            "category": "开发工具",
             "version": "",
             "description": "完整版音视频处理工具",
             "homepage": "https://ffmpeg.org/",
@@ -228,10 +228,10 @@
         }
     },
     {
-        "filename": "git-portable.json",
+        "filename": "PortableGit.json",
         "content": {
             "name": "",
-            "category": "编程工具",
+            "category": "开发工具",
             "version": "",
             "description": "便携版Git版本控制工具",
             "homepage": "https://gitforwindows.org/",

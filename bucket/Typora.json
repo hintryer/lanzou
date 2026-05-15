@@ -1,17 +1,16 @@
 {
-  "name": "typora-windows-x64-1.9.5.exe",
-  "category": "文本办公",
-  "version": "v1.9.5",
-  "description": " Markdown 编辑器和阅读器",
-  "homepage": "https://gitforwindows.org/",
-  "url": "https://gh-proxy.com/https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/typora-windows-x64-1.9.5.exe",
-  "checkver": [
-    {
-      "apiurl": "https://api.github.com/repos/Delppine1024/TGreen/releases/latest",
-      "url": "$.assets[?(@.name =~ /.*-x64-1.9.5.exe/)].browser_download_url",
-      "name": "$.assets[?(@.name =~ /.*-x64-1.9.5.exe/)].name",
-      "version": "$.tag_name"
-    }
-  ],
-  "oldurl": "https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/typora-windows-x64-1.9.5.exe"
+    "name": "",
+    "category": "文本办公",
+    "version": "",
+    "description": " Markdown 编辑器和阅读器",
+    "homepage": "https://gitforwindows.org/",
+    "url": "",
+    "checkver": [
+        {
+            "apiurl": "https://api.github.com/repos/Delppine1024/TGreen/releases/latest",
+            "url": "$.assets[?(@.name =~ /.*-x64-1.9.5.exe/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /.*-x64-1.9.5.exe/)].name",
+            "version": "$.tag_name"
+        }
+    ]
 }

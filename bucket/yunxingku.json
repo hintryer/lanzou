@@ -1,18 +1,17 @@
 {
-  "name": "微软常用运行库合集_2026.04.16.exe",
-  "category": "运行库",
-  "version": "2026.04.16",
-  "description": "微软常用运行库合集 by Dreamcast",
-  "homepage": "https://wwa.lanzout.com/b0b8rs19a#9527",
-  "url": "https://423down.lanzouo.com/b0f1dlg3a",
-  "hash": "auto",
-  "checkver": {
-    "apiurl": "https://www.423down.com/10835.html",
-    "version": "Build on ([\\d.]+)",
-    "url": "https://423down\\.lanzouo\\.com/[a-zA-Z0-9]+"
-  },
-  "autoupdate": {
-    "name": "微软常用运行库合集_{version}.exe"
-  },
-  "oldurl": "https://423down.lanzouo.com/b0f1dlg3a"
+    "name": "微软常用运行库合集",
+    "category": "运行库",
+    "version": "1.0.0.",
+    "description": "微软常用运行库合集 by Dreamcast",
+    "homepage": "https://wwa.lanzout.com/b0b8rs19a#9527",
+    "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
+    "hash": "auto",
+    "checkver": {
+        "apiurl": "https://www.423down.com/10835.html",
+        "version": "Build on ([\\d.]+)",
+        "url": "https://423down\\.lanzouo\\.com/[a-zA-Z0-9]+"
+    },
+    "autoupdate": {
+        "name": "微软常用运行库合集_{version}.exe"
+    }
 }

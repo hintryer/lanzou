@@ -1,16 +1,15 @@
 {
-  "name": "EmEditor_24.1.0_portable.zip",
-  "category": "文本办公",
-  "version": "24.1.0",
-  "description": "EmEditor_24.1.0_portable.zip",
-  "homepage": "https://www.emeditor.com/",
-  "url": "https://download.emeditor.info/emed64_$version_portable.zip",
-  "notes": " 学习码: DMAZM-WHY52-AX222-ZQJXN-79JXH  ",
-  "checkver": {
-    "apiurl": "https://www.emeditor.com/"
-  },
-  "autoupdate": {
-    "url": "https://download.emeditor.info/emed64_$version_portable.zip"
-  },
-  "oldurl": "https://download.emeditor.info/emed64_$version_portable.zip"
+    "name": "EmEditor_24.1.0_portable.zip",
+    "category": "文本办公",
+    "version": "24.1.0",
+    "description": "EmEditor_24.1.0_portable.zip",
+    "homepage": "https://www.emeditor.com/",
+    "url": "https://download.emeditor.info/emed64_24.1.0_portable.zip",
+    "notes": " 学习码: DMAZM-WHY52-AX222-ZQJXN-79JXH  ",
+    "checkver": {
+        "apiurl": "https://www.emeditor.com/"
+    },
+    "autoupdate": {
+        "url": "https://download.emeditor.info/emed64_{version}_portable.zip"
+    }
 }
