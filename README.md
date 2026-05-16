@@ -14,7 +14,7 @@
 | 360文件夹 | 1.0.0 | 360文件夹 多标签文件管理器 | [主页](https://baoku.360.cn/soft/show/appid/2000003908) | [下载](https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140) |
 |  |  | B站视频下载工具 | [主页](https://github.com/ScottSloan/Bili23-Downloader) |  |
 |  |  | Clash图形化代理客户端 | [主页](https://github.com/clash-verge-rev/clash-verge-rev) |  |
-| steamcommunity | 1.5 | Steam 社区访问工具 | [主页](https://www.dogfight360.com/blog/18682/) | [下载](https://geekuninstaller.com/geek.zip) |
+| Steamcommunity | 1.5 | Steam 社区访问工具 | [主页](https://www.dogfight360.com/blog/18682/) | [下载](https://geekuninstaller.com/geek.zip) |
 
 ## 单文件
 

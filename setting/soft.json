@@ -65,9 +65,9 @@
         }
     },
     {
-        "filename": "steamcommunity.json",
+        "filename": "Steamcommunity.json",
         "content": {
-            "name": "steamcommunity",
+            "name": "Steamcommunity",
             "category": "其它工具",
             "version": "1.5",
             "description": "Steam 社区访问工具",
@@ -82,7 +82,7 @@
                 }
             ],
             "autoupdate": {
-                "name": "steamcommunity_302_AMD64_{version}.zip"
+                "name": "Steamcommunity_302_AMD64_{version}.zip"
             }
         }
     },

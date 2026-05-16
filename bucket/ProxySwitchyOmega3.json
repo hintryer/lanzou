@@ -11,7 +11,7 @@
         "version": "version=\"([\\d.]+)\"/>"
     },
     "autoupdate": {
-        "name": "Proxy+SwitchyOmega+3_{version}.crx",
+        "name": "SwitchyOmega_{version}.crx",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc&prodversion=130.0.0.0"
     }
 }
