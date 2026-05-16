@@ -8,10 +8,10 @@
     "hash": "auto",
     "checkver": {
         "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
-        "version": "version=\"([\\\\d.]+)\"/>",
-        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc&prodversion=130.0.0.0"
+        "version": "version=\"([\\d.]+)\"/>"
     },
     "autoupdate": {
-        "name": "LastPass_{version}.crx"
+        "name": "LastPass_{version}.crx",
+        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc&prodversion=130.0.0.0"
     }
 }
