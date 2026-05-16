@@ -64,10 +64,12 @@
 |  |  |  Typora_Crack | [主页](https://gitforwindows.org/) |  |
 |  |  |  Typora_Plugin | [主页](https://github.com/obgnail/typora_plugin) |  |
 
-## 浏览器插件
+## 浏览器相关
 
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
+| chrome_plus | auto | Chrome增强工具集 | [主页](https://github.com/Bush2021/chrome_plus) |  |
+| chrome_installer | auto | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) |  |
 | LastPass | auto | Free Password Manager | [主页](https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd) | [下载](auto) |
 | Proxy SwitchyOmega 3 (ZeroOmega) | auto | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](auto) |
 | SingleFile | auto | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](auto) |

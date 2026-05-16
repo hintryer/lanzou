@@ -1,0 +1,16 @@
+{
+    "name": "chrome_installer",
+    "category": "浏览器相关",
+    "version": "auto",
+    "description": "Chrome 离线安装包",
+    "homepage": "https://github.com/Bush2021/chrome_installer",
+    "url": "",
+    "checkver": [
+        {
+            "apiurl": "https://api.github.com/repos/Bush2021/chrome_installer/releases/latest",
+            "url": "$.assets[?(@.name =~ /.*x64.*/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /.*x64.*/)].name",
+            "version": "$.tag_name"
+        }
+    ]
+}

@@ -16,6 +16,22 @@
         "url": ""
     },
     {
+        "name": "chrome_plus",
+        "category": "浏览器相关",
+        "version": "auto",
+        "description": "Chrome增强工具集",
+        "homepage": "https://github.com/Bush2021/chrome_plus",
+        "url": ""
+    },
+    {
+        "name": "chrome_installer",
+        "category": "浏览器相关",
+        "version": "auto",
+        "description": "Chrome 离线安装包",
+        "homepage": "https://github.com/Bush2021/chrome_installer",
+        "url": ""
+    },
+    {
         "name": "",
         "category": "其它工具",
         "version": "",
@@ -137,7 +153,7 @@
     },
     {
         "name": "LastPass",
-        "category": "浏览器插件",
+        "category": "浏览器相关",
         "version": "auto",
         "description": "Free Password Manager",
         "homepage": "https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd",
@@ -193,7 +209,7 @@
     },
     {
         "name": "Proxy SwitchyOmega 3 (ZeroOmega)",
-        "category": "浏览器插件",
+        "category": "浏览器相关",
         "version": "auto",
         "description": "代理切换工具",
         "homepage": "https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped",
@@ -225,7 +241,7 @@
     },
     {
         "name": "SingleFile",
-        "category": "浏览器插件",
+        "category": "浏览器相关",
         "version": "auto",
         "description": "网页单文件保存",
         "homepage": "https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle",
@@ -273,7 +289,7 @@
     },
     {
         "name": "uBlock Origin Lite",
-        "category": "浏览器插件",
+        "category": "浏览器相关",
         "version": "auto",
         "description": "轻量版广告拦截",
         "homepage": "https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh",
@@ -313,7 +329,7 @@
     },
     {
         "name": "沉浸式翻译",
-        "category": "浏览器插件",
+        "category": "浏览器相关",
         "version": "auto",
         "description": "AI 网页翻译插件",
         "homepage": "https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
@@ -321,7 +337,7 @@
     },
     {
         "name": "猫抓",
-        "category": "浏览器插件",
+        "category": "浏览器相关",
         "version": "auto",
         "description": "媒体资源嗅探下载",
         "homepage": "https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb",
@@ -329,7 +345,7 @@
     },
     {
         "name": "篡改猴测试版",
-        "category": "浏览器插件",
+        "category": "浏览器相关",
         "version": "auto",
         "description": "脚本管理工具（红色版）",
         "homepage": "https://www.crxsoso.com/webstore/detail/gcalenpjmijncebpfijmoaglllgpjagf",
@@ -337,7 +353,7 @@
     },
     {
         "name": "解除网页复制限制",
-        "category": "浏览器插件",
+        "category": "浏览器相关",
         "version": "auto",
         "description": "网页限制解除",
         "homepage": "https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm",
@@ -345,7 +361,7 @@
     },
     {
         "name": "超级拖拽",
-        "category": "浏览器插件",
+        "category": "浏览器相关",
         "version": "auto",
         "description": "超级拖拽 + 鼠标手势",
         "homepage": "https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg",

@@ -3,7 +3,7 @@
         "filename": "超级拖拽.json",
         "content": {
             "name": "超级拖拽",
-            "category": "浏览器插件",
+            "category": "浏览器相关",
             "version": "auto",
             "description": "超级拖拽 + 鼠标手势",
             "homepage": "https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg",
@@ -23,7 +23,7 @@
         "filename": "SingleFile.json",
         "content": {
             "name": "SingleFile",
-            "category": "浏览器插件",
+            "category": "浏览器相关",
             "version": "auto",
             "description": "网页单文件保存",
             "homepage": "https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle",
@@ -43,7 +43,7 @@
         "filename": "uBlock Origin Lite.json",
         "content": {
             "name": "uBlock Origin Lite",
-            "category": "浏览器插件",
+            "category": "浏览器相关",
             "version": "auto",
             "description": "轻量版广告拦截",
             "homepage": "https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh",
@@ -63,7 +63,7 @@
         "filename": "解除网页复制限制.json",
         "content": {
             "name": "解除网页复制限制",
-            "category": "浏览器插件",
+            "category": "浏览器相关",
             "version": "auto",
             "description": "网页限制解除",
             "homepage": "https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm",
@@ -83,7 +83,7 @@
         "filename": "沉浸式翻译.json",
         "content": {
             "name": "沉浸式翻译",
-            "category": "浏览器插件",
+            "category": "浏览器相关",
             "version": "auto",
             "description": "AI 网页翻译插件",
             "homepage": "https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
@@ -103,7 +103,7 @@
         "filename": "篡改猴测试版.json",
         "content": {
             "name": "篡改猴测试版",
-            "category": "浏览器插件",
+            "category": "浏览器相关",
             "version": "auto",
             "description": "脚本管理工具（红色版）",
             "homepage": "https://www.crxsoso.com/webstore/detail/gcalenpjmijncebpfijmoaglllgpjagf",
@@ -123,7 +123,7 @@
         "filename": "LastPass.json",
         "content": {
             "name": "LastPass",
-            "category": "浏览器插件",
+            "category": "浏览器相关",
             "version": "auto",
             "description": "Free Password Manager",
             "homepage": "https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd",
@@ -143,7 +143,7 @@
         "filename": "ProxySwitchyOmega3.json",
         "content": {
             "name": "Proxy SwitchyOmega 3 (ZeroOmega)",
-            "category": "浏览器插件",
+            "category": "浏览器相关",
             "version": "auto",
             "description": "代理切换工具",
             "homepage": "https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped",
@@ -163,7 +163,7 @@
         "filename": "猫抓.json",
         "content": {
             "name": "猫抓",
-            "category": "浏览器插件",
+            "category": "浏览器相关",
             "version": "auto",
             "description": "媒体资源嗅探下载",
             "homepage": "https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb",

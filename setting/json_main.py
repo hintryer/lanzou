@@ -209,10 +209,10 @@ def json_to_markdown(json_file="./setting/result.json", md_file="./README.md"):
 
 if __name__ == "__main__":
     
-    # unpack_json("./setting/github.json")
+    #unpack_json("./setting/github.json")
     # unpack_json("./setting/dotnet.json")
     # unpack_json("./setting/soft.json")
-    # unpack_json("./setting/crx.json")
+    #unpack_json("./setting/crx.json")
     # unpack_json("./setting/crack.json")
     # unpack_json()
 

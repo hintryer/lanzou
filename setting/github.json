@@ -284,7 +284,7 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/Delppine1024/TGreen/releases/latest",
-                    "url" : "$.assets[?(@.name =~ /app_asar.*/)].browser_download_url",
+                    "url": "$.assets[?(@.name =~ /app_asar.*/)].browser_download_url",
                     "name": "$.assets[?(@.name =~ /app_asar.*/)].name",
                     "version": "$.tag_name"
                 }
@@ -303,7 +303,7 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/obgnail/typora_plugin/releases/latest",
-                    "url" : "$.assets[?(@.name =~ /typora-plugin.*/)].browser_download_url",
+                    "url": "$.assets[?(@.name =~ /typora-plugin.*/)].browser_download_url",
                     "name": "$.assets[?(@.name =~ /typora-plugin.*/)].name",
                     "version": "$.tag_name"
                 }
@@ -322,8 +322,46 @@
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/hiroi-sora/Umi-OCR/releases/latest",
-                    "url" : "$.assets[?(@.name =~ /.*Paddle.*exe/)].browser_download_url",
+                    "url": "$.assets[?(@.name =~ /.*Paddle.*exe/)].browser_download_url",
                     "name": "$.assets[?(@.name =~ /.*Paddle.*exe/)].name",
+                    "version": "$.tag_name"
+                }
+            ]
+        }
+    },
+    {
+        "filename": "Chrome++.json",
+        "content": {
+            "name": "chrome_plus",
+            "category": "浏览器相关",
+            "version": "auto",
+            "description": "Chrome增强工具集",
+            "homepage": "https://github.com/Bush2021/chrome_plus",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/Bush2021/chrome_plus/releases/latest",
+                    "url": "$.assets[?(@.name =~ /Chrome.*/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /Chrome.*/)].name",
+                    "version": "$.tag_name"
+                }
+            ]
+        }
+    },
+    {
+        "filename": "chrome_installer.json",
+        "content": {
+            "name": "chrome_installer",
+            "category": "浏览器相关",
+            "version": "auto",
+            "description": "Chrome 离线安装包",
+            "homepage": "https://github.com/Bush2021/chrome_installer",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/Bush2021/chrome_installer/releases/latest",
+                    "url": "$.assets[?(@.name =~ /.*x64.*/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /.*x64.*/)].name",
                     "version": "$.tag_name"
                 }
             ]
