@@ -21,10 +21,16 @@
 
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
-| FSViewer | 1.5 | FastStone Image Viewer 图片查看器 | [主页](https://www.faststone.org/) | [下载](https://geekuninstaller.com/geek.zip) |
 | GeekUninstaller | 1.5 | Geek 卸载工具 | [主页](https://geekuninstaller.com/) | [下载](https://geekuninstaller.com/geek.zip) |
 |  |  | 鼠标自动点击工具 | [主页](https://github.com/lalakii/MouseClickTool) |  |
 | ReNamerPro_7.9.0.0v2.exe | 7.9.0.0v2 | 文件改名 | [主页](https://www.52pojie.cn/thread-2064422-1-1.html) | [下载](https://kuguagantian.lanzoum.com/i4oW63ken4af) |
+
+## 图像相关
+
+| 名称 | 版本 | 描述 | 主页 | 下载 |
+| ---- | ---- | ---- | ---- | ---- |
+| FSCapture.zip | 1.5 | 屏幕录制、滚动截图 | [主页](https://www.faststone.org/FSCaptureDetail.htm) | [下载](https://geekuninstaller.com/geek.zip) |
+| FSViewer | 1.5 | FSViewer图片查看器 | [主页](https://www.faststone.org/) | [下载](https://geekuninstaller.com/geek.zip) |
 
 ## 开发工具
 

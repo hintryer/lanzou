@@ -1,0 +1,19 @@
+{
+    "name": "FSCapture.zip",
+    "category": "图像相关",
+    "version": "1.5",
+    "description": "屏幕录制、滚动截图",
+    "homepage": "https://www.faststone.org/FSCaptureDetail.htm",
+    "url": "https://geekuninstaller.com/geek.zip",
+    "hash": "auto",
+    "checkver": [
+        {
+            "apiurl": "https://www.faststone.org/FSViewerDownload.htm",
+            "version": "<h2 class=\"product-name\">FastStone Capture ([\\d.]+)</h2>",
+            "url": "href=\"([^\"]+)\">Portable</a>"
+        }
+    ],
+    "autoupdate": {
+        "name": "FSCapture_{version}.zip"
+    }
+}
