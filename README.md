@@ -21,6 +21,7 @@
 
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
+| ClickMonitorDDC 7.2.zip | 7.2 | 最完美的亮度调节软件 | [主页](https://www.52pojie.cn/thread-1761083-1-1.html) | [下载](https://wwi.lanzoup.com/iiahR0rcr4cd) |
 | GeekUninstaller | 1.5 | Geek 卸载工具 | [主页](https://geekuninstaller.com/) | [下载](https://geekuninstaller.com/geek.zip) |
 |  |  | 鼠标自动点击工具 | [主页](https://github.com/lalakii/MouseClickTool) |  |
 | ReNamerPro_7.9.0.0v2.exe | 7.9.0.0v2 | 文件改名 | [主页](https://www.52pojie.cn/thread-2064422-1-1.html) | [下载](https://kuguagantian.lanzoum.com/i4oW63ken4af) |
@@ -29,8 +30,8 @@
 
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
-| FSCapture.zip | 1.5 | 屏幕录制、滚动截图 | [主页](https://www.faststone.org/FSCaptureDetail.htm) | [下载](https://geekuninstaller.com/geek.zip) |
-| FSViewer | 1.5 | FSViewer图片查看器 | [主页](https://www.faststone.org/) | [下载](https://geekuninstaller.com/geek.zip) |
+| FSCapture.zip | 1.5 | 屏幕录制、滚动截图 | [主页](https://www.faststone.org/FSCaptureDetail.htm) | [下载](https://www.faststonesoft.net/DN/FSCapture112.zip) |
+| FSViewer | 1.5 | FSViewer图片查看器 | [主页](https://www.faststone.org/) | [下载](https://www.faststonesoft.net/DN/FSViewerSetup83.exe) |
 | Umi-OCR | 2.1.5 | 免费 开源 可批量的离线OCR软件 | [主页](https://github.com/hiroi-sora/Umi-OCR) |  |
 
 ## 开发工具
@@ -49,7 +50,7 @@
 |  |  | 简洁本地音乐播放器 | [主页](https://github.com/zhongyang219/MusicPlayer2) |  |
 | MusicTag v1.0.9.0.zip | v1.0.9.0 | 编辑歌曲音乐标签 | [主页](https://www.52pojie.cn/thread-1687719-1-1.html) | [下载](https://wwn.lanzouy.com/i2pWg0bnlirg) |
 |  |  | 音频转字幕工具 | [主页](https://github.com/cylind/scribe2srt) |  |
-|  |  | 视频字幕识别工具 | [主页](https://github.com/WEIFENG2333/VideoCaptioner) |  |
+| VideoCaptioner-Setup-win64-v1.3.3.exe | v1.3.3 | 视频字幕识别工具 | [主页](https://github.com/WEIFENG2333/VideoCaptioner) | [下载](https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe) |
 | РotРlayer-260422(1.7.22859)-x64-Stable.exe | 1.7.22859 | 高性能本地影音播放器 | [主页](https://www.423down.com/3050.html) | [下载](https://423down.lanzouo.com/iPRE43nu4qbi) |
 
 ## 文本办公
@@ -72,7 +73,7 @@
 | SingleFile | auto | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](auto) |
 | uBlock Origin Lite | auto | 轻量版广告拦截 | [主页](https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) | [下载](auto) |
 | 沉浸式翻译 | auto | AI 网页翻译插件 | [主页](https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh) | [下载](auto) |
-| 猫抓 | auto | 媒体资源嗅探下载 | [主页](https://www.crxsoso.com/webstore/detail/fkmcdjlddahjdpmemnldpmkhcmpbbhip) | [下载](auto) |
+| 猫抓 | auto | 媒体资源嗅探下载 | [主页](https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb) | [下载](auto) |
 | 篡改猴测试版 | auto | 脚本管理工具（红色版） | [主页](https://www.crxsoso.com/webstore/detail/gcalenpjmijncebpfijmoaglllgpjagf) | [下载](auto) |
 | 解除网页复制限制 | auto | 网页限制解除 | [主页](https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm) | [下载](auto) |
 | 超级拖拽 | auto | 超级拖拽 + 鼠标手势 | [主页](https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg) | [下载](auto) |

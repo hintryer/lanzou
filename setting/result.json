@@ -24,6 +24,14 @@
         "url": ""
     },
     {
+        "name": "ClickMonitorDDC 7.2.zip",
+        "category": "单文件",
+        "version": "7.2",
+        "description": "最完美的亮度调节软件",
+        "homepage": "https://www.52pojie.cn/thread-1761083-1-1.html",
+        "url": "https://wwi.lanzoup.com/iiahR0rcr4cd"
+    },
+    {
         "name": "dotnet-runtime-10.0-win-x64.exe",
         "category": "运行库",
         "version": "10.0",
@@ -101,7 +109,7 @@
         "version": "1.5",
         "description": "屏幕录制、滚动截图",
         "homepage": "https://www.faststone.org/FSCaptureDetail.htm",
-        "url": "https://geekuninstaller.com/geek.zip"
+        "url": "https://www.faststonesoft.net/DN/FSCapture112.zip"
     },
     {
         "name": "FSViewer",
@@ -109,7 +117,7 @@
         "version": "1.5",
         "description": "FSViewer图片查看器",
         "homepage": "https://www.faststone.org/",
-        "url": "https://geekuninstaller.com/geek.zip"
+        "url": "https://www.faststonesoft.net/DN/FSViewerSetup83.exe"
     },
     {
         "name": "GeekUninstaller",
@@ -280,12 +288,12 @@
         "url": ""
     },
     {
-        "name": "",
+        "name": "VideoCaptioner-Setup-win64-v1.3.3.exe",
         "category": "影音工具",
-        "version": "",
+        "version": "v1.3.3",
         "description": "视频字幕识别工具",
         "homepage": "https://github.com/WEIFENG2333/VideoCaptioner",
-        "url": ""
+        "url": "https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe"
     },
     {
         "name": "微软常用运行库合集",
@@ -316,7 +324,7 @@
         "category": "浏览器插件",
         "version": "auto",
         "description": "媒体资源嗅探下载",
-        "homepage": "https://www.crxsoso.com/webstore/detail/fkmcdjlddahjdpmemnldpmkhcmpbbhip",
+        "homepage": "https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb",
         "url": "auto"
     },
     {
