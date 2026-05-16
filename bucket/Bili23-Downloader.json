@@ -12,5 +12,8 @@
             "name": "$.assets[?(@.name =~ /.*windows_x64_portable.zip/)].name",
             "version": "$.tag_name"
         }
-    ]
+    ],
+    "autoupdate": {
+        "name": "Bili23-Downloade_{version}_portable.zip"
+    }
 }
