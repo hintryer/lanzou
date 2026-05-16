@@ -1,0 +1,17 @@
+{
+    "name": "猫抓",
+    "category": "浏览器插件",
+    "version": "auto",
+    "description": "媒体资源嗅探下载",
+    "homepage": "https://www.crxsoso.com/webstore/detail/fkmcdjlddahjdpmemnldpmkhcmpbbhip",
+    "url": "auto",
+    "hash": "auto",
+    "checkver": {
+        "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dfkmcdjlddahjdpmemnldpmkhcmpbbhip%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
+        "version": "version=\"([\\\\d.]+)\"/>",
+        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dfkmcdjlddahjdpmemnldpmkhcmpbbhip%26uc&prodversion=130.0.0.0"
+    },
+    "autoupdate": {
+        "name": "猫抓_{version}.crx"
+    }
+}

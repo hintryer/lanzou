@@ -212,6 +212,7 @@ if __name__ == "__main__":
     # unpack_json("./setting/github.json")
     # unpack_json("./setting/dotnet.json")
     # unpack_json("./setting/soft.json")
+    unpack_json("./setting/crx.json")
     # unpack_json()
 
     # pack_json()

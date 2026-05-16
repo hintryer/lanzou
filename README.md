@@ -52,6 +52,20 @@
 |  |  |  Typora_Crack | [主页](https://gitforwindows.org/) |  |
 |  |  |  Typora_Plugin | [主页](https://github.com/obgnail/typora_plugin) |  |
 
+## 浏览器插件
+
+| 名称 | 版本 | 描述 | 主页 | 下载 |
+| ---- | ---- | ---- | ---- | ---- |
+| LastPass | auto | Free Password Manager | [主页](https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd) | [下载](auto) |
+| Proxy SwitchyOmega 3 (ZeroOmega) | auto | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](auto) |
+| SingleFile | auto | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](auto) |
+| uBlock Origin Lite | auto | 轻量版广告拦截 | [主页](https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) | [下载](auto) |
+| 沉浸式翻译 | auto | AI 网页翻译插件 | [主页](https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh) | [下载](auto) |
+| 猫抓 | auto | 媒体资源嗅探下载 | [主页](https://www.crxsoso.com/webstore/detail/fkmcdjlddahjdpmemnldpmkhcmpbbhip) | [下载](auto) |
+| 篡改猴测试版 | auto | 脚本管理工具（红色版） | [主页](https://www.crxsoso.com/webstore/detail/gcalenpjmijncebpfijmoaglllgpjagf) | [下载](auto) |
+| 解除网页复制限制 | auto | 网页限制解除 | [主页](https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm) | [下载](auto) |
+| 超级拖拽 | auto | 超级拖拽 + 鼠标手势 | [主页](https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg) | [下载](auto) |
+
 ## 运行库
 
 | 名称 | 版本 | 描述 | 主页 | 下载 |
