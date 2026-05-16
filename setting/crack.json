@@ -19,126 +19,62 @@
         }
     },
     {
-        "filename": "FastStone Capture.json",
+        "filename": "Thunder.json",
         "content": {
-            "name": "FastStone Capture",
-            "category": "单文件",
-            "version": "1.5",
-            "description": "Geek 卸载工具",
-            "homepage": "https://geekuninstaller.com/",
-            "url": "https://geekuninstaller.com/geek.zip",
+            "name": "Thunder_12.4.9.3918.exe",
+            "category": "下载传输",
+            "version": "12.4.9.3918",
+            "description": "Thunder",
+            "homepage": "https://www.52pojie.cn/thread-2090717-1-1.html",
+            "url": "https://www.lanzouw.com/iWAtU3k3y9id",
             "hash": "auto",
             "checkver": [
                 {
-                    "apiurl": "https://geekuninstaller.com/download",
-                    "version": "<b>(.*?)</b>"
+                    "apiurl": "https://www.52pojie.cn/thread-2090717-1-1.html"
                 }
             ],
             "autoupdate": {
-                "url": "https://geekuninstaller.com/geek.zip",
-                "name": "GeekUninstaller_{version}.exe"
+                "url": "https://www.lanzouw.com/iWAtU3k3y9id"
             }
         }
     },
     {
-        "filename": "FSViewer.json",
+        "filename": "РotРlayer.json",
         "content": {
-            "name": "FSViewer",
-            "category": "单文件",
-            "version": "1.5",
-            "description": "FastStone Image Viewer 图片查看器",
-            "homepage": "https://www.faststone.org/",
-            "url": "https://geekuninstaller.com/geek.zip",
+            "name": "РotРlayer-260422(1.7.22859)-x64-Stable.exe",
+            "category": "影音工具",
+            "version": "1.7.22859",
+            "description": "高性能本地影音播放器",
+            "homepage": "https://www.423down.com/3050.html",
+            "url": "https://423down.lanzouo.com/iPRE43nu4qbi",
             "hash": "auto",
             "checkver": [
                 {
-                    "apiurl": "https://www.faststone.org/FSViewerDownload.htm",
-                    "version": "FastStone Image Viewer ([\\d.]+)",
-                    "url": "<a class=\"button-primary\" href=\"([^\"]+)\""
+                    "apiurl": "https://www.423down.com/3050.html"
                 }
             ],
             "autoupdate": {
-                "name": "FSViewer_{version}.exe"
+                "url": "https://423down.lanzouo.com/iPRE43nu4qbi"
             }
         }
     },
     {
-        "filename": "steamcommunity.json",
+        "filename": "MusicTag.json",
         "content": {
-            "name": "steamcommunity",
-            "category": "其它工具",
-            "version": "1.5",
-            "description": "Steam 社区访问工具",
-            "homepage": "https://www.dogfight360.com/blog/18682/",
-            "url": "https://geekuninstaller.com/geek.zip",
+            "name": "MusicTag v1.0.9.0.zip",
+            "category": "影音工具",
+            "version": "v1.0.9.0",
+            "description": "编辑歌曲音乐标签",
+            "homepage": "https://www.52pojie.cn/thread-1687719-1-1.html",
+            "url": "https://wwn.lanzouy.com/i2pWg0bnlirg",
             "hash": "auto",
             "checkver": [
                 {
-                    "apiurl": "https://www.dogfight360.com/blog/18682/",
-                    "version": "<strong>下载: \\((V[\\d.]+)",
-                    "url": "<strong>常用<\\/strong><\\/mark>\\): <a href=\"([^\"]+)\""
+                    "apiurl": "https://www.52pojie.cn/thread-1687719-1-1.html"
                 }
             ],
             "autoupdate": {
-                "name": "steamcommunity_302_AMD64_{version}.zip"
-            }
-        }
-    },
-    {
-        "filename": "360File.json",
-        "content": {
-            "name": "360文件夹",
-            "category": "其它工具",
-            "version": "1.0.0",
-            "description": "360文件夹 多标签文件管理器",
-            "homepage": "https://baoku.360.cn/soft/show/appid/2000003908",
-            "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
-            "hash": "auto",
-            "checkver": {
-                "apiurl": "https://baoku.360.cn/soft/show/appid/2000003908",
-                "version": "版本([\\d.]+)"
-            },
-            "autoupdate": {
-                "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
-                "name": "360FileSetup_{version}.exe"
-            }
-        }
-    },
-    {
-        "filename": "YunXingKu.json",
-        "content": {
-            "name": "微软常用运行库合集",
-            "category": "运行库",
-            "version": "1.0.0.",
-            "description": "微软常用运行库合集 by Dreamcast",
-            "homepage": "https://wwa.lanzout.com/b0b8rs19a#9527",
-            "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
-            "hash": "auto",
-            "checkver": {
-                "apiurl": "https://www.423down.com/10835.html",
-                "version": "Build on ([\\d.]+)",
-                "url": "https://423down\\.lanzouo\\.com/[a-zA-Z0-9]+"
-            },
-            "autoupdate": {
-                "name": "微软常用运行库合集_{version}.exe"
-            }
-        }
-    },
-    {
-        "filename": "EmEditor.json",
-        "content": {
-            "name": "EmEditor_24.1.0_portable.zip",
-            "category": "文本办公",
-            "version": "24.1.0",
-            "description": "EmEditor_24.1.0_portable.zip",
-            "homepage": "https://www.emeditor.com/",
-            "url": "https://download.emeditor.info/emed64_24.1.0_portable.zip",
-            "notes": " 学习码: DMAZM-WHY52-AX222-ZQJXN-79JXH  ",
-            "checkver": {
-                "apiurl": "https://www.emeditor.com/"
-            },
-            "autoupdate": {
-                "url": "https://download.emeditor.info/emed64_{version}_portable.zip"
+                "url": "https://wwn.lanzouy.com/i2pWg0bnlirg"
             }
         }
     }

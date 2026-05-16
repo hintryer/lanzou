@@ -1,0 +1,17 @@
+{
+    "name": "РotРlayer-260422(1.7.22859)-x64-Stable.exe",
+    "category": "影音工具",
+    "version": "1.7.22859",
+    "description": "高性能本地影音播放器",
+    "homepage": "https://www.423down.com/3050.html",
+    "url": "https://423down.lanzouo.com/iPRE43nu4qbi",
+    "hash": "auto",
+    "checkver": [
+        {
+            "apiurl": "https://www.423down.com/3050.html"
+        }
+    ],
+    "autoupdate": {
+        "url": "https://423down.lanzouo.com/iPRE43nu4qbi"
+    }
+}

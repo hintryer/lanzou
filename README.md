@@ -6,6 +6,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 |  |  | 蓝奏云非官方客户端 | [主页](https://github.com/chenhb23/lanzouyun-disk) |  |
 |  |  | 局域网文件互传工具 | [主页](https://localsend.org/) |  |
+| Thunder_12.4.9.3918.exe | 12.4.9.3918 | Thunder | [主页](https://www.52pojie.cn/thread-2090717-1-1.html) | [下载](https://www.lanzouw.com/iWAtU3k3y9id) |
 
 ## 其它工具
 
@@ -23,6 +24,7 @@
 | FSViewer | 1.5 | FastStone Image Viewer 图片查看器 | [主页](https://www.faststone.org/) | [下载](https://geekuninstaller.com/geek.zip) |
 | GeekUninstaller | 1.5 | Geek 卸载工具 | [主页](https://geekuninstaller.com/) | [下载](https://geekuninstaller.com/geek.zip) |
 |  |  | 鼠标自动点击工具 | [主页](https://github.com/lalakii/MouseClickTool) |  |
+| ReNamerPro_7.9.0.0v2.exe | 7.9.0.0v2 | 文件改名 | [主页](https://www.52pojie.cn/thread-2064422-1-1.html) | [下载](https://kuguagantian.lanzoum.com/i4oW63ken4af) |
 
 ## 开发工具
 
@@ -38,8 +40,10 @@
 | ---- | ---- | ---- | ---- | ---- |
 |  |  | 音视频批量转换工具 | [主页](https://github.com/eibols/ffmpeg_batch) |  |
 |  |  | 简洁本地音乐播放器 | [主页](https://github.com/zhongyang219/MusicPlayer2) |  |
+| MusicTag v1.0.9.0.zip | v1.0.9.0 | 编辑歌曲音乐标签 | [主页](https://www.52pojie.cn/thread-1687719-1-1.html) | [下载](https://wwn.lanzouy.com/i2pWg0bnlirg) |
 |  |  | 音频转字幕工具 | [主页](https://github.com/cylind/scribe2srt) |  |
 |  |  | 视频字幕识别工具 | [主页](https://github.com/WEIFENG2333/VideoCaptioner) |  |
+| РotРlayer-260422(1.7.22859)-x64-Stable.exe | 1.7.22859 | 高性能本地影音播放器 | [主页](https://www.423down.com/3050.html) | [下载](https://423down.lanzouo.com/iPRE43nu4qbi) |
 
 ## 文本办公
 

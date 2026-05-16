@@ -1,0 +1,17 @@
+{
+    "name": "Thunder_12.4.9.3918.exe",
+    "category": "下载传输",
+    "version": "12.4.9.3918",
+    "description": "Thunder",
+    "homepage": "https://www.52pojie.cn/thread-2090717-1-1.html",
+    "url": "https://www.lanzouw.com/iWAtU3k3y9id",
+    "hash": "auto",
+    "checkver": [
+        {
+            "apiurl": "https://www.52pojie.cn/thread-2090717-1-1.html"
+        }
+    ],
+    "autoupdate": {
+        "url": "https://www.lanzouw.com/iWAtU3k3y9id"
+    }
+}
