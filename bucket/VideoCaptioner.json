@@ -1,10 +1,10 @@
 {
-    "name": "",
+    "name": "VideoCaptioner-Setup-win64-v1.3.3.exe",
     "category": "影音工具",
     "version": "",
     "description": "视频字幕识别工具",
     "homepage": "https://github.com/WEIFENG2333/VideoCaptioner",
-    "url": "",
+    "url": "https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe",
     "checkver": [
         {
             "apiurl": "https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/",
@@ -12,5 +12,9 @@
             "name": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].name",
             "version": "$.tag_name"
         }
-    ]
+    ],
+    "autoupdate": {
+        "name": "VideoCaptioner-Setup-win64-v1.3.3.exe",
+        "url": "https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe"
+    }
 }

@@ -162,7 +162,7 @@ def ceshi():
 if __name__ == "__main__":
     # ceshi()
     #run_update("./bucket/donet9.json")
-    print(fetch_data("https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/"))
+    # print(fetch_data("https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/"))
     run_all()
 
 

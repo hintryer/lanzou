@@ -115,7 +115,7 @@ def merge_json(input_folder="./bucket", output_file="./setting/result.json"):
         json.dump(merged_list, f, ensure_ascii=False, indent=4)
 
     print(f"\n🎉 合并完成！共 {len(merged_list)} 条数据")
-    print(f"📁 输出文件：{output_file}")
+    #print(f"📁 输出文件：{output_file}")
     return merged_list
 
 def json_to_markdown2(json_file="./setting/result.json", md_file="./setting/result.md"):
