@@ -272,6 +272,14 @@
         "url": "auto"
     },
     {
+        "name": "Umi-OCR",
+        "category": "图像相关",
+        "version": "2.1.5",
+        "description": "免费 开源 可批量的离线OCR软件",
+        "homepage": "https://github.com/hiroi-sora/Umi-OCR",
+        "url": ""
+    },
+    {
         "name": "",
         "category": "影音工具",
         "version": "",

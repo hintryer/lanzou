@@ -31,6 +31,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 | FSCapture.zip | 1.5 | 屏幕录制、滚动截图 | [主页](https://www.faststone.org/FSCaptureDetail.htm) | [下载](https://geekuninstaller.com/geek.zip) |
 | FSViewer | 1.5 | FSViewer图片查看器 | [主页](https://www.faststone.org/) | [下载](https://geekuninstaller.com/geek.zip) |
+| Umi-OCR | 2.1.5 | 免费 开源 可批量的离线OCR软件 | [主页](https://github.com/hiroi-sora/Umi-OCR) |  |
 
 ## 开发工具
 

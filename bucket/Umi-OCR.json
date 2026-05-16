@@ -1,0 +1,16 @@
+{
+    "name": "Umi-OCR",
+    "category": "图像相关",
+    "version": "2.1.5",
+    "description": "免费 开源 可批量的离线OCR软件",
+    "homepage": "https://github.com/hiroi-sora/Umi-OCR",
+    "url": "",
+    "checkver": [
+        {
+            "apiurl": "https://api.github.com/repos/hiroi-sora/Umi-OC/releases/latest",
+            "url": "$.assets[?(@.name =~ /.*Paddle.*/)].browser_download_url",
+            "name": "$.assets[?(@.name =~ /.*Paddle.*/)].name",
+            "version": "$.tag_name"
+        }
+    ]
+}
