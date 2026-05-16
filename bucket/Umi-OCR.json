@@ -7,7 +7,7 @@
     "url": "",
     "checkver": [
         {
-            "apiurl": "https://api.github.com/repos/hiroi-sora/Umi-OC/releases/latest",
+            "apiurl": "https://api.github.com/repos/hiroi-sora/Umi-OCR/releases/latest",
             "url": "$.assets[?(@.name =~ /.*Paddle.*/)].browser_download_url",
             "name": "$.assets[?(@.name =~ /.*Paddle.*/)].name",
             "version": "$.tag_name"

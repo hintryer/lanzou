@@ -8,7 +8,7 @@
     "hash": "auto",
     "checkver": [
         {
-            "apiurl": "https://www.faststone.org/FSViewerDownload.htm",
+            "apiurl": "https://www.faststone.org/FSCaptureDownload.htm",
             "version": "<h2 class=\"product-name\">FastStone Capture ([\\d.]+)</h2>",
             "url": "href=\"([^\"]+)\">Portable</a>"
         }
