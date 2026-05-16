@@ -113,7 +113,7 @@ def run_all(bucket_dir="bucket"):
         # 只处理 .json 文件
         if filename.endswith(".json"):
             file_path = os.path.join(bucket_dir, filename)
-
+            print(f"正在处理：{filename}")
             # 对每个文件执行 run_checkver
             run_checkver(file_path)
             run_update(file_path)
@@ -122,34 +122,36 @@ def run_all(bucket_dir="bucket"):
 
 def update_url(json_path):
     config = load_json(json_path)
-    final_result = {}
-    url=jsonpath.findall("$.url", config)
+    
     # 提取 url
     url_list = jsonpath.findall("$.url", config)
     
-    # ========== 安全判断：防止空、防止 None ==========
+    # 安全判断：防止空、防止 None
     if not url_list or url_list[0] is None:
+        return {}
+
+    url = url_list[0].strip()
+    
+    # ==============================================
+    # 只有 Github 才处理：添加 oldurl + 替换代理
+    # ==============================================
+    if "github" in url.lower():
+        oldurl = url
+        real_down_url = "https://gh-proxy.com/" + url
+        
         final_result = {
-            "Url": "",
-            "oldurl": ""
+            "url": real_down_url,
+            "oldurl": oldurl
         }
+        
+        config.update(final_result)
+        save_json(config, json_path)   
         return final_result
 
-    url = url_list[0].strip()  # 安全取出
-    oldurl = url
-    real_down_url = url
-
-    if "github" in url.lower():
-        real_down_url = "https://gh-proxy.com/" + url
-
-    final_result = {
-        "url": real_down_url,    # 解析后的直链
-        "oldurl": oldurl         # 原始传入的URL
-    }
-
-    config.update(final_result)
-    save_json(config,json_path)   
-    return final_result            
+    # ==============================================
+    # 非 Github：什么都不做，直接返回空
+    # ==============================================
+    return {}          
 
 def ceshi():
     item = "url"
