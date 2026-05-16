@@ -166,5 +166,45 @@
                 "url": "https://download.emeditor.info/emed64_{version}_portable.zip"
             }
         }
+    },
+    {
+        "filename": "MusicTag.json",
+        "content": {
+            "name": "MusicTag v1.0.9.0.zip",
+            "category": "影音工具",
+            "version": "v1.0.9.0",
+            "description": "编辑歌曲音乐标签",
+            "homepage": "https://www.52pojie.cn/thread-1687719-1-1.html",
+            "url": "https://wwn.lanzouy.com/i2pWg0bnlirg",
+            "hash": "auto",
+            "checkver": [
+                {
+                    "apiurl": "https://www.52pojie.cn/thread-1687719-1-1.html"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://wwn.lanzouy.com/i2pWg0bnlirg"
+            }
+        }
+    },
+    {
+        "filename": "ClickMonitorDDC.json",
+        "content": {
+            "name": "ClickMonitorDDC 7.2.zip",
+            "category": "单文件",
+            "version": "7.2",
+            "description": "最完美的亮度调节软件",
+            "homepage": "https://www.52pojie.cn/thread-1761083-1-1.html",
+            "url": "https://wwi.lanzoup.com/iiahR0rcr4cd",
+            "hash": "auto",
+            "checkver": [
+                {
+                    "apiurl": "https://www.52pojie.cn/thread-1761083-1-1.html"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://wwi.lanzoup.com/iiahR0rcr4cd"
+            }
+        }
     }
 ]

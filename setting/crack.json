@@ -57,25 +57,5 @@
                 "url": "https://423down.lanzouo.com/iPRE43nu4qbi"
             }
         }
-    },
-    {
-        "filename": "MusicTag.json",
-        "content": {
-            "name": "MusicTag v1.0.9.0.zip",
-            "category": "影音工具",
-            "version": "v1.0.9.0",
-            "description": "编辑歌曲音乐标签",
-            "homepage": "https://www.52pojie.cn/thread-1687719-1-1.html",
-            "url": "https://wwn.lanzouy.com/i2pWg0bnlirg",
-            "hash": "auto",
-            "checkver": [
-                {
-                    "apiurl": "https://www.52pojie.cn/thread-1687719-1-1.html"
-                }
-            ],
-            "autoupdate": {
-                "url": "https://wwn.lanzouy.com/i2pWg0bnlirg"
-            }
-        }
     }
 ]
