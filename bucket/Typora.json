@@ -1,9 +1,9 @@
 {
-    "name": "",
+    "name": "Typora",
     "category": "文本办公",
-    "version": "",
-    "description": " Markdown 编辑器和阅读器",
-    "homepage": "https://gitforwindows.org/",
+    "version": "auto",
+    "description": "Markdown 编辑器和阅读器",
+    "homepage": "https://typora.io/",
     "url": "",
     "checkver": [
         {

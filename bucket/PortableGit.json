@@ -1,7 +1,7 @@
 {
-    "name": "",
+    "name": "PortableGit",
     "category": "开发工具",
-    "version": "",
+    "version": "auto",
     "description": "便携版Git版本控制工具",
     "homepage": "https://gitforwindows.org/",
     "url": "",

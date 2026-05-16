@@ -1,7 +1,7 @@
 {
-    "name": "",
+    "name": "FFmpeg_Essentials",
     "category": "开发工具",
-    "version": "",
+    "version": "auto",
     "description": "精简版音视频处理工具",
     "homepage": "https://ffmpeg.org/",
     "url": "",

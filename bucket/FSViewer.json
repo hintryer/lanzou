@@ -1,8 +1,8 @@
 {
     "name": "FSViewer",
     "category": "图像相关",
-    "version": "1.5",
-    "description": "FSViewer图片查看器",
+    "version": "auto",
+    "description": "FastStone 图片查看器",
     "homepage": "https://www.faststone.org/",
     "url": "https://www.faststonesoft.net/DN/FSViewerSetup83.exe",
     "hash": "auto",

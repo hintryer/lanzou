@@ -4,7 +4,7 @@
     "version": "auto",
     "description": "轻量版广告拦截",
     "homepage": "https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh",
-    "url": "auto",
+    "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc&prodversion=130.0.0.0",
     "hash": "auto",
     "checkver": {
         "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",

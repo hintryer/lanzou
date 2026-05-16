@@ -1,7 +1,7 @@
 {
-    "name": "",
+    "name": "FFmpeg_Batch_AV_Converter",
     "category": "影音工具",
-    "version": "",
+    "version": "auto",
     "description": "音视频批量转换工具",
     "homepage": "https://github.com/eibols/ffmpeg_batch",
     "url": "",

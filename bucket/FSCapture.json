@@ -1,11 +1,11 @@
 {
     "name": "FSCapture.zip",
     "category": "图像相关",
-    "version": "1.5",
-    "description": "屏幕录制、滚动截图",
+    "version": "auto",
+    "description": "屏幕录制、滚动截图工具",
     "homepage": "https://www.faststone.org/FSCaptureDetail.htm",
     "url": "https://www.faststonesoft.net/DN/FSCapture112.zip",
-    "notes": " 学习码: BXRQE-RMMXB-QRFSZ-CVVOX",
+    "notes": "学习码: BXRQE-RMMXB-QRFSZ-CVVOX",
     "hash": "auto",
     "checkver": [
         {

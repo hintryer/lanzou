@@ -1,7 +1,7 @@
 {
-    "name": "",
+    "name": "LocalSend",
     "category": "下载传输",
-    "version": "",
+    "version": "auto",
     "description": "局域网文件互传工具",
     "homepage": "https://localsend.org/",
     "url": "",

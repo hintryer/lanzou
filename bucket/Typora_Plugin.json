@@ -1,8 +1,8 @@
 {
-    "name": "",
+    "name": "Typora_Plugin",
     "category": "文本办公",
-    "version": "",
-    "description": " Typora_Plugin",
+    "version": "auto",
+    "description": "Typora 增强插件",
     "homepage": "https://github.com/obgnail/typora_plugin",
     "url": "",
     "checkver": [

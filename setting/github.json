@@ -1,62 +1,5 @@
 [
     {
-        "filename": "MouseClickTool.json",
-        "content": {
-            "name": "",
-            "category": "单文件",
-            "version": "",
-            "description": "鼠标自动点击工具",
-            "homepage": "https://github.com/lalakii/MouseClickTool",
-            "url": "",
-            "checkver": [
-                {
-                    "apiurl": "https://api.github.com/repos/lalakii/MouseClickTool/releases/latest",
-                    "url": "$.assets[?(@.name =~ /MouseClickTool.exe/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /MouseClickTool.exe/)].name",
-                    "version": "$.tag_name"
-                }
-            ]
-        }
-    },
-    {
-        "filename": "Notepad4.json",
-        "content": {
-            "name": "",
-            "category": "文本办公",
-            "version": "",
-            "description": "轻量级文本编辑器",
-            "homepage": "https://github.com/zufuliu/notepad4",
-            "url": "",
-            "checkver": [
-                {
-                    "apiurl": "https://api.github.com/repos/zufuliu/notepad4/releases/latest",
-                    "url": "$.assets[?(@.name =~ /Notepad4.*zh-Hans_x64.*/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /Notepad4.*zh-Hans_x64.*/)].name",
-                    "version": "$.tag_name"
-                }
-            ]
-        }
-    },
-    {
-        "filename": "MusicPlayer2.json",
-        "content": {
-            "name": "",
-            "category": "影音工具",
-            "version": "",
-            "description": "简洁本地音乐播放器",
-            "homepage": "https://github.com/zhongyang219/MusicPlayer2",
-            "url": "",
-            "checkver": [
-                {
-                    "apiurl": "https://api.github.com/repos/zhongyang219/MusicPlayer2/releases/latest",
-                    "url": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].browser_download_url",
-                    "name": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].name",
-                    "version": "$.tag_name"
-                }
-            ]
-        }
-    },
-    {
         "filename": "VideoCaptioner.json",
         "content": {
             "name": "VideoCaptioner-Setup-win64-v1.3.3.exe",
@@ -80,11 +23,68 @@
         }
     },
     {
+        "filename": "MouseClickTool.json",
+        "content": {
+            "name": "MouseClickTool",
+            "category": "单文件",
+            "version": "auto",
+            "description": "鼠标自动点击工具",
+            "homepage": "https://github.com/lalakii/MouseClickTool",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/lalakii/MouseClickTool/releases/latest",
+                    "url": "$.assets[?(@.name =~ /MouseClickTool.exe/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /MouseClickTool.exe/)].name",
+                    "version": "$.tag_name"
+                }
+            ]
+        }
+    },
+    {
+        "filename": "Notepad4.json",
+        "content": {
+            "name": "Notepad4",
+            "category": "文本办公",
+            "version": "auto",
+            "description": "轻量级文本编辑器",
+            "homepage": "https://github.com/zufuliu/notepad4",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/zufuliu/notepad4/releases/latest",
+                    "url": "$.assets[?(@.name =~ /Notepad4.*zh-Hans_x64.*/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /Notepad4.*zh-Hans_x64.*/)].name",
+                    "version": "$.tag_name"
+                }
+            ]
+        }
+    },
+    {
+        "filename": "MusicPlayer2.json",
+        "content": {
+            "name": "MusicPlayer2",
+            "category": "影音工具",
+            "version": "auto",
+            "description": "简洁本地音乐播放器",
+            "homepage": "https://github.com/zhongyang219/MusicPlayer2",
+            "url": "",
+            "checkver": [
+                {
+                    "apiurl": "https://api.github.com/repos/zhongyang219/MusicPlayer2/releases/latest",
+                    "url": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].browser_download_url",
+                    "name": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].name",
+                    "version": "$.tag_name"
+                }
+            ]
+        }
+    },
+    {
         "filename": "Scribe2SRT.json",
         "content": {
-            "name": "",
+            "name": "Scribe2SRT",
             "category": "影音工具",
-            "version": "",
+            "version": "auto",
             "description": "音频转字幕工具",
             "homepage": "https://github.com/cylind/scribe2srt",
             "url": "",
@@ -101,9 +101,9 @@
     {
         "filename": "FFmpeg_Batch_AV_Converter.json",
         "content": {
-            "name": "",
+            "name": "FFmpeg_Batch_AV_Converter",
             "category": "影音工具",
-            "version": "",
+            "version": "auto",
             "description": "音视频批量转换工具",
             "homepage": "https://github.com/eibols/ffmpeg_batch",
             "url": "",
@@ -120,9 +120,9 @@
     {
         "filename": "LanZouYun.json",
         "content": {
-            "name": "",
+            "name": "LanZouYun",
             "category": "下载传输",
-            "version": "",
+            "version": "auto",
             "description": "蓝奏云非官方客户端",
             "homepage": "https://github.com/chenhb23/lanzouyun-disk",
             "url": "",
@@ -139,9 +139,9 @@
     {
         "filename": "LocalSend.json",
         "content": {
-            "name": "",
+            "name": "LocalSend",
             "category": "下载传输",
-            "version": "",
+            "version": "auto",
             "description": "局域网文件互传工具",
             "homepage": "https://localsend.org/",
             "url": "",
@@ -158,9 +158,9 @@
     {
         "filename": "Bili23-Downloader.json",
         "content": {
-            "name": "",
+            "name": "Bili23-Downloader",
             "category": "其它工具",
-            "version": "",
+            "version": "auto",
             "description": "B站视频下载工具",
             "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
             "url": "",
@@ -180,9 +180,9 @@
     {
         "filename": "Clash-verge-rev.json",
         "content": {
-            "name": "",
+            "name": "Clash-verge-rev",
             "category": "其它工具",
-            "version": "",
+            "version": "auto",
             "description": "Clash图形化代理客户端",
             "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
             "url": "",
@@ -199,9 +199,9 @@
     {
         "filename": "FFmpeg_Essentials.json",
         "content": {
-            "name": "",
+            "name": "FFmpeg_Essentials",
             "category": "开发工具",
-            "version": "",
+            "version": "auto",
             "description": "精简版音视频处理工具",
             "homepage": "https://ffmpeg.org/",
             "url": "",
@@ -218,9 +218,9 @@
     {
         "filename": "FFmpeg_Full.json",
         "content": {
-            "name": "",
+            "name": "FFmpeg_Full",
             "category": "开发工具",
-            "version": "",
+            "version": "auto",
             "description": "完整版音视频处理工具",
             "homepage": "https://ffmpeg.org/",
             "url": "",
@@ -237,9 +237,9 @@
     {
         "filename": "PortableGit.json",
         "content": {
-            "name": "",
+            "name": "PortableGit",
             "category": "开发工具",
-            "version": "",
+            "version": "auto",
             "description": "便携版Git版本控制工具",
             "homepage": "https://gitforwindows.org/",
             "url": "",
@@ -256,11 +256,11 @@
     {
         "filename": "Typora.json",
         "content": {
-            "name": "",
+            "name": "Typora",
             "category": "文本办公",
-            "version": "",
-            "description": " Markdown 编辑器和阅读器",
-            "homepage": "https://gitforwindows.org/",
+            "version": "auto",
+            "description": "Markdown 编辑器和阅读器",
+            "homepage": "https://typora.io/",
             "url": "",
             "checkver": [
                 {
@@ -275,11 +275,11 @@
     {
         "filename": "Typora_Crack.json",
         "content": {
-            "name": "",
+            "name": "Typora_Crack",
             "category": "文本办公",
-            "version": "",
-            "description": " Typora_Crack",
-            "homepage": "https://gitforwindows.org/",
+            "version": "auto",
+            "description": "Typora 激活补丁工具",
+            "homepage": "https://github.com/Delppine1024/TGreen",
             "url": "",
             "checkver": [
                 {
@@ -294,10 +294,10 @@
     {
         "filename": "Typora_Plugin.json",
         "content": {
-            "name": "",
+            "name": "Typora_Plugin",
             "category": "文本办公",
-            "version": "",
-            "description": " Typora_Plugin",
+            "version": "auto",
+            "description": "Typora 增强插件",
             "homepage": "https://github.com/obgnail/typora_plugin",
             "url": "",
             "checkver": [
@@ -315,8 +315,8 @@
         "content": {
             "name": "Umi-OCR",
             "category": "图像相关",
-            "version": "2.1.5",
-            "description": "免费 开源 可批量的离线OCR软件",
+            "version": "auto",
+            "description": "免费开源可批量离线OCR软件",
             "homepage": "https://github.com/hiroi-sora/Umi-OCR",
             "url": "",
             "checkver": [

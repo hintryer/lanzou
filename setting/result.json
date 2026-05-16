@@ -2,15 +2,15 @@
     {
         "name": "360文件夹",
         "category": "其它工具",
-        "version": "1.0.0",
-        "description": "360文件夹 多标签文件管理器",
+        "version": "auto",
+        "description": "360多标签文件管理器",
         "homepage": "https://baoku.360.cn/soft/show/appid/2000003908",
         "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140"
     },
     {
-        "name": "",
+        "name": "Bili23-Downloader",
         "category": "其它工具",
-        "version": "",
+        "version": "auto",
         "description": "B站视频下载工具",
         "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
         "url": ""
@@ -32,89 +32,89 @@
         "url": ""
     },
     {
-        "name": "",
+        "name": "Clash-verge-rev",
         "category": "其它工具",
-        "version": "",
+        "version": "auto",
         "description": "Clash图形化代理客户端",
         "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
         "url": ""
     },
     {
-        "name": "ClickMonitorDDC 7.2.zip",
+        "name": "ClickMonitorDDC",
         "category": "单文件",
-        "version": "7.2",
-        "description": "最完美的亮度调节软件",
+        "version": " 7.2",
+        "description": "显示器亮度音量调节软件",
         "homepage": "https://www.52pojie.cn/thread-1761083-1-1.html",
         "url": "https://wwi.lanzoup.com/iiahR0rcr4cd"
     },
     {
         "name": "dotnet-runtime-10.0-win-x64.exe",
         "category": "运行库",
-        "version": "10.0",
+        "version": "10.0.0-preview7",
         "description": ".NET 10 Runtime",
         "homepage": "https://dotnet.microsoft.com/",
-        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0/dotnet-runtime-10.0-win-x64.exe"
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.0-preview7/dotnet-runtime-10.0.0-preview7-win-x64.exe"
     },
     {
         "name": "dotnet-runtime-6.0-win-x64.exe",
         "category": "运行库",
-        "version": "6.0",
+        "version": "6.0.36",
         "description": ".NET 6 Runtime",
         "homepage": "https://dotnet.microsoft.com/",
-        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/6.0/dotnet-runtime-6.0-win-x64.exe"
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/6.0.36/dotnet-runtime-6.0.36-win-x64.exe"
     },
     {
         "name": "dotnet-runtime-7.0-win-x64.exe",
         "category": "运行库",
-        "version": "7.0",
+        "version": "7.0.20",
         "description": ".NET 7 Runtime",
         "homepage": "https://dotnet.microsoft.com/",
-        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0/dotnet-runtime-7.0-win-x64.exe"
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe"
     },
     {
         "name": "dotnet-runtime-8.0-win-x64.exe",
         "category": "运行库",
-        "version": "8.0",
+        "version": "8.0.11",
         "description": ".NET 8 Runtime",
         "homepage": "https://dotnet.microsoft.com/",
-        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0/dotnet-runtime-8.0-win-x64.exe"
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.11/dotnet-runtime-8.0.11-win-x64.exe"
     },
     {
-        "name": "dotnet-runtime-9.0.15-win-x64.exe",
+        "name": "dotnet-runtime-9.0-win-x64.exe",
         "category": "运行库",
-        "version": "9.0.15",
+        "version": "9.0.2",
         "description": ".NET 9 Runtime",
         "homepage": "https://dotnet.microsoft.com/",
-        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.15/dotnet-runtime-9.0.15-win-x64.exe"
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.2/dotnet-runtime-9.0.2-win-x64.exe"
     },
     {
-        "name": "EmEditor_24.1.0_portable.zip",
+        "name": "EmEditor_portable.zip",
         "category": "文本办公",
         "version": "24.1.0",
-        "description": "EmEditor_24.1.0_portable.zip",
+        "description": "高性能文本编辑器",
         "homepage": "https://www.emeditor.com/",
         "url": "https://download.emeditor.info/emed64_24.1.0_portable.zip"
     },
     {
-        "name": "",
+        "name": "FFmpeg_Batch_AV_Converter",
         "category": "影音工具",
-        "version": "",
+        "version": "auto",
         "description": "音视频批量转换工具",
         "homepage": "https://github.com/eibols/ffmpeg_batch",
         "url": ""
     },
     {
-        "name": "",
+        "name": "FFmpeg_Essentials",
         "category": "开发工具",
-        "version": "",
+        "version": "auto",
         "description": "精简版音视频处理工具",
         "homepage": "https://ffmpeg.org/",
         "url": ""
     },
     {
-        "name": "",
+        "name": "FFmpeg_Full",
         "category": "开发工具",
-        "version": "",
+        "version": "auto",
         "description": "完整版音视频处理工具",
         "homepage": "https://ffmpeg.org/",
         "url": ""
@@ -122,31 +122,31 @@
     {
         "name": "FSCapture.zip",
         "category": "图像相关",
-        "version": "1.5",
-        "description": "屏幕录制、滚动截图",
+        "version": "auto",
+        "description": "屏幕录制、滚动截图工具",
         "homepage": "https://www.faststone.org/FSCaptureDetail.htm",
         "url": "https://www.faststonesoft.net/DN/FSCapture112.zip"
     },
     {
         "name": "FSViewer",
         "category": "图像相关",
-        "version": "1.5",
-        "description": "FSViewer图片查看器",
+        "version": "auto",
+        "description": "FastStone 图片查看器",
         "homepage": "https://www.faststone.org/",
         "url": "https://www.faststonesoft.net/DN/FSViewerSetup83.exe"
     },
     {
         "name": "GeekUninstaller",
         "category": "单文件",
-        "version": "1.5",
+        "version": "auto",
         "description": "Geek 卸载工具",
         "homepage": "https://geekuninstaller.com/",
         "url": "https://geekuninstaller.com/geek.zip"
     },
     {
-        "name": "",
+        "name": "LanZouYun",
         "category": "下载传输",
-        "version": "",
+        "version": "auto",
         "description": "蓝奏云非官方客户端",
         "homepage": "https://github.com/chenhb23/lanzouyun-disk",
         "url": ""
@@ -157,52 +157,52 @@
         "version": "auto",
         "description": "Free Password Manager",
         "homepage": "https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd",
-        "url": "auto"
+        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc&prodversion=130.0.0.0"
     },
     {
-        "name": "",
+        "name": "LocalSend",
         "category": "下载传输",
-        "version": "",
+        "version": "auto",
         "description": "局域网文件互传工具",
         "homepage": "https://localsend.org/",
         "url": ""
     },
     {
-        "name": "",
+        "name": "MouseClickTool",
         "category": "单文件",
-        "version": "",
+        "version": "auto",
         "description": "鼠标自动点击工具",
         "homepage": "https://github.com/lalakii/MouseClickTool",
         "url": ""
     },
     {
-        "name": "",
+        "name": "MusicPlayer2",
         "category": "影音工具",
-        "version": "",
+        "version": "auto",
         "description": "简洁本地音乐播放器",
         "homepage": "https://github.com/zhongyang219/MusicPlayer2",
         "url": ""
     },
     {
-        "name": "MusicTag v1.0.9.0.zip",
+        "name": "MusicTag",
         "category": "影音工具",
         "version": "v1.0.9.0",
-        "description": "编辑歌曲音乐标签",
+        "description": "歌曲音乐标签编辑工具",
         "homepage": "https://www.52pojie.cn/thread-1687719-1-1.html",
         "url": "https://wwn.lanzouy.com/i2pWg0bnlirg"
     },
     {
-        "name": "",
+        "name": "Notepad4",
         "category": "文本办公",
-        "version": "",
+        "version": "auto",
         "description": "轻量级文本编辑器",
         "homepage": "https://github.com/zufuliu/notepad4",
         "url": ""
     },
     {
-        "name": "",
+        "name": "PortableGit",
         "category": "开发工具",
-        "version": "",
+        "version": "auto",
         "description": "便携版Git版本控制工具",
         "homepage": "https://gitforwindows.org/",
         "url": ""
@@ -213,12 +213,12 @@
         "version": "auto",
         "description": "代理切换工具",
         "homepage": "https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped",
-        "url": "auto"
+        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc&prodversion=130.0.0.0"
     },
     {
         "name": "QQWubi_Setup.exe",
         "category": "文本办公",
-        "version": "2.4",
+        "version": "auto",
         "description": "QQ五笔输入法",
         "homepage": "https://qq.pinyin.cn/wubi/",
         "url": "https://qq.pinyin.cn/download_pc.php?t=wb"
@@ -232,9 +232,9 @@
         "url": "https://kuguagantian.lanzoum.com/i4oW63ken4af"
     },
     {
-        "name": "",
+        "name": "Scribe2SRT",
         "category": "影音工具",
-        "version": "",
+        "version": "auto",
         "description": "音频转字幕工具",
         "homepage": "https://github.com/cylind/scribe2srt",
         "url": ""
@@ -245,15 +245,15 @@
         "version": "auto",
         "description": "网页单文件保存",
         "homepage": "https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle",
-        "url": "auto"
+        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc&prodversion=130.0.0.0"
     },
     {
         "name": "Steamcommunity",
         "category": "其它工具",
-        "version": "1.5",
-        "description": "Steam 社区访问工具",
+        "version": "auto",
+        "description": "Steam 社区访问加速工具",
         "homepage": "https://www.dogfight360.com/blog/18682/",
-        "url": "https://geekuninstaller.com/geek.zip"
+        "url": "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip"
     },
     {
         "name": "Thunder_12.4.9.3918.exe",
@@ -264,26 +264,26 @@
         "url": "https://www.lanzouw.com/iWAtU3k3y9id"
     },
     {
-        "name": "",
+        "name": "Typora",
         "category": "文本办公",
-        "version": "",
-        "description": " Markdown 编辑器和阅读器",
-        "homepage": "https://gitforwindows.org/",
+        "version": "auto",
+        "description": "Markdown 编辑器和阅读器",
+        "homepage": "https://typora.io/",
         "url": ""
     },
     {
-        "name": "",
+        "name": "Typora_Crack",
         "category": "文本办公",
-        "version": "",
-        "description": " Typora_Crack",
-        "homepage": "https://gitforwindows.org/",
+        "version": "auto",
+        "description": "Typora 激活补丁工具",
+        "homepage": "https://github.com/Delppine1024/TGreen",
         "url": ""
     },
     {
-        "name": "",
+        "name": "Typora_Plugin",
         "category": "文本办公",
-        "version": "",
-        "description": " Typora_Plugin",
+        "version": "auto",
+        "description": "Typora 增强插件",
         "homepage": "https://github.com/obgnail/typora_plugin",
         "url": ""
     },
@@ -293,13 +293,13 @@
         "version": "auto",
         "description": "轻量版广告拦截",
         "homepage": "https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh",
-        "url": "auto"
+        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc&prodversion=130.0.0.0"
     },
     {
         "name": "Umi-OCR",
         "category": "图像相关",
-        "version": "2.1.5",
-        "description": "免费 开源 可批量的离线OCR软件",
+        "version": "auto",
+        "description": "免费开源可批量离线OCR软件",
         "homepage": "https://github.com/hiroi-sora/Umi-OCR",
         "url": ""
     },
@@ -314,8 +314,8 @@
     {
         "name": "微软常用运行库合集",
         "category": "运行库",
-        "version": "1.0.0.",
-        "description": "微软常用运行库合集 by Dreamcast",
+        "version": "auto",
+        "description": "微软常用运行库合集",
         "homepage": "https://wwa.lanzout.com/b0b8rs19a#9527",
         "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140"
     },
@@ -333,7 +333,7 @@
         "version": "auto",
         "description": "AI 网页翻译插件",
         "homepage": "https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
-        "url": "auto"
+        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc&prodversion=130.0.0.0"
     },
     {
         "name": "猫抓",
@@ -341,7 +341,7 @@
         "version": "auto",
         "description": "媒体资源嗅探下载",
         "homepage": "https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb",
-        "url": "auto"
+        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc&prodversion=130.0.0.0"
     },
     {
         "name": "篡改猴测试版",
@@ -349,7 +349,7 @@
         "version": "auto",
         "description": "脚本管理工具（红色版）",
         "homepage": "https://www.crxsoso.com/webstore/detail/gcalenpjmijncebpfijmoaglllgpjagf",
-        "url": "auto"
+        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dgcalenpjmijncebpfijmoaglllgpjagf%26uc&prodversion=130.0.0.0"
     },
     {
         "name": "解除网页复制限制",
@@ -357,7 +357,7 @@
         "version": "auto",
         "description": "网页限制解除",
         "homepage": "https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm",
-        "url": "auto"
+        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc&prodversion=130.0.0.0"
     },
     {
         "name": "超级拖拽",
@@ -365,6 +365,6 @@
         "version": "auto",
         "description": "超级拖拽 + 鼠标手势",
         "homepage": "https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg",
-        "url": "auto"
+        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc&prodversion=130.0.0.0"
     }
 ]
