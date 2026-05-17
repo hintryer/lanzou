@@ -12,5 +12,8 @@
             "name": "$.assets[?(@.name =~ /.*x64.*/)].name",
             "version": "$.tag_name"
         }
-    ]
+    ],
+    "autoupdate": {
+        "name": "chrome_{version}_uncompressed.exe"
+    }
 }
