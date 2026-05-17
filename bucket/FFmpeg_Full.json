@@ -1,16 +1,17 @@
 {
-    "name": "FFmpeg_Full",
-    "category": "开发工具",
-    "version": "auto",
-    "description": "完整版音视频处理工具",
-    "homepage": "https://ffmpeg.org/",
-    "url": "",
-    "checkver": [
-        {
-            "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
-            "url": "$.assets[?(@.name =~ /.*full_build.7z/)].browser_download_url",
-            "name": "$.assets[?(@.name =~ /.*full_build.7z/)].name",
-            "version": "$.tag_name"
-        }
-    ]
+  "name": "ffmpeg-8.1.1-full_build.7z",
+  "category": "开发工具",
+  "version": "8.1.1",
+  "description": "完整版音视频处理工具",
+  "homepage": "https://ffmpeg.org/",
+  "url": "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-full_build.7z",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
+      "url": "$.assets[?(@.name =~ /.*full_build.7z/)].browser_download_url",
+      "name": "$.assets[?(@.name =~ /.*full_build.7z/)].name",
+      "version": "$.tag_name"
+    }
+  ],
+  "oldurl": "https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-full_build.7z"
 }

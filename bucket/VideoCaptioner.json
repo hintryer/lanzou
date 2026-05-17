@@ -1,21 +1,22 @@
 {
-    "name": "VideoCaptioner-Setup-win64-v1.3.3.exe",
-    "category": "影音工具",
-    "version": "v1.3.3",
-    "description": "视频字幕识别工具",
-    "homepage": "https://github.com/WEIFENG2333/VideoCaptioner",
-    "url": "https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe",
-    "checkver": [
-        {
-            "apiurl": "https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/",
-            "url": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].browser_download_url",
-            "name": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].name",
-            "version": "$.tag_name"
-        }
-    ],
-    "autoupdate": {
-        "name": "VideoCaptioner-Setup-win64-v1.3.3.exe",
-        "version": "1.3.3",
-        "url": "https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe"
+  "name": "VideoCaptioner-Setup-win64-v1.3.3.exe",
+  "category": "影音工具",
+  "version": "1.3.3",
+  "description": "视频字幕识别工具",
+  "homepage": "https://github.com/WEIFENG2333/VideoCaptioner",
+  "url": "https://gh-proxy.com/https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/",
+      "url": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].browser_download_url",
+      "name": "$.assets[?(@.name =~ /VideoCaptioner.*win64.*/)].name",
+      "version": "$.tag_name"
     }
+  ],
+  "autoupdate": {
+    "name": "VideoCaptioner-Setup-win64-v1.3.3.exe",
+    "version": "1.3.3",
+    "url": "https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe"
+  },
+  "oldurl": "https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe"
 }

@@ -1,16 +1,17 @@
 {
-    "name": "LocalSend",
-    "category": "下载传输",
-    "version": "auto",
-    "description": "局域网文件互传工具",
-    "homepage": "https://localsend.org/",
-    "url": "",
-    "checkver": [
-        {
-            "apiurl": "https://api.github.com/repos/localsend/localsend/releases/latest",
-            "url": "$.assets[?(@.name =~ /.*windows-x86-64.zip/)].browser_download_url",
-            "name": "$.assets[?(@.name =~ /.*windows-x86-64.zip/)].name",
-            "version": "$.tag_name"
-        }
-    ]
+  "name": "LocalSend-1.17.0-windows-x86-64.zip",
+  "category": "下载传输",
+  "version": "v1.17.0",
+  "description": "局域网文件互传工具",
+  "homepage": "https://localsend.org/",
+  "url": "https://gh-proxy.com/https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-windows-x86-64.zip",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/localsend/localsend/releases/latest",
+      "url": "$.assets[?(@.name =~ /.*windows-x86-64.zip/)].browser_download_url",
+      "name": "$.assets[?(@.name =~ /.*windows-x86-64.zip/)].name",
+      "version": "$.tag_name"
+    }
+  ],
+  "oldurl": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-windows-x86-64.zip"
 }

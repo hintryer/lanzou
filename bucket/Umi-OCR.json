@@ -1,16 +1,17 @@
 {
-    "name": "Umi-OCR",
-    "category": "图像相关",
-    "version": "auto",
-    "description": "免费开源可批量离线OCR软件",
-    "homepage": "https://github.com/hiroi-sora/Umi-OCR",
-    "url": "",
-    "checkver": [
-        {
-            "apiurl": "https://api.github.com/repos/hiroi-sora/Umi-OCR/releases/latest",
-            "url": "$.assets[?(@.name =~ /.*Paddle.*exe/)].browser_download_url",
-            "name": "$.assets[?(@.name =~ /.*Paddle.*exe/)].name",
-            "version": "$.tag_name"
-        }
-    ]
+  "name": "Umi-OCR_Paddle_v2.1.5.7z.exe",
+  "category": "图像相关",
+  "version": "v2.1.5",
+  "description": "免费开源可批量离线OCR软件",
+  "homepage": "https://github.com/hiroi-sora/Umi-OCR",
+  "url": "https://gh-proxy.com/https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.5/Umi-OCR_Paddle_v2.1.5.7z.exe",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/hiroi-sora/Umi-OCR/releases/latest",
+      "url": "$.assets[?(@.name =~ /.*Paddle.*exe/)].browser_download_url",
+      "name": "$.assets[?(@.name =~ /.*Paddle.*exe/)].name",
+      "version": "$.tag_name"
+    }
+  ],
+  "oldurl": "https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.5/Umi-OCR_Paddle_v2.1.5.7z.exe"
 }

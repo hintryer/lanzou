@@ -1,17 +1,17 @@
 {
-    "name": "猫抓",
-    "category": "浏览器相关",
-    "version": "auto",
-    "description": "媒体资源嗅探下载",
-    "homepage": "https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb",
-    "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc&prodversion=130.0.0.0",
-    "hash": "auto",
-    "checkver": {
-        "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
-        "version": "version=\"([\\d.]+)\"/>"
-    },
-    "autoupdate": {
-        "name": "猫抓_{version}.crx",
-        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc&prodversion=130.0.0.0"
-    }
+  "name": "猫抓_2.6.9.crx",
+  "category": "浏览器相关",
+  "version": "2.6.9",
+  "description": "媒体资源嗅探下载",
+  "homepage": "https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb",
+  "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc&prodversion=130.0.0.0",
+  "hash": "auto",
+  "checkver": {
+    "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
+    "version": "version=\"([\\d.]+)\"/>"
+  },
+  "autoupdate": {
+    "name": "猫抓_{version}.crx",
+    "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc&prodversion=130.0.0.0"
+  }
 }

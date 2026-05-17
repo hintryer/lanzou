@@ -1,16 +1,17 @@
 {
-    "name": "Notepad4",
-    "category": "文本办公",
-    "version": "auto",
-    "description": "轻量级文本编辑器",
-    "homepage": "https://github.com/zufuliu/notepad4",
-    "url": "",
-    "checkver": [
-        {
-            "apiurl": "https://api.github.com/repos/zufuliu/notepad4/releases/latest",
-            "url": "$.assets[?(@.name =~ /Notepad4.*zh-Hans_x64.*/)].browser_download_url",
-            "name": "$.assets[?(@.name =~ /Notepad4.*zh-Hans_x64.*/)].name",
-            "version": "$.tag_name"
-        }
-    ]
+  "name": "Notepad4_HD_zh-Hans_x64_v26.03r6058.zip",
+  "category": "文本办公",
+  "version": "v26.03r6058",
+  "description": "轻量级文本编辑器",
+  "homepage": "https://github.com/zufuliu/notepad4",
+  "url": "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.03r6058/Notepad4_HD_zh-Hans_x64_v26.03r6058.zip",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/zufuliu/notepad4/releases/latest",
+      "url": "$.assets[?(@.name =~ /Notepad4.*zh-Hans_x64.*/)].browser_download_url",
+      "name": "$.assets[?(@.name =~ /Notepad4.*zh-Hans_x64.*/)].name",
+      "version": "$.tag_name"
+    }
+  ],
+  "oldurl": "https://github.com/zufuliu/notepad4/releases/download/v26.03r6058/Notepad4_HD_zh-Hans_x64_v26.03r6058.zip"
 }

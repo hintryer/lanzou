@@ -1,20 +1,20 @@
 {
-    "name": "FSCapture.zip",
-    "category": "图像相关",
-    "version": "auto",
-    "description": "屏幕录制、滚动截图工具",
-    "homepage": "https://www.faststone.org/FSCaptureDetail.htm",
-    "url": "https://www.faststonesoft.net/DN/FSCapture112.zip",
-    "notes": "学习码: BXRQE-RMMXB-QRFSZ-CVVOX",
-    "hash": "auto",
-    "checkver": [
-        {
-            "apiurl": "https://www.faststone.org/FSCaptureDownload.htm",
-            "version": "<h2 class=\"product-name\">FastStone Capture ([\\d.]+)</h2>",
-            "url": "href=\"([^\"]+)\">Portable</a>"
-        }
-    ],
-    "autoupdate": {
-        "name": "FSCapture_{version}.zip"
+  "name": "FSCapture_11.2.zip",
+  "category": "图像相关",
+  "version": "11.2",
+  "description": "屏幕录制、滚动截图工具",
+  "homepage": "https://www.faststone.org/FSCaptureDetail.htm",
+  "url": "https://www.faststonesoft.net/DN/FSCapture112.zip",
+  "notes": "学习码: BXRQE-RMMXB-QRFSZ-CVVOX",
+  "hash": "auto",
+  "checkver": [
+    {
+      "apiurl": "https://www.faststone.org/FSCaptureDownload.htm",
+      "version": "<h2 class=\"product-name\">FastStone Capture ([\\d.]+)</h2>",
+      "url": "href=\"([^\"]+)\">Portable</a>"
     }
+  ],
+  "autoupdate": {
+    "name": "FSCapture_{version}.zip"
+  }
 }

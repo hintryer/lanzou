@@ -1,19 +1,19 @@
 {
-    "name": "Steamcommunity",
-    "category": "其它工具",
-    "version": "auto",
-    "description": "Steam 社区访问加速工具",
-    "homepage": "https://www.dogfight360.com/blog/18682/",
-    "url": "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip",
-    "hash": "auto",
-    "checkver": [
-        {
-            "apiurl": "https://www.dogfight360.com/blog/18682/",
-            "version": "<strong>下载: \\((V[\\d.]+)",
-            "url": "<strong>常用<\\/strong><\\/mark>\\): <a href=\"([^\"]+)\""
-        }
-    ],
-    "autoupdate": {
-        "name": "Steamcommunity_302_AMD64_{version}.zip"
+  "name": "Steamcommunity_302_AMD64_V14.0.02.zip",
+  "category": "其它工具",
+  "version": "V14.0.02",
+  "description": "Steam 社区访问加速工具",
+  "homepage": "https://www.dogfight360.com/blog/18682/",
+  "url": "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip",
+  "hash": "auto",
+  "checkver": [
+    {
+      "apiurl": "https://www.dogfight360.com/blog/18682/",
+      "version": "<strong>下载: \\((V[\\d.]+)",
+      "url": "<strong>常用<\\/strong><\\/mark>\\): <a href=\"([^\"]+)\""
     }
+  ],
+  "autoupdate": {
+    "name": "Steamcommunity_302_AMD64_{version}.zip"
+  }
 }

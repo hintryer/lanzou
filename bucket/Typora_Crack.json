@@ -1,16 +1,17 @@
 {
-    "name": "Typora_Crack",
-    "category": "文本办公",
-    "version": "auto",
-    "description": "Typora 激活补丁工具",
-    "homepage": "https://github.com/Delppine1024/TGreen",
-    "url": "",
-    "checkver": [
-        {
-            "apiurl": "https://api.github.com/repos/Delppine1024/TGreen/releases/latest",
-            "url": "$.assets[?(@.name =~ /app_asar.*/)].browser_download_url",
-            "name": "$.assets[?(@.name =~ /app_asar.*/)].name",
-            "version": "$.tag_name"
-        }
-    ]
+  "name": "app_asar_file_v1.9.5.zip",
+  "category": "文本办公",
+  "version": "v1.9.5",
+  "description": "Typora 激活补丁工具",
+  "homepage": "https://github.com/Delppine1024/TGreen",
+  "url": "https://gh-proxy.com/https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/app_asar_file_v1.9.5.zip",
+  "checkver": [
+    {
+      "apiurl": "https://api.github.com/repos/Delppine1024/TGreen/releases/latest",
+      "url": "$.assets[?(@.name =~ /app_asar.*/)].browser_download_url",
+      "name": "$.assets[?(@.name =~ /app_asar.*/)].name",
+      "version": "$.tag_name"
+    }
+  ],
+  "oldurl": "https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/app_asar_file_v1.9.5.zip"
 }

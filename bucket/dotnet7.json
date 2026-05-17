@@ -1,18 +1,18 @@
 {
-    "name": "dotnet-runtime-7.0-win-x64.exe",
-    "category": "运行库",
-    "version": "7.0.20",
-    "description": ".NET 7 Runtime",
-    "homepage": "https://dotnet.microsoft.com/",
-    "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe",
-    "checkver": [
-        {
-            "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
-            "version": "$.releases-index[?(@.channel-version=='7.0')].latest-runtime"
-        }
-    ],
-    "autoupdate": {
-        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/{version}/dotnet-runtime-{version}-win-x64.exe",
-        "name": "dotnet-runtime-{version}-win-x64.exe"
+  "name": "dotnet-runtime-7.0.20-win-x64.exe",
+  "category": "运行库",
+  "version": "7.0.20",
+  "description": ".NET 7 Runtime",
+  "homepage": "https://dotnet.microsoft.com/",
+  "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe",
+  "checkver": [
+    {
+      "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
+      "version": "$.releases-index[?(@.channel-version=='7.0')].latest-runtime"
     }
+  ],
+  "autoupdate": {
+    "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/{version}/dotnet-runtime-{version}-win-x64.exe",
+    "name": "dotnet-runtime-{version}-win-x64.exe"
+  }
 }

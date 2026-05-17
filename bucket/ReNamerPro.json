@@ -1,16 +1,16 @@
 {
-    "name": "ReNamerPro_7.9.0.0v2.exe",
-    "category": "单文件",
-    "version": "7.9.0.0v2",
-    "description": "文件改名",
-    "homepage": "https://www.52pojie.cn/thread-2064422-1-1.html",
-    "url": "https://kuguagantian.lanzoum.com/i4oW63ken4af",
-    "checkver": [
-        {
-            "apiurl": "https://kuguagantian.lanzoum.com/b0dzxlrni"
-        }
-    ],
-    "autoupdate": {
-        "url": "https://kuguagantian.lanzoum.com/i4oW63ken4af"
+  "name": "ReNamerPro_7.9.0.0v2.exe",
+  "category": "单文件",
+  "version": "7.9.0.0v2",
+  "description": "文件改名",
+  "homepage": "https://www.52pojie.cn/thread-2064422-1-1.html",
+  "url": "https://kuguagantian.lanzoum.com/i4oW63ken4af",
+  "checkver": [
+    {
+      "apiurl": "https://kuguagantian.lanzoum.com/b0dzxlrni"
     }
+  ],
+  "autoupdate": {
+    "url": "https://kuguagantian.lanzoum.com/i4oW63ken4af"
+  }
 }
