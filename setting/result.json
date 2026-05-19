@@ -336,12 +336,12 @@
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dgcalenpjmijncebpfijmoaglllgpjagf%26uc&prodversion=130.0.0.0"
     },
     {
-        "name": "Clash.Verge_2.4.7_x64-setup.exe",
+        "name": "Clash.Verge_2.5.0_x64-setup.exe",
         "category": "其它工具",
-        "version": "v2.4.7",
+        "version": "v2.5.0",
         "description": "Clash图形化代理客户端",
         "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
-        "url": "https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.4.7/Clash.Verge_2.4.7_x64-setup.exe"
+        "url": "https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.0/Clash.Verge_2.5.0_x64-setup.exe"
     },
     {
         "name": "ReNamerPro_7.9.0.0v2.exe",
