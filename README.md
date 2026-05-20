@@ -15,7 +15,7 @@
 | 360FileSetup_1.0.0.1180.exe | 1.0.0.1180 | 360多标签文件管理器 | [主页](https://baoku.360.cn/soft/show/appid/2000003908) | [下载](https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140) |
 | Bili23-Downloade_v2.00.4_portable.zip | v2.00.4 | B站视频下载工具 | [主页](https://github.com/ScottSloan/Bili23-Downloader) | [下载](https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.4/Bili23-Downloader_2.00.4_windows_x64_portable.zip) |
 | Steamcommunity_302_AMD64_V14.0.02.zip | V14.0.02 | Steam 社区访问加速工具 | [主页](https://www.dogfight360.com/blog/18682/) | [下载](https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip) |
-| Clash.Verge_2.5.0_x64-setup.exe | v2.5.0 | Clash图形化代理客户端 | [主页](https://github.com/clash-verge-rev/clash-verge-rev) | [下载](https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.0/Clash.Verge_2.5.0_x64-setup.exe) |
+| Clash.Verge_2.5.1_x64-setup.exe | v2.5.1 | Clash图形化代理客户端 | [主页](https://github.com/clash-verge-rev/clash-verge-rev) | [下载](https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.1/Clash.Verge_2.5.1_x64-setup.exe) |
 
 ## 单文件
 
@@ -74,7 +74,7 @@
 | SingleFile_1.22.98.crx | 1.22.98 | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc&prodversion=130.0.0.0) |
 | 沉浸式翻译_1.29.4.crx | 1.29.4 | AI 网页翻译插件 | [主页](https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc&prodversion=130.0.0.0) |
 | LastPass_4.153.0.crx | 4.153.0 | Free Password Manager | [主页](https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc&prodversion=130.0.0.0) |
-| chrome_148.0.7778.168_uncompressed.exe | 148.0.7778.168 | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/148.0.7778.168/x64_148.0.7778.168_chrome_installer_uncompressed.exe) |
+| chrome_148.0.7778.179_uncompressed.exe | 148.0.7778.179 | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/148.0.7778.179/x64_148.0.7778.179_chrome_installer_uncompressed.exe) |
 | Chrome++_v1.16.2_x86_x64_arm64.7z | 1.16.2 | Chrome增强工具集 | [主页](https://github.com/Bush2021/chrome_plus) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.16.2/Chrome%2B%2B_v1.16.2_x86_x64_arm64.7z) |
 | 超级拖拽_2.1.2.crx | 2.1.2 | 超级拖拽 + 鼠标手势 | [主页](https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc&prodversion=130.0.0.0) |
 | 篡改猴测试版_5.5.6237.crx | 5.5.6237 | 脚本管理工具（红色版） | [主页](https://www.crxsoso.com/webstore/detail/gcalenpjmijncebpfijmoaglllgpjagf) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dgcalenpjmijncebpfijmoaglllgpjagf%26uc&prodversion=130.0.0.0) |
