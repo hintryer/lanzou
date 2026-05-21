@@ -78,7 +78,7 @@
 | Chrome++_v1.16.2_x86_x64_arm64.7z | 1.16.2 | Chrome增强工具集 | [主页](https://github.com/Bush2021/chrome_plus) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.16.2/Chrome%2B%2B_v1.16.2_x86_x64_arm64.7z) |
 | 超级拖拽_2.1.2.crx | 2.1.2 | 超级拖拽 + 鼠标手势 | [主页](https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc&prodversion=130.0.0.0) |
 | 篡改猴测试版_5.5.6237.crx | 5.5.6237 | 脚本管理工具（红色版） | [主页](https://www.crxsoso.com/webstore/detail/gcalenpjmijncebpfijmoaglllgpjagf) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dgcalenpjmijncebpfijmoaglllgpjagf%26uc&prodversion=130.0.0.0) |
-| SwitchyOmega_3.4.5.crx | 3.4.5 | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc&prodversion=130.0.0.0) |
+| SwitchyOmega_3.5.0.crx | 3.5.0 | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc&prodversion=130.0.0.0) |
 
 ## 运行库
 
