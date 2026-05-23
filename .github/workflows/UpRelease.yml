@@ -37,4 +37,4 @@ jobs:
           gh release create "$TAG" \
             --title "Release $TAG" \
             --notes "Auto downloaded" \
-            --clobber
+            --latest || true
