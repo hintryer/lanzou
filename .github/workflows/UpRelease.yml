@@ -24,9 +24,7 @@ jobs:
         run: |
             aria2c -i download.txt -j 5 \
             --user-agent="Chrome/130.0.0.0" \
-            --remote-name-selection=filename \
-            --allow-overwrite=true \
-            --auto-file-renaming=false \
+            --check-certificate=false \
             --max-tries=3 \
             --continue=true
 
