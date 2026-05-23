@@ -22,7 +22,13 @@ jobs:
       # ✅ 最稳方案：curl 下载，失败也不中断脚本
       - name: Download all files (safe mode)
         run: |
-          aria2c -i download.txt -j 5
+            aria2c -i download.txt -j 5 \
+            --user-agent="Chrome/130.0.0.0" \
+            --remote-name-selection=filename \
+            --allow-overwrite=true \
+            --auto-file-renaming=false \
+            --max-tries=3 \
+            --continue=true
 
       # ✅ 只上传下载成功的文件（不上传json/txt，干净）
       - name: Upload to GitHub Release
