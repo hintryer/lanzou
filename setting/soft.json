@@ -20,7 +20,7 @@
     {
         "filename": "MusicTag.json",
         "content": {
-            "name": "MusicTag",
+            "name": "MusicTag.zip",
             "category": "影音工具",
             "version": "v1.0.9.0",
             "description": "歌曲音乐标签编辑工具",
