@@ -115,7 +115,7 @@ def main():
         check_and_update(new_app, old_app)
 
     # 3. 保存最新结果到本地（下次对比）
-    save_json(new_apps, ".\setting\local_result.json")
+    save_json(new_apps, "./setting/local_result.json")
     print("\n🎉 全部检查完成！")
 if __name__ == "__main__":
     main()
