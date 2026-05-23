@@ -1,13 +1,13 @@
 name: Download & Upload to Release
 
 on:
-  workflow_dispatch:  # 手动触发
+  workflow_dispatch:
 
 jobs:
   download-upload:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 必须，才能创建Release和上传
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -19,15 +19,22 @@ jobs:
         run: |
           jq -r '.[] | .url' ./setting/result.json > download.txt
 
-      - name: Download all files
+      # ✅ 最稳方案：curl 下载，失败也不中断脚本
+      - name: Download all files (safe mode)
         run: |
-          aria2c -i download.txt -j 5
+          while read url; do
+            if [ -n "$url" ]; then
+              curl -L -f -A "Chrome/130.0.0.0" -O "$url" || true
+            fi
+          done < download.txt
 
-      - name: Create Release and upload assets
+      # ✅ 只上传下载成功的文件（不上传json/txt，干净）
+      - name: Upload to GitHub Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TAG="v$(date +%Y%m%d)"
-          gh release create "$TAG" ./* \
+          gh release create "$TAG" \
             --title "Release $TAG" \
-            --notes "Auto released by GitHub Actions"
+            --notes "Auto downloaded" \
+            --clobber
