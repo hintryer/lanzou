@@ -35,6 +35,8 @@ jobs:
         run: |
           TAG="v$(date +%Y%m%d)"
           gh release create "$TAG" \
-            --title "Release $TAG" \
+            --title "$TAG" \
             --notes "Auto downloaded" \
             --latest || true
+            
+          gh release upload "$TAG" ./*.* --clobber
