@@ -1,0 +1,33 @@
+name: Download & Upload to Release
+
+on:
+  workflow_dispatch:  # 手动触发
+
+jobs:
+  download-upload:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 必须，才能创建Release和上传
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt install -y jq
+
+      - name: Extract URLs from JSON
+        run: |
+          jq -r '.url' ./setting/result.json > download.txt
+
+      - name: Download all files
+        run: |
+          aria2c -i download.txt -j 5
+
+      - name: Create Release and upload assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="v$(date +%Y%m%d)"
+          gh release create "$TAG" ./* \
+            --title "Release $TAG" \
+            --notes "Auto released by GitHub Actions"
