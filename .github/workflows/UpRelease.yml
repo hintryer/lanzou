@@ -10,7 +10,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Install jq
         run: sudo apt install -y jq
@@ -19,30 +19,40 @@ jobs:
         run: |
           jq -r '.[] | .url' ./setting/result.json > download.txt
 
-      # ✅ 最稳方案：curl 下载，失败也不中断脚本
-      - name: Download all files (safe mode)
+      # ==============================================
+      # ✅ 看得见每个文件的下载情况：成功 / 失败
+      # ==============================================
+      - name: Download with log
         run: |
-            aria2c -i download.txt -j 5 \
-            --user-agent="Chrome/130.0.0.0" \
-            --check-certificate=false \
-            --max-tries=3 \
-            --continue=true
+          while read url; do
+            if [ -n "$url" ]; then
+              filename=$(basename "$url" | sed 's/%2B/+/g')
+              echo "========================================"
+              echo "  下载中：$filename"
+              echo "  地址：$url"
+              
+              curl -L -A "Chrome/130.0.0.0" "$url" -o "$filename" -f -s
+              
+              if [ $? -eq 0 ]; then
+                echo "  ✅ 下载成功：$filename"
+              else
+                echo "  ❌ 下载失败：$filename"
+              fi
+              echo "========================================"
+              echo
+            fi
+          done < download.txt
 
-      # ✅ 只上传下载成功的文件（不上传json/txt，干净）
+      # ==============================================
+      # ✅ 干净上传：只上传下载成功的文件
+      # ==============================================
       - name: Upload to GitHub Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          TAG="v$(date +%Y%m%d)"
-          gh release create "$TAG" \
-            --title "$TAG" \
-            --notes "Auto downloaded" \
-            --latest || true
-            
-           find . -maxdepth 1 -type f \
-            ! -name "*.txt" \
-            ! -name "*.json" \
-            ! -name "*.py" \
-            ! -name "*.md" \
-            | xargs -I {} 
-            gh release upload "$TAG" "{}" --clobber
+          TAG="v$(date +%Y%02d%02d)"
+          gh release create "$TAG" --title "$TAG" --notes "自动构建" || true
+          
+          find . -maxdepth 1 -type f \
+            ! -name "*.txt" ! -name "*.json" ! -name "*.md" ! -name "*.yml" ! -name "*.yaml" \
+            | xargs -I {} gh release upload "$TAG" "{}" --clobber
