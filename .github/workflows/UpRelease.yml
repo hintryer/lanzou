@@ -17,7 +17,7 @@ jobs:
 
       - name: Extract URLs from JSON
         run: |
-          jq -r '.url' ./setting/result.json > download.txt
+          jq -r '.[] | .url' ./setting/result.json > download.txt
 
       - name: Download all files
         run: |
