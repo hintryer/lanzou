@@ -1,17 +1,17 @@
 {
-    "name": "ClickMonitorDDC",
-    "category": "单文件",
-    "version": " 7.2",
-    "description": "显示器亮度音量调节软件",
-    "homepage": "https://www.52pojie.cn/thread-1761083-1-1.html",
-    "url": "https://wwi.lanzoup.com/iiahR0rcr4cd",
-    "hash": "auto",
-    "checkver": [
-        {
-            "apiurl": "https://wwi.lanzoup.com/iiahR0rcr4cd"
-        }
-    ],
-    "autoupdate": {
-        "url": "https://developer3.lanrar.com/file/?UDZSbAs6BDUEDQQ8AjdXOwY5DzcEvQOZUutQsVauUOsG41SaAPUGtgnlAPgAsV3mW6cF6FK9U9IA71TYAtwG71DtUqoLsgTrBOQEfAIsVz8GLA8sBD0DaFI5UDNWVVA4BmJUPgBsBmIJZwBnAGddZFs1BTNSPlN3AGFUIQJjBjNQZVI9C2UEYARmBHQCJlcmBmEPOARrAzNSZlB5VjpQYgYpVDEAZQZ9CW0AYwA3XW1bNQU0UjhTaQAwVGsCOgY+UDNSMgtvBDMEYgQwAjNXYAZtDzgEPgM0UmFQblY4UDAGNFQ2ADgGNAlxACwAPV0sWycFdVJ+UzQAdVQ7AjoGOlBjUjwLZgRnBGIEZQJwVyIGNQ9nBD4DZ1JoUGdWPVBmBj9UNABrBmcJbwBvAGVdclsvBSZSa1M9AHBUbwJvBjBQZ1I8C2EEYQRjBGICYVdhBnoPfwQrA3ZSaFBnVjxQaQY2VDMAbAZhCW0AYABmXXpbdAVpUn1TbAA1VGACbwYpUGFSPAtiBH4EYwRrAmJXeAZkDz0EdQMnUjFQOVZ9UD8GWVRgADYGbwlvAHgAcl0oW3gFcFJoUw4AclQzAmMGNw==&toolsdown"
+  "name": "ClickMonitorDDC",
+  "category": "单文件",
+  "version": " 7.2",
+  "description": "显示器亮度音量调节软件",
+  "homepage": "https://www.52pojie.cn/thread-1761083-1-1.html",
+  "url": "https://developer3.lanrar.com/file/?UDZSbAs6BDUEDQQ8AjdXOwY5DzcEvQOZUutQsVauUOsG41SaAPUGtgnlAPgAsV3mW6cF6FK9U9IA71TYAtwG71DtUqoLsgTrBOQEfAIsVz8GLA8sBD0DaFI5UDNWVVA4BmJUPgBsBmIJZwBnAGddZFs1BTNSPlN3AGFUIQJjBjNQZVI9C2UEYARmBHQCJlcmBmEPOARrAzNSZlB5VjpQYgYpVDEAZQZ9CW0AYwA3XW1bNQU0UjhTaQAwVGsCOgY+UDNSMgtvBDMEYgQwAjNXYAZtDzgEPgM0UmFQblY4UDAGNFQ2ADgGNAlxACwAPV0sWycFdVJ+UzQAdVQ7AjoGOlBjUjwLZgRnBGIEZQJwVyIGNQ9nBD4DZ1JoUGdWPVBmBj9UNABrBmcJbwBvAGVdclsvBSZSa1M9AHBUbwJvBjBQZ1I8C2EEYQRjBGICYVdhBnoPfwQrA3ZSaFBnVjxQaQY2VDMAbAZhCW0AYABmXXpbdAVpUn1TbAA1VGACbwYpUGFSPAtiBH4EYwRrAmJXeAZkDz0EdQMnUjFQOVZ9UD8GWVRgADYGbwlvAHgAcl0oW3gFcFJoUw4AclQzAmMGNw==&toolsdown",
+  "hash": "auto",
+  "checkver": [
+    {
+      "apiurl": "https://wwi.lanzoup.com/iiahR0rcr4cd"
     }
+  ],
+  "autoupdate": {
+    "url": "https://developer3.lanrar.com/file/?UDZSbAs6BDUEDQQ8AjdXOwY5DzcEvQOZUutQsVauUOsG41SaAPUGtgnlAPgAsV3mW6cF6FK9U9IA71TYAtwG71DtUqoLsgTrBOQEfAIsVz8GLA8sBD0DaFI5UDNWVVA4BmJUPgBsBmIJZwBnAGddZFs1BTNSPlN3AGFUIQJjBjNQZVI9C2UEYARmBHQCJlcmBmEPOARrAzNSZlB5VjpQYgYpVDEAZQZ9CW0AYwA3XW1bNQU0UjhTaQAwVGsCOgY+UDNSMgtvBDMEYgQwAjNXYAZtDzgEPgM0UmFQblY4UDAGNFQ2ADgGNAlxACwAPV0sWycFdVJ+UzQAdVQ7AjoGOlBjUjwLZgRnBGIEZQJwVyIGNQ9nBD4DZ1JoUGdWPVBmBj9UNABrBmcJbwBvAGVdclsvBSZSa1M9AHBUbwJvBjBQZ1I8C2EEYQRjBGICYVdhBnoPfwQrA3ZSaFBnVjxQaQY2VDMAbAZhCW0AYABmXXpbdAVpUn1TbAA1VGACbwYpUGFSPAtiBH4EYwRrAmJXeAZkDz0EdQMnUjFQOVZ9UD8GWVRgADYGbwlvAHgAcl0oW3gFcFJoUw4AclQzAmMGNw==&toolsdown"
+  }
 }

@@ -1,17 +1,17 @@
 {
-    "name": "解除网页复制限制",
-    "category": "浏览器相关",
-    "version": "auto",
-    "description": "网页限制解除",
-    "homepage": "https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm",
-    "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc&prodversion=130.0.0.0",
-    "hash": "auto",
-    "checkver": {
-        "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
-        "version": "version=\"([\\d.]+)\"/>"
-    },
-    "autoupdate": {
-        "name": "解除网页复制限制_{version}.crx",
-        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc"
-    }
+  "name": "解除网页复制限制_2.1.6.crx",
+  "category": "浏览器相关",
+  "version": "2.1.6",
+  "description": "网页限制解除",
+  "homepage": "https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm",
+  "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc",
+  "hash": "auto",
+  "checkver": {
+    "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
+    "version": "version=\"([\\d.]+)\"/>"
+  },
+  "autoupdate": {
+    "name": "解除网页复制限制_{version}.crx",
+    "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc"
+  }
 }
