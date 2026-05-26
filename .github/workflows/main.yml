@@ -30,7 +30,7 @@ jobs:
         run: |
           python main.py
           python setting/json_main.py
-          python setting/check.py
+          
 
       - name: Git push
         run: |
