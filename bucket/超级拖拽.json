@@ -1,17 +1,17 @@
 {
-  "name": "超级拖拽_2.1.2.crx",
-  "category": "浏览器相关",
-  "version": "2.1.2",
-  "description": "超级拖拽 + 鼠标手势",
-  "homepage": "https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg",
-  "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc&prodversion=130.0.0.0",
-  "hash": "auto",
-  "checkver": {
-    "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
-    "version": "version=\"([\\d.]+)\"/>"
-  },
-  "autoupdate": {
-    "name": "超级拖拽_{version}.crx",
-    "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc&prodversion=130.0.0.0"
-  }
+    "name": "超级拖拽",
+    "category": "浏览器相关",
+    "version": "auto",
+    "description": "超级拖拽 + 鼠标手势",
+    "homepage": "https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg",
+    "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc&prodversion=130.0.0.0",
+    "hash": "auto",
+    "checkver": {
+        "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
+        "version": "version=\"([\\d.]+)\"/>"
+    },
+    "autoupdate": {
+        "name": "超级拖拽_{version}.crx",
+        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc"
+    }
 }

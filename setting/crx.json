@@ -15,7 +15,7 @@
             },
             "autoupdate": {
                 "name": "超级拖拽_{version}.crx",
-                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc&prodversion=130.0.0.0"
+                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc"
             }
         }
     },
@@ -35,7 +35,7 @@
             },
             "autoupdate": {
                 "name": "SingleFile_{version}.crx",
-                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc&prodversion=130.0.0.0"
+                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
             }
         }
     },
@@ -54,8 +54,8 @@
                 "version": "version=\"([\\d.]+)\"/>"
             },
             "autoupdate": {
-                "name": "uBlock+Origin+Lite_{version}.crx",
-                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc&prodversion=130.0.0.0"
+                "name": "uBlockOriginLite_{version}.crx",
+                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
             }
         }
     },
@@ -75,7 +75,7 @@
             },
             "autoupdate": {
                 "name": "解除网页复制限制_{version}.crx",
-                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc&prodversion=130.0.0.0"
+                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc"
             }
         }
     },
@@ -95,18 +95,18 @@
             },
             "autoupdate": {
                 "name": "沉浸式翻译_{version}.crx",
-                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc&prodversion=130.0.0.0"
+                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
             }
         }
     },
     {
-        "filename": "篡改猴测试版.json",
+        "filename": "篡改猴.json",
         "content": {
-            "name": "篡改猴测试版",
+            "name": "篡改猴",
             "category": "浏览器相关",
             "version": "auto",
-            "description": "脚本管理工具（红色版）",
-            "homepage": "https://www.crxsoso.com/webstore/detail/gcalenpjmijncebpfijmoaglllgpjagf",
+            "description": "脚本管理工具",
+            "homepage": "https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo",
             "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dgcalenpjmijncebpfijmoaglllgpjagf%26uc&prodversion=130.0.0.0",
             "hash": "auto",
             "checkver": {
@@ -115,7 +115,7 @@
             },
             "autoupdate": {
                 "name": "篡改猴测试版_{version}.crx",
-                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dgcalenpjmijncebpfijmoaglllgpjagf%26uc&prodversion=130.0.0.0"
+                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc"
             }
         }
     },
@@ -135,7 +135,7 @@
             },
             "autoupdate": {
                 "name": "LastPass_{version}.crx",
-                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc&prodversion=130.0.0.0"
+                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
             }
         }
     },
@@ -155,7 +155,7 @@
             },
             "autoupdate": {
                 "name": "SwitchyOmega_{version}.crx",
-                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc&prodversion=130.0.0.0"
+                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc"
             }
         }
     },
@@ -175,7 +175,7 @@
             },
             "autoupdate": {
                 "name": "猫抓_{version}.crx",
-                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc&prodversion=130.0.0.0"
+                "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc"
             }
         }
     }
