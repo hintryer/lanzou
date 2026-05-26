@@ -1,17 +1,17 @@
 {
-  "name": "Thunder_12.4.9.3918.exe",
-  "category": "下载传输",
-  "version": "12.4.9.3918",
-  "description": "Thunder",
-  "homepage": "https://www.52pojie.cn/thread-2090717-1-1.html",
-  "url": "https://www.lanzouw.com/iWAtU3k3y9id",
-  "hash": "auto",
-  "checkver": [
-    {
-      "apiurl": "https://www.52pojie.cn/thread-2090717-1-1.html"
+    "name": "Thunder_12.4.9.3918.exe",
+    "category": "下载传输",
+    "version": "12.4.9.3918",
+    "description": "Thunder",
+    "homepage": "https://www.52pojie.cn/thread-2090717-1-1.html",
+    "url": "https://www.lanzouw.com/iWAtU3k3y9id",
+    "hash": "auto",
+    "checkver": [
+        {
+            "apiurl": "https://www.lanzouw.com/iWAtU3k3y9id"
+        }
+    ],
+    "autoupdate": {
+        "url": "https://developer3.lanrar.com/file/?CW8HOQ08BzYIAVdvVGEGalJtUmpW4VHsCogG6QfABLJSBlNsAChUbgAyUGMDJVx9A2hSZV4vU2UKI1FmBWlXeAk6B2kNZAdjCHBXZFR4BmJSLlIxVmBRPwpoBl8HMgRhUm9TNgBqVDcAZVAwA25cbQNpUmReJ1M3Cn5RagVoV2YJOAdhDWkHaghnVzhUMAYhUnhSJ1Y0UWEKPQYyB20EKlJiUzcAclQwAG5QKQNlXGkDYFIxXjJTNQo7UWIFb1dvCTAHMw1mB2MIOldjVGEGMlI9UmZWMVE2CmwGMQdtBGdSYlM1ADtUZQAzUGcDeVw4AyFSMl4nUyQKflEyBStXPwltB20NaQdiCGlXOFQ4Bj9SLlIjVmBRPgpoBmYHZgQ0UmVTMwBkVDcAYFAyA29cawNoUnleL1N3CmtROwUuV2sJOAdnDWcHaghpVzdUMwY1UjpSZ1YvUSYKfQZ3B2YENFJlUzMAb1Q5AGNQMwNjXG4Da1JxXnRTOAp9UWoFa1dkCTgHfg1hB2oIalcvVDEGPlI8UnlWMVFkCiMGJgc/BGpSJVNqAAJUYwA9UDsDZ1xzA39SI154UyEKaFEIBSxXNwk0B2A=&toolsdown"
     }
-  ],
-  "autoupdate": {
-    "url": "https://www.lanzouw.com/iWAtU3k3y9id"
-  }
 }

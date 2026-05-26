@@ -30,11 +30,11 @@
             "hash": "auto",
             "checkver": [
                 {
-                    "apiurl": "https://www.52pojie.cn/thread-2090717-1-1.html"
+                    "apiurl": "https://www.lanzouw.com/iWAtU3k3y9id"
                 }
             ],
             "autoupdate": {
-                "url": "https://www.lanzouw.com/iWAtU3k3y9id"
+                "url": "https://developer3.lanrar.com/file/?CW8HOQ08BzYIAVdvVGEGalJtUmpW4VHsCogG6QfABLJSBlNsAChUbgAyUGMDJVx9A2hSZV4vU2UKI1FmBWlXeAk6B2kNZAdjCHBXZFR4BmJSLlIxVmBRPwpoBl8HMgRhUm9TNgBqVDcAZVAwA25cbQNpUmReJ1M3Cn5RagVoV2YJOAdhDWkHaghnVzhUMAYhUnhSJ1Y0UWEKPQYyB20EKlJiUzcAclQwAG5QKQNlXGkDYFIxXjJTNQo7UWIFb1dvCTAHMw1mB2MIOldjVGEGMlI9UmZWMVE2CmwGMQdtBGdSYlM1ADtUZQAzUGcDeVw4AyFSMl4nUyQKflEyBStXPwltB20NaQdiCGlXOFQ4Bj9SLlIjVmBRPgpoBmYHZgQ0UmVTMwBkVDcAYFAyA29cawNoUnleL1N3CmtROwUuV2sJOAdnDWcHaghpVzdUMwY1UjpSZ1YvUSYKfQZ3B2YENFJlUzMAb1Q5AGNQMwNjXG4Da1JxXnRTOAp9UWoFa1dkCTgHfg1hB2oIalcvVDEGPlI8UnlWMVFkCiMGJgc/BGpSJVNqAAJUYwA9UDsDZ1xzA39SI154UyEKaFEIBSxXNwk0B2A=&toolsdown"
             }
         }
     },
@@ -50,11 +50,72 @@
             "hash": "auto",
             "checkver": [
                 {
-                    "apiurl": "https://www.423down.com/3050.html"
+                    "apiurl": "https://423down.lanzouo.com/iPRE43nu4qbi"
                 }
             ],
             "autoupdate": {
-                "url": "https://423down.lanzouo.com/iPRE43nu4qbi"
+                "url": "https://developer3.lanrar.com/file/?AWcGOA4/BTQJAAQ8BzJXOwE+Bz9W2Vb0AmpRI1HdUfBVOQUzWn5VZAgsVywGYAUyUzkCMwJvVGQBLlptVCYHMQEvBmMOYQVpCWoEawd6V3sBIwc0Vj1WeQJWUSNRbFEyVTkFN1opVWQIJldkBnQFYlNgAmsCOFQJAW9aOFQ1BzQBOQZiDmUFYwlmBGAHa1duAX0HZFZ6VmkCMVFjUTRRYFViBWNaMFU1CHhXcQYiBTlTOwI3Am9UYAEpWmxUPAcpATMGYw58BWEJPgRgBzdXYwFiBzNWO1YwAjRRZ1E/UWRVZwVqWjFVYAhsVzgGawUzU20CNQI+VG8BMVo4VG0HPgE0BjAOYgV/CToEKgc2V3ABLgdxVmxWJgJsUTNRMFFpVWIFZFo3VTYIeFd1BjsFaVNsAmECYFRnATFaa1QxBzEBNwZlDmsFaAlpBHwHfVdwAT0HblZ+VmkCNFFgUTpRaVViBWRaNFU2CG1XMQZ0BXFTeQJwAmBUZwExWmtUPgc+ATcGYA5gBWYJZwR0ByZXPwErBz9WO1ZmAjRReVE8UWlVYQV8WjZVOAhqVy8GagUzUycCIQI5VDkBcVoyVFcHZQFqBmwOYwV/CXkEJgcqVyYBPgddVnxWNQI4UWc=&toolsdown"
+            }
+        }
+    },
+    {
+        "filename": "YunXingKu.json",
+        "content": {
+            "name": "微软常用运行库合集",
+            "category": "运行库",
+            "version": "auto",
+            "description": "微软常用运行库合集",
+            "homepage": "https://wwa.lanzout.com/b0b8rs19a#9527",
+            "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
+            "hash": "auto",
+            "checkver": {
+                "apiurl": "https://www.423down.com/10835.html",
+                "version": "Build on ([\\d.]+)",
+                "url": "https://423down.lanzouo.com/iEuAX3nfyheh"
+            },
+            "autoupdate": {
+                "name": "微软常用运行库合集_{version}.exe",
+                "url":"https://developer3.lanrar.com/file/?UDYHOVtqV2ZVXFFpATRcMFJtAzsHvVPvCqNTvVa3Aa8B5AfoCO1U5wHDBvhT71ziU5lUuQP9VthRs1ToAs0E4FDAB9hb71eYVYVRJwFnXG1SOgMwB3ZTYQo5U3tWOwE2AS8HNQgtVGUBcQY2U25cMVNsVA4DNVYwUWtUYAJmBDdQaQdmWz5XM1UzUTABc1w7UnsDOwdsU2YKPlNtVjIBOAExB2EIc1RwAScGbVM1XG1TO1RnA3NWZFFiVH0CbwQyUH8HMls+VzZVYFE3ATBcOVI+Az8HaFNhCj9TN1YyATIBMAdmCGBUYwEzBjZTN1xsUz1UNQNlVmNRZlRiAmwEMFBmB35bY1d7VWZRIQEgXC5SbQN0BzFTNQowU2xWPQE2ATEHZwhzVHQBPgY9U2JcO1M0VGADa1ZjUW9UZQJoBDBQYAdkWzJXLVUtUSEBM1wxUn8DOwdpU2YKOlNsVj0BNgEyB2UIY1QyAXEGJVN3XCpTNFRgA2tWY1FgVGECZwQwUGEHYFswVyVVdlFuASVcYFI6AzQHaVN/CjxTbFY+AS4BMAdpCGFULgFvBmdTKVx7U21UPgMrVjpRCVQxAjUEOFBgB35bIFd3VXpRdwEwXAJSfQNnB2VTYQ==&toolsdown"
+            }
+        }
+    },
+    {
+        "filename": "MusicTag.json",
+        "content": {
+            "name": "MusicTag.zip",
+            "category": "影音工具",
+            "version": "v1.0.9.0",
+            "description": "歌曲音乐标签编辑工具",
+            "homepage": "https://www.52pojie.cn/thread-1687719-1-1.html",
+            "url": "https://wwn.lanzouy.com/i2pWg0bnlirg",
+            "hash": "auto",
+            "checkver": [
+                {
+                    "apiurl": "https://wwn.lanzouy.com/i2pWg0bnlirg"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://developer3.lanrar.com/file/?VDIBPww9UGEDCgE5BzIBbQA/Bj5RQwF2C39VOlFuBlMBYAU1WSRVd1E2BHwCZgcoA2AAK1M8VnoBfABvUX0EI1QyAT8MPVBhAwoBPgc3AT0AYgYyUTkBNAs8VWZRPgYxAScFNFl3VTxRMwRkAm8HNwNrADBTOlZyAXYAdlEwBDdUZAFkDGNQKwNlAW4HfAExAG4GLFE2AWULaFVmUT8GMgEwBTZZYFUwUWEEZwIzB2ADYABgUzpWNQFkADFROQRgVGcBNQw3UDcDZAEyBzYBYgBsBjVRIAF5C2VVI1ErBnIBcgU3WXZVaFFjBG8CZwc/A2wAN1M1VmIBMwAgUXkEbFQ5ATMMN1A5A2QBYAdkATkAbQY1UTsBMws7VWJRIwYpAScFNFloVXZROgRjAmEHMQNgADJTOlZlATEAM1E6BCNUIQEmDCZQOQNkAWEHZQEzAGsGMVE9ATYLNFViUSsGcgFoBSJZOVUzUTUEYwJ4BzcDYAAxUyJWZQE/ADJRIwQ9VGMBeAx3UGADOgEgBz0BXwA5BmhRMwEzCyJVdVF5Bn4BcQU3WVtVdFFmBG8CZg==&toolsdown"
+            }
+        }
+    },
+    {
+        "filename": "ClickMonitorDDC.json",
+        "content": {
+            "name": "ClickMonitorDDC",
+            "category": "单文件",
+            "version": " 7.2",
+            "description": "显示器亮度音量调节软件",
+            "homepage": "https://www.52pojie.cn/thread-1761083-1-1.html",
+            "url": "https://wwi.lanzoup.com/iiahR0rcr4cd",
+            "hash": "auto",
+            "checkver": [
+                {
+                    "apiurl": "https://wwi.lanzoup.com/iiahR0rcr4cd"
+                }
+            ],
+            "autoupdate": {
+                "url": "https://developer3.lanrar.com/file/?UDZSbAs6BDUEDQQ8AjdXOwY5DzcEvQOZUutQsVauUOsG41SaAPUGtgnlAPgAsV3mW6cF6FK9U9IA71TYAtwG71DtUqoLsgTrBOQEfAIsVz8GLA8sBD0DaFI5UDNWVVA4BmJUPgBsBmIJZwBnAGddZFs1BTNSPlN3AGFUIQJjBjNQZVI9C2UEYARmBHQCJlcmBmEPOARrAzNSZlB5VjpQYgYpVDEAZQZ9CW0AYwA3XW1bNQU0UjhTaQAwVGsCOgY+UDNSMgtvBDMEYgQwAjNXYAZtDzgEPgM0UmFQblY4UDAGNFQ2ADgGNAlxACwAPV0sWycFdVJ+UzQAdVQ7AjoGOlBjUjwLZgRnBGIEZQJwVyIGNQ9nBD4DZ1JoUGdWPVBmBj9UNABrBmcJbwBvAGVdclsvBSZSa1M9AHBUbwJvBjBQZ1I8C2EEYQRjBGICYVdhBnoPfwQrA3ZSaFBnVjxQaQY2VDMAbAZhCW0AYABmXXpbdAVpUn1TbAA1VGACbwYpUGFSPAtiBH4EYwRrAmJXeAZkDz0EdQMnUjFQOVZ9UD8GWVRgADYGbwlvAHgAcl0oW3gFcFJoUw4AclQzAmMGNw==&toolsdown"
             }
         }
     }

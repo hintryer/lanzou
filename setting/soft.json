@@ -18,46 +18,6 @@
         }
     },
     {
-        "filename": "MusicTag.json",
-        "content": {
-            "name": "MusicTag.zip",
-            "category": "影音工具",
-            "version": "v1.0.9.0",
-            "description": "歌曲音乐标签编辑工具",
-            "homepage": "https://www.52pojie.cn/thread-1687719-1-1.html",
-            "url": "https://wwn.lanzouy.com/i2pWg0bnlirg",
-            "hash": "auto",
-            "checkver": [
-                {
-                    "apiurl": "https://www.52pojie.cn/thread-1687719-1-1.html"
-                }
-            ],
-            "autoupdate": {
-                "url": "https://wwn.lanzouy.com/i2pWg0bnlirg"
-            }
-        }
-    },
-    {
-        "filename": "ClickMonitorDDC.json",
-        "content": {
-            "name": "ClickMonitorDDC",
-            "category": "单文件",
-            "version": " 7.2",
-            "description": "显示器亮度音量调节软件",
-            "homepage": "https://www.52pojie.cn/thread-1761083-1-1.html",
-            "url": "https://wwi.lanzoup.com/iiahR0rcr4cd",
-            "hash": "auto",
-            "checkver": [
-                {
-                    "apiurl": "https://www.52pojie.cn/thread-1761083-1-1.html"
-                }
-            ],
-            "autoupdate": {
-                "url": "https://wwi.lanzoup.com/iiahR0rcr4cd"
-            }
-        }
-    },
-    {
         "filename": "QQWubi.json",
         "content": {
             "name": "QQWubi_Setup.exe",
@@ -184,26 +144,6 @@
             "autoupdate": {
                 "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
                 "name": "360FileSetup_{version}.exe"
-            }
-        }
-    },
-    {
-        "filename": "YunXingKu.json",
-        "content": {
-            "name": "微软常用运行库合集",
-            "category": "运行库",
-            "version": "auto",
-            "description": "微软常用运行库合集",
-            "homepage": "https://wwa.lanzout.com/b0b8rs19a#9527",
-            "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
-            "hash": "auto",
-            "checkver": {
-                "apiurl": "https://www.423down.com/10835.html",
-                "version": "Build on ([\\d.]+)",
-                "url": "https://423down\\.lanzouo\\.com/[a-zA-Z0-9]+"
-            },
-            "autoupdate": {
-                "name": "微软常用运行库合集_{version}.exe"
             }
         }
     }

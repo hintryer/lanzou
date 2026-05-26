@@ -2,9 +2,9 @@
     {
         "filename": "360File.json",
         "content": {
-            "name": "360文件夹",
+            "name": "360FileSetup_1.0.0.1180.exe",
             "category": "其它工具",
-            "version": "auto",
+            "version": "1.0.0.1180",
             "description": "360多标签文件管理器",
             "homepage": "https://baoku.360.cn/soft/show/appid/2000003908",
             "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
@@ -22,12 +22,12 @@
     {
         "filename": "Bili23-Downloader.json",
         "content": {
-            "name": "Bili23-Downloader",
+            "name": "Bili23-Downloade_v2.00.4_portable.zip",
             "category": "其它工具",
-            "version": "auto",
+            "version": "v2.00.4",
             "description": "B站视频下载工具",
             "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.4/Bili23-Downloader_2.00.4_windows_x64_portable.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/ScottSloan/Bili23-Downloader/releases/latest",
@@ -38,18 +38,19 @@
             ],
             "autoupdate": {
                 "name": "Bili23-Downloade_{version}_portable.zip"
-            }
+            },
+            "oldurl": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.4/Bili23-Downloader_2.00.4_windows_x64_portable.zip"
         }
     },
     {
         "filename": "Chrome++.json",
         "content": {
-            "name": "chrome_plus",
+            "name": "Chrome++_v1.16.2_x86_x64_arm64.7z",
             "category": "浏览器相关",
-            "version": "auto",
+            "version": "1.16.2",
             "description": "Chrome增强工具集",
             "homepage": "https://github.com/Bush2021/chrome_plus",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.16.2/Chrome%2B%2B_v1.16.2_x86_x64_arm64.7z",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/Bush2021/chrome_plus/releases/latest",
@@ -57,18 +58,19 @@
                     "name": "$.assets[?(@.name =~ /Chrome.*/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/Bush2021/chrome_plus/releases/download/1.16.2/Chrome%2B%2B_v1.16.2_x86_x64_arm64.7z"
         }
     },
     {
         "filename": "chrome_installer.json",
         "content": {
-            "name": "chrome_installer",
+            "name": "chrome_148.0.7778.179_uncompressed.exe",
             "category": "浏览器相关",
-            "version": "auto",
+            "version": "148.0.7778.179",
             "description": "Chrome 离线安装包",
             "homepage": "https://github.com/Bush2021/chrome_installer",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/148.0.7778.179/x64_148.0.7778.179_chrome_installer_uncompressed.exe",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/Bush2021/chrome_installer/releases/latest",
@@ -79,18 +81,19 @@
             ],
             "autoupdate": {
                 "name": "chrome_{version}_uncompressed.exe"
-            }
+            },
+            "oldurl": "https://github.com/Bush2021/chrome_installer/releases/download/148.0.7778.179/x64_148.0.7778.179_chrome_installer_uncompressed.exe"
         }
     },
     {
-        "filename": "Clash-verge-rev.json",
+        "filename": "clash-verge-rev.json",
         "content": {
-            "name": "Clash-verge-rev",
+            "name": "Clash.Verge_2.5.1_x64-setup.exe",
             "category": "其它工具",
-            "version": "auto",
+            "version": "v2.5.1",
             "description": "Clash图形化代理客户端",
             "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.1/Clash.Verge_2.5.1_x64-setup.exe",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases/latest",
@@ -98,7 +101,8 @@
                     "name": "$.assets[?(@.name =~ /.*x64-setup.exe/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.1/Clash.Verge_2.5.1_x64-setup.exe"
         }
     },
     {
@@ -113,23 +117,23 @@
             "hash": "auto",
             "checkver": [
                 {
-                    "apiurl": "https://www.52pojie.cn/thread-1761083-1-1.html"
+                    "apiurl": "https://wwi.lanzoup.com/iiahR0rcr4cd"
                 }
             ],
             "autoupdate": {
-                "url": "https://wwi.lanzoup.com/iiahR0rcr4cd"
+                "url": "https://developer3.lanrar.com/file/?UDZSbAs6BDUEDQQ8AjdXOwY5DzcEvQOZUutQsVauUOsG41SaAPUGtgnlAPgAsV3mW6cF6FK9U9IA71TYAtwG71DtUqoLsgTrBOQEfAIsVz8GLA8sBD0DaFI5UDNWVVA4BmJUPgBsBmIJZwBnAGddZFs1BTNSPlN3AGFUIQJjBjNQZVI9C2UEYARmBHQCJlcmBmEPOARrAzNSZlB5VjpQYgYpVDEAZQZ9CW0AYwA3XW1bNQU0UjhTaQAwVGsCOgY+UDNSMgtvBDMEYgQwAjNXYAZtDzgEPgM0UmFQblY4UDAGNFQ2ADgGNAlxACwAPV0sWycFdVJ+UzQAdVQ7AjoGOlBjUjwLZgRnBGIEZQJwVyIGNQ9nBD4DZ1JoUGdWPVBmBj9UNABrBmcJbwBvAGVdclsvBSZSa1M9AHBUbwJvBjBQZ1I8C2EEYQRjBGICYVdhBnoPfwQrA3ZSaFBnVjxQaQY2VDMAbAZhCW0AYABmXXpbdAVpUn1TbAA1VGACbwYpUGFSPAtiBH4EYwRrAmJXeAZkDz0EdQMnUjFQOVZ9UD8GWVRgADYGbwlvAHgAcl0oW3gFcFJoUw4AclQzAmMGNw==&toolsdown"
             }
         }
     },
     {
         "filename": "dotnet10.json",
         "content": {
-            "name": "dotnet-runtime-10.0-win-x64.exe",
+            "name": "dotnet-runtime-10.0.8-win-x64.exe",
             "category": "运行库",
-            "version": "10.0.0-preview7",
+            "version": "10.0.8",
             "description": ".NET 10 Runtime",
             "homepage": "https://dotnet.microsoft.com/",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.0-preview7/dotnet-runtime-10.0.0-preview7-win-x64.exe",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.8/dotnet-runtime-10.0.8-win-x64.exe",
             "checkver": [
                 {
                     "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
@@ -145,7 +149,7 @@
     {
         "filename": "dotnet6.json",
         "content": {
-            "name": "dotnet-runtime-6.0-win-x64.exe",
+            "name": "dotnet-runtime-6.0.36-win-x64.exe",
             "category": "运行库",
             "version": "6.0.36",
             "description": ".NET 6 Runtime",
@@ -166,7 +170,7 @@
     {
         "filename": "dotnet7.json",
         "content": {
-            "name": "dotnet-runtime-7.0-win-x64.exe",
+            "name": "dotnet-runtime-7.0.20-win-x64.exe",
             "category": "运行库",
             "version": "7.0.20",
             "description": ".NET 7 Runtime",
@@ -187,12 +191,12 @@
     {
         "filename": "dotnet8.json",
         "content": {
-            "name": "dotnet-runtime-8.0-win-x64.exe",
+            "name": "dotnet-runtime-8.0.27-win-x64.exe",
             "category": "运行库",
-            "version": "8.0.11",
+            "version": "8.0.27",
             "description": ".NET 8 Runtime",
             "homepage": "https://dotnet.microsoft.com/",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.11/dotnet-runtime-8.0.11-win-x64.exe",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.27/dotnet-runtime-8.0.27-win-x64.exe",
             "checkver": [
                 {
                     "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
@@ -208,12 +212,12 @@
     {
         "filename": "dotnet9.json",
         "content": {
-            "name": "dotnet-runtime-9.0-win-x64.exe",
+            "name": "dotnet-runtime-9.0.16-win-x64.exe",
             "category": "运行库",
-            "version": "9.0.2",
+            "version": "9.0.16",
             "description": ".NET 9 Runtime",
             "homepage": "https://dotnet.microsoft.com/",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.2/dotnet-runtime-9.0.2-win-x64.exe",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.16/dotnet-runtime-9.0.16-win-x64.exe",
             "checkver": [
                 {
                     "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
@@ -227,7 +231,7 @@
         }
     },
     {
-        "filename": "EmEditor.json",
+        "filename": "emeditor.json",
         "content": {
             "name": "EmEditor_portable.zip",
             "category": "文本办公",
@@ -247,12 +251,12 @@
     {
         "filename": "FFmpeg_Batch_AV_Converter.json",
         "content": {
-            "name": "FFmpeg_Batch_AV_Converter",
+            "name": "FFmpeg_Batch_AV_Converter_Portable_3.2.8_x64.zip",
             "category": "影音工具",
-            "version": "auto",
+            "version": "3.2.8",
             "description": "音视频批量转换工具",
             "homepage": "https://github.com/eibols/ffmpeg_batch",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/eibols/ffmpeg_batch/releases/download/3.2.8/FFmpeg_Batch_AV_Converter_Portable_3.2.8_x64.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/eibols/ffmpeg_batch/releases/latest",
@@ -260,18 +264,19 @@
                     "name": "$.assets[?(@.name =~ /.*Portable.*/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/eibols/ffmpeg_batch/releases/download/3.2.8/FFmpeg_Batch_AV_Converter_Portable_3.2.8_x64.zip"
         }
     },
     {
         "filename": "FFmpeg_Essentials.json",
         "content": {
-            "name": "FFmpeg_Essentials",
+            "name": "ffmpeg-8.1.1-essentials_build.7z",
             "category": "开发工具",
-            "version": "auto",
+            "version": "8.1.1",
             "description": "精简版音视频处理工具",
             "homepage": "https://ffmpeg.org/",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-essentials_build.7z",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
@@ -279,18 +284,19 @@
                     "name": "$.assets[?(@.name =~ /.*essentials_build.7z/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-essentials_build.7z"
         }
     },
     {
         "filename": "FFmpeg_Full.json",
         "content": {
-            "name": "FFmpeg_Full",
+            "name": "ffmpeg-8.1.1-full_build.7z",
             "category": "开发工具",
-            "version": "auto",
+            "version": "8.1.1",
             "description": "完整版音视频处理工具",
             "homepage": "https://ffmpeg.org/",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-full_build.7z",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/GyanD/codexffmpeg/releases/latest",
@@ -298,15 +304,16 @@
                     "name": "$.assets[?(@.name =~ /.*full_build.7z/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-full_build.7z"
         }
     },
     {
         "filename": "FSCapture.json",
         "content": {
-            "name": "FSCapture.zip",
+            "name": "FSCapture_11.2.zip",
             "category": "图像相关",
-            "version": "auto",
+            "version": "11.2",
             "description": "屏幕录制、滚动截图工具",
             "homepage": "https://www.faststone.org/FSCaptureDetail.htm",
             "url": "https://www.faststonesoft.net/DN/FSCapture112.zip",
@@ -327,9 +334,9 @@
     {
         "filename": "FSViewer.json",
         "content": {
-            "name": "FSViewer",
+            "name": "FSViewer_8.3.exe",
             "category": "图像相关",
-            "version": "auto",
+            "version": "8.3",
             "description": "FastStone 图片查看器",
             "homepage": "https://www.faststone.org/",
             "url": "https://www.faststonesoft.net/DN/FSViewerSetup83.exe",
@@ -349,9 +356,9 @@
     {
         "filename": "GeekUninstaller.json",
         "content": {
-            "name": "GeekUninstaller",
+            "name": "GeekUninstaller_1.5.3.170.exe",
             "category": "单文件",
-            "version": "auto",
+            "version": "1.5.3.170",
             "description": "Geek 卸载工具",
             "homepage": "https://geekuninstaller.com/",
             "url": "https://geekuninstaller.com/geek.zip",
@@ -369,14 +376,14 @@
         }
     },
     {
-        "filename": "LanZouYun.json",
+        "filename": "lanzouyun.json",
         "content": {
-            "name": "LanZouYun",
+            "name": "lanzouyun-3.5.3-x64-win.zip",
             "category": "下载传输",
-            "version": "auto",
+            "version": "v3.5.3",
             "description": "蓝奏云非官方客户端",
             "homepage": "https://github.com/chenhb23/lanzouyun-disk",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/chenhb23/lanzouyun-disk/releases/download/v3.5.3/lanzouyun-3.5.3-x64-win.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/chenhb23/lanzouyun-disk/releases/latest",
@@ -384,15 +391,16 @@
                     "name": "$.assets[?(@.name =~ /.*lanzouyun.*x64-win.*/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/chenhb23/lanzouyun-disk/releases/download/v3.5.3/lanzouyun-3.5.3-x64-win.zip"
         }
     },
     {
         "filename": "LastPass.json",
         "content": {
-            "name": "LastPass",
+            "name": "LastPass_4.153.0.crx",
             "category": "浏览器相关",
-            "version": "auto",
+            "version": "4.153.0",
             "description": "Free Password Manager",
             "homepage": "https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd",
             "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc&prodversion=130.0.0.0",
@@ -410,12 +418,12 @@
     {
         "filename": "LocalSend.json",
         "content": {
-            "name": "LocalSend",
+            "name": "LocalSend-1.17.0-windows-x86-64.zip",
             "category": "下载传输",
-            "version": "auto",
+            "version": "v1.17.0",
             "description": "局域网文件互传工具",
             "homepage": "https://localsend.org/",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-windows-x86-64.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/localsend/localsend/releases/latest",
@@ -423,18 +431,19 @@
                     "name": "$.assets[?(@.name =~ /.*windows-x86-64.zip/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-windows-x86-64.zip"
         }
     },
     {
         "filename": "MouseClickTool.json",
         "content": {
-            "name": "MouseClickTool",
+            "name": "MouseClickTool.exe",
             "category": "单文件",
-            "version": "auto",
+            "version": "3.1.0.0",
             "description": "鼠标自动点击工具",
             "homepage": "https://github.com/lalakii/MouseClickTool",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/lalakii/MouseClickTool/releases/latest",
@@ -442,18 +451,19 @@
                     "name": "$.assets[?(@.name =~ /MouseClickTool.exe/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe"
         }
     },
     {
         "filename": "MusicPlayer2.json",
         "content": {
-            "name": "MusicPlayer2",
+            "name": "MusicPlayer2_V2.78_x64.zip",
             "category": "影音工具",
-            "version": "auto",
+            "version": "V2.78",
             "description": "简洁本地音乐播放器",
             "homepage": "https://github.com/zhongyang219/MusicPlayer2",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.78/MusicPlayer2_V2.78_x64.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/zhongyang219/MusicPlayer2/releases/latest",
@@ -461,13 +471,14 @@
                     "name": "$.assets[?(@.name =~ /MusicPlayer2.*_V.*_x64.zip/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.78/MusicPlayer2_V2.78_x64.zip"
         }
     },
     {
         "filename": "MusicTag.json",
         "content": {
-            "name": "MusicTag",
+            "name": "MusicTag.zip",
             "category": "影音工具",
             "version": "v1.0.9.0",
             "description": "歌曲音乐标签编辑工具",
@@ -476,23 +487,23 @@
             "hash": "auto",
             "checkver": [
                 {
-                    "apiurl": "https://www.52pojie.cn/thread-1687719-1-1.html"
+                    "apiurl": "https://wwn.lanzouy.com/i2pWg0bnlirg"
                 }
             ],
             "autoupdate": {
-                "url": "https://wwn.lanzouy.com/i2pWg0bnlirg"
+                "url": "https://developer3.lanrar.com/file/?VDIBPww9UGEDCgE5BzIBbQA/Bj5RQwF2C39VOlFuBlMBYAU1WSRVd1E2BHwCZgcoA2AAK1M8VnoBfABvUX0EI1QyAT8MPVBhAwoBPgc3AT0AYgYyUTkBNAs8VWZRPgYxAScFNFl3VTxRMwRkAm8HNwNrADBTOlZyAXYAdlEwBDdUZAFkDGNQKwNlAW4HfAExAG4GLFE2AWULaFVmUT8GMgEwBTZZYFUwUWEEZwIzB2ADYABgUzpWNQFkADFROQRgVGcBNQw3UDcDZAEyBzYBYgBsBjVRIAF5C2VVI1ErBnIBcgU3WXZVaFFjBG8CZwc/A2wAN1M1VmIBMwAgUXkEbFQ5ATMMN1A5A2QBYAdkATkAbQY1UTsBMws7VWJRIwYpAScFNFloVXZROgRjAmEHMQNgADJTOlZlATEAM1E6BCNUIQEmDCZQOQNkAWEHZQEzAGsGMVE9ATYLNFViUSsGcgFoBSJZOVUzUTUEYwJ4BzcDYAAxUyJWZQE/ADJRIwQ9VGMBeAx3UGADOgEgBz0BXwA5BmhRMwEzCyJVdVF5Bn4BcQU3WVtVdFFmBG8CZg==&toolsdown"
             }
         }
     },
     {
         "filename": "Notepad4.json",
         "content": {
-            "name": "Notepad4",
+            "name": "Notepad4_HD_zh-Hans_x64_v26.05r6166.zip",
             "category": "文本办公",
-            "version": "auto",
+            "version": "v26.05r6166",
             "description": "轻量级文本编辑器",
             "homepage": "https://github.com/zufuliu/notepad4",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.05r6166/Notepad4_HD_zh-Hans_x64_v26.05r6166.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/zufuliu/notepad4/releases/latest",
@@ -500,18 +511,19 @@
                     "name": "$.assets[?(@.name =~ /Notepad4.*zh-Hans_x64.*/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/zufuliu/notepad4/releases/download/v26.05r6166/Notepad4_HD_zh-Hans_x64_v26.05r6166.zip"
         }
     },
     {
         "filename": "PortableGit.json",
         "content": {
-            "name": "PortableGit",
+            "name": "PortableGit-2.54.0-64-bit.7z.exe",
             "category": "开发工具",
-            "version": "auto",
+            "version": "v2.54.0.windows.1",
             "description": "便携版Git版本控制工具",
             "homepage": "https://gitforwindows.org/",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-64-bit.7z.exe",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/git-for-windows/git/releases/latest",
@@ -519,15 +531,16 @@
                     "name": "$.assets[?(@.name =~ /PortableGit.*64-bit.7z.exe/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-64-bit.7z.exe"
         }
     },
     {
         "filename": "ProxySwitchyOmega3.json",
         "content": {
-            "name": "Proxy SwitchyOmega 3 (ZeroOmega)",
+            "name": "SwitchyOmega_3.5.0.crx",
             "category": "浏览器相关",
-            "version": "auto",
+            "version": "3.5.0",
             "description": "代理切换工具",
             "homepage": "https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped",
             "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc&prodversion=130.0.0.0",
@@ -545,9 +558,9 @@
     {
         "filename": "QQWubi.json",
         "content": {
-            "name": "QQWubi_Setup.exe",
+            "name": "QQWubi_Setup_2.4.629.400.exe",
             "category": "文本办公",
-            "version": "auto",
+            "version": "2.4.629.400",
             "description": "QQ五笔输入法",
             "homepage": "https://qq.pinyin.cn/wubi/",
             "url": "https://qq.pinyin.cn/download_pc.php?t=wb",
@@ -578,19 +591,19 @@
                 }
             ],
             "autoupdate": {
-                "url": "https://kuguagantian.lanzoum.com/i4oW63ken4af"
+                "url": "https://developer3.lanrar.com/file/?UjRWaAg5BjcFDAA4V2JRPVRrBj5f5gGVB4dUtl26BrEA5laVXLgBsFOVU4gCewFSBjkBSgU7CmUGZAdzUFxRIlI9Vl4IYgZ8BWoAeFczUX5UPgZ1XzIBLQdlVCpdZAYhAGZWaFxtATBTWlNsAjIBPQZuATMFbQowBjcHNlA7UWdSZ1YnCDMGIQVuAGVXNlFnVDoGMl85ATIHJlQiXXEGOgAyVjFcMwFjUypTNQJlAS8GbQE2BXUKOwY2BzBQNVFkUjBWOQhnBmAFMQBiVzdRMlRsBmZfOAE7BzhUZ10zBjMAYlY0XDMBMFMzUzUCMAFkBm8BNwVqCiYGZAd5UGlRdlInVnIIMAYgBToAMlc+UWlUPgYyXzcBOwcyVHRddQZuAG1WZFxnAWhTNFMyAmEBOQZrATIFbgo8BjcHNlAiUX5SdFZnCDkGJQVuAGdXNFFnVDcGNF82ATAHNFRgXTcGIQB1VnFcdgFoUzRTMgJhATMGbgE8BW4KMQY3BzlQKlElUjtWcQhoBmAFYQBnVy1RYVQ3BjdfLgEyBzlUZl0vBj8AN1YvXCcBMVNqU3ICOAFfBj8BbwVnCjgGLwcnUHhRKVIiVmQICgYnBTIAa1cz&toolsdown"
             }
         }
     },
     {
         "filename": "Scribe2SRT.json",
         "content": {
-            "name": "Scribe2SRT",
+            "name": "Scribe2SRT-v0.3.5-windows-x86_64.zip",
             "category": "影音工具",
-            "version": "auto",
+            "version": "v0.3.5",
             "description": "音频转字幕工具",
             "homepage": "https://github.com/cylind/scribe2srt",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/cylind/scribe2srt/releases/download/v0.3.5/Scribe2SRT-v0.3.5-windows-x86_64.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/cylind/scribe2srt/releases/latest",
@@ -598,15 +611,16 @@
                     "name": "$.assets[?(@.name =~ /Scribe2SRT.*windows-x86_64.*/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/cylind/scribe2srt/releases/download/v0.3.5/Scribe2SRT-v0.3.5-windows-x86_64.zip"
         }
     },
     {
         "filename": "SingleFile.json",
         "content": {
-            "name": "SingleFile",
+            "name": "SingleFile_1.22.98.crx",
             "category": "浏览器相关",
-            "version": "auto",
+            "version": "1.22.98",
             "description": "网页单文件保存",
             "homepage": "https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle",
             "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc&prodversion=130.0.0.0",
@@ -622,11 +636,11 @@
         }
     },
     {
-        "filename": "Steamcommunity.json",
+        "filename": "steamcommunity.json",
         "content": {
-            "name": "Steamcommunity",
+            "name": "Steamcommunity_302_AMD64_V14.0.02.zip",
             "category": "其它工具",
-            "version": "auto",
+            "version": "V14.0.02",
             "description": "Steam 社区访问加速工具",
             "homepage": "https://www.dogfight360.com/blog/18682/",
             "url": "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip",
@@ -655,23 +669,23 @@
             "hash": "auto",
             "checkver": [
                 {
-                    "apiurl": "https://www.52pojie.cn/thread-2090717-1-1.html"
+                    "apiurl": "https://www.lanzouw.com/iWAtU3k3y9id"
                 }
             ],
             "autoupdate": {
-                "url": "https://www.lanzouw.com/iWAtU3k3y9id"
+                "url": "https://developer3.lanrar.com/file/?CW8HOQ08BzYIAVdvVGEGalJtUmpW4VHsCogG6QfABLJSBlNsAChUbgAyUGMDJVx9A2hSZV4vU2UKI1FmBWlXeAk6B2kNZAdjCHBXZFR4BmJSLlIxVmBRPwpoBl8HMgRhUm9TNgBqVDcAZVAwA25cbQNpUmReJ1M3Cn5RagVoV2YJOAdhDWkHaghnVzhUMAYhUnhSJ1Y0UWEKPQYyB20EKlJiUzcAclQwAG5QKQNlXGkDYFIxXjJTNQo7UWIFb1dvCTAHMw1mB2MIOldjVGEGMlI9UmZWMVE2CmwGMQdtBGdSYlM1ADtUZQAzUGcDeVw4AyFSMl4nUyQKflEyBStXPwltB20NaQdiCGlXOFQ4Bj9SLlIjVmBRPgpoBmYHZgQ0UmVTMwBkVDcAYFAyA29cawNoUnleL1N3CmtROwUuV2sJOAdnDWcHaghpVzdUMwY1UjpSZ1YvUSYKfQZ3B2YENFJlUzMAb1Q5AGNQMwNjXG4Da1JxXnRTOAp9UWoFa1dkCTgHfg1hB2oIalcvVDEGPlI8UnlWMVFkCiMGJgc/BGpSJVNqAAJUYwA9UDsDZ1xzA39SI154UyEKaFEIBSxXNwk0B2A=&toolsdown"
             }
         }
     },
     {
         "filename": "Typora.json",
         "content": {
-            "name": "Typora",
+            "name": "typora-windows-x64-1.9.5.exe",
             "category": "文本办公",
-            "version": "auto",
+            "version": "v1.9.5",
             "description": "Markdown 编辑器和阅读器",
             "homepage": "https://typora.io/",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/typora-windows-x64-1.9.5.exe",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/Delppine1024/TGreen/releases/latest",
@@ -679,18 +693,19 @@
                     "name": "$.assets[?(@.name =~ /.*-x64-1.9.5.exe/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/typora-windows-x64-1.9.5.exe"
         }
     },
     {
         "filename": "Typora_Crack.json",
         "content": {
-            "name": "Typora_Crack",
+            "name": "app_asar_file_v1.9.5.zip",
             "category": "文本办公",
-            "version": "auto",
+            "version": "v1.9.5",
             "description": "Typora 激活补丁工具",
             "homepage": "https://github.com/Delppine1024/TGreen",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/app_asar_file_v1.9.5.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/Delppine1024/TGreen/releases/latest",
@@ -698,18 +713,19 @@
                     "name": "$.assets[?(@.name =~ /app_asar.*/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/app_asar_file_v1.9.5.zip"
         }
     },
     {
         "filename": "Typora_Plugin.json",
         "content": {
-            "name": "Typora_Plugin",
+            "name": "typora-plugin@v1.18.0.zip",
             "category": "文本办公",
-            "version": "auto",
+            "version": "1.18.0",
             "description": "Typora 增强插件",
             "homepage": "https://github.com/obgnail/typora_plugin",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.18.0/typora-plugin%40v1.18.0.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/obgnail/typora_plugin/releases/latest",
@@ -717,15 +733,16 @@
                     "name": "$.assets[?(@.name =~ /typora-plugin.*/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/obgnail/typora_plugin/releases/download/1.18.0/typora-plugin%40v1.18.0.zip"
         }
     },
     {
         "filename": "uBlock Origin Lite.json",
         "content": {
-            "name": "uBlock Origin Lite",
+            "name": "uBlock+Origin+Lite_2026.507.2008.crx",
             "category": "浏览器相关",
-            "version": "auto",
+            "version": "2026.507.2008",
             "description": "轻量版广告拦截",
             "homepage": "https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh",
             "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc&prodversion=130.0.0.0",
@@ -743,12 +760,12 @@
     {
         "filename": "Umi-OCR.json",
         "content": {
-            "name": "Umi-OCR",
+            "name": "Umi-OCR_Paddle_v2.1.5.7z.exe",
             "category": "图像相关",
-            "version": "auto",
+            "version": "v2.1.5",
             "description": "免费开源可批量离线OCR软件",
             "homepage": "https://github.com/hiroi-sora/Umi-OCR",
-            "url": "",
+            "url": "https://gh-proxy.com/https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.5/Umi-OCR_Paddle_v2.1.5.7z.exe",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/hiroi-sora/Umi-OCR/releases/latest",
@@ -756,7 +773,8 @@
                     "name": "$.assets[?(@.name =~ /.*Paddle.*exe/)].name",
                     "version": "$.tag_name"
                 }
-            ]
+            ],
+            "oldurl": "https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.5/Umi-OCR_Paddle_v2.1.5.7z.exe"
         }
     },
     {
@@ -764,10 +782,10 @@
         "content": {
             "name": "VideoCaptioner-Setup-win64-v1.3.3.exe",
             "category": "影音工具",
-            "version": "v1.3.3",
+            "version": "1.3.3",
             "description": "视频字幕识别工具",
             "homepage": "https://github.com/WEIFENG2333/VideoCaptioner",
-            "url": "https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe",
+            "url": "https://gh-proxy.com/https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/",
@@ -780,11 +798,12 @@
                 "name": "VideoCaptioner-Setup-win64-v1.3.3.exe",
                 "version": "1.3.3",
                 "url": "https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe"
-            }
+            },
+            "oldurl": "https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe"
         }
     },
     {
-        "filename": "YunXingKu.json",
+        "filename": "yunxingku.json",
         "content": {
             "name": "微软常用运行库合集",
             "category": "运行库",
@@ -796,10 +815,11 @@
             "checkver": {
                 "apiurl": "https://www.423down.com/10835.html",
                 "version": "Build on ([\\d.]+)",
-                "url": "https://423down\\.lanzouo\\.com/[a-zA-Z0-9]+"
+                "url": "https://423down.lanzouo.com/iEuAX3nfyheh"
             },
             "autoupdate": {
-                "name": "微软常用运行库合集_{version}.exe"
+                "name": "微软常用运行库合集_{version}.exe",
+                "url": "https://developer3.lanrar.com/file/?UDYHOVtqV2ZVXFFpATRcMFJtAzsHvVPvCqNTvVa3Aa8B5AfoCO1U5wHDBvhT71ziU5lUuQP9VthRs1ToAs0E4FDAB9hb71eYVYVRJwFnXG1SOgMwB3ZTYQo5U3tWOwE2AS8HNQgtVGUBcQY2U25cMVNsVA4DNVYwUWtUYAJmBDdQaQdmWz5XM1UzUTABc1w7UnsDOwdsU2YKPlNtVjIBOAExB2EIc1RwAScGbVM1XG1TO1RnA3NWZFFiVH0CbwQyUH8HMls+VzZVYFE3ATBcOVI+Az8HaFNhCj9TN1YyATIBMAdmCGBUYwEzBjZTN1xsUz1UNQNlVmNRZlRiAmwEMFBmB35bY1d7VWZRIQEgXC5SbQN0BzFTNQowU2xWPQE2ATEHZwhzVHQBPgY9U2JcO1M0VGADa1ZjUW9UZQJoBDBQYAdkWzJXLVUtUSEBM1wxUn8DOwdpU2YKOlNsVj0BNgEyB2UIY1QyAXEGJVN3XCpTNFRgA2tWY1FgVGECZwQwUGEHYFswVyVVdlFuASVcYFI6AzQHaVN/CjxTbFY+AS4BMAdpCGFULgFvBmdTKVx7U21UPgMrVjpRCVQxAjUEOFBgB35bIFd3VXpRdwEwXAJSfQNnB2VTYQ==&toolsdown"
             }
         }
     },
@@ -815,20 +835,20 @@
             "hash": "auto",
             "checkver": [
                 {
-                    "apiurl": "https://www.423down.com/3050.html"
+                    "apiurl": "https://423down.lanzouo.com/iPRE43nu4qbi"
                 }
             ],
             "autoupdate": {
-                "url": "https://423down.lanzouo.com/iPRE43nu4qbi"
+                "url": "https://developer3.lanrar.com/file/?AWcGOA4/BTQJAAQ8BzJXOwE+Bz9W2Vb0AmpRI1HdUfBVOQUzWn5VZAgsVywGYAUyUzkCMwJvVGQBLlptVCYHMQEvBmMOYQVpCWoEawd6V3sBIwc0Vj1WeQJWUSNRbFEyVTkFN1opVWQIJldkBnQFYlNgAmsCOFQJAW9aOFQ1BzQBOQZiDmUFYwlmBGAHa1duAX0HZFZ6VmkCMVFjUTRRYFViBWNaMFU1CHhXcQYiBTlTOwI3Am9UYAEpWmxUPAcpATMGYw58BWEJPgRgBzdXYwFiBzNWO1YwAjRRZ1E/UWRVZwVqWjFVYAhsVzgGawUzU20CNQI+VG8BMVo4VG0HPgE0BjAOYgV/CToEKgc2V3ABLgdxVmxWJgJsUTNRMFFpVWIFZFo3VTYIeFd1BjsFaVNsAmECYFRnATFaa1QxBzEBNwZlDmsFaAlpBHwHfVdwAT0HblZ+VmkCNFFgUTpRaVViBWRaNFU2CG1XMQZ0BXFTeQJwAmBUZwExWmtUPgc+ATcGYA5gBWYJZwR0ByZXPwErBz9WO1ZmAjRReVE8UWlVYQV8WjZVOAhqVy8GagUzUycCIQI5VDkBcVoyVFcHZQFqBmwOYwV/CXkEJgcqVyYBPgddVnxWNQI4UWc=&toolsdown"
             }
         }
     },
     {
         "filename": "沉浸式翻译.json",
         "content": {
-            "name": "沉浸式翻译",
+            "name": "沉浸式翻译_1.29.6.crx",
             "category": "浏览器相关",
-            "version": "auto",
+            "version": "1.29.6",
             "description": "AI 网页翻译插件",
             "homepage": "https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
             "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc&prodversion=130.0.0.0",
@@ -846,9 +866,9 @@
     {
         "filename": "猫抓.json",
         "content": {
-            "name": "猫抓",
+            "name": "猫抓_2.6.9.crx",
             "category": "浏览器相关",
-            "version": "auto",
+            "version": "2.6.9",
             "description": "媒体资源嗅探下载",
             "homepage": "https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb",
             "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc&prodversion=130.0.0.0",
@@ -866,9 +886,9 @@
     {
         "filename": "篡改猴测试版.json",
         "content": {
-            "name": "篡改猴测试版",
+            "name": "篡改猴测试版_5.5.6237.crx",
             "category": "浏览器相关",
-            "version": "auto",
+            "version": "5.5.6237",
             "description": "脚本管理工具（红色版）",
             "homepage": "https://www.crxsoso.com/webstore/detail/gcalenpjmijncebpfijmoaglllgpjagf",
             "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dgcalenpjmijncebpfijmoaglllgpjagf%26uc&prodversion=130.0.0.0",
@@ -886,9 +906,9 @@
     {
         "filename": "解除网页复制限制.json",
         "content": {
-            "name": "解除网页复制限制",
+            "name": "解除网页复制限制_2.1.6.crx",
             "category": "浏览器相关",
-            "version": "auto",
+            "version": "2.1.6",
             "description": "网页限制解除",
             "homepage": "https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm",
             "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc&prodversion=130.0.0.0",
@@ -906,9 +926,9 @@
     {
         "filename": "超级拖拽.json",
         "content": {
-            "name": "超级拖拽",
+            "name": "超级拖拽_2.1.2.crx",
             "category": "浏览器相关",
-            "version": "auto",
+            "version": "2.1.2",
             "description": "超级拖拽 + 鼠标手势",
             "homepage": "https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg",
             "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc&prodversion=130.0.0.0",

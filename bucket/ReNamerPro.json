@@ -1,16 +1,16 @@
 {
-  "name": "ReNamerPro_7.9.0.0v2.exe",
-  "category": "单文件",
-  "version": "7.9.0.0v2",
-  "description": "文件改名",
-  "homepage": "https://www.52pojie.cn/thread-2064422-1-1.html",
-  "url": "https://kuguagantian.lanzoum.com/i4oW63ken4af",
-  "checkver": [
-    {
-      "apiurl": "https://kuguagantian.lanzoum.com/b0dzxlrni"
+    "name": "ReNamerPro_7.9.0.0v2.exe",
+    "category": "单文件",
+    "version": "7.9.0.0v2",
+    "description": "文件改名",
+    "homepage": "https://www.52pojie.cn/thread-2064422-1-1.html",
+    "url": "https://kuguagantian.lanzoum.com/i4oW63ken4af",
+    "checkver": [
+        {
+            "apiurl": "https://kuguagantian.lanzoum.com/b0dzxlrni"
+        }
+    ],
+    "autoupdate": {
+        "url": "https://developer3.lanrar.com/file/?UjRWaAg5BjcFDAA4V2JRPVRrBj5f5gGVB4dUtl26BrEA5laVXLgBsFOVU4gCewFSBjkBSgU7CmUGZAdzUFxRIlI9Vl4IYgZ8BWoAeFczUX5UPgZ1XzIBLQdlVCpdZAYhAGZWaFxtATBTWlNsAjIBPQZuATMFbQowBjcHNlA7UWdSZ1YnCDMGIQVuAGVXNlFnVDoGMl85ATIHJlQiXXEGOgAyVjFcMwFjUypTNQJlAS8GbQE2BXUKOwY2BzBQNVFkUjBWOQhnBmAFMQBiVzdRMlRsBmZfOAE7BzhUZ10zBjMAYlY0XDMBMFMzUzUCMAFkBm8BNwVqCiYGZAd5UGlRdlInVnIIMAYgBToAMlc+UWlUPgYyXzcBOwcyVHRddQZuAG1WZFxnAWhTNFMyAmEBOQZrATIFbgo8BjcHNlAiUX5SdFZnCDkGJQVuAGdXNFFnVDcGNF82ATAHNFRgXTcGIQB1VnFcdgFoUzRTMgJhATMGbgE8BW4KMQY3BzlQKlElUjtWcQhoBmAFYQBnVy1RYVQ3BjdfLgEyBzlUZl0vBj8AN1YvXCcBMVNqU3ICOAFfBj8BbwVnCjgGLwcnUHhRKVIiVmQICgYnBTIAa1cz&toolsdown"
     }
-  ],
-  "autoupdate": {
-    "url": "https://kuguagantian.lanzoum.com/i4oW63ken4af"
-  }
 }

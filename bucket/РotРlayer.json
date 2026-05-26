@@ -1,17 +1,17 @@
 {
-  "name": "РotРlayer-260422(1.7.22859)-x64-Stable.exe",
-  "category": "影音工具",
-  "version": "1.7.22859",
-  "description": "高性能本地影音播放器",
-  "homepage": "https://www.423down.com/3050.html",
-  "url": "https://423down.lanzouo.com/iPRE43nu4qbi",
-  "hash": "auto",
-  "checkver": [
-    {
-      "apiurl": "https://www.423down.com/3050.html"
+    "name": "РotРlayer-260422(1.7.22859)-x64-Stable.exe",
+    "category": "影音工具",
+    "version": "1.7.22859",
+    "description": "高性能本地影音播放器",
+    "homepage": "https://www.423down.com/3050.html",
+    "url": "https://423down.lanzouo.com/iPRE43nu4qbi",
+    "hash": "auto",
+    "checkver": [
+        {
+            "apiurl": "https://423down.lanzouo.com/iPRE43nu4qbi"
+        }
+    ],
+    "autoupdate": {
+        "url": "https://developer3.lanrar.com/file/?AWcGOA4/BTQJAAQ8BzJXOwE+Bz9W2Vb0AmpRI1HdUfBVOQUzWn5VZAgsVywGYAUyUzkCMwJvVGQBLlptVCYHMQEvBmMOYQVpCWoEawd6V3sBIwc0Vj1WeQJWUSNRbFEyVTkFN1opVWQIJldkBnQFYlNgAmsCOFQJAW9aOFQ1BzQBOQZiDmUFYwlmBGAHa1duAX0HZFZ6VmkCMVFjUTRRYFViBWNaMFU1CHhXcQYiBTlTOwI3Am9UYAEpWmxUPAcpATMGYw58BWEJPgRgBzdXYwFiBzNWO1YwAjRRZ1E/UWRVZwVqWjFVYAhsVzgGawUzU20CNQI+VG8BMVo4VG0HPgE0BjAOYgV/CToEKgc2V3ABLgdxVmxWJgJsUTNRMFFpVWIFZFo3VTYIeFd1BjsFaVNsAmECYFRnATFaa1QxBzEBNwZlDmsFaAlpBHwHfVdwAT0HblZ+VmkCNFFgUTpRaVViBWRaNFU2CG1XMQZ0BXFTeQJwAmBUZwExWmtUPgc+ATcGYA5gBWYJZwR0ByZXPwErBz9WO1ZmAjRReVE8UWlVYQV8WjZVOAhqVy8GagUzUycCIQI5VDkBcVoyVFcHZQFqBmwOYwV/CXkEJgcqVyYBPgddVnxWNQI4UWc=&toolsdown"
     }
-  ],
-  "autoupdate": {
-    "url": "https://423down.lanzouo.com/iPRE43nu4qbi"
-  }
 }

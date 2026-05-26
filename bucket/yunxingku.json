@@ -1,17 +1,18 @@
 {
-  "name": "微软常用运行库合集_2026.04.16.exe",
-  "category": "运行库",
-  "version": "2026.04.16",
-  "description": "微软常用运行库合集",
-  "homepage": "https://wwa.lanzout.com/b0b8rs19a#9527",
-  "url": "https://423down.lanzouo.com/b0f1dlg3a",
-  "hash": "auto",
-  "checkver": {
-    "apiurl": "https://www.423down.com/10835.html",
-    "version": "Build on ([\\d.]+)",
-    "url": "https://423down\\.lanzouo\\.com/[a-zA-Z0-9]+"
-  },
-  "autoupdate": {
-    "name": "微软常用运行库合集_{version}.exe"
-  }
+    "name": "微软常用运行库合集",
+    "category": "运行库",
+    "version": "auto",
+    "description": "微软常用运行库合集",
+    "homepage": "https://wwa.lanzout.com/b0b8rs19a#9527",
+    "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
+    "hash": "auto",
+    "checkver": {
+        "apiurl": "https://www.423down.com/10835.html",
+        "version": "Build on ([\\d.]+)",
+        "url": "https://423down.lanzouo.com/iEuAX3nfyheh"
+    },
+    "autoupdate": {
+        "name": "微软常用运行库合集_{version}.exe",
+        "url": "https://developer3.lanrar.com/file/?UDYHOVtqV2ZVXFFpATRcMFJtAzsHvVPvCqNTvVa3Aa8B5AfoCO1U5wHDBvhT71ziU5lUuQP9VthRs1ToAs0E4FDAB9hb71eYVYVRJwFnXG1SOgMwB3ZTYQo5U3tWOwE2AS8HNQgtVGUBcQY2U25cMVNsVA4DNVYwUWtUYAJmBDdQaQdmWz5XM1UzUTABc1w7UnsDOwdsU2YKPlNtVjIBOAExB2EIc1RwAScGbVM1XG1TO1RnA3NWZFFiVH0CbwQyUH8HMls+VzZVYFE3ATBcOVI+Az8HaFNhCj9TN1YyATIBMAdmCGBUYwEzBjZTN1xsUz1UNQNlVmNRZlRiAmwEMFBmB35bY1d7VWZRIQEgXC5SbQN0BzFTNQowU2xWPQE2ATEHZwhzVHQBPgY9U2JcO1M0VGADa1ZjUW9UZQJoBDBQYAdkWzJXLVUtUSEBM1wxUn8DOwdpU2YKOlNsVj0BNgEyB2UIY1QyAXEGJVN3XCpTNFRgA2tWY1FgVGECZwQwUGEHYFswVyVVdlFuASVcYFI6AzQHaVN/CjxTbFY+AS4BMAdpCGFULgFvBmdTKVx7U21UPgMrVjpRCVQxAjUEOFBgB35bIFd3VXpRdwEwXAJSfQNnB2VTYQ==&toolsdown"
+    }
 }
