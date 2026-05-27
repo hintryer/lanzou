@@ -3,6 +3,7 @@ import re
 import os
 import json
 import jsonpath
+from setting.lanzou import lanzouapi
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
@@ -147,7 +148,19 @@ def update_url(json_path):
         config.update(final_result)
         save_json(config, json_path)   
         return final_result
-
+    
+    if "lanzou" in url.lower():
+        oldurl = url
+        real_down_url = lanzouapi(url)
+        
+        final_result = {
+            "url": real_down_url,
+            "oldurl": oldurl
+        }
+        
+        config.update(final_result)
+        save_json(config, json_path)   
+        return final_result
     # ==============================================
     # 非 Github：什么都不做，直接返回空
     # ==============================================

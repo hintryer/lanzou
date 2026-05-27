@@ -121,7 +121,7 @@
                 }
             ],
             "autoupdate": {
-                "url": "https://developer3.lanrar.com/file/?UDZSbAs6BDUEDQQ8AjdXOwY5DzcEvQOZUutQsVauUOsG41SaAPUGtgnlAPgAsV3mW6cF6FK9U9IA71TYAtwG71DtUqoLsgTrBOQEfAIsVz8GLA8sBD0DaFI5UDNWVVA4BmJUPgBsBmIJZwBnAGddZFs1BTNSPlN3AGFUIQJjBjNQZVI9C2UEYARmBHQCJlcmBmEPOARrAzNSZlB5VjpQYgYpVDEAZQZ9CW0AYwA3XW1bNQU0UjhTaQAwVGsCOgY+UDNSMgtvBDMEYgQwAjNXYAZtDzgEPgM0UmFQblY4UDAGNFQ2ADgGNAlxACwAPV0sWycFdVJ+UzQAdVQ7AjoGOlBjUjwLZgRnBGIEZQJwVyIGNQ9nBD4DZ1JoUGdWPVBmBj9UNABrBmcJbwBvAGVdclsvBSZSa1M9AHBUbwJvBjBQZ1I8C2EEYQRjBGICYVdhBnoPfwQrA3ZSaFBnVjxQaQY2VDMAbAZhCW0AYABmXXpbdAVpUn1TbAA1VGACbwYpUGFSPAtiBH4EYwRrAmJXeAZkDz0EdQMnUjFQOVZ9UD8GWVRgADYGbwlvAHgAcl0oW3gFcFJoUw4AclQzAmMGNw==&toolsdown"
+                "url": "https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
             }
         }
     },
@@ -398,12 +398,12 @@
     {
         "filename": "LastPass.json",
         "content": {
-            "name": "LastPass",
+            "name": "LastPass.crx",
             "category": "浏览器相关",
             "version": "auto",
             "description": "Free Password Manager",
             "homepage": "https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd",
-            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc&prodversion=130.0.0.0",
+            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc",
             "hash": "auto",
             "checkver": {
                 "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
@@ -491,7 +491,7 @@
                 }
             ],
             "autoupdate": {
-                "url": "https://developer3.lanrar.com/file/?VDIBPww9UGEDCgE5BzIBbQA/Bj5RQwF2C39VOlFuBlMBYAU1WSRVd1E2BHwCZgcoA2AAK1M8VnoBfABvUX0EI1QyAT8MPVBhAwoBPgc3AT0AYgYyUTkBNAs8VWZRPgYxAScFNFl3VTxRMwRkAm8HNwNrADBTOlZyAXYAdlEwBDdUZAFkDGNQKwNlAW4HfAExAG4GLFE2AWULaFVmUT8GMgEwBTZZYFUwUWEEZwIzB2ADYABgUzpWNQFkADFROQRgVGcBNQw3UDcDZAEyBzYBYgBsBjVRIAF5C2VVI1ErBnIBcgU3WXZVaFFjBG8CZwc/A2wAN1M1VmIBMwAgUXkEbFQ5ATMMN1A5A2QBYAdkATkAbQY1UTsBMws7VWJRIwYpAScFNFloVXZROgRjAmEHMQNgADJTOlZlATEAM1E6BCNUIQEmDCZQOQNkAWEHZQEzAGsGMVE9ATYLNFViUSsGcgFoBSJZOVUzUTUEYwJ4BzcDYAAxUyJWZQE/ADJRIwQ9VGMBeAx3UGADOgEgBz0BXwA5BmhRMwEzCyJVdVF5Bn4BcQU3WVtVdFFmBG8CZg==&toolsdown"
+                "url": "https://github.com/hintryer/ra/releases/download/2.0/MusicTag_v1.0.9.0.zip"
             }
         }
     },
@@ -538,12 +538,12 @@
     {
         "filename": "ProxySwitchyOmega3.json",
         "content": {
-            "name": "Proxy SwitchyOmega 3 (ZeroOmega)",
+            "name": "Proxy SwitchyOmega 3 (ZeroOmega).crx",
             "category": "浏览器相关",
             "version": "auto",
             "description": "代理切换工具",
             "homepage": "https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped",
-            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc&prodversion=130.0.0.0",
+            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc",
             "hash": "auto",
             "checkver": {
                 "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
@@ -587,11 +587,11 @@
             "url": "https://kuguagantian.lanzoum.com/i4oW63ken4af",
             "checkver": [
                 {
-                    "apiurl": "https://kuguagantian.lanzoum.com/b0dzxlrni"
+                    "apiurl": "https://kuguagantian.lanzoum.com/i4oW63ken4af"
                 }
             ],
             "autoupdate": {
-                "url": "https://developer3.lanrar.com/file/?UjRWaAg5BjcFDAA4V2JRPVRrBj5f5gGVB4dUtl26BrEA5laVXLgBsFOVU4gCewFSBjkBSgU7CmUGZAdzUFxRIlI9Vl4IYgZ8BWoAeFczUX5UPgZ1XzIBLQdlVCpdZAYhAGZWaFxtATBTWlNsAjIBPQZuATMFbQowBjcHNlA7UWdSZ1YnCDMGIQVuAGVXNlFnVDoGMl85ATIHJlQiXXEGOgAyVjFcMwFjUypTNQJlAS8GbQE2BXUKOwY2BzBQNVFkUjBWOQhnBmAFMQBiVzdRMlRsBmZfOAE7BzhUZ10zBjMAYlY0XDMBMFMzUzUCMAFkBm8BNwVqCiYGZAd5UGlRdlInVnIIMAYgBToAMlc+UWlUPgYyXzcBOwcyVHRddQZuAG1WZFxnAWhTNFMyAmEBOQZrATIFbgo8BjcHNlAiUX5SdFZnCDkGJQVuAGdXNFFnVDcGNF82ATAHNFRgXTcGIQB1VnFcdgFoUzRTMgJhATMGbgE8BW4KMQY3BzlQKlElUjtWcQhoBmAFYQBnVy1RYVQ3BjdfLgEyBzlUZl0vBj8AN1YvXCcBMVNqU3ICOAFfBj8BbwVnCjgGLwcnUHhRKVIiVmQICgYnBTIAa1cz&toolsdown"
+                "url": "https://kuguagantian.lanzoum.com/i4oW63ken4af"
             }
         }
     },
@@ -618,12 +618,12 @@
     {
         "filename": "SingleFile.json",
         "content": {
-            "name": "SingleFile",
+            "name": "SingleFile.crx",
             "category": "浏览器相关",
             "version": "auto",
             "description": "网页单文件保存",
             "homepage": "https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle",
-            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc&prodversion=130.0.0.0",
+            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc",
             "hash": "auto",
             "checkver": {
                 "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
@@ -673,7 +673,7 @@
                 }
             ],
             "autoupdate": {
-                "url": "https://developer3.lanrar.com/file/?CW8HOQ08BzYIAVdvVGEGalJtUmpW4VHsCogG6QfABLJSBlNsAChUbgAyUGMDJVx9A2hSZV4vU2UKI1FmBWlXeAk6B2kNZAdjCHBXZFR4BmJSLlIxVmBRPwpoBl8HMgRhUm9TNgBqVDcAZVAwA25cbQNpUmReJ1M3Cn5RagVoV2YJOAdhDWkHaghnVzhUMAYhUnhSJ1Y0UWEKPQYyB20EKlJiUzcAclQwAG5QKQNlXGkDYFIxXjJTNQo7UWIFb1dvCTAHMw1mB2MIOldjVGEGMlI9UmZWMVE2CmwGMQdtBGdSYlM1ADtUZQAzUGcDeVw4AyFSMl4nUyQKflEyBStXPwltB20NaQdiCGlXOFQ4Bj9SLlIjVmBRPgpoBmYHZgQ0UmVTMwBkVDcAYFAyA29cawNoUnleL1N3CmtROwUuV2sJOAdnDWcHaghpVzdUMwY1UjpSZ1YvUSYKfQZ3B2YENFJlUzMAb1Q5AGNQMwNjXG4Da1JxXnRTOAp9UWoFa1dkCTgHfg1hB2oIalcvVDEGPlI8UnlWMVFkCiMGJgc/BGpSJVNqAAJUYwA9UDsDZ1xzA39SI154UyEKaFEIBSxXNwk0B2A=&toolsdown"
+                "url": "https://www.lanzouw.com/iWAtU3k3y9id"
             }
         }
     },
@@ -720,12 +720,12 @@
     {
         "filename": "Typora_Plugin.json",
         "content": {
-            "name": "typora-plugin@v1.18.0.zip",
+            "name": "typora-plugin@v1.18.1.zip",
             "category": "文本办公",
-            "version": "1.18.0",
+            "version": "1.18.1",
             "description": "Typora 增强插件",
             "homepage": "https://github.com/obgnail/typora_plugin",
-            "url": "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.18.0/typora-plugin%40v1.18.0.zip",
+            "url": "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.18.1/typora-plugin%40v1.18.1.zip",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/obgnail/typora_plugin/releases/latest",
@@ -734,18 +734,18 @@
                     "version": "$.tag_name"
                 }
             ],
-            "oldurl": "https://github.com/obgnail/typora_plugin/releases/download/1.18.0/typora-plugin%40v1.18.0.zip"
+            "oldurl": "https://github.com/obgnail/typora_plugin/releases/download/1.18.1/typora-plugin%40v1.18.1.zip"
         }
     },
     {
         "filename": "uBlock Origin Lite.json",
         "content": {
-            "name": "uBlock Origin Lite",
+            "name": "uBlock Origin Lite.crx",
             "category": "浏览器相关",
             "version": "auto",
             "description": "轻量版广告拦截",
             "homepage": "https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh",
-            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc&prodversion=130.0.0.0",
+            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc",
             "hash": "auto",
             "checkver": {
                 "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
@@ -810,7 +810,7 @@
             "version": "auto",
             "description": "微软常用运行库合集",
             "homepage": "https://wwa.lanzout.com/b0b8rs19a#9527",
-            "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140",
+            "url": "https://423down.lanzouo.com/iEuAX3nfyheh",
             "hash": "auto",
             "checkver": {
                 "apiurl": "https://www.423down.com/10835.html",
@@ -819,7 +819,7 @@
             },
             "autoupdate": {
                 "name": "微软常用运行库合集_{version}.exe",
-                "url": "https://developer3.lanrar.com/file/?UDYHOVtqV2ZVXFFpATRcMFJtAzsHvVPvCqNTvVa3Aa8B5AfoCO1U5wHDBvhT71ziU5lUuQP9VthRs1ToAs0E4FDAB9hb71eYVYVRJwFnXG1SOgMwB3ZTYQo5U3tWOwE2AS8HNQgtVGUBcQY2U25cMVNsVA4DNVYwUWtUYAJmBDdQaQdmWz5XM1UzUTABc1w7UnsDOwdsU2YKPlNtVjIBOAExB2EIc1RwAScGbVM1XG1TO1RnA3NWZFFiVH0CbwQyUH8HMls+VzZVYFE3ATBcOVI+Az8HaFNhCj9TN1YyATIBMAdmCGBUYwEzBjZTN1xsUz1UNQNlVmNRZlRiAmwEMFBmB35bY1d7VWZRIQEgXC5SbQN0BzFTNQowU2xWPQE2ATEHZwhzVHQBPgY9U2JcO1M0VGADa1ZjUW9UZQJoBDBQYAdkWzJXLVUtUSEBM1wxUn8DOwdpU2YKOlNsVj0BNgEyB2UIY1QyAXEGJVN3XCpTNFRgA2tWY1FgVGECZwQwUGEHYFswVyVVdlFuASVcYFI6AzQHaVN/CjxTbFY+AS4BMAdpCGFULgFvBmdTKVx7U21UPgMrVjpRCVQxAjUEOFBgB35bIFd3VXpRdwEwXAJSfQNnB2VTYQ==&toolsdown"
+                "url": "https://423down.lanzouo.com/iEuAX3nfyheh"
             }
         }
     },
@@ -839,19 +839,19 @@
                 }
             ],
             "autoupdate": {
-                "url": "https://developer3.lanrar.com/file/?AWcGOA4/BTQJAAQ8BzJXOwE+Bz9W2Vb0AmpRI1HdUfBVOQUzWn5VZAgsVywGYAUyUzkCMwJvVGQBLlptVCYHMQEvBmMOYQVpCWoEawd6V3sBIwc0Vj1WeQJWUSNRbFEyVTkFN1opVWQIJldkBnQFYlNgAmsCOFQJAW9aOFQ1BzQBOQZiDmUFYwlmBGAHa1duAX0HZFZ6VmkCMVFjUTRRYFViBWNaMFU1CHhXcQYiBTlTOwI3Am9UYAEpWmxUPAcpATMGYw58BWEJPgRgBzdXYwFiBzNWO1YwAjRRZ1E/UWRVZwVqWjFVYAhsVzgGawUzU20CNQI+VG8BMVo4VG0HPgE0BjAOYgV/CToEKgc2V3ABLgdxVmxWJgJsUTNRMFFpVWIFZFo3VTYIeFd1BjsFaVNsAmECYFRnATFaa1QxBzEBNwZlDmsFaAlpBHwHfVdwAT0HblZ+VmkCNFFgUTpRaVViBWRaNFU2CG1XMQZ0BXFTeQJwAmBUZwExWmtUPgc+ATcGYA5gBWYJZwR0ByZXPwErBz9WO1ZmAjRReVE8UWlVYQV8WjZVOAhqVy8GagUzUycCIQI5VDkBcVoyVFcHZQFqBmwOYwV/CXkEJgcqVyYBPgddVnxWNQI4UWc=&toolsdown"
+                "url": "https://423down.lanzouo.com/iPRE43nu4qbi"
             }
         }
     },
     {
         "filename": "沉浸式翻译.json",
         "content": {
-            "name": "沉浸式翻译",
+            "name": "沉浸式翻译.crx",
             "category": "浏览器相关",
             "version": "auto",
             "description": "AI 网页翻译插件",
             "homepage": "https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
-            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc&prodversion=130.0.0.0",
+            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc",
             "hash": "auto",
             "checkver": {
                 "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
@@ -866,12 +866,12 @@
     {
         "filename": "猫抓.json",
         "content": {
-            "name": "猫抓",
+            "name": "猫抓.crx",
             "category": "浏览器相关",
             "version": "auto",
             "description": "媒体资源嗅探下载",
             "homepage": "https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb",
-            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc&prodversion=130.0.0.0",
+            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc",
             "hash": "auto",
             "checkver": {
                 "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
@@ -886,12 +886,12 @@
     {
         "filename": "篡改猴.json",
         "content": {
-            "name": "篡改猴",
+            "name": "篡改猴.crx",
             "category": "浏览器相关",
             "version": "auto",
             "description": "脚本管理工具",
             "homepage": "https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo",
-            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Dgcalenpjmijncebpfijmoaglllgpjagf%26uc&prodversion=130.0.0.0",
+            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc",
             "hash": "auto",
             "checkver": {
                 "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dgcalenpjmijncebpfijmoaglllgpjagf%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
@@ -906,12 +906,12 @@
     {
         "filename": "解除网页复制限制.json",
         "content": {
-            "name": "解除网页复制限制",
+            "name": "解除网页复制限制.crx",
             "category": "浏览器相关",
             "version": "auto",
             "description": "网页限制解除",
             "homepage": "https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm",
-            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc&prodversion=130.0.0.0",
+            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc",
             "hash": "auto",
             "checkver": {
                 "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
@@ -926,12 +926,12 @@
     {
         "filename": "超级拖拽.json",
         "content": {
-            "name": "超级拖拽",
+            "name": "超级拖拽.crx",
             "category": "浏览器相关",
             "version": "auto",
             "description": "超级拖拽 + 鼠标手势",
             "homepage": "https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg",
-            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc&prodversion=130.0.0.0",
+            "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc",
             "hash": "auto",
             "checkver": {
                 "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",

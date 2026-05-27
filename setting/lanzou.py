@@ -176,11 +176,22 @@ def lanzou_zl(url, pwd=""):
         "filesize": soft_size,
         "downUrl": real_url
     }
-
+def lanzouapi(url, pwd=""):
+    # 调用解析函数，支持传入密码（兼容有密码链接）
+    result = lanzou_zl(url, pwd)
+    
+    # 正确判断状态码（修复原语法错误：字符串必须加引号）
+    if result.get("code") == 200:
+        # 解析成功 → 返回真实下载链接
+        return result.get("downUrl", url)
+    else:
+        # 解析失败 → 返回原链接（并可打印失败原因）
+        print(f"解析失败：{result.get('msg', '未知错误')}")
+        return url
 # ==================== 测试 ====================
 if __name__ == "__main__":
     # 无密码
-    print(lanzou_zl("https://xyyx.lanzoub.com/ivYMM04hqlfe"))
+    print(lanzou_zl("https://423down.lanzouo.com/iPRE43nu4qbi"))
 
     # 有密码
-    # print(lanzou_zl("https://xyyx.lanzoub.com/ivYMM04hqlfe", pwd="1234"))
+    print(lanzouapi("https://423down.lanzouo.com/iPRE43nu4qbi"))
