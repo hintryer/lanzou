@@ -149,7 +149,7 @@ def update_url(json_path):
         save_json(config, json_path)   
         return final_result
     
-    if "lanzou" in url.lower():
+    """     if "lanzou" in url.lower():
         oldurl = url
         real_down_url = lanzouapi(url)
         
@@ -160,7 +160,7 @@ def update_url(json_path):
         
         config.update(final_result)
         save_json(config, json_path)   
-        return final_result
+        return final_result """
     # ==============================================
     # 非 Github：什么都不做，直接返回空
     # ==============================================
@@ -174,7 +174,7 @@ def ceshi():
 # ===================== 测试（你的格式） =====================
 if __name__ == "__main__":
     # ceshi()
-    #run_update("./bucket/donet9.json")
+    run_update("./bucket/ReNamerPro.json")
     # print(fetch_data("https://api.github.com/repos/WEIFENG2333/VideoCaptioner/releases/"))
     run_all()
 

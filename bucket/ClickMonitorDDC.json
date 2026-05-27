@@ -1,17 +1,18 @@
 {
-    "name": "ClickMonitorDDC",
-    "category": "单文件",
-    "version": " 7.2",
-    "description": "显示器亮度音量调节软件",
-    "homepage": "https://www.52pojie.cn/thread-1761083-1-1.html",
-    "url": "https://wwi.lanzoup.com/iiahR0rcr4cd",
-    "hash": "auto",
-    "checkver": [
-        {
-            "apiurl": "https://wwi.lanzoup.com/iiahR0rcr4cd"
-        }
-    ],
-    "autoupdate": {
-        "url": "https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
+  "name": "ClickMonitorDDC",
+  "category": "单文件",
+  "version": " 7.2",
+  "description": "显示器亮度音量调节软件",
+  "homepage": "https://www.52pojie.cn/thread-1761083-1-1.html",
+  "url": "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip",
+  "hash": "auto",
+  "checkver": [
+    {
+      "apiurl": "https://wwi.lanzoup.com/iiahR0rcr4cd"
     }
+  ],
+  "autoupdate": {
+    "url": "https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
+  },
+  "oldurl": "https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
 }
