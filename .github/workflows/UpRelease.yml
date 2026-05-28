@@ -9,39 +9,22 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Install jq
-        run: sudo apt install -y jq
-
-      - name: Extract URLs from JSON
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          
+      - name: Install dependencies
         run: |
-          jq -r '.[] | .url' ./setting/result.json > download.txt
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      # ==============================================
-      # ✅ 看得见每个文件的下载情况：成功 / 失败
-      # ==============================================
-      - name: Download with log
-        run: |
-          while read url; do
-            if [ -n "$url" ]; then
-              filename=$(basename "$url" | sed 's/%2B/+/g')
-              echo "========================================"
-              echo "  下载中：$filename"
-              echo "  地址：$url"
-              
-              curl -L -A "Chrome/130.0.0.0" "$url" -o "$filename" -f -s
-              
-              if [ $? -eq 0 ]; then
-                echo "  ✅ 下载成功：$filename"
-              else
-                echo "  ❌ 下载失败：$filename"
-              fi
-              echo "========================================"
-              echo
-            fi
-          done < download.txt
+      - name: Run script
+        run: python setting/download.py
 
       # ==============================================
       # ✅ 干净上传：只上传下载成功的文件
@@ -50,9 +33,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          TAG="v$(date +%Y%02d%02d)"
-          gh release create "$TAG" --title "$TAG" --notes "自动构建" || true
-          
+          set -e
+          TAG="v$(date +%Y%m%d)"
+          # 若 Release 已存在 gh create 会报错，加 || true 跳过
+          gh release create "$TAG" --title "$TAG" --notes "自动构建" --latest || true
+
+          # 查找不应该排除的文件，-print0/xargs -0 防止空格报错
           find . -maxdepth 1 -type f \
             ! -name "*.txt" ! -name "*.json" ! -name "*.md" ! -name "*.py" ! -name "*.yaml" \
-            | xargs -I {} gh release upload "$TAG" "{}" --clobber
+            -print0 | xargs -0 -r -I {} gh release upload "$TAG" "{}" --clobber
