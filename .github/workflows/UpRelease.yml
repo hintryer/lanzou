@@ -4,41 +4,24 @@ on:
   workflow_dispatch:
 
 jobs:
-  download-upload:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5
+      - name: 检出代码
+        uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v6
+      - name: 安装 Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
-          
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+
+      - name: 安装依赖
+        run: pip install requests
+
+      - name: 安装 GitHub CLI
+        run: sudo apt-get install -y gh
 
       - name: Run script
         run: python setting/download.py
-
-      # ==============================================
-      # ✅ 干净上传：只上传下载成功的文件
-      # ==============================================
-      - name: Upload to GitHub Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -e
-          TAG="v$(date +%Y%m%d)"
-          # 若 Release 已存在 gh create 会报错，加 || true 跳过
-          gh release create "$TAG" --title "$TAG" --notes "自动构建" --latest || true
-
-          # 查找不应该排除的文件，-print0/xargs -0 防止空格报错
-          find . -maxdepth 1 -type f \
-            ! -name "*.txt" ! -name "*.json" ! -name "*.md" ! -name "*.py" ! -name "*.yaml" \
-            -print0 | xargs -0 -r -I {} gh release upload "$TAG" "{}" --clobber

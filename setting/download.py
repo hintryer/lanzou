@@ -1,6 +1,12 @@
 import os
 import json
 import requests
+import subprocess
+
+# ===================== 配置区域 =====================
+JSON_PATH = "./setting/result.json"  # 软件列表路径
+SAVE_BASE_DIR = "soft"                # 统一下载到这个文件夹
+# ====================================================
 
 def load_json(file_path: str = "config.json") -> list | dict:
     """加载 JSON 配置文件"""
@@ -19,24 +25,8 @@ def load_json(file_path: str = "config.json") -> list | dict:
         print(f"[错误] 读取文件失败：{str(e)}")
         return []
 
-def save_json(data: list | dict, file_path: str = "config.json") -> bool:
-    """保存数据到 JSON 文件"""
-    try:
-        os.makedirs(os.path.dirname(file_path), exist_ok=True)
-        with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-        return True
-    except Exception as e:
-        print(f"[错误] 保存 JSON 失败：{str(e)}")
-        return False
-
 def download_file(url: str, save_dir: str, filename: str) -> bool:
-    """
-    下载文件（无进度条）
-    :param url: 下载链接
-    :param save_dir: 保存目录
-    :param filename: 保存的文件名（可自定义修改）
-    """
+    """下载文件到指定目录（无进度条）"""
     if not all([url, save_dir, filename]):
         print("[错误] 下载参数不完整（链接/目录/文件名）")
         return False
@@ -46,68 +36,93 @@ def download_file(url: str, save_dir: str, filename: str) -> bool:
         save_path = os.path.join(save_dir, filename)
 
         print(f"[开始下载] {filename}")
-        # 流式下载
-        with requests.get(url, stream=True, timeout=180) as response:
+        with requests.get(url, stream=True, timeout=300) as response:
             response.raise_for_status()
             with open(save_path, "wb") as f:
                 for chunk in response.iter_content(chunk_size=8192):
                     if chunk:
                         f.write(chunk)
 
-        print(f"[下载完成] {filename}\n")
+        print(f"[下载完成] {filename}")
         return True
 
     except requests.exceptions.RequestException as e:
-        print(f"[下载失败] {filename} | 网络错误：{str(e)}\n")
+        print(f"[下载失败] {filename} | 网络错误：{str(e)}")
     except Exception as e:
-        print(f"[下载失败] {filename} | 错误：{str(e)}\n")
+        print(f"[下载失败] {filename} | 错误：{str(e)}")
     return False
 
-def main():
-    json_path = "./setting/result.json"
-    app_list = load_json(json_path)
+def upload_files_to_release(upload_dir: str):
+    """上传文件夹内所有文件到 GitHub Release"""
+    print("\n" + "="*50)
+    print("📤 开始上传文件到 Releases...")
+    print("="*50)
 
+    try:
+        # 1. 创建 TAG
+        tag = f"v{os.popen('date +%Y%m%d').read().strip()}"
+        print(f"📌 Release 版本号：{tag}")
+
+        # 2. 创建 Release（已存在则跳过）
+        subprocess.run(
+            f"gh release create \"{tag}\" --title \"{tag}\" --notes \"自动构建\" --latest || true",
+            shell=True, check=False
+        )
+
+        # 3. 上传 soft 目录下所有文件
+        files = os.listdir(upload_dir)
+        if not files:
+            print("⚠️ soft 目录为空，无需上传")
+            return
+
+        for file in files:
+            file_path = os.path.join(upload_dir, file)
+            if os.path.isfile(file_path):
+                print(f"⏫ 正在上传：{file}")
+                subprocess.run(
+                    f"gh release upload \"{tag}\" \"{file_path}\" --clobber",
+                    shell=True, check=False
+                )
+
+        print("\n✅ 所有文件上传完成！")
+
+    except Exception as e:
+        print(f"❌ 上传失败：{str(e)}")
+
+def main():
+    # 加载软件列表
+    app_list = load_json(JSON_PATH)
     if not app_list:
         print("[退出] 未加载到任何软件信息")
         return
 
     print("=" * 50)
-    print("🚀 开始批量下载软件")
+    print("🚀 开始批量下载软件（全部保存到 soft 目录）")
     print("=" * 50)
 
-    success = []
-    failed = []
+    success_files = []
+    failed_files = []
 
+    # 统一下载到 soft 目录
     for app in app_list:
         url = app.get("url", "").strip()
-        category = app.get("category", "未分类").strip()
-        original_name = app.get("name", "未知文件").strip()
+        filename = app.get("name", "unknown_file").strip()
 
-        # ====================== 在这里自定义文件名 ======================
-        # 示例 1：直接使用原文件名（默认）
-        save_name = original_name
-
-        # 示例 2：自定义重命名（解开下面注释即可使用）
-        # save_name = "自定义_" + original_name
-
-        # 示例 3：固定名称
-        # save_name = "mytool.exe"
-        # ==============================================================
-
-        if download_file(url, category, save_name):
-            success.append(save_name)
+        if download_file(url, SAVE_BASE_DIR, filename):
+            success_files.append(filename)
         else:
-            failed.append(save_name)
+            failed_files.append(filename)
 
-    # 最终统计
-    print("=" * 50)
-    print(f"✅ 下载成功：{len(success)} 个")
+    # 下载统计
+    print("\n" + "="*50)
+    print(f"✅ 下载成功：{len(success_files)} 个")
+    print(f"❌ 下载失败：{len(failed_files)} 个")
+    if failed_files:
+        print("失败列表：", failed_files)
+    print("="*50)
 
-    print(f"\n❌ 下载失败：{len(failed)} 个")
-    if failed:
-        for name in failed:
-            print(f"  - {name}")
-    print("=" * 50)
+    # 自动上传 soft 目录所有文件
+    upload_files_to_release(SAVE_BASE_DIR)
 
 if __name__ == "__main__":
     main()
