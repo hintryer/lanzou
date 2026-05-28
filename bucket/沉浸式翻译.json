@@ -1,17 +1,17 @@
 {
-    "name": "沉浸式翻译.crx",
-    "category": "浏览器相关",
-    "version": "auto",
-    "description": "AI 网页翻译插件",
-    "homepage": "https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
-    "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc",
-    "hash": "auto",
-    "checkver": {
-        "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
-        "version": "version=\"([\\d.]+)\"/>"
-    },
-    "autoupdate": {
-        "name": "沉浸式翻译_{version}.crx",
-        "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
-    }
+  "name": "沉浸式翻译_1.29.6.crx",
+  "category": "浏览器相关",
+  "version": "1.29.6",
+  "description": "AI 网页翻译插件",
+  "homepage": "https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
+  "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc",
+  "hash": "auto",
+  "checkver": {
+    "apiurl": "https://clients2.google.com/service/update2/crx?acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc%26lang%3Dzh-CN%26os%3DWindows%26arch%3Dx64",
+    "version": "version=\"([\\d.]+)\"/>"
+  },
+  "autoupdate": {
+    "name": "沉浸式翻译_{version}.crx",
+    "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
+  }
 }

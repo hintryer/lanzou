@@ -1,10 +1,10 @@
 {
-  "name": "Scribe2SRT-v0.3.5-windows-x86_64.zip",
+  "name": "Scribe2SRT-v0.3.6-windows-x86_64.zip",
   "category": "影音工具",
-  "version": "v0.3.5",
+  "version": "v0.3.6",
   "description": "音频转字幕工具",
   "homepage": "https://github.com/cylind/scribe2srt",
-  "url": "https://gh-proxy.com/https://github.com/cylind/scribe2srt/releases/download/v0.3.5/Scribe2SRT-v0.3.5-windows-x86_64.zip",
+  "url": "https://gh-proxy.com/https://github.com/cylind/scribe2srt/releases/download/v0.3.6/Scribe2SRT-v0.3.6-windows-x86_64.zip",
   "checkver": [
     {
       "apiurl": "https://api.github.com/repos/cylind/scribe2srt/releases/latest",
@@ -13,5 +13,5 @@
       "version": "$.tag_name"
     }
   ],
-  "oldurl": "https://github.com/cylind/scribe2srt/releases/download/v0.3.5/Scribe2SRT-v0.3.5-windows-x86_64.zip"
+  "oldurl": "https://github.com/cylind/scribe2srt/releases/download/v0.3.6/Scribe2SRT-v0.3.6-windows-x86_64.zip"
 }
