@@ -1,2 +1,3 @@
 python-jsonpath
 requests
+tqdm
