@@ -22,12 +22,12 @@
     {
         "filename": "Bili23-Downloader.json",
         "content": {
-            "name": "Bili23-Downloade_v2.00.4_portable.zip",
+            "name": "Bili23-Downloade__portable.zip",
             "category": "其它工具",
-            "version": "v2.00.4",
+            "version": "",
             "description": "B站视频下载工具",
             "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
-            "url": "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.4/Bili23-Downloader_2.00.4_windows_x64_portable.zip",
+            "url": "",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/ScottSloan/Bili23-Downloader/releases/latest",
@@ -45,12 +45,12 @@
     {
         "filename": "Chrome++.json",
         "content": {
-            "name": "Chrome++_v1.16.2_x86_x64_arm64.7z",
+            "name": "",
             "category": "浏览器相关",
-            "version": "1.16.2",
+            "version": "",
             "description": "Chrome增强工具集",
             "homepage": "https://github.com/Bush2021/chrome_plus",
-            "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.16.2/Chrome%2B%2B_v1.16.2_x86_x64_arm64.7z",
+            "url": "",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/Bush2021/chrome_plus/releases/latest",
@@ -65,12 +65,12 @@
     {
         "filename": "chrome_installer.json",
         "content": {
-            "name": "chrome_148.0.7778.179_uncompressed.exe",
+            "name": "chrome__uncompressed.exe",
             "category": "浏览器相关",
-            "version": "148.0.7778.179",
+            "version": "",
             "description": "Chrome 离线安装包",
             "homepage": "https://github.com/Bush2021/chrome_installer",
-            "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/148.0.7778.179/x64_148.0.7778.179_chrome_installer_uncompressed.exe",
+            "url": "",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/Bush2021/chrome_installer/releases/latest",
@@ -88,12 +88,12 @@
     {
         "filename": "clash-verge-rev.json",
         "content": {
-            "name": "Clash.Verge_2.5.1_x64-setup.exe",
+            "name": "",
             "category": "其它工具",
-            "version": "v2.5.1",
+            "version": "",
             "description": "Clash图形化代理客户端",
             "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
-            "url": "https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.1/Clash.Verge_2.5.1_x64-setup.exe",
+            "url": "",
             "checkver": [
                 {
                     "apiurl": "https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases/latest",
@@ -128,12 +128,12 @@
     {
         "filename": "dotnet10.json",
         "content": {
-            "name": "dotnet-runtime-10.0.8-win-x64.exe",
+            "name": "dotnet-runtime--win-x64.exe",
             "category": "运行库",
-            "version": "10.0.8",
+            "version": "",
             "description": ".NET 10 Runtime",
             "homepage": "https://dotnet.microsoft.com/",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.8/dotnet-runtime-10.0.8-win-x64.exe",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime//dotnet-runtime--win-x64.exe",
             "checkver": [
                 {
                     "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
@@ -149,12 +149,12 @@
     {
         "filename": "dotnet6.json",
         "content": {
-            "name": "dotnet-runtime-6.0.36-win-x64.exe",
+            "name": "dotnet-runtime--win-x64.exe",
             "category": "运行库",
-            "version": "6.0.36",
+            "version": "",
             "description": ".NET 6 Runtime",
             "homepage": "https://dotnet.microsoft.com/",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/6.0.36/dotnet-runtime-6.0.36-win-x64.exe",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime//dotnet-runtime--win-x64.exe",
             "checkver": [
                 {
                     "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
@@ -170,12 +170,12 @@
     {
         "filename": "dotnet7.json",
         "content": {
-            "name": "dotnet-runtime-7.0.20-win-x64.exe",
+            "name": "dotnet-runtime--win-x64.exe",
             "category": "运行库",
-            "version": "7.0.20",
+            "version": "",
             "description": ".NET 7 Runtime",
             "homepage": "https://dotnet.microsoft.com/",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime//dotnet-runtime--win-x64.exe",
             "checkver": [
                 {
                     "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
@@ -191,12 +191,12 @@
     {
         "filename": "dotnet8.json",
         "content": {
-            "name": "dotnet-runtime-8.0.27-win-x64.exe",
+            "name": "dotnet-runtime--win-x64.exe",
             "category": "运行库",
-            "version": "8.0.27",
+            "version": "",
             "description": ".NET 8 Runtime",
             "homepage": "https://dotnet.microsoft.com/",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.27/dotnet-runtime-8.0.27-win-x64.exe",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime//dotnet-runtime--win-x64.exe",
             "checkver": [
                 {
                     "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
@@ -591,7 +591,7 @@
                 }
             ],
             "autoupdate": {
-                "url": "https://kuguagantian.lanzoum.com/i4oW63ken4af"
+                "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQnYyUzBVdzNGeFI2M3A4QWU4d1BYb0FiN09HY1RQYWsteEwxRmxocDBYcjM0P2U9SXJodUhu.exe"
             }
         }
     },
@@ -673,7 +673,7 @@
                 }
             ],
             "autoupdate": {
-                "url": "https://www.lanzouw.com/iWAtU3k3y9id"
+                "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQ0NCVS1wQ0RPTFM2amt2NXNJVmJmYUFlaEhMbk1zOHItUjBxbDB2c1VXTHFVP2U9eGVsZnhJ.exe"
             }
         }
     },
@@ -819,7 +819,7 @@
             },
             "autoupdate": {
                 "name": "微软常用运行库合集_{version}.exe",
-                "url": "https://423down.lanzouo.com/iEuAX3nfyheh"
+                "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQWtFanNtZ1J6cFM2S3dxRTNBOGhrekFjZHFsN19adTZtVTFCTVM2eVF3QVA0P2U9Q0UzOVpW.exe"
             }
         }
     },
@@ -839,7 +839,7 @@
                 }
             ],
             "autoupdate": {
-                "url": "https://423down.lanzouo.com/iPRE43nu4qbi"
+                "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQlhNb0lHNk9HLVJyb0lLS3cxMHlaSUFVOV9CR2FvVlVRanF4TlBISEMtWXJrP2U9c01TelJk.exe"
             }
         }
     },

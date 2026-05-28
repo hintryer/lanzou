@@ -8,36 +8,36 @@
         "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140"
     },
     {
-        "name": "Bili23-Downloade_v2.00.4_portable.zip",
+        "name": "Bili23-Downloade__portable.zip",
         "category": "其它工具",
-        "version": "v2.00.4",
+        "version": "",
         "description": "B站视频下载工具",
         "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
-        "url": "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.4/Bili23-Downloader_2.00.4_windows_x64_portable.zip"
+        "url": ""
     },
     {
-        "name": "Chrome++_v1.16.2_x86_x64_arm64.7z",
+        "name": "",
         "category": "浏览器相关",
-        "version": "1.16.2",
+        "version": "",
         "description": "Chrome增强工具集",
         "homepage": "https://github.com/Bush2021/chrome_plus",
-        "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.16.2/Chrome%2B%2B_v1.16.2_x86_x64_arm64.7z"
+        "url": ""
     },
     {
-        "name": "chrome_148.0.7778.179_uncompressed.exe",
+        "name": "chrome__uncompressed.exe",
         "category": "浏览器相关",
-        "version": "148.0.7778.179",
+        "version": "",
         "description": "Chrome 离线安装包",
         "homepage": "https://github.com/Bush2021/chrome_installer",
-        "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/148.0.7778.179/x64_148.0.7778.179_chrome_installer_uncompressed.exe"
+        "url": ""
     },
     {
-        "name": "Clash.Verge_2.5.1_x64-setup.exe",
+        "name": "",
         "category": "其它工具",
-        "version": "v2.5.1",
+        "version": "",
         "description": "Clash图形化代理客户端",
         "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
-        "url": "https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.1/Clash.Verge_2.5.1_x64-setup.exe"
+        "url": ""
     },
     {
         "name": "ClickMonitorDDC",
@@ -48,36 +48,36 @@
         "url": "https://wwi.lanzoup.com/iiahR0rcr4cd"
     },
     {
-        "name": "dotnet-runtime-10.0.8-win-x64.exe",
+        "name": "dotnet-runtime--win-x64.exe",
         "category": "运行库",
-        "version": "10.0.8",
+        "version": "",
         "description": ".NET 10 Runtime",
         "homepage": "https://dotnet.microsoft.com/",
-        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.8/dotnet-runtime-10.0.8-win-x64.exe"
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime//dotnet-runtime--win-x64.exe"
     },
     {
-        "name": "dotnet-runtime-6.0.36-win-x64.exe",
+        "name": "dotnet-runtime--win-x64.exe",
         "category": "运行库",
-        "version": "6.0.36",
+        "version": "",
         "description": ".NET 6 Runtime",
         "homepage": "https://dotnet.microsoft.com/",
-        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/6.0.36/dotnet-runtime-6.0.36-win-x64.exe"
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime//dotnet-runtime--win-x64.exe"
     },
     {
-        "name": "dotnet-runtime-7.0.20-win-x64.exe",
+        "name": "dotnet-runtime--win-x64.exe",
         "category": "运行库",
-        "version": "7.0.20",
+        "version": "",
         "description": ".NET 7 Runtime",
         "homepage": "https://dotnet.microsoft.com/",
-        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe"
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime//dotnet-runtime--win-x64.exe"
     },
     {
-        "name": "dotnet-runtime-8.0.27-win-x64.exe",
+        "name": "dotnet-runtime--win-x64.exe",
         "category": "运行库",
-        "version": "8.0.27",
+        "version": "",
         "description": ".NET 8 Runtime",
         "homepage": "https://dotnet.microsoft.com/",
-        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.27/dotnet-runtime-8.0.27-win-x64.exe"
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime//dotnet-runtime--win-x64.exe"
     },
     {
         "name": "dotnet-runtime-9.0.16-win-x64.exe",

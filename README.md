@@ -13,8 +13,8 @@
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
 | 360FileSetup_1.0.0.1180.exe | 1.0.0.1180 | 360多标签文件管理器 | [主页](https://baoku.360.cn/soft/show/appid/2000003908) | [下载](https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140) |
-| Bili23-Downloade_v2.00.4_portable.zip | v2.00.4 | B站视频下载工具 | [主页](https://github.com/ScottSloan/Bili23-Downloader) | [下载](https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.4/Bili23-Downloader_2.00.4_windows_x64_portable.zip) |
-| Clash.Verge_2.5.1_x64-setup.exe | v2.5.1 | Clash图形化代理客户端 | [主页](https://github.com/clash-verge-rev/clash-verge-rev) | [下载](https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.1/Clash.Verge_2.5.1_x64-setup.exe) |
+| Bili23-Downloade__portable.zip |  | B站视频下载工具 | [主页](https://github.com/ScottSloan/Bili23-Downloader) |  |
+|  |  | Clash图形化代理客户端 | [主页](https://github.com/clash-verge-rev/clash-verge-rev) |  |
 | Steamcommunity_302_AMD64_V14.0.02.zip | V14.0.02 | Steam 社区访问加速工具 | [主页](https://www.dogfight360.com/blog/18682/) | [下载](https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip) |
 
 ## 单文件
@@ -68,8 +68,8 @@
 
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
-| Chrome++_v1.16.2_x86_x64_arm64.7z | 1.16.2 | Chrome增强工具集 | [主页](https://github.com/Bush2021/chrome_plus) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.16.2/Chrome%2B%2B_v1.16.2_x86_x64_arm64.7z) |
-| chrome_148.0.7778.179_uncompressed.exe | 148.0.7778.179 | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/148.0.7778.179/x64_148.0.7778.179_chrome_installer_uncompressed.exe) |
+|  |  | Chrome增强工具集 | [主页](https://github.com/Bush2021/chrome_plus) |  |
+| chrome__uncompressed.exe |  | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) |  |
 | LastPass.crx | auto | Free Password Manager | [主页](https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc) |
 | Proxy SwitchyOmega 3 (ZeroOmega).crx | auto | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc) |
 | SingleFile.crx | auto | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc) |
@@ -84,10 +84,10 @@
 
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
-| dotnet-runtime-10.0.8-win-x64.exe | 10.0.8 | .NET 10 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.8/dotnet-runtime-10.0.8-win-x64.exe) |
-| dotnet-runtime-6.0.36-win-x64.exe | 6.0.36 | .NET 6 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/6.0.36/dotnet-runtime-6.0.36-win-x64.exe) |
-| dotnet-runtime-7.0.20-win-x64.exe | 7.0.20 | .NET 7 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe) |
-| dotnet-runtime-8.0.27-win-x64.exe | 8.0.27 | .NET 8 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.27/dotnet-runtime-8.0.27-win-x64.exe) |
+| dotnet-runtime--win-x64.exe |  | .NET 10 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime//dotnet-runtime--win-x64.exe) |
+| dotnet-runtime--win-x64.exe |  | .NET 6 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime//dotnet-runtime--win-x64.exe) |
+| dotnet-runtime--win-x64.exe |  | .NET 7 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime//dotnet-runtime--win-x64.exe) |
+| dotnet-runtime--win-x64.exe |  | .NET 8 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime//dotnet-runtime--win-x64.exe) |
 | dotnet-runtime-9.0.16-win-x64.exe | 9.0.16 | .NET 9 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.16/dotnet-runtime-9.0.16-win-x64.exe) |
 | 微软常用运行库合集 | auto | 微软常用运行库合集 | [主页](https://wwa.lanzout.com/b0b8rs19a#9527) | [下载](https://423down.lanzouo.com/iEuAX3nfyheh) |
 
