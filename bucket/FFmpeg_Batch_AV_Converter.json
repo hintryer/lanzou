@@ -1,10 +1,10 @@
 {
-  "name": "FFmpeg_Batch_AV_Converter_Portable_3.2.8_x64.zip",
+  "name": "FFmpeg_Batch_AV_Converter_Portable_3.2.9_x64.zip",
   "category": "影音工具",
-  "version": "3.2.8",
+  "version": "3.2.9",
   "description": "音视频批量转换工具",
   "homepage": "https://github.com/eibols/ffmpeg_batch",
-  "url": "https://gh-proxy.com/https://github.com/eibols/ffmpeg_batch/releases/download/3.2.8/FFmpeg_Batch_AV_Converter_Portable_3.2.8_x64.zip",
+  "url": "https://gh-proxy.com/https://github.com/eibols/ffmpeg_batch/releases/download/3.2.9/FFmpeg_Batch_AV_Converter_Portable_3.2.9_x64.zip",
   "checkver": [
     {
       "apiurl": "https://api.github.com/repos/eibols/ffmpeg_batch/releases/latest",
@@ -13,5 +13,5 @@
       "version": "$.tag_name"
     }
   ],
-  "oldurl": "https://github.com/eibols/ffmpeg_batch/releases/download/3.2.8/FFmpeg_Batch_AV_Converter_Portable_3.2.8_x64.zip"
+  "oldurl": "https://github.com/eibols/ffmpeg_batch/releases/download/3.2.9/FFmpeg_Batch_AV_Converter_Portable_3.2.9_x64.zip"
 }

@@ -1,18 +1,18 @@
 {
-    "name": "微软常用运行库合集",
-    "category": "运行库",
-    "version": "auto",
-    "description": "微软常用运行库合集",
-    "homepage": "https://wwa.lanzout.com/b0b8rs19a#9527",
-    "url": "https://423down.lanzouo.com/iEuAX3nfyheh",
-    "hash": "auto",
-    "checkver": {
-        "apiurl": "https://www.423down.com/10835.html",
-        "version": "Build on ([\\d.]+)",
-        "url": "https://423down.lanzouo.com/iEuAX3nfyheh"
-    },
-    "autoupdate": {
-        "name": "微软常用运行库合集_{version}.exe",
-        "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQWtFanNtZ1J6cFM2S3dxRTNBOGhrekFjZHFsN19adTZtVTFCTVM2eVF3QVA0P2U9Q0UzOVpW.exe"
-    }
+  "name": "微软常用运行库合集_2026.04.16.exe",
+  "category": "运行库",
+  "version": "2026.04.16",
+  "description": "微软常用运行库合集",
+  "homepage": "https://wwa.lanzout.com/b0b8rs19a#9527",
+  "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQWtFanNtZ1J6cFM2S3dxRTNBOGhrekFjZHFsN19adTZtVTFCTVM2eVF3QVA0P2U9Q0UzOVpW.exe",
+  "hash": "auto",
+  "checkver": {
+    "apiurl": "https://www.423down.com/10835.html",
+    "version": "Build on ([\\d.]+)",
+    "url": "https://423down.lanzouo.com/iEuAX3nfyheh"
+  },
+  "autoupdate": {
+    "name": "微软常用运行库合集_{version}.exe",
+    "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQWtFanNtZ1J6cFM2S3dxRTNBOGhrekFjZHFsN19adTZtVTFCTVM2eVF3QVA0P2U9Q0UzOVpW.exe"
+  }
 }

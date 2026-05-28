@@ -1,17 +1,17 @@
 {
-    "name": "РotРlayer-260422(1.7.22859)-x64-Stable.exe",
-    "category": "影音工具",
-    "version": "1.7.22859",
-    "description": "高性能本地影音播放器",
-    "homepage": "https://www.423down.com/3050.html",
-    "url": "https://423down.lanzouo.com/iPRE43nu4qbi",
-    "hash": "auto",
-    "checkver": [
-        {
-            "apiurl": "https://423down.lanzouo.com/iPRE43nu4qbi"
-        }
-    ],
-    "autoupdate": {
-        "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQlhNb0lHNk9HLVJyb0lLS3cxMHlaSUFVOV9CR2FvVlVRanF4TlBISEMtWXJrP2U9c01TelJk.exe"
+  "name": "РotРlayer-260422(1.7.22859)-x64-Stable.exe",
+  "category": "影音工具",
+  "version": "1.7.22859",
+  "description": "高性能本地影音播放器",
+  "homepage": "https://www.423down.com/3050.html",
+  "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQlhNb0lHNk9HLVJyb0lLS3cxMHlaSUFVOV9CR2FvVlVRanF4TlBISEMtWXJrP2U9c01TelJk.exe",
+  "hash": "auto",
+  "checkver": [
+    {
+      "apiurl": "https://423down.lanzouo.com/iPRE43nu4qbi"
     }
+  ],
+  "autoupdate": {
+    "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQlhNb0lHNk9HLVJyb0lLS3cxMHlaSUFVOV9CR2FvVlVRanF4TlBISEMtWXJrP2U9c01TelJk.exe"
+  }
 }
