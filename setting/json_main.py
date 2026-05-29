@@ -145,7 +145,7 @@ def json_to_markdown2(json_file="./setting/result.json", md_file="./setting/resu
         # 主页：有地址就 [主页](链接)，否则空
         home_str = f"[主页]({homepage})" if homepage.strip() else ""
         # 下载：有地址就 [下载](链接)，否则空
-        down_str = f"[下载]({url})" if str(url).strip() else ""
+        down_str = f"[下载]({url})" if url and url.strip() else ""
 
         md_content += f"| {name} | {category} | {version} | {desc} | {home_str} | {down_str} |\n"
 
