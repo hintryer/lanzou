@@ -39,4 +39,5 @@ jobs:
 
       - name: GH commit
         uses: stefanzweifel/git-auto-commit-action@v7
-        file_pattern: "*.bat"
+        with:
+          file_pattern: "*.bat"
