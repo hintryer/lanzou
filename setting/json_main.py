@@ -207,6 +207,50 @@ def json_to_markdown(json_file="./setting/result.json", md_file="./README.md"):
 
     print(f"✅ 分组转换完成！Markdown 文件已保存：{md_file}")
 
+
+def json_to_bat(json_file="./setting/result.json", bat_output="download.bat"):
+    """
+    自动生成 批量下载BAT脚本
+    :param file_list: 列表 -> [{"name":"文件名","category":"分类文件夹","url":"下载地址"}, ...]
+    :param bat_output: 输出的bat文件名
+    """
+    # BAT 头部
+    bat_lines = [
+        "@echo off",
+        "chcp 65001 >nul",
+        "cls",
+        "echo ==============================================",
+        "echo           批量下载工具（自动分类）",
+        "echo ==============================================",
+        "echo.",
+    ]
+    with open(json_file, "r", encoding="utf-8") as f:
+        file_list = json.load(f)
+    # 遍历生成下载命令
+    for item in file_list:
+        category = item["category"]
+        name = item["name"]
+        url = item["url"]
+
+        bat_lines.append(f'mkdir "{category}" 2>nul')
+        bat_lines.append(f'echo 📥 下载 → {category} \\ {name}')
+        bat_lines.append(f'curl -L -# -o "{category}\\{name}" "{url}"')
+        bat_lines.append("echo.")
+
+    # 结尾
+    bat_lines += [
+        "echo ==============================================",
+        "echo                 ✅ 全部下载完成",
+        "echo ==============================================",
+        "pause >nul",
+    ]
+
+    # 写入文件
+    with open(bat_output, "w", encoding="utf-8") as f:
+        f.write("\n".join(bat_lines))
+
+    print(f"✅ 已生成：{bat_output}")
+
 if __name__ == "__main__":
     
     #unpack_json("./setting/github.json")
@@ -220,3 +264,4 @@ if __name__ == "__main__":
 
     merge_json()
     json_to_markdown()
+    json_to_bat()

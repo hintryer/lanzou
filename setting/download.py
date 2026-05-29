@@ -1,6 +1,7 @@
 import os
 import json
 import requests
+from datetime import datetime
 
 def load_json(file_path: str = "config.json") -> list | dict:
     """加载 JSON 配置文件"""
@@ -63,6 +64,56 @@ def download_file(url: str, save_dir: str, filename: str) -> bool:
         print(f"[下载失败] {filename} | 错误：{str(e)}\n")
     return False
 
+# ======================= 【新增：生成下载 BAT 函数】 =======================
+def generate_download_bat(app_list: list, bat_output: str = "download_release.bat"):
+    """
+    生成批量下载 BAT
+    - 文件名与原 JSON 一致
+    - 下载地址自动替换为当天 Release 地址：v年月日-时分
+    """
+    # 生成当天版本号：v20260529-0617
+    today_tag = datetime.now().strftime("v%Y%m%d")
+
+    bat_lines = [
+        "@echo off",
+        "chcp 65001 >nul",
+        "cls",
+        "echo ==============================================",
+        "echo        从 GitHub Release 批量下载",
+        f"echo        版本：{today_tag}",
+        "echo ==============================================",
+        "echo.",
+        "md soft 2>nul",
+    ]
+
+    for app in app_list:
+        name = app.get("name", "").strip()
+        if not name:
+            continue
+
+        # 拼接新的下载地址（当天 Release）
+        new_url = f"https://github.com/hintryer/lanzou/releases/download/{today_tag}/{name}"
+
+        bat_lines.append(f"echo 📥 下载：{name}")
+        bat_lines.append(f'curl -L -# -o "soft\\{name}" "{new_url}"')
+        bat_lines.append("echo.")
+
+    bat_lines.extend([
+        "echo ==============================================",
+        "echo                ✅ 下载完成",
+        "echo ==============================================",
+        "pause",
+    ])
+
+    # 写入 BAT
+    with open(bat_output, "w", encoding="utf-8") as f:
+        f.write("\n".join(bat_lines))
+
+    print(f"✅ 已生成下载 BAT：{bat_output}")
+    print(f"ℹ️ 下载地址已自动替换为：{today_tag}\n")
+
+# =========================================================================
+
 def main():
     json_path = "./setting/result.json"
     app_list = load_json(json_path)
@@ -84,16 +135,7 @@ def main():
         category = "./soft"
         original_name = app.get("name", "未知文件").strip()
 
-        # ====================== 在这里自定义文件名 ======================
-        # 示例 1：直接使用原文件名（默认）
         save_name = original_name
-
-        # 示例 2：自定义重命名（解开下面注释即可使用）
-        # save_name = "自定义_" + original_name
-
-        # 示例 3：固定名称
-        # save_name = "mytool.exe"
-        # ==============================================================
 
         if download_file(url, category, save_name):
             success.append(save_name)
@@ -109,6 +151,9 @@ def main():
         for name in failed:
             print(f"  - {name}")
     print("=" * 50)
+
+    # ======================= 【新增：调用生成 BAT】 =======================
+    generate_download_bat(app_list, "download_release.bat")
 
 if __name__ == "__main__":
     main()
