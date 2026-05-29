@@ -27,11 +27,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload soft/ 下所有文件（支持中文）
-              uses: softprops/action-gh-release@v3
-              with:
-                tag_name: v${{ date +%Y%m%d }}
-                release_name: v${{ date +%Y%m%d }}
-                body: "自动构建"
-                files: |
-                  soft/**/*  # 匹配soft下所有文件（含子目录）
+      - name: Upload soft
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: v${{ date +%Y%m%d }}
+          release_name: v${{ date +%Y%m%d }}
+          body: "自动构建"
+          files: |
+            soft/**/*  # 匹配soft下所有文件（含子目录）
