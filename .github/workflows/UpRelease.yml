@@ -27,11 +27,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: 生成版本号
+        id: tag
+        run: echo "tag=v$(date +%Y%m%d-%H%M)" >> $GITHUB_OUTPUT
+
       - name: Upload soft
         uses: softprops/action-gh-release@v3
         with:
-          tag_name: v${{ date +%Y%m%d }}
-          release_name: v${{ date +%Y%m%d }}
+          tag_name: ${{ steps.tag.outputs.tag }}
+          name: ${{ steps.tag.outputs.tag }}
           body: "自动构建"
           files: |
             soft/**/*  # 匹配soft下所有文件（含子目录）
