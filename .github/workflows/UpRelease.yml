@@ -26,20 +26,12 @@ jobs:
         run: python setting/download.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      # ==============================================
-      # ✅ 干净上传：只上传下载成功的文件
-      # ==============================================
-      - name: Upload to GitHub Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -e
-          TAG="v$(date +%Y%m%d)"
-          # 若 Release 已存在 gh create 会报错，加 || true 跳过
-          gh release create "$TAG" --title "$TAG" --notes "自动构建" --latest || true
 
-          # 查找不应该排除的文件，-print0/xargs -0 防止空格报错
-          find ./soft -type f \
-            ! -name "*.txt" ! -name "*.json" ! -name "*.md" ! -name "*.py" ! -name "*.yaml" \
-            -print0 | xargs -0 -r -I {} gh release upload "$TAG" "{}" --clobber
+      - name: Upload soft/ 下所有文件（支持中文）
+              uses: softprops/action-gh-release@v3
+              with:
+                tag_name: v${{ date +%Y%m%d }}
+                release_name: v${{ date +%Y%m%d }}
+                body: "自动构建"
+                files: |
+                  soft/**/*  # 匹配soft下所有文件（含子目录）
