@@ -92,7 +92,7 @@ def generate_download_bat(app_list: list, bat_output: str = "download_release.ba
             continue
 
         # 拼接新的下载地址（当天 Release）
-        new_url = f"https://github.com/hintryer/lanzou/releases/download/{today_tag}/{name}"
+        new_url = f"https://gh-proxy.com/https://github.com/hintryer/lanzou/releases/download/{today_tag}/{name}"
 
         bat_lines.append(f"echo 📥 下载：{name}")
         bat_lines.append(f'curl -L -# -o "soft\\{name}" "{new_url}"')
