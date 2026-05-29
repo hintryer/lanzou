@@ -118,8 +118,8 @@ echo 📥 下载 → 浏览器相关 \ SwitchyOmega_3.5.0.crx
 curl -L -# -o "浏览器相关\SwitchyOmega_3.5.0.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc"
 echo.
 mkdir "单文件" 2>nul
-echo 📥 下载 → 单文件 \ ClickMonitorDDC
-curl -L -# -o "单文件\ClickMonitorDDC" "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
+echo 📥 下载 → 单文件 \ ClickMonitorDDC.zip
+curl -L -# -o "单文件\ClickMonitorDDC.zip" "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ 超级拖拽_2.1.2.crx
@@ -142,8 +142,8 @@ echo 📥 下载 → 单文件 \ MouseClickTool.exe
 curl -L -# -o "单文件\MouseClickTool.exe" "https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.507.2008.crx
-curl -L -# -o "浏览器相关\uBlockOriginLite_2026.507.2008.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
+echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.516.1652.crx
+curl -L -# -o "浏览器相关\uBlockOriginLite_2026.516.1652.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ MusicPlayer2_V2.78_x64.zip
