@@ -9,18 +9,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 安装 Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
       - name: 安装依赖
         run: pip install requests
-
-      - name: 安装 GitHub CLI
-        run: sudo apt-get install -y gh
 
       - name: Run script
         run: python setting/download.py
@@ -38,4 +35,4 @@ jobs:
           name: ${{ steps.tag.outputs.tag }}
           body: "自动构建"
           files: |
-            soft/**/*  # 匹配soft下所有文件（含子目录）
+            soft/*
