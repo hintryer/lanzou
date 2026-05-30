@@ -178,8 +178,8 @@ echo 📥 下载 → 运行库 \ dotnet-runtime-10.0.8-win-x64.exe
 curl -L -# -o "运行库\dotnet-runtime-10.0.8-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.8/dotnet-runtime-10.0.8-win-x64.exe"
 echo.
 mkdir "图像相关" 2>nul
-echo 📥 下载 → 图像相关 \ FSViewer_8.3.exe
-curl -L -# -o "图像相关\FSViewer_8.3.exe" "https://www.faststonesoft.net/DN/FSViewerSetup83.exe"
+echo 📥 下载 → 图像相关 \ FSViewer_8.4.exe
+curl -L -# -o "图像相关\FSViewer_8.4.exe" "https://www.faststonesoft.net/DN/FSViewerSetup84.exe"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ VideoCaptioner-Setup-win64-v1.3.3.exe

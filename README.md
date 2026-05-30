@@ -32,7 +32,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 | FSCapture_11.2.zip | 11.2 | 屏幕录制、滚动截图工具 | [主页](https://www.faststone.org/FSCaptureDetail.htm) | [下载](https://www.faststonesoft.net/DN/FSCapture112.zip) |
 | Umi-OCR_Paddle_v2.1.5.7z.exe | v2.1.5 | 免费开源可批量离线OCR软件 | [主页](https://github.com/hiroi-sora/Umi-OCR) | [下载](https://gh-proxy.com/https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.5/Umi-OCR_Paddle_v2.1.5.7z.exe) |
-| FSViewer_8.3.exe | 8.3 | FastStone 图片查看器 | [主页](https://www.faststone.org/) | [下载](https://www.faststonesoft.net/DN/FSViewerSetup83.exe) |
+| FSViewer_8.4.exe | 8.4 | FastStone 图片查看器 | [主页](https://www.faststone.org/) | [下载](https://www.faststonesoft.net/DN/FSViewerSetup84.exe) |
 
 ## 开发工具
 
