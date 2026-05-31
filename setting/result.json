@@ -128,12 +128,12 @@
         "url": "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-full_build.7z"
     },
     {
-        "name": "typora-plugin@v1.18.1.zip",
+        "name": "typora-plugin@v1.18.2.zip",
         "category": "文本办公",
-        "version": "1.18.1",
+        "version": "1.18.2",
         "description": "Typora 增强插件",
         "homepage": "https://github.com/obgnail/typora_plugin",
-        "url": "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.18.1/typora-plugin%40v1.18.1.zip"
+        "url": "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.18.2/typora-plugin%40v1.18.2.zip"
     },
     {
         "name": "GeekUninstaller_1.5.3.170.zip",
@@ -272,9 +272,9 @@
         "url": "https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe"
     },
     {
-        "name": "uBlockOriginLite_2026.516.1652.crx",
+        "name": "uBlockOriginLite_2026.529.1448.crx",
         "category": "浏览器相关",
-        "version": "2026.516.1652",
+        "version": "2026.529.1448",
         "description": "轻量版广告拦截",
         "homepage": "https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
