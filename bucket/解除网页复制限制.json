@@ -1,5 +1,5 @@
 {
-  "name": "解除网页复制限制_2.1.6.crx",
+  "name": "AllowCopy_2.1.6.crx",
   "category": "浏览器相关",
   "version": "2.1.6",
   "description": "网页限制解除",
@@ -11,7 +11,7 @@
     "version": "version=\"([\\d.]+)\"/>"
   },
   "autoupdate": {
-    "name": "解除网页复制限制_{version}.crx",
+    "name": "AllowCopy_{version}.crx",
     "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc"
   }
 }

@@ -71,7 +71,7 @@ def generate_download_bat(app_list: list, bat_output: str = "download_release.ba
     - 文件名与原 JSON 一致
     - 下载地址自动替换为当天 Release 地址：v年月日-时分
     """
-    # 生成当天版本号：v20260529-0617
+    # 生成当天版本号：v20260529
     today_tag = datetime.now().strftime("v%Y%m%d")
 
     bat_lines = [
@@ -90,14 +90,18 @@ def generate_download_bat(app_list: list, bat_output: str = "download_release.ba
         name = app.get("name", "").strip()
         if not name:
             continue
-        category = app.get("category", "").strip()
-        if not category:
-            continue
+        
+        category = app.get("category", "未分类").strip()
+
         # 拼接新的下载地址（当天 Release）
         new_url = f"https://gh-proxy.com/https://github.com/hintryer/lanzou/releases/download/{today_tag}/{name}"
 
+        # ✅ 关键修复：先创建目录，再下载！解决 系统找不到指定文件
+        save_path = f"soft\\{category}\\{name}"
+        
         bat_lines.append(f"echo 📥 下载：{name}")
-        bat_lines.append(f'curl -L -# -o "soft\\{category}" "{new_url}"')
+        bat_lines.append(f'md "soft\\{category}" 2>nul')  # 自动创建分类文件夹
+        bat_lines.append(f'curl -L -# -o "{save_path}" "{new_url}"')
         bat_lines.append("echo.")
 
     bat_lines.extend([
@@ -107,7 +111,7 @@ def generate_download_bat(app_list: list, bat_output: str = "download_release.ba
         "pause",
     ])
 
-    # 写入 BAT
+    # 写入 BAT（UTF-8 保证中文不乱码）
     with open(bat_output, "w", encoding="utf-8") as f:
         f.write("\n".join(bat_lines))
 
@@ -158,4 +162,7 @@ def main():
     generate_download_bat(app_list, "download_release.bat")
 
 if __name__ == "__main__":
-    main()
+    #main()
+    json_path = "./setting/result.json"
+    app_list = load_json(json_path)
+    generate_download_bat(app_list, "download_release.bat")

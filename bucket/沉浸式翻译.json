@@ -1,5 +1,5 @@
 {
-  "name": "沉浸式翻译_1.29.6.crx",
+  "name": "Immersive_Translate_1.29.6.crx",
   "category": "浏览器相关",
   "version": "1.29.6",
   "description": "AI 网页翻译插件",
@@ -11,7 +11,7 @@
     "version": "version=\"([\\d.]+)\"/>"
   },
   "autoupdate": {
-    "name": "沉浸式翻译_{version}.crx",
+    "name": "Immersive_Translate_{version}.crx",
     "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
   }
 }
