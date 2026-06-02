@@ -6,8 +6,8 @@ echo           批量下载工具（自动分类）
 echo ==============================================
 echo.
 mkdir "运行库" 2>nul
-echo 📥 下载 → 运行库 \ 微软常用运行库合集_2026.04.16.exe
-curl -L -# -o "运行库\微软常用运行库合集_2026.04.16.exe" "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQWtFanNtZ1J6cFM2S3dxRTNBOGhrekFjZHFsN19adTZtVTFCTVM2eVF3QVA0P2U9Q0UzOVpW.exe"
+echo 📥 下载 → 运行库 \ All_VC_None.exe
+curl -L -# -o "运行库\All_VC_None.exe" "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQWtFanNtZ1J6cFM2S3dxRTNBOGhrekFjZHFsN19adTZtVTFCTVM2eVF3QVA0P2U9Q0UzOVpW.exe"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ FFmpeg_Batch_AV_Converter_Portable_3.2.9_x64.zip
@@ -42,8 +42,8 @@ echo 📥 下载 → 图像相关 \ FSCapture_11.2.zip
 curl -L -# -o "图像相关\FSCapture_11.2.zip" "https://www.faststonesoft.net/DN/FSCapture112.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ 解除网页复制限制_2.1.6.crx
-curl -L -# -o "浏览器相关\解除网页复制限制_2.1.6.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc"
+echo 📥 下载 → 浏览器相关 \ AllowCopy_2.1.6.crx
+curl -L -# -o "浏览器相关\AllowCopy_2.1.6.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ Scribe2SRT-v0.3.6-windows-x86_64.zip
@@ -110,8 +110,8 @@ echo 📥 下载 → 文本办公 \ typora-windows-x64-1.9.5.exe
 curl -L -# -o "文本办公\typora-windows-x64-1.9.5.exe" "https://gh-proxy.com/https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/typora-windows-x64-1.9.5.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ 篡改猴测试版_5.5.6237.crx
-curl -L -# -o "浏览器相关\篡改猴测试版_5.5.6237.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc"
+echo 📥 下载 → 浏览器相关 \ Tampermonkey_5.5.6237.crx
+curl -L -# -o "浏览器相关\Tampermonkey_5.5.6237.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ SwitchyOmega_3.5.0.crx
@@ -122,8 +122,8 @@ echo 📥 下载 → 单文件 \ ClickMonitorDDC.zip
 curl -L -# -o "单文件\ClickMonitorDDC.zip" "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ 超级拖拽_2.1.2.crx
-curl -L -# -o "浏览器相关\超级拖拽_2.1.2.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc"
+echo 📥 下载 → 浏览器相关 \ SuperDrag_2.1.2.crx
+curl -L -# -o "浏览器相关\SuperDrag_2.1.2.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc"
 echo.
 mkdir "下载传输" 2>nul
 echo 📥 下载 → 下载传输 \ LocalSend-1.17.0-windows-x86-64.zip
@@ -134,8 +134,8 @@ echo 📥 下载 → 开发工具 \ ffmpeg-8.1.1-essentials_build.7z
 curl -L -# -o "开发工具\ffmpeg-8.1.1-essentials_build.7z" "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-essentials_build.7z"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ 沉浸式翻译_1.29.6.crx
-curl -L -# -o "浏览器相关\沉浸式翻译_1.29.6.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
+echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.29.6.crx
+curl -L -# -o "浏览器相关\Immersive_Translate_1.29.6.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
 echo.
 mkdir "单文件" 2>nul
 echo 📥 下载 → 单文件 \ MouseClickTool.exe
@@ -166,8 +166,8 @@ echo 📥 下载 → 单文件 \ ReNamerPro_7.9.0.0v2.exe
 curl -L -# -o "单文件\ReNamerPro_7.9.0.0v2.exe" "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQnYyUzBVdzNGeFI2M3A4QWU4d1BYb0FiN09HY1RQYWsteEwxRmxocDBYcjM0P2U9SXJodUhu.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ 猫抓_2.6.9.crx
-curl -L -# -o "浏览器相关\猫抓_2.6.9.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc"
+echo 📥 下载 → 浏览器相关 \ cat-catch_2.6.9.crx
+curl -L -# -o "浏览器相关\cat-catch_2.6.9.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ MusicTag.zip
