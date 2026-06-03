@@ -6,8 +6,8 @@ echo           批量下载工具（自动分类）
 echo ==============================================
 echo.
 mkdir "运行库" 2>nul
-echo 📥 下载 → 运行库 \ All_VC_None.exe
-curl -L -# -o "运行库\All_VC_None.exe" "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQWtFanNtZ1J6cFM2S3dxRTNBOGhrekFjZHFsN19adTZtVTFCTVM2eVF3QVA0P2U9Q0UzOVpW.exe"
+echo 📥 下载 → 运行库 \ All_VC_2026.04.16.exe
+curl -L -# -o "运行库\All_VC_2026.04.16.exe" "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQWtFanNtZ1J6cFM2S3dxRTNBOGhrekFjZHFsN19adTZtVTFCTVM2eVF3QVA0P2U9Q0UzOVpW.exe"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ FFmpeg_Batch_AV_Converter_Portable_3.2.9_x64.zip
@@ -150,8 +150,8 @@ echo 📥 下载 → 影音工具 \ MusicPlayer2_V2.78_x64.zip
 curl -L -# -o "影音工具\MusicPlayer2_V2.78_x64.zip" "https://gh-proxy.com/https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.78/MusicPlayer2_V2.78_x64.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_148.0.7778.217_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_148.0.7778.217_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/148.0.7778.217/x64_148.0.7778.217_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_149.0.7827.54_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_149.0.7827.54_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/149.0.7827.54/x64_149.0.7827.54_chrome_installer_uncompressed.exe"
 echo.
 mkdir "图像相关" 2>nul
 echo 📥 下载 → 图像相关 \ Umi-OCR_Paddle_v2.1.5.7z.exe
