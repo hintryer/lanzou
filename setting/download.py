@@ -162,7 +162,4 @@ def main():
     generate_download_bat(app_list, "download_release.bat")
 
 if __name__ == "__main__":
-    #main()
-    json_path = "./setting/result.json"
-    app_list = load_json(json_path)
-    generate_download_bat(app_list, "download_release.bat")
+    main()
