@@ -69,7 +69,7 @@ def generate_download_bat(app_list: list, bat_output: str = "download_release.ba
     """
     生成批量下载 BAT
     - 文件名与原 JSON 一致
-    - 下载地址自动替换为当天 Release 地址：v年月日-时分
+    - 下载地址自动替换为当天 Release 地址 v年月日-时分
     """
     # 生成当天版本号：v20260529
     today_tag = datetime.now().strftime("v%Y%m%d")
@@ -80,7 +80,7 @@ def generate_download_bat(app_list: list, bat_output: str = "download_release.ba
         "cls",
         "echo ==============================================",
         "echo        从 GitHub Release 批量下载",
-        f"echo        版本：{today_tag}",
+        f"echo        版本:{today_tag}",
         "echo ==============================================",
         "echo.",
         "md soft 2>nul",
@@ -99,7 +99,7 @@ def generate_download_bat(app_list: list, bat_output: str = "download_release.ba
         # ✅ 关键修复：先创建目录，再下载！解决 系统找不到指定文件
         save_path = f"soft\\{category}\\{name}"
         
-        bat_lines.append(f"echo 📥 下载：{name}")
+        bat_lines.append(f"echo 📥 下载:{name}")
         bat_lines.append(f'md "soft\\{category}" 2>nul')  # 自动创建分类文件夹
         bat_lines.append(f'curl -L -# -o "{save_path}" "{new_url}"')
         bat_lines.append("echo.")
@@ -115,7 +115,7 @@ def generate_download_bat(app_list: list, bat_output: str = "download_release.ba
     with open(bat_output, "w", encoding="utf-8") as f:
         f.write("\n".join(bat_lines))
 
-    print(f"✅ 已生成下载 BAT：{bat_output}")
+    print(f"✅ 已生成下载 BAT:{bat_output}")
     print(f"ℹ️ 下载地址已自动替换为：{today_tag}\n")
 
 # =========================================================================
