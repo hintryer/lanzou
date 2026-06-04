@@ -47,7 +47,7 @@
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
 | FFmpeg_Batch_AV_Converter_Portable_3.2.9_x64.zip | 3.2.9 | 音视频批量转换工具 | [主页](https://github.com/eibols/ffmpeg_batch) | [下载](https://gh-proxy.com/https://github.com/eibols/ffmpeg_batch/releases/download/3.2.9/FFmpeg_Batch_AV_Converter_Portable_3.2.9_x64.zip) |
-| Scribe2SRT-v0.3.6-windows-x86_64.zip | v0.3.6 | 音频转字幕工具 | [主页](https://github.com/cylind/scribe2srt) | [下载](https://gh-proxy.com/https://github.com/cylind/scribe2srt/releases/download/v0.3.6/Scribe2SRT-v0.3.6-windows-x86_64.zip) |
+| Scribe2SRT-v0.3.8-windows-x86_64.zip | v0.3.8 | 音频转字幕工具 | [主页](https://github.com/cylind/scribe2srt) | [下载](https://gh-proxy.com/https://github.com/cylind/scribe2srt/releases/download/v0.3.8/Scribe2SRT-v0.3.8-windows-x86_64.zip) |
 | PotPlayer-260422.exe | 1.7.22859 | 高性能本地影音播放器 | [主页](https://www.423down.com/3050.html) | [下载](https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQlhNb0lHNk9HLVJyb0lLS3cxMHlaSUFVOV9CR2FvVlVRanF4TlBISEMtWXJrP2U9c01TelJk.exe) |
 | MusicPlayer2_V2.78_x64.zip | V2.78 | 简洁本地音乐播放器 | [主页](https://github.com/zhongyang219/MusicPlayer2) | [下载](https://gh-proxy.com/https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.78/MusicPlayer2_V2.78_x64.zip) |
 | MusicTag.zip | v1.0.9.0 | 歌曲音乐标签编辑工具 | [主页](https://www.52pojie.cn/thread-1687719-1-1.html) | [下载](https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/MusicTag_v1.0.9.0.zip) |

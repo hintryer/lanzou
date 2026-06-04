@@ -46,8 +46,8 @@ echo 📥 下载 → 浏览器相关 \ AllowCopy_2.1.6.crx
 curl -L -# -o "浏览器相关\AllowCopy_2.1.6.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc"
 echo.
 mkdir "影音工具" 2>nul
-echo 📥 下载 → 影音工具 \ Scribe2SRT-v0.3.6-windows-x86_64.zip
-curl -L -# -o "影音工具\Scribe2SRT-v0.3.6-windows-x86_64.zip" "https://gh-proxy.com/https://github.com/cylind/scribe2srt/releases/download/v0.3.6/Scribe2SRT-v0.3.6-windows-x86_64.zip"
+echo 📥 下载 → 影音工具 \ Scribe2SRT-v0.3.8-windows-x86_64.zip
+curl -L -# -o "影音工具\Scribe2SRT-v0.3.8-windows-x86_64.zip" "https://gh-proxy.com/https://github.com/cylind/scribe2srt/releases/download/v0.3.8/Scribe2SRT-v0.3.8-windows-x86_64.zip"
 echo.
 mkdir "其它工具" 2>nul
 echo 📥 下载 → 其它工具 \ Steamcommunity_302_AMD64_V14.0.02.zip
