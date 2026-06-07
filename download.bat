@@ -134,8 +134,8 @@ echo 📥 下载 → 开发工具 \ ffmpeg-8.1.1-essentials_build.7z
 curl -L -# -o "开发工具\ffmpeg-8.1.1-essentials_build.7z" "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-essentials_build.7z"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.29.6.crx
-curl -L -# -o "浏览器相关\Immersive_Translate_1.29.6.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
+echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.30.1.crx
+curl -L -# -o "浏览器相关\Immersive_Translate_1.30.1.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
 echo.
 mkdir "单文件" 2>nul
 echo 📥 下载 → 单文件 \ MouseClickTool.exe
