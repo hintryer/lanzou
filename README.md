@@ -76,7 +76,7 @@
 | SwitchyOmega_3.5.0.crx | 3.5.0 | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc) |
 | SuperDrag_2.1.2.crx | 2.1.2 | 超级拖拽 + 鼠标手势 | [主页](https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc) |
 | Immersive_Translate_1.30.1.crx | 1.30.1 | AI 网页翻译插件 | [主页](https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc) |
-| uBlockOriginLite_2026.529.1448.crx | 2026.529.1448 | 轻量版广告拦截 | [主页](https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc) |
+| uBlockOriginLite_2026.607.1724.crx | 2026.607.1724 | 轻量版广告拦截 | [主页](https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc) |
 | chrome_149.0.7827.54_uncompressed.exe | 149.0.7827.54 | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/149.0.7827.54/x64_149.0.7827.54_chrome_installer_uncompressed.exe) |
 | cat-catch_2.6.9.crx | 2.6.9 | 媒体资源嗅探下载 | [主页](https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc) |
 
@@ -84,7 +84,7 @@
 
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
-| All_VC_2026.04.16.exe | 2026.04.16 | 微软常用运行库合集 | [主页](https://wwa.lanzout.com/b0b8rs19a#9527) | [下载](https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQWtFanNtZ1J6cFM2S3dxRTNBOGhrekFjZHFsN19adTZtVTFCTVM2eVF3QVA0P2U9Q0UzOVpW.exe) |
+| All_VC_2026.06.07.exe | 2026.06.07 | 微软常用运行库合集 | [主页](https://wwa.lanzout.com/b0b8rs19a#9527) | [下载](https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQWtFanNtZ1J6cFM2S3dxRTNBOGhrekFjZHFsN19adTZtVTFCTVM2eVF3QVA0P2U9Q0UzOVpW.exe) |
 | dotnet-runtime-8.0.27-win-x64.exe | 8.0.27 | .NET 8 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.27/dotnet-runtime-8.0.27-win-x64.exe) |
 | dotnet-runtime-6.0.36-win-x64.exe | 6.0.36 | .NET 6 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/6.0.36/dotnet-runtime-6.0.36-win-x64.exe) |
 | dotnet-runtime-7.0.20-win-x64.exe | 7.0.20 | .NET 7 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe) |

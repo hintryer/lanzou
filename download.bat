@@ -6,8 +6,8 @@ echo           批量下载工具（自动分类）
 echo ==============================================
 echo.
 mkdir "运行库" 2>nul
-echo 📥 下载 → 运行库 \ All_VC_2026.04.16.exe
-curl -L -# -o "运行库\All_VC_2026.04.16.exe" "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQWtFanNtZ1J6cFM2S3dxRTNBOGhrekFjZHFsN19adTZtVTFCTVM2eVF3QVA0P2U9Q0UzOVpW.exe"
+echo 📥 下载 → 运行库 \ All_VC_2026.06.07.exe
+curl -L -# -o "运行库\All_VC_2026.06.07.exe" "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQWtFanNtZ1J6cFM2S3dxRTNBOGhrekFjZHFsN19adTZtVTFCTVM2eVF3QVA0P2U9Q0UzOVpW.exe"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ FFmpeg_Batch_AV_Converter_Portable_3.2.9_x64.zip
@@ -142,8 +142,8 @@ echo 📥 下载 → 单文件 \ MouseClickTool.exe
 curl -L -# -o "单文件\MouseClickTool.exe" "https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.529.1448.crx
-curl -L -# -o "浏览器相关\uBlockOriginLite_2026.529.1448.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
+echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.607.1724.crx
+curl -L -# -o "浏览器相关\uBlockOriginLite_2026.607.1724.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ MusicPlayer2_V2.78_x64.zip
