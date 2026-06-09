@@ -14,8 +14,8 @@ echo 📥 下载 → 影音工具 \ FFmpeg_Batch_AV_Converter_Portable_3.2.9_x64
 curl -L -# -o "影音工具\FFmpeg_Batch_AV_Converter_Portable_3.2.9_x64.zip" "https://gh-proxy.com/https://github.com/eibols/ffmpeg_batch/releases/download/3.2.9/FFmpeg_Batch_AV_Converter_Portable_3.2.9_x64.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ Chrome++_v1.16.2_x86_x64_arm64.7z
-curl -L -# -o "浏览器相关\Chrome++_v1.16.2_x86_x64_arm64.7z" "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.16.2/Chrome%2B%2B_v1.16.2_x86_x64_arm64.7z"
+echo 📥 下载 → 浏览器相关 \ Chrome++_v1.17.0_x86_x64_arm64.7z
+curl -L -# -o "浏览器相关\Chrome++_v1.17.0_x86_x64_arm64.7z" "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.17.0/Chrome%2B%2B_v1.17.0_x86_x64_arm64.7z"
 echo.
 mkdir "运行库" 2>nul
 echo 📥 下载 → 运行库 \ dotnet-runtime-8.0.27-win-x64.exe
@@ -150,8 +150,8 @@ echo 📥 下载 → 影音工具 \ MusicPlayer2_V2.78_x64.zip
 curl -L -# -o "影音工具\MusicPlayer2_V2.78_x64.zip" "https://gh-proxy.com/https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.78/MusicPlayer2_V2.78_x64.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_149.0.7827.54_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_149.0.7827.54_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/149.0.7827.54/x64_149.0.7827.54_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_149.0.7827.103_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_149.0.7827.103_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/149.0.7827.103/x64_149.0.7827.103_chrome_installer_uncompressed.exe"
 echo.
 mkdir "图像相关" 2>nul
 echo 📥 下载 → 图像相关 \ Umi-OCR_Paddle_v2.1.5.7z.exe
