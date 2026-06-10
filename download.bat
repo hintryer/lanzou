@@ -18,8 +18,8 @@ echo 📥 下载 → 浏览器相关 \ Chrome++_v1.17.0_x86_x64_arm64.7z
 curl -L -# -o "浏览器相关\Chrome++_v1.17.0_x86_x64_arm64.7z" "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.17.0/Chrome%2B%2B_v1.17.0_x86_x64_arm64.7z"
 echo.
 mkdir "运行库" 2>nul
-echo 📥 下载 → 运行库 \ dotnet-runtime-8.0.27-win-x64.exe
-curl -L -# -o "运行库\dotnet-runtime-8.0.27-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.27/dotnet-runtime-8.0.27-win-x64.exe"
+echo 📥 下载 → 运行库 \ dotnet-runtime-8.0.28-win-x64.exe
+curl -L -# -o "运行库\dotnet-runtime-8.0.28-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.28/dotnet-runtime-8.0.28-win-x64.exe"
 echo.
 mkdir "文本办公" 2>nul
 echo 📥 下载 → 文本办公 \ EmEditor_portable.zip
@@ -58,12 +58,12 @@ echo 📥 下载 → 下载传输 \ lanzouyun-3.5.3-x64-win.zip
 curl -L -# -o "下载传输\lanzouyun-3.5.3-x64-win.zip" "https://gh-proxy.com/https://github.com/chenhb23/lanzouyun-disk/releases/download/v3.5.3/lanzouyun-3.5.3-x64-win.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ LastPass_4.153.1.crx
-curl -L -# -o "浏览器相关\LastPass_4.153.1.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
+echo 📥 下载 → 浏览器相关 \ LastPass_4.154.0.crx
+curl -L -# -o "浏览器相关\LastPass_4.154.0.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
 echo.
 mkdir "运行库" 2>nul
-echo 📥 下载 → 运行库 \ dotnet-runtime-9.0.16-win-x64.exe
-curl -L -# -o "运行库\dotnet-runtime-9.0.16-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.16/dotnet-runtime-9.0.16-win-x64.exe"
+echo 📥 下载 → 运行库 \ dotnet-runtime-9.0.17-win-x64.exe
+curl -L -# -o "运行库\dotnet-runtime-9.0.17-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.17/dotnet-runtime-9.0.17-win-x64.exe"
 echo.
 mkdir "开发工具" 2>nul
 echo 📥 下载 → 开发工具 \ ffmpeg-8.1.1-full_build.7z
@@ -174,8 +174,8 @@ echo 📥 下载 → 影音工具 \ MusicTag.zip
 curl -L -# -o "影音工具\MusicTag.zip" "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/MusicTag_v1.0.9.0.zip"
 echo.
 mkdir "运行库" 2>nul
-echo 📥 下载 → 运行库 \ dotnet-runtime-10.0.8-win-x64.exe
-curl -L -# -o "运行库\dotnet-runtime-10.0.8-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.8/dotnet-runtime-10.0.8-win-x64.exe"
+echo 📥 下载 → 运行库 \ dotnet-runtime-10.0.9-win-x64.exe
+curl -L -# -o "运行库\dotnet-runtime-10.0.9-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.9/dotnet-runtime-10.0.9-win-x64.exe"
 echo.
 mkdir "图像相关" 2>nul
 echo 📥 下载 → 图像相关 \ FSViewer_8.4.exe

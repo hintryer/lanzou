@@ -70,7 +70,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 | Chrome++_v1.17.0_x86_x64_arm64.7z | 1.17.0 | Chrome增强工具集 | [主页](https://github.com/Bush2021/chrome_plus) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.17.0/Chrome%2B%2B_v1.17.0_x86_x64_arm64.7z) |
 | AllowCopy_2.1.6.crx | 2.1.6 | 网页限制解除 | [主页](https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc) |
-| LastPass_4.153.1.crx | 4.153.1 | Free Password Manager | [主页](https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc) |
+| LastPass_4.154.0.crx | 4.154.0 | Free Password Manager | [主页](https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc) |
 | SingleFile_1.22.98.crx | 1.22.98 | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc) |
 | Tampermonkey_5.5.6237.crx | 5.5.6237 | 脚本管理工具 | [主页](https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc) |
 | SwitchyOmega_3.5.0.crx | 3.5.0 | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc) |
@@ -85,9 +85,9 @@
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
 | All_VC_2026.06.07.exe | 2026.06.07 | 微软常用运行库合集 | [主页](https://wwa.lanzout.com/b0b8rs19a#9527) | [下载](https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQWtFanNtZ1J6cFM2S3dxRTNBOGhrekFjZHFsN19adTZtVTFCTVM2eVF3QVA0P2U9Q0UzOVpW.exe) |
-| dotnet-runtime-8.0.27-win-x64.exe | 8.0.27 | .NET 8 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.27/dotnet-runtime-8.0.27-win-x64.exe) |
+| dotnet-runtime-8.0.28-win-x64.exe | 8.0.28 | .NET 8 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.28/dotnet-runtime-8.0.28-win-x64.exe) |
 | dotnet-runtime-6.0.36-win-x64.exe | 6.0.36 | .NET 6 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/6.0.36/dotnet-runtime-6.0.36-win-x64.exe) |
 | dotnet-runtime-7.0.20-win-x64.exe | 7.0.20 | .NET 7 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe) |
-| dotnet-runtime-9.0.16-win-x64.exe | 9.0.16 | .NET 9 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.16/dotnet-runtime-9.0.16-win-x64.exe) |
-| dotnet-runtime-10.0.8-win-x64.exe | 10.0.8 | .NET 10 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.8/dotnet-runtime-10.0.8-win-x64.exe) |
+| dotnet-runtime-9.0.17-win-x64.exe | 9.0.17 | .NET 9 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.17/dotnet-runtime-9.0.17-win-x64.exe) |
+| dotnet-runtime-10.0.9-win-x64.exe | 10.0.9 | .NET 10 Runtime | [主页](https://dotnet.microsoft.com/) | [下载](https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.9/dotnet-runtime-10.0.9-win-x64.exe) |
 

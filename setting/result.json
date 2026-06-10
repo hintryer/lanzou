@@ -24,12 +24,12 @@
         "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.17.0/Chrome%2B%2B_v1.17.0_x86_x64_arm64.7z"
     },
     {
-        "name": "dotnet-runtime-8.0.27-win-x64.exe",
+        "name": "dotnet-runtime-8.0.28-win-x64.exe",
         "category": "运行库",
-        "version": "8.0.27",
+        "version": "8.0.28",
         "description": ".NET 8 Runtime",
         "homepage": "https://dotnet.microsoft.com/",
-        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.27/dotnet-runtime-8.0.27-win-x64.exe"
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.28/dotnet-runtime-8.0.28-win-x64.exe"
     },
     {
         "name": "EmEditor_portable.zip",
@@ -104,20 +104,20 @@
         "url": "https://gh-proxy.com/https://github.com/chenhb23/lanzouyun-disk/releases/download/v3.5.3/lanzouyun-3.5.3-x64-win.zip"
     },
     {
-        "name": "LastPass_4.153.1.crx",
+        "name": "LastPass_4.154.0.crx",
         "category": "浏览器相关",
-        "version": "4.153.1",
+        "version": "4.154.0",
         "description": "Free Password Manager",
         "homepage": "https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
     },
     {
-        "name": "dotnet-runtime-9.0.16-win-x64.exe",
+        "name": "dotnet-runtime-9.0.17-win-x64.exe",
         "category": "运行库",
-        "version": "9.0.16",
+        "version": "9.0.17",
         "description": ".NET 9 Runtime",
         "homepage": "https://dotnet.microsoft.com/",
-        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.16/dotnet-runtime-9.0.16-win-x64.exe"
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.17/dotnet-runtime-9.0.17-win-x64.exe"
     },
     {
         "name": "ffmpeg-8.1.1-full_build.7z",
@@ -336,12 +336,12 @@
         "url": "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/MusicTag_v1.0.9.0.zip"
     },
     {
-        "name": "dotnet-runtime-10.0.8-win-x64.exe",
+        "name": "dotnet-runtime-10.0.9-win-x64.exe",
         "category": "运行库",
-        "version": "10.0.8",
+        "version": "10.0.9",
         "description": ".NET 10 Runtime",
         "homepage": "https://dotnet.microsoft.com/",
-        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.8/dotnet-runtime-10.0.8-win-x64.exe"
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.9/dotnet-runtime-10.0.9-win-x64.exe"
     },
     {
         "name": "FSViewer_8.4.exe",

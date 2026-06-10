@@ -1,10 +1,10 @@
 {
-  "name": "dotnet-runtime-10.0.8-win-x64.exe",
+  "name": "dotnet-runtime-10.0.9-win-x64.exe",
   "category": "运行库",
-  "version": "10.0.8",
+  "version": "10.0.9",
   "description": ".NET 10 Runtime",
   "homepage": "https://dotnet.microsoft.com/",
-  "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.8/dotnet-runtime-10.0.8-win-x64.exe",
+  "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.9/dotnet-runtime-10.0.9-win-x64.exe",
   "checkver": [
     {
       "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",

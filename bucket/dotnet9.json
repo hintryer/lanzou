@@ -1,10 +1,10 @@
 {
-  "name": "dotnet-runtime-9.0.16-win-x64.exe",
+  "name": "dotnet-runtime-9.0.17-win-x64.exe",
   "category": "运行库",
-  "version": "9.0.16",
+  "version": "9.0.17",
   "description": ".NET 9 Runtime",
   "homepage": "https://dotnet.microsoft.com/",
-  "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.16/dotnet-runtime-9.0.16-win-x64.exe",
+  "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.17/dotnet-runtime-9.0.17-win-x64.exe",
   "checkver": [
     {
       "apiurl": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/releases-index.json",
