@@ -56,12 +56,12 @@
         "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140"
     },
     {
-        "name": "chrome_149.0.7827.115_uncompressed.exe",
+        "name": "chrome_149.0.7827.156_uncompressed.exe",
         "category": "浏览器相关",
-        "version": "149.0.7827.115",
+        "version": "149.0.7827.156",
         "description": "Chrome 离线安装包",
         "homepage": "https://github.com/Bush2021/chrome_installer",
-        "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/149.0.7827.115/x64_149.0.7827.115_chrome_installer_uncompressed.exe"
+        "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/149.0.7827.156/x64_149.0.7827.156_chrome_installer_uncompressed.exe"
     },
     {
         "name": "Scribe2SRT-v0.3.8-windows-x86_64.zip",
