@@ -26,8 +26,8 @@ echo 📥 下载 → 浏览器相关 \ SwitchyOmega_3.5.0.crx
 curl -L -# -o "浏览器相关\SwitchyOmega_3.5.0.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc"
 echo.
 mkdir "文本办公" 2>nul
-echo 📥 下载 → 文本办公 \ Notepad4_HD_zh-Hans_x64_v26.05r6166.zip
-curl -L -# -o "文本办公\Notepad4_HD_zh-Hans_x64_v26.05r6166.zip" "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.05r6166/Notepad4_HD_zh-Hans_x64_v26.05r6166.zip"
+echo 📥 下载 → 文本办公 \ Notepad4_HD_zh-Hans_x64_v26.06r6196.zip
+curl -L -# -o "文本办公\Notepad4_HD_zh-Hans_x64_v26.06r6196.zip" "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.06r6196/Notepad4_HD_zh-Hans_x64_v26.06r6196.zip"
 echo.
 mkdir "其它工具" 2>nul
 echo 📥 下载 → 其它工具 \ 360FileSetup_1.0.0.1180.exe

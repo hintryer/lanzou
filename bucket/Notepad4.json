@@ -1,10 +1,10 @@
 {
-  "name": "Notepad4_HD_zh-Hans_x64_v26.05r6166.zip",
+  "name": "Notepad4_HD_zh-Hans_x64_v26.06r6196.zip",
   "category": "文本办公",
-  "version": "v26.05r6166",
+  "version": "v26.06r6196",
   "description": "轻量级文本编辑器",
   "homepage": "https://github.com/zufuliu/notepad4",
-  "url": "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.05r6166/Notepad4_HD_zh-Hans_x64_v26.05r6166.zip",
+  "url": "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.06r6196/Notepad4_HD_zh-Hans_x64_v26.06r6196.zip",
   "checkver": [
     {
       "apiurl": "https://api.github.com/repos/zufuliu/notepad4/releases/latest",
@@ -13,5 +13,5 @@
       "version": "$.tag_name"
     }
   ],
-  "oldurl": "https://github.com/zufuliu/notepad4/releases/download/v26.05r6166/Notepad4_HD_zh-Hans_x64_v26.05r6166.zip"
+  "oldurl": "https://github.com/zufuliu/notepad4/releases/download/v26.06r6196/Notepad4_HD_zh-Hans_x64_v26.06r6196.zip"
 }

@@ -40,12 +40,12 @@
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc"
     },
     {
-        "name": "Notepad4_HD_zh-Hans_x64_v26.05r6166.zip",
+        "name": "Notepad4_HD_zh-Hans_x64_v26.06r6196.zip",
         "category": "文本办公",
-        "version": "v26.05r6166",
+        "version": "v26.06r6196",
         "description": "轻量级文本编辑器",
         "homepage": "https://github.com/zufuliu/notepad4",
-        "url": "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.05r6166/Notepad4_HD_zh-Hans_x64_v26.05r6166.zip"
+        "url": "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.06r6196/Notepad4_HD_zh-Hans_x64_v26.06r6196.zip"
     },
     {
         "name": "360FileSetup_1.0.0.1180.exe",
