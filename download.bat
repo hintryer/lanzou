@@ -90,8 +90,8 @@ echo 📥 下载 → 浏览器相关 \ LastPass_4.154.0.crx
 curl -L -# -o "浏览器相关\LastPass_4.154.0.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
 echo.
 mkdir "其它工具" 2>nul
-echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.00.7_portable.zip
-curl -L -# -o "其它工具\Bili23-Downloade_v2.00.7_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.7/Bili23-Downloader_2.00.7_windows_x64_portable.zip"
+echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.10.0_portable.zip
+curl -L -# -o "其它工具\Bili23-Downloade_v2.10.0_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.10.0/Bili23-Downloader_2.10.0_windows_x64_portable.zip"
 echo.
 mkdir "图像相关" 2>nul
 echo 📥 下载 → 图像相关 \ FSCapture_11.2.zip

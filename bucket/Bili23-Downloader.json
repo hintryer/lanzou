@@ -1,10 +1,10 @@
 {
-  "name": "Bili23-Downloade_v2.00.7_portable.zip",
+  "name": "Bili23-Downloade_v2.10.0_portable.zip",
   "category": "其它工具",
-  "version": "v2.00.7",
+  "version": "v2.10.0",
   "description": "B站视频下载工具",
   "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
-  "url": "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.7/Bili23-Downloader_2.00.7_windows_x64_portable.zip",
+  "url": "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.10.0/Bili23-Downloader_2.10.0_windows_x64_portable.zip",
   "checkver": [
     {
       "apiurl": "https://api.github.com/repos/ScottSloan/Bili23-Downloader/releases/latest",
@@ -16,5 +16,5 @@
   "autoupdate": {
     "name": "Bili23-Downloade_{version}_portable.zip"
   },
-  "oldurl": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.7/Bili23-Downloader_2.00.7_windows_x64_portable.zip"
+  "oldurl": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.10.0/Bili23-Downloader_2.10.0_windows_x64_portable.zip"
 }
