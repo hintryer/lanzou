@@ -66,8 +66,8 @@ echo 📥 下载 → 运行库 \ dotnet-runtime-7.0.20-win-x64.exe
 curl -L -# -o "运行库\dotnet-runtime-7.0.20-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.614.1502.crx
-curl -L -# -o "浏览器相关\uBlockOriginLite_2026.614.1502.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
+echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.622.2316.crx
+curl -L -# -o "浏览器相关\uBlockOriginLite_2026.622.2316.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ MusicPlayer2_V2.78_x64.zip
@@ -90,8 +90,8 @@ echo 📥 下载 → 浏览器相关 \ LastPass_4.154.0.crx
 curl -L -# -o "浏览器相关\LastPass_4.154.0.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
 echo.
 mkdir "其它工具" 2>nul
-echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.10.0_portable.zip
-curl -L -# -o "其它工具\Bili23-Downloade_v2.10.0_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.10.0/Bili23-Downloader_2.10.0_windows_x64_portable.zip"
+echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.10.1_portable.zip
+curl -L -# -o "其它工具\Bili23-Downloade_v2.10.1_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.10.1/Bili23-Downloader_2.10.1_windows_x64_portable.zip"
 echo.
 mkdir "图像相关" 2>nul
 echo 📥 下载 → 图像相关 \ FSCapture_11.2.zip

@@ -120,9 +120,9 @@
         "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe"
     },
     {
-        "name": "uBlockOriginLite_2026.614.1502.crx",
+        "name": "uBlockOriginLite_2026.622.2316.crx",
         "category": "浏览器相关",
-        "version": "2026.614.1502",
+        "version": "2026.622.2316",
         "description": "轻量版广告拦截",
         "homepage": "https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
@@ -168,12 +168,12 @@
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
     },
     {
-        "name": "Bili23-Downloade_v2.10.0_portable.zip",
+        "name": "Bili23-Downloade_v2.10.1_portable.zip",
         "category": "其它工具",
-        "version": "v2.10.0",
+        "version": "v2.10.1",
         "description": "B站视频下载工具",
         "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
-        "url": "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.10.0/Bili23-Downloader_2.10.0_windows_x64_portable.zip"
+        "url": "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.10.1/Bili23-Downloader_2.10.1_windows_x64_portable.zip"
     },
     {
         "name": "FSCapture_11.2.zip",
