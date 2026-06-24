@@ -34,8 +34,8 @@ echo 📥 下载 → 其它工具 \ 360FileSetup_1.0.0.1180.exe
 curl -L -# -o "其它工具\360FileSetup_1.0.0.1180.exe" "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_149.0.7827.156_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_149.0.7827.156_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/149.0.7827.156/x64_149.0.7827.156_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_149.0.7827.197_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_149.0.7827.197_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/149.0.7827.197/x64_149.0.7827.197_chrome_installer_uncompressed.exe"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ Scribe2SRT-v0.3.8-windows-x86_64.zip
@@ -50,8 +50,8 @@ echo 📥 下载 → 文本办公 \ typora-plugin@v1.18.4.zip
 curl -L -# -o "文本办公\typora-plugin@v1.18.4.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.18.4/typora-plugin%40v1.18.4.zip"
 echo.
 mkdir "图像相关" 2>nul
-echo 📥 下载 → 图像相关 \ FSViewer_8.4.exe
-curl -L -# -o "图像相关\FSViewer_8.4.exe" "https://www.faststonesoft.net/DN/FSViewerSetup84.exe"
+echo 📥 下载 → 图像相关 \ FSViewer_8.5.exe
+curl -L -# -o "图像相关\FSViewer_8.5.exe" "https://www.faststonesoft.net/DN/FSViewerSetup85.exe"
 echo.
 mkdir "单文件" 2>nul
 echo 📥 下载 → 单文件 \ ReNamerPro_7.9.0.0v2.exe
@@ -90,8 +90,8 @@ echo 📥 下载 → 浏览器相关 \ LastPass_4.154.0.crx
 curl -L -# -o "浏览器相关\LastPass_4.154.0.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
 echo.
 mkdir "其它工具" 2>nul
-echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.10.1_portable.zip
-curl -L -# -o "其它工具\Bili23-Downloade_v2.10.1_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.10.1/Bili23-Downloader_2.10.1_windows_x64_portable.zip"
+echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.10.3_portable.zip
+curl -L -# -o "其它工具\Bili23-Downloade_v2.10.3_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.10.3/Bili23-Downloader_2.10.3_windows_x64_portable.zip"
 echo.
 mkdir "图像相关" 2>nul
 echo 📥 下载 → 图像相关 \ FSCapture_11.2.zip
@@ -186,8 +186,8 @@ echo 📥 下载 → 开发工具 \ ffmpeg-8.1.1-essentials_build.7z
 curl -L -# -o "开发工具\ffmpeg-8.1.1-essentials_build.7z" "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-essentials_build.7z"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.30.2.crx
-curl -L -# -o "浏览器相关\Immersive_Translate_1.30.2.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
+echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.30.3.crx
+curl -L -# -o "浏览器相关\Immersive_Translate_1.30.3.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
 echo.
 echo ==============================================
 echo                 ✅ 全部下载完成

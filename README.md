@@ -14,7 +14,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 | Clash.Verge_2.5.1_x64-setup.exe | v2.5.1 | Clash图形化代理客户端 | [主页](https://github.com/clash-verge-rev/clash-verge-rev) | [下载](https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.1/Clash.Verge_2.5.1_x64-setup.exe) |
 | 360FileSetup_1.0.0.1180.exe | 1.0.0.1180 | 360多标签文件管理器 | [主页](https://baoku.360.cn/soft/show/appid/2000003908) | [下载](https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140) |
-| Bili23-Downloade_v2.10.1_portable.zip | v2.10.1 | B站视频下载工具 | [主页](https://github.com/ScottSloan/Bili23-Downloader) | [下载](https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.10.1/Bili23-Downloader_2.10.1_windows_x64_portable.zip) |
+| Bili23-Downloade_v2.10.3_portable.zip | v2.10.3 | B站视频下载工具 | [主页](https://github.com/ScottSloan/Bili23-Downloader) | [下载](https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.10.3/Bili23-Downloader_2.10.3_windows_x64_portable.zip) |
 | Steamcommunity_302_AMD64_V14.0.02.zip | V14.0.02 | Steam 社区访问加速工具 | [主页](https://www.dogfight360.com/blog/18682/) | [下载](https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip) |
 
 ## 单文件
@@ -30,7 +30,7 @@
 
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
-| FSViewer_8.4.exe | 8.4 | FastStone 图片查看器 | [主页](https://www.faststone.org/) | [下载](https://www.faststonesoft.net/DN/FSViewerSetup84.exe) |
+| FSViewer_8.5.exe | 8.5 | FastStone 图片查看器 | [主页](https://www.faststone.org/) | [下载](https://www.faststonesoft.net/DN/FSViewerSetup85.exe) |
 | FSCapture_11.2.zip | 11.2 | 屏幕录制、滚动截图工具 | [主页](https://www.faststone.org/FSCaptureDetail.htm) | [下载](https://www.faststonesoft.net/DN/FSCapture112.zip) |
 | Umi-OCR_Paddle_v2.1.5.7z.exe | v2.1.5 | 免费开源可批量离线OCR软件 | [主页](https://github.com/hiroi-sora/Umi-OCR) | [下载](https://gh-proxy.com/https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.5/Umi-OCR_Paddle_v2.1.5.7z.exe) |
 
@@ -69,7 +69,7 @@
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
 | SwitchyOmega_3.5.0.crx | 3.5.0 | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc) |
-| chrome_149.0.7827.156_uncompressed.exe | 149.0.7827.156 | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/149.0.7827.156/x64_149.0.7827.156_chrome_installer_uncompressed.exe) |
+| chrome_149.0.7827.197_uncompressed.exe | 149.0.7827.197 | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/149.0.7827.197/x64_149.0.7827.197_chrome_installer_uncompressed.exe) |
 | SuperDrag_2.1.2.crx | 2.1.2 | 超级拖拽 + 鼠标手势 | [主页](https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc) |
 | uBlockOriginLite_2026.622.2316.crx | 2026.622.2316 | 轻量版广告拦截 | [主页](https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc) |
 | LastPass_4.154.0.crx | 4.154.0 | Free Password Manager | [主页](https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc) |
@@ -78,7 +78,7 @@
 | AllowCopy_2.1.6.crx | 2.1.6 | 网页限制解除 | [主页](https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc) |
 | Tampermonkey_5.5.6237.crx | 5.5.6237 | 脚本管理工具 | [主页](https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc) |
 | SingleFile_1.22.98.crx | 1.22.98 | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc) |
-| Immersive_Translate_1.30.2.crx | 1.30.2 | AI 网页翻译插件 | [主页](https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc) |
+| Immersive_Translate_1.30.3.crx | 1.30.3 | AI 网页翻译插件 | [主页](https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc) |
 
 ## 运行库
 
