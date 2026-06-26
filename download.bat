@@ -34,8 +34,8 @@ echo 📥 下载 → 其它工具 \ 360FileSetup_1.0.0.1180.exe
 curl -L -# -o "其它工具\360FileSetup_1.0.0.1180.exe" "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_149.0.7827.197_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_149.0.7827.197_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/149.0.7827.197/x64_149.0.7827.197_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_149.0.7827.201_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_149.0.7827.201_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/149.0.7827.201/x64_149.0.7827.201_chrome_installer_uncompressed.exe"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ Scribe2SRT-v0.3.8-windows-x86_64.zip
@@ -146,8 +146,8 @@ echo 📥 下载 → 文本办公 \ QQWubi_Setup_2.4.629.400.exe
 curl -L -# -o "文本办公\QQWubi_Setup_2.4.629.400.exe" "https://qq.pinyin.cn/download_pc.php?t=wb"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ Tampermonkey_5.5.6237.crx
-curl -L -# -o "浏览器相关\Tampermonkey_5.5.6237.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc"
+echo 📥 下载 → 浏览器相关 \ Tampermonkey_5.6.6239.crx
+curl -L -# -o "浏览器相关\Tampermonkey_5.6.6239.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc"
 echo.
 mkdir "运行库" 2>nul
 echo 📥 下载 → 运行库 \ dotnet-runtime-9.0.17-win-x64.exe
