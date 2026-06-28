@@ -39,8 +39,8 @@
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
 | PortableGit-2.54.0-64-bit.7z.exe | v2.54.0.windows.1 | 便携版Git版本控制工具 | [主页](https://gitforwindows.org/) | [下载](https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-64-bit.7z.exe) |
-| ffmpeg-8.1.1-full_build.7z | 8.1.1 | 完整版音视频处理工具 | [主页](https://ffmpeg.org/) | [下载](https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-full_build.7z) |
-| ffmpeg-8.1.1-essentials_build.7z | 8.1.1 | 精简版音视频处理工具 | [主页](https://ffmpeg.org/) | [下载](https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-essentials_build.7z) |
+| ffmpeg-8.1.2-full_build.7z | 8.1.2 | 完整版音视频处理工具 | [主页](https://ffmpeg.org/) | [下载](https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.2/ffmpeg-8.1.2-full_build.7z) |
+| ffmpeg-8.1.2-essentials_build.7z | 8.1.2 | 精简版音视频处理工具 | [主页](https://ffmpeg.org/) | [下载](https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.2/ffmpeg-8.1.2-essentials_build.7z) |
 
 ## 影音工具
 

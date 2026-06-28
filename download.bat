@@ -178,12 +178,12 @@ echo 📥 下载 → 影音工具 \ VideoCaptioner-Setup-win64-v1.3.3.exe
 curl -L -# -o "影音工具\VideoCaptioner-Setup-win64-v1.3.3.exe" "https://gh-proxy.com/https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe"
 echo.
 mkdir "开发工具" 2>nul
-echo 📥 下载 → 开发工具 \ ffmpeg-8.1.1-full_build.7z
-curl -L -# -o "开发工具\ffmpeg-8.1.1-full_build.7z" "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-full_build.7z"
+echo 📥 下载 → 开发工具 \ ffmpeg-8.1.2-full_build.7z
+curl -L -# -o "开发工具\ffmpeg-8.1.2-full_build.7z" "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.2/ffmpeg-8.1.2-full_build.7z"
 echo.
 mkdir "开发工具" 2>nul
-echo 📥 下载 → 开发工具 \ ffmpeg-8.1.1-essentials_build.7z
-curl -L -# -o "开发工具\ffmpeg-8.1.1-essentials_build.7z" "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.1/ffmpeg-8.1.1-essentials_build.7z"
+echo 📥 下载 → 开发工具 \ ffmpeg-8.1.2-essentials_build.7z
+curl -L -# -o "开发工具\ffmpeg-8.1.2-essentials_build.7z" "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.2/ffmpeg-8.1.2-essentials_build.7z"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.30.3.crx
