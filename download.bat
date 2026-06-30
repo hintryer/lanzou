@@ -66,8 +66,8 @@ echo 📥 下载 → 运行库 \ dotnet-runtime-7.0.20-win-x64.exe
 curl -L -# -o "运行库\dotnet-runtime-7.0.20-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.625.2148.crx
-curl -L -# -o "浏览器相关\uBlockOriginLite_2026.625.2148.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
+echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.628.2035.crx
+curl -L -# -o "浏览器相关\uBlockOriginLite_2026.628.2035.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ MusicPlayer2_V2.78_x64.zip
@@ -86,8 +86,8 @@ echo 📥 下载 → 下载传输 \ LocalSend-1.17.0-windows-x86-64.zip
 curl -L -# -o "下载传输\LocalSend-1.17.0-windows-x86-64.zip" "https://gh-proxy.com/https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-windows-x86-64.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ LastPass_4.154.0.crx
-curl -L -# -o "浏览器相关\LastPass_4.154.0.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
+echo 📥 下载 → 浏览器相关 \ LastPass_4.154.2.crx
+curl -L -# -o "浏览器相关\LastPass_4.154.2.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
 echo.
 mkdir "其它工具" 2>nul
 echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.10.4_portable.zip
@@ -134,8 +134,8 @@ echo 📥 下载 → 其它工具 \ Steamcommunity_302_AMD64_V14.0.02.zip
 curl -L -# -o "其它工具\Steamcommunity_302_AMD64_V14.0.02.zip" "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip"
 echo.
 mkdir "开发工具" 2>nul
-echo 📥 下载 → 开发工具 \ PortableGit-2.54.0-64-bit.7z.exe
-curl -L -# -o "开发工具\PortableGit-2.54.0-64-bit.7z.exe" "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-64-bit.7z.exe"
+echo 📥 下载 → 开发工具 \ PortableGit-2.55.0-64-bit.7z.exe
+curl -L -# -o "开发工具\PortableGit-2.55.0-64-bit.7z.exe" "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.1/PortableGit-2.55.0-64-bit.7z.exe"
 echo.
 mkdir "文本办公" 2>nul
 echo 📥 下载 → 文本办公 \ typora-windows-x64-1.9.5.exe

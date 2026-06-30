@@ -120,9 +120,9 @@
         "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe"
     },
     {
-        "name": "uBlockOriginLite_2026.625.2148.crx",
+        "name": "uBlockOriginLite_2026.628.2035.crx",
         "category": "浏览器相关",
-        "version": "2026.625.2148",
+        "version": "2026.628.2035",
         "description": "轻量版广告拦截",
         "homepage": "https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
@@ -160,9 +160,9 @@
         "url": "https://gh-proxy.com/https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-windows-x86-64.zip"
     },
     {
-        "name": "LastPass_4.154.0.crx",
+        "name": "LastPass_4.154.2.crx",
         "category": "浏览器相关",
-        "version": "4.154.0",
+        "version": "4.154.2",
         "description": "Free Password Manager",
         "homepage": "https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
@@ -256,12 +256,12 @@
         "url": "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip"
     },
     {
-        "name": "PortableGit-2.54.0-64-bit.7z.exe",
+        "name": "PortableGit-2.55.0-64-bit.7z.exe",
         "category": "开发工具",
-        "version": "v2.54.0.windows.1",
+        "version": "v2.55.0.windows.1",
         "description": "便携版Git版本控制工具",
         "homepage": "https://gitforwindows.org/",
-        "url": "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/PortableGit-2.54.0-64-bit.7z.exe"
+        "url": "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.1/PortableGit-2.55.0-64-bit.7z.exe"
     },
     {
         "name": "typora-windows-x64-1.9.5.exe",
