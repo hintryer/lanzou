@@ -34,8 +34,8 @@ echo 📥 下载 → 其它工具 \ 360FileSetup_1.0.0.1180.exe
 curl -L -# -o "其它工具\360FileSetup_1.0.0.1180.exe" "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_149.0.7827.201_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_149.0.7827.201_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/149.0.7827.201/x64_149.0.7827.201_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_150.0.7871.47_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_150.0.7871.47_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/150.0.7871.47/x64_150.0.7871.47_chrome_installer_uncompressed.exe"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ Scribe2SRT-v0.3.8-windows-x86_64.zip
