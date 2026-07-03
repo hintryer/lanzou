@@ -30,8 +30,8 @@ echo 📥 下载 → 文本办公 \ Notepad4_HD_zh-Hans_x64_v26.06r6196.zip
 curl -L -# -o "文本办公\Notepad4_HD_zh-Hans_x64_v26.06r6196.zip" "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.06r6196/Notepad4_HD_zh-Hans_x64_v26.06r6196.zip"
 echo.
 mkdir "其它工具" 2>nul
-echo 📥 下载 → 其它工具 \ 360FileSetup_1.0.0.1180.exe
-curl -L -# -o "其它工具\360FileSetup_1.0.0.1180.exe" "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140"
+echo 📥 下载 → 其它工具 \ 360FileSetup_None.exe
+curl -L -# -o "其它工具\360FileSetup_None.exe" "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ chrome_150.0.7871.47_uncompressed.exe
@@ -134,8 +134,8 @@ echo 📥 下载 → 其它工具 \ Steamcommunity_302_AMD64_V14.0.02.zip
 curl -L -# -o "其它工具\Steamcommunity_302_AMD64_V14.0.02.zip" "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip"
 echo.
 mkdir "开发工具" 2>nul
-echo 📥 下载 → 开发工具 \ PortableGit-2.55.0-64-bit.7z.exe
-curl -L -# -o "开发工具\PortableGit-2.55.0-64-bit.7z.exe" "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.1/PortableGit-2.55.0-64-bit.7z.exe"
+echo 📥 下载 → 开发工具 \ PortableGit-2.55.0.2-64-bit.7z.exe
+curl -L -# -o "开发工具\PortableGit-2.55.0.2-64-bit.7z.exe" "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.2/PortableGit-2.55.0.2-64-bit.7z.exe"
 echo.
 mkdir "文本办公" 2>nul
 echo 📥 下载 → 文本办公 \ typora-windows-x64-1.9.5.exe

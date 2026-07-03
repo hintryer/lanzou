@@ -48,9 +48,9 @@
         "url": "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.06r6196/Notepad4_HD_zh-Hans_x64_v26.06r6196.zip"
     },
     {
-        "name": "360FileSetup_1.0.0.1180.exe",
+        "name": "360FileSetup_None.exe",
         "category": "其它工具",
-        "version": "1.0.0.1180",
+        "version": null,
         "description": "360多标签文件管理器",
         "homepage": "https://baoku.360.cn/soft/show/appid/2000003908",
         "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140"
@@ -256,12 +256,12 @@
         "url": "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip"
     },
     {
-        "name": "PortableGit-2.55.0-64-bit.7z.exe",
+        "name": "PortableGit-2.55.0.2-64-bit.7z.exe",
         "category": "开发工具",
-        "version": "v2.55.0.windows.1",
+        "version": "v2.55.0.windows.2",
         "description": "便携版Git版本控制工具",
         "homepage": "https://gitforwindows.org/",
-        "url": "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.1/PortableGit-2.55.0-64-bit.7z.exe"
+        "url": "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.2/PortableGit-2.55.0.2-64-bit.7z.exe"
     },
     {
         "name": "typora-windows-x64-1.9.5.exe",
