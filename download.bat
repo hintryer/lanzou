@@ -46,8 +46,8 @@ echo 📥 下载 → 影音工具 \ MusicTag.zip
 curl -L -# -o "影音工具\MusicTag.zip" "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/MusicTag_v1.0.9.0.zip"
 echo.
 mkdir "文本办公" 2>nul
-echo 📥 下载 → 文本办公 \ typora-plugin@v1.18.5.zip
-curl -L -# -o "文本办公\typora-plugin@v1.18.5.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.18.5/typora-plugin%40v1.18.5.zip"
+echo 📥 下载 → 文本办公 \ typora-plugin@v1.18.6.zip
+curl -L -# -o "文本办公\typora-plugin@v1.18.6.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.18.6/typora-plugin%40v1.18.6.zip"
 echo.
 mkdir "图像相关" 2>nul
 echo 📥 下载 → 图像相关 \ FSViewer_8.5.exe
