@@ -120,9 +120,9 @@
         "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe"
     },
     {
-        "name": "uBlockOriginLite_2026.628.2035.crx",
+        "name": "uBlockOriginLite_2026.705.2152.crx",
         "category": "浏览器相关",
-        "version": "2026.628.2035",
+        "version": "2026.705.2152",
         "description": "轻量版广告拦截",
         "homepage": "https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
@@ -192,12 +192,12 @@
         "url": "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
     },
     {
-        "name": "Chrome++_v1.17.0_x86_x64_arm64.7z",
+        "name": "Chrome++_v1.17.1_x86_x64_arm64.7z",
         "category": "浏览器相关",
-        "version": "1.17.0",
+        "version": "1.17.1",
         "description": "Chrome增强工具集",
         "homepage": "https://github.com/Bush2021/chrome_plus",
-        "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.17.0/Chrome%2B%2B_v1.17.0_x86_x64_arm64.7z"
+        "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.17.1/Chrome%2B%2B_v1.17.1_x86_x64_arm64.7z"
     },
     {
         "name": "app_asar_file_v1.9.5.zip",
@@ -360,9 +360,9 @@
         "url": "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/8.1.2/ffmpeg-8.1.2-essentials_build.7z"
     },
     {
-        "name": "Immersive_Translate_1.30.3.crx",
+        "name": "Immersive_Translate_1.31.2.crx",
         "category": "浏览器相关",
-        "version": "1.30.3",
+        "version": "1.31.2",
         "description": "AI 网页翻译插件",
         "homepage": "https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
