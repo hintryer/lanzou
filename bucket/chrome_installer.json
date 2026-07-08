@@ -1,10 +1,10 @@
 {
-  "name": "chrome_150.0.7871.47_uncompressed.exe",
+  "name": "chrome_150.0.7871.101_uncompressed.exe",
   "category": "浏览器相关",
-  "version": "150.0.7871.47",
+  "version": "150.0.7871.101",
   "description": "Chrome 离线安装包",
   "homepage": "https://github.com/Bush2021/chrome_installer",
-  "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/150.0.7871.47/x64_150.0.7871.47_chrome_installer_uncompressed.exe",
+  "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/150.0.7871.101/x64_150.0.7871.101_chrome_installer_uncompressed.exe",
   "checkver": [
     {
       "apiurl": "https://api.github.com/repos/Bush2021/chrome_installer/releases/latest",
@@ -16,5 +16,5 @@
   "autoupdate": {
     "name": "chrome_{version}_uncompressed.exe"
   },
-  "oldurl": "https://github.com/Bush2021/chrome_installer/releases/download/150.0.7871.47/x64_150.0.7871.47_chrome_installer_uncompressed.exe"
+  "oldurl": "https://github.com/Bush2021/chrome_installer/releases/download/150.0.7871.101/x64_150.0.7871.101_chrome_installer_uncompressed.exe"
 }
