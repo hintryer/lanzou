@@ -110,8 +110,8 @@ echo 📥 下载 → 文本办公 \ app_asar_file_v1.9.5.zip
 curl -L -# -o "文本办公\app_asar_file_v1.9.5.zip" "https://gh-proxy.com/https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/app_asar_file_v1.9.5.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ cat-catch_2.6.9.crx
-curl -L -# -o "浏览器相关\cat-catch_2.6.9.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc"
+echo 📥 下载 → 浏览器相关 \ cat-catch_2.7.0.crx
+curl -L -# -o "浏览器相关\cat-catch_2.7.0.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc"
 echo.
 mkdir "单文件" 2>nul
 echo 📥 下载 → 单文件 \ MouseClickTool.exe
