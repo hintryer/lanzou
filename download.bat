@@ -66,8 +66,8 @@ echo 📥 下载 → 运行库 \ dotnet-runtime-7.0.20-win-x64.exe
 curl -L -# -o "运行库\dotnet-runtime-7.0.20-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.705.2152.crx
-curl -L -# -o "浏览器相关\uBlockOriginLite_2026.705.2152.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
+echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.711.25.crx
+curl -L -# -o "浏览器相关\uBlockOriginLite_2026.711.25.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ MusicPlayer2_V2.78_x64.zip
@@ -102,8 +102,8 @@ echo 📥 下载 → 单文件 \ ClickMonitorDDC.zip
 curl -L -# -o "单文件\ClickMonitorDDC.zip" "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ Chrome++_v1.17.1_x86_x64_arm64.7z
-curl -L -# -o "浏览器相关\Chrome++_v1.17.1_x86_x64_arm64.7z" "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.17.1/Chrome%2B%2B_v1.17.1_x86_x64_arm64.7z"
+echo 📥 下载 → 浏览器相关 \ Chrome++_v1.18.0_x86_x64_arm64.7z
+curl -L -# -o "浏览器相关\Chrome++_v1.18.0_x86_x64_arm64.7z" "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.18.0/Chrome%2B%2B_v1.18.0_x86_x64_arm64.7z"
 echo.
 mkdir "文本办公" 2>nul
 echo 📥 下载 → 文本办公 \ app_asar_file_v1.9.5.zip
