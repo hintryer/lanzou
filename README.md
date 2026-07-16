@@ -62,7 +62,7 @@
 | EmEditor_portable.zip | 24.1.0 | 高性能文本编辑器 | [主页](https://www.emeditor.com/) | [下载](https://download.emeditor.info/emed64_24.1.0_portable.zip) |
 | typora-plugin@v1.18.7.zip | 1.18.7 | Typora 增强插件 | [主页](https://github.com/obgnail/typora_plugin) | [下载](https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.18.7/typora-plugin%40v1.18.7.zip) |
 | app_asar_file_v1.9.5.zip | v1.9.5 | Typora 激活补丁工具 | [主页](https://github.com/Delppine1024/TGreen) | [下载](https://gh-proxy.com/https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/app_asar_file_v1.9.5.zip) |
-| QQWubi_Setup_None.exe | None | QQ五笔输入法 | [主页](https://qq.pinyin.cn/wubi/) | [下载](https://qq.pinyin.cn/download_pc.php?t=wb) |
+| QQWubi_Setup_2.4.629.400.exe | 2.4.629.400 | QQ五笔输入法 | [主页](https://qq.pinyin.cn/wubi/) | [下载](https://qq.pinyin.cn/download_pc.php?t=wb) |
 
 ## 浏览器相关
 
@@ -78,7 +78,7 @@
 | LastPass_4.154.2.crx | 4.154.2 | Free Password Manager | [主页](https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc) |
 | Tampermonkey_5.6.6239.crx | 5.6.6239 | 脚本管理工具 | [主页](https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc) |
 | chrome_150.0.7871.125_uncompressed.exe | 150.0.7871.125 | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/150.0.7871.125/x64_150.0.7871.125_chrome_installer_uncompressed.exe) |
-| uBlockOriginLite_2026.713.1408.crx | 2026.713.1408 | 轻量版广告拦截 | [主页](https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc) |
+| uBlockOriginLite_2026.714.1952.crx | 2026.714.1952 | 轻量版广告拦截 | [主页](https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc) |
 
 ## 运行库
 

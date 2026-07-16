@@ -312,9 +312,9 @@
         "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe"
     },
     {
-        "name": "QQWubi_Setup_None.exe",
+        "name": "QQWubi_Setup_2.4.629.400.exe",
         "category": "文本办公",
-        "version": null,
+        "version": "2.4.629.400",
         "description": "QQ五笔输入法",
         "homepage": "https://qq.pinyin.cn/wubi/",
         "url": "https://qq.pinyin.cn/download_pc.php?t=wb"
@@ -352,9 +352,9 @@
         "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/6.0.36/dotnet-runtime-6.0.36-win-x64.exe"
     },
     {
-        "name": "uBlockOriginLite_2026.713.1408.crx",
+        "name": "uBlockOriginLite_2026.714.1952.crx",
         "category": "浏览器相关",
-        "version": "2026.713.1408",
+        "version": "2026.714.1952",
         "description": "轻量版广告拦截",
         "homepage": "https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
