@@ -14,7 +14,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 | Clash.Verge_2.5.1_x64-setup.exe | v2.5.1 | Clash图形化代理客户端 | [主页](https://github.com/clash-verge-rev/clash-verge-rev) | [下载](https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.1/Clash.Verge_2.5.1_x64-setup.exe) |
 | 360FileSetup_None.exe | None | 360多标签文件管理器 | [主页](https://baoku.360.cn/soft/show/appid/2000003908) | [下载](https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140) |
-| Bili23-Downloade_v2.10.4_portable.zip | v2.10.4 | B站视频下载工具 | [主页](https://github.com/ScottSloan/Bili23-Downloader) | [下载](https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.10.4/Bili23-Downloader_2.10.4_windows_x64_portable.zip) |
+| Bili23-Downloade_v2.11.0_portable.zip | v2.11.0 | B站视频下载工具 | [主页](https://github.com/ScottSloan/Bili23-Downloader) | [下载](https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.11.0/Bili23-Downloader_2.11.0_windows_x64_portable.zip) |
 | Steamcommunity_302_AMD64_V14.0.02.zip | V14.0.02 | Steam 社区访问加速工具 | [主页](https://www.dogfight360.com/blog/18682/) | [下载](https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip) |
 
 ## 单文件
@@ -77,7 +77,7 @@
 | Chrome++_v1.18.0_x86_x64_arm64.7z | 1.18.0 | Chrome增强工具集 | [主页](https://github.com/Bush2021/chrome_plus) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.18.0/Chrome%2B%2B_v1.18.0_x86_x64_arm64.7z) |
 | LastPass_4.154.2.crx | 4.154.2 | Free Password Manager | [主页](https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc) |
 | Tampermonkey_5.6.6239.crx | 5.6.6239 | 脚本管理工具 | [主页](https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc) |
-| chrome_150.0.7871.125_uncompressed.exe | 150.0.7871.125 | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/150.0.7871.125/x64_150.0.7871.125_chrome_installer_uncompressed.exe) |
+| chrome_150.0.7871.129_uncompressed.exe | 150.0.7871.129 | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/150.0.7871.129/x64_150.0.7871.129_chrome_installer_uncompressed.exe) |
 | uBlockOriginLite_2026.714.1952.crx | 2026.714.1952 | 轻量版广告拦截 | [主页](https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc) |
 
 ## 运行库

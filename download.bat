@@ -110,8 +110,8 @@ echo 📥 下载 → 浏览器相关 \ Chrome++_v1.18.0_x86_x64_arm64.7z
 curl -L -# -o "浏览器相关\Chrome++_v1.18.0_x86_x64_arm64.7z" "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.18.0/Chrome%2B%2B_v1.18.0_x86_x64_arm64.7z"
 echo.
 mkdir "其它工具" 2>nul
-echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.10.4_portable.zip
-curl -L -# -o "其它工具\Bili23-Downloade_v2.10.4_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.10.4/Bili23-Downloader_2.10.4_windows_x64_portable.zip"
+echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.11.0_portable.zip
+curl -L -# -o "其它工具\Bili23-Downloade_v2.11.0_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.11.0/Bili23-Downloader_2.11.0_windows_x64_portable.zip"
 echo.
 mkdir "其它工具" 2>nul
 echo 📥 下载 → 其它工具 \ Steamcommunity_302_AMD64_V14.0.02.zip
@@ -174,8 +174,8 @@ echo 📥 下载 → 浏览器相关 \ Tampermonkey_5.6.6239.crx
 curl -L -# -o "浏览器相关\Tampermonkey_5.6.6239.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_150.0.7871.125_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_150.0.7871.125_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/150.0.7871.125/x64_150.0.7871.125_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_150.0.7871.129_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_150.0.7871.129_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/150.0.7871.129/x64_150.0.7871.129_chrome_installer_uncompressed.exe"
 echo.
 mkdir "运行库" 2>nul
 echo 📥 下载 → 运行库 \ dotnet-runtime-6.0.36-win-x64.exe
