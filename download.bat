@@ -38,8 +38,8 @@ echo 📥 下载 → 图像相关 \ Umi-OCR_Paddle_v2.1.5.7z.exe
 curl -L -# -o "图像相关\Umi-OCR_Paddle_v2.1.5.7z.exe" "https://gh-proxy.com/https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.5/Umi-OCR_Paddle_v2.1.5.7z.exe"
 echo.
 mkdir "文本办公" 2>nul
-echo 📥 下载 → 文本办公 \ Notepad4_HD_zh-Hans_x64_v26.06r6196.zip
-curl -L -# -o "文本办公\Notepad4_HD_zh-Hans_x64_v26.06r6196.zip" "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.06r6196/Notepad4_HD_zh-Hans_x64_v26.06r6196.zip"
+echo 📥 下载 → 文本办公 \ Notepad4_HD_zh-Hans_x64_v26.07r6234.zip
+curl -L -# -o "文本办公\Notepad4_HD_zh-Hans_x64_v26.07r6234.zip" "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.07r6234/Notepad4_HD_zh-Hans_x64_v26.07r6234.zip"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ MusicPlayer2_V2.78_x64.zip

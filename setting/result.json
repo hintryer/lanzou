@@ -64,12 +64,12 @@
         "url": "https://gh-proxy.com/https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.5/Umi-OCR_Paddle_v2.1.5.7z.exe"
     },
     {
-        "name": "Notepad4_HD_zh-Hans_x64_v26.06r6196.zip",
+        "name": "Notepad4_HD_zh-Hans_x64_v26.07r6234.zip",
         "category": "文本办公",
-        "version": "v26.06r6196",
+        "version": "v26.07r6234",
         "description": "轻量级文本编辑器",
         "homepage": "https://github.com/zufuliu/notepad4",
-        "url": "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.06r6196/Notepad4_HD_zh-Hans_x64_v26.06r6196.zip"
+        "url": "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.07r6234/Notepad4_HD_zh-Hans_x64_v26.07r6234.zip"
     },
     {
         "name": "MusicPlayer2_V2.78_x64.zip",
