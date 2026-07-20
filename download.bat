@@ -18,8 +18,8 @@ echo 📥 下载 → 浏览器相关 \ SuperDrag_2.1.2.crx
 curl -L -# -o "浏览器相关\SuperDrag_2.1.2.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc"
 echo.
 mkdir "其它工具" 2>nul
-echo 📥 下载 → 其它工具 \ Clash.Verge_2.5.1_x64-setup.exe
-curl -L -# -o "其它工具\Clash.Verge_2.5.1_x64-setup.exe" "https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.1/Clash.Verge_2.5.1_x64-setup.exe"
+echo 📥 下载 → 其它工具 \ Clash.Verge_2.5.2_x64-setup.exe
+curl -L -# -o "其它工具\Clash.Verge_2.5.2_x64-setup.exe" "https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64-setup.exe"
 echo.
 mkdir "图像相关" 2>nul
 echo 📥 下载 → 图像相关 \ FSCapture_11.2.zip
@@ -82,8 +82,8 @@ echo 📥 下载 → 影音工具 \ MusicTag.zip
 curl -L -# -o "影音工具\MusicTag.zip" "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/MusicTag_v1.0.9.0.zip"
 echo.
 mkdir "文本办公" 2>nul
-echo 📥 下载 → 文本办公 \ typora-plugin@v1.18.7.zip
-curl -L -# -o "文本办公\typora-plugin@v1.18.7.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.18.7/typora-plugin%40v1.18.7.zip"
+echo 📥 下载 → 文本办公 \ typora-plugin@v1.18.8.zip
+curl -L -# -o "文本办公\typora-plugin@v1.18.8.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.18.8/typora-plugin%40v1.18.8.zip"
 echo.
 mkdir "单文件" 2>nul
 echo 📥 下载 → 单文件 \ ClickMonitorDDC.zip

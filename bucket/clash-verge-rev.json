@@ -1,10 +1,10 @@
 {
-  "name": "Clash.Verge_2.5.1_x64-setup.exe",
+  "name": "Clash.Verge_2.5.2_x64-setup.exe",
   "category": "其它工具",
-  "version": "v2.5.1",
+  "version": "v2.5.2",
   "description": "Clash图形化代理客户端",
   "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
-  "url": "https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.1/Clash.Verge_2.5.1_x64-setup.exe",
+  "url": "https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64-setup.exe",
   "checkver": [
     {
       "apiurl": "https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases/latest",
@@ -13,5 +13,5 @@
       "version": "$.tag_name"
     }
   ],
-  "oldurl": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.1/Clash.Verge_2.5.1_x64-setup.exe"
+  "oldurl": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64-setup.exe"
 }
