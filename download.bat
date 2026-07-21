@@ -106,8 +106,8 @@ echo 📥 下载 → 开发工具 \ PortableGit-2.55.0.3-64-bit.7z.exe
 curl -L -# -o "开发工具\PortableGit-2.55.0.3-64-bit.7z.exe" "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.3/PortableGit-2.55.0.3-64-bit.7z.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ Chrome++_v1.18.0_x86_x64_arm64.7z
-curl -L -# -o "浏览器相关\Chrome++_v1.18.0_x86_x64_arm64.7z" "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.18.0/Chrome%2B%2B_v1.18.0_x86_x64_arm64.7z"
+echo 📥 下载 → 浏览器相关 \ Chrome++_v1.18.1_x86_x64_arm64.7z
+curl -L -# -o "浏览器相关\Chrome++_v1.18.1_x86_x64_arm64.7z" "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.18.1/Chrome%2B%2B_v1.18.1_x86_x64_arm64.7z"
 echo.
 mkdir "其它工具" 2>nul
 echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.11.0_portable.zip
