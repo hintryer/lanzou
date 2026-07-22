@@ -174,8 +174,8 @@ echo 📥 下载 → 浏览器相关 \ Tampermonkey_5.6.6239.crx
 curl -L -# -o "浏览器相关\Tampermonkey_5.6.6239.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_150.0.7871.129_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_150.0.7871.129_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/150.0.7871.129/x64_150.0.7871.129_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_150.0.7871.182_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_150.0.7871.182_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/150.0.7871.182/x64_150.0.7871.182_chrome_installer_uncompressed.exe"
 echo.
 mkdir "运行库" 2>nul
 echo 📥 下载 → 运行库 \ dotnet-runtime-6.0.36-win-x64.exe
