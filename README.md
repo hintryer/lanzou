@@ -32,7 +32,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 | FSViewer_8.5.exe | 8.5 | FastStone 图片查看器 | [主页](https://www.faststone.org/) | [下载](https://www.faststonesoft.net/DN/FSViewerSetup85.exe) |
 | Umi-OCR_Paddle_v2.1.5.7z.exe | v2.1.5 | 免费开源可批量离线OCR软件 | [主页](https://github.com/hiroi-sora/Umi-OCR) | [下载](https://gh-proxy.com/https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.5/Umi-OCR_Paddle_v2.1.5.7z.exe) |
-| FSCapture_11.2.zip | 11.2 | 屏幕录制、滚动截图工具 | [主页](https://www.faststone.org/FSCaptureDetail.htm) | [下载](https://www.faststonesoft.net/DN/FSCapture112.zip) |
+| FSCapture_11.3.zip | 11.3 | 屏幕录制、滚动截图工具 | [主页](https://www.faststone.org/FSCaptureDetail.htm) | [下载](https://www.faststonesoft.net/DN/FSCapture113.zip) |
 
 ## 开发工具
 
@@ -71,14 +71,14 @@
 | SuperDrag_2.1.2.crx | 2.1.2 | 超级拖拽 + 鼠标手势 | [主页](https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc) |
 | SwitchyOmega_3.5.0.crx | 3.5.0 | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc) |
 | uBlockOriginLite_2026.723.1724.crx | 2026.723.1724 | 轻量版广告拦截 | [主页](https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc) |
-| chrome_150.0.7871.187_uncompressed.exe | 150.0.7871.187 | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/150.0.7871.187/x64_150.0.7871.187_chrome_installer_uncompressed.exe) |
-| cat-catch_2.7.1.crx | 2.7.1 | 媒体资源嗅探下载 | [主页](https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc) |
+| chrome_151.0.7922.72_uncompressed.exe | 151.0.7922.72 | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/151.0.7922.72/x64_151.0.7922.72_chrome_installer_uncompressed.exe) |
+| cat-catch_2.7.2.crx | 2.7.2 | 媒体资源嗅探下载 | [主页](https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc) |
 | LastPass_4.154.2.crx | 4.154.2 | Free Password Manager | [主页](https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc) |
 | Immersive_Translate_1.31.6.crx | 1.31.6 | AI 网页翻译插件 | [主页](https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc) |
 | Tampermonkey_5.6.6239.crx | 5.6.6239 | 脚本管理工具 | [主页](https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc) |
 | AllowCopy_2.1.6.crx | 2.1.6 | 网页限制解除 | [主页](https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc) |
 | SingleFile_1.22.98.crx | 1.22.98 | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc) |
-| Chrome++_v1.18.1_x86_x64_arm64.7z | 1.18.1 | Chrome增强工具集 | [主页](https://github.com/Bush2021/chrome_plus) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.18.1/Chrome%2B%2B_v1.18.1_x86_x64_arm64.7z) |
+| Chrome++_v1.18.2_x86_x64_arm64.7z | 1.18.2 | Chrome增强工具集 | [主页](https://github.com/Bush2021/chrome_plus) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.18.2/Chrome%2B%2B_v1.18.2_x86_x64_arm64.7z) |
 
 ## 运行库
 

@@ -86,8 +86,8 @@ echo 📥 下载 → 单文件 \ ClickMonitorDDC.zip
 curl -L -# -o "单文件\ClickMonitorDDC.zip" "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_150.0.7871.187_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_150.0.7871.187_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/150.0.7871.187/x64_150.0.7871.187_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_151.0.7922.72_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_151.0.7922.72_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/151.0.7922.72/x64_151.0.7922.72_chrome_installer_uncompressed.exe"
 echo.
 mkdir "图像相关" 2>nul
 echo 📥 下载 → 图像相关 \ Umi-OCR_Paddle_v2.1.5.7z.exe
@@ -98,8 +98,8 @@ echo 📥 下载 → 运行库 \ dotnet-runtime-7.0.20-win-x64.exe
 curl -L -# -o "运行库\dotnet-runtime-7.0.20-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/7.0.20/dotnet-runtime-7.0.20-win-x64.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ cat-catch_2.7.1.crx
-curl -L -# -o "浏览器相关\cat-catch_2.7.1.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc"
+echo 📥 下载 → 浏览器相关 \ cat-catch_2.7.2.crx
+curl -L -# -o "浏览器相关\cat-catch_2.7.2.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ LastPass_4.154.2.crx
@@ -182,12 +182,12 @@ echo 📥 下载 → 影音工具 \ MusicPlayer2_V2.78_x64.zip
 curl -L -# -o "影音工具\MusicPlayer2_V2.78_x64.zip" "https://gh-proxy.com/https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.78/MusicPlayer2_V2.78_x64.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ Chrome++_v1.18.1_x86_x64_arm64.7z
-curl -L -# -o "浏览器相关\Chrome++_v1.18.1_x86_x64_arm64.7z" "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.18.1/Chrome%2B%2B_v1.18.1_x86_x64_arm64.7z"
+echo 📥 下载 → 浏览器相关 \ Chrome++_v1.18.2_x86_x64_arm64.7z
+curl -L -# -o "浏览器相关\Chrome++_v1.18.2_x86_x64_arm64.7z" "https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.18.2/Chrome%2B%2B_v1.18.2_x86_x64_arm64.7z"
 echo.
 mkdir "图像相关" 2>nul
-echo 📥 下载 → 图像相关 \ FSCapture_11.2.zip
-curl -L -# -o "图像相关\FSCapture_11.2.zip" "https://www.faststonesoft.net/DN/FSCapture112.zip"
+echo 📥 下载 → 图像相关 \ FSCapture_11.3.zip
+curl -L -# -o "图像相关\FSCapture_11.3.zip" "https://www.faststonesoft.net/DN/FSCapture113.zip"
 echo.
 echo ==============================================
 echo                 ✅ 全部下载完成
