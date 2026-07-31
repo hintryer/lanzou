@@ -78,8 +78,8 @@ echo 📥 下载 → 运行库 \ dotnet-runtime-9.0.18-win-x64.exe
 curl -L -# -o "运行库\dotnet-runtime-9.0.18-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.18/dotnet-runtime-9.0.18-win-x64.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.723.1724.crx
-curl -L -# -o "浏览器相关\uBlockOriginLite_2026.723.1724.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
+echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.729.1529.crx
+curl -L -# -o "浏览器相关\uBlockOriginLite_2026.729.1529.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
 echo.
 mkdir "单文件" 2>nul
 echo 📥 下载 → 单文件 \ ClickMonitorDDC.zip
