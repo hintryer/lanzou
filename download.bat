@@ -10,8 +10,8 @@ echo 📥 下载 → 图像相关 \ FSViewer_8.5.exe
 curl -L -# -o "图像相关\FSViewer_8.5.exe" "https://www.faststonesoft.net/DN/FSViewerSetup85.exe"
 echo.
 mkdir "文本办公" 2>nul
-echo 📥 下载 → 文本办公 \ typora-plugin@v1.18.9.zip
-curl -L -# -o "文本办公\typora-plugin@v1.18.9.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.18.9/typora-plugin%40v1.18.9.zip"
+echo 📥 下载 → 文本办公 \ typora-plugin@v1.19.0.zip
+curl -L -# -o "文本办公\typora-plugin@v1.19.0.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.0/typora-plugin%40v1.19.0.zip"
 echo.
 mkdir "开发工具" 2>nul
 echo 📥 下载 → 开发工具 \ PortableGit-2.55.0.3-64-bit.7z.exe
