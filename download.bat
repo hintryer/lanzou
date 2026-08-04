@@ -62,8 +62,8 @@ echo 📥 下载 → 文本办公 \ Notepad4_HD_zh-Hans_x64_v26.07r6234.zip
 curl -L -# -o "文本办公\Notepad4_HD_zh-Hans_x64_v26.07r6234.zip" "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.07r6234/Notepad4_HD_zh-Hans_x64_v26.07r6234.zip"
 echo.
 mkdir "其它工具" 2>nul
-echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.11.0_portable.zip
-curl -L -# -o "其它工具\Bili23-Downloade_v2.11.0_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.11.0/Bili23-Downloader_2.11.0_windows_x64_portable.zip"
+echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.12.0_portable.zip
+curl -L -# -o "其它工具\Bili23-Downloade_v2.12.0_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.12.0/Bili23-Downloader_2.12.0_windows_x64_portable.zip"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ SwitchyOmega_3.5.0.crx
