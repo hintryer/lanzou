@@ -86,8 +86,8 @@ echo 📥 下载 → 单文件 \ ClickMonitorDDC.zip
 curl -L -# -o "单文件\ClickMonitorDDC.zip" "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_151.0.7922.76_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_151.0.7922.76_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/151.0.7922.76/x64_151.0.7922.76_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_151.0.7922.109_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_151.0.7922.109_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/151.0.7922.109/x64_151.0.7922.109_chrome_installer_uncompressed.exe"
 echo.
 mkdir "图像相关" 2>nul
 echo 📥 下载 → 图像相关 \ Umi-OCR_Paddle_v2.1.5.7z.exe
