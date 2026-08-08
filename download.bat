@@ -110,8 +110,8 @@ echo 📥 下载 → 单文件 \ MouseClickTool.exe
 curl -L -# -o "单文件\MouseClickTool.exe" "https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.31.9.crx
-curl -L -# -o "浏览器相关\Immersive_Translate_1.31.9.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
+echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.32.1.crx
+curl -L -# -o "浏览器相关\Immersive_Translate_1.32.1.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
 echo.
 mkdir "运行库" 2>nul
 echo 📥 下载 → 运行库 \ dotnet-runtime-8.0.29-win-x64.exe
