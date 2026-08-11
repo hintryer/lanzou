@@ -34,8 +34,8 @@ echo 📥 下载 → 开发工具 \ ffmpeg-9.0-full_build.7z
 curl -L -# -o "开发工具\ffmpeg-9.0-full_build.7z" "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0/ffmpeg-9.0-full_build.7z"
 echo.
 mkdir "下载传输" 2>nul
-echo 📥 下载 → 下载传输 \ LocalSend-1.17.0-windows-x86-64.zip
-curl -L -# -o "下载传输\LocalSend-1.17.0-windows-x86-64.zip" "https://gh-proxy.com/https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-windows-x86-64.zip"
+echo 📥 下载 → 下载传输 \ LocalSend-1.18.0-windows-x86-64.zip
+curl -L -# -o "下载传输\LocalSend-1.18.0-windows-x86-64.zip" "https://gh-proxy.com/https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-windows-x86-64.zip"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ SuperDrag_2.1.2.crx
