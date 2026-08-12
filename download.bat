@@ -10,12 +10,12 @@ echo 📥 下载 → 图像相关 \ FSViewer_8.5.exe
 curl -L -# -o "图像相关\FSViewer_8.5.exe" "https://www.faststonesoft.net/DN/FSViewerSetup85.exe"
 echo.
 mkdir "文本办公" 2>nul
-echo 📥 下载 → 文本办公 \ typora-plugin@v1.19.1.zip
-curl -L -# -o "文本办公\typora-plugin@v1.19.1.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.1/typora-plugin%40v1.19.1.zip"
+echo 📥 下载 → 文本办公 \ typora-plugin@v1.19.2.zip
+curl -L -# -o "文本办公\typora-plugin@v1.19.2.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.2/typora-plugin%40v1.19.2.zip"
 echo.
 mkdir "开发工具" 2>nul
-echo 📥 下载 → 开发工具 \ PortableGit-2.55.0.3-64-bit.7z.exe
-curl -L -# -o "开发工具\PortableGit-2.55.0.3-64-bit.7z.exe" "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.3/PortableGit-2.55.0.3-64-bit.7z.exe"
+echo 📥 下载 → 开发工具 \ PortableGit-2.55.0.4-64-bit.7z.exe
+curl -L -# -o "开发工具\PortableGit-2.55.0.4-64-bit.7z.exe" "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.4/PortableGit-2.55.0.4-64-bit.7z.exe"
 echo.
 mkdir "下载传输" 2>nul
 echo 📥 下载 → 下载传输 \ Thunder_12.4.9.3918.exe
@@ -74,20 +74,20 @@ echo 📥 下载 → 影音工具 \ VideoCaptioner-Setup-win64-v1.3.3.exe
 curl -L -# -o "影音工具\VideoCaptioner-Setup-win64-v1.3.3.exe" "https://gh-proxy.com/https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe"
 echo.
 mkdir "运行库" 2>nul
-echo 📥 下载 → 运行库 \ dotnet-runtime-9.0.18-win-x64.exe
-curl -L -# -o "运行库\dotnet-runtime-9.0.18-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.18/dotnet-runtime-9.0.18-win-x64.exe"
+echo 📥 下载 → 运行库 \ dotnet-runtime-9.0.19-win-x64.exe
+curl -L -# -o "运行库\dotnet-runtime-9.0.19-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.19/dotnet-runtime-9.0.19-win-x64.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.804.1652.crx
-curl -L -# -o "浏览器相关\uBlockOriginLite_2026.804.1652.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
+echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.811.1529.crx
+curl -L -# -o "浏览器相关\uBlockOriginLite_2026.811.1529.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
 echo.
 mkdir "单文件" 2>nul
 echo 📥 下载 → 单文件 \ ClickMonitorDDC.zip
 curl -L -# -o "单文件\ClickMonitorDDC.zip" "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_151.0.7922.109_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_151.0.7922.109_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/151.0.7922.109/x64_151.0.7922.109_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_151.0.7922.138_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_151.0.7922.138_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/151.0.7922.138/x64_151.0.7922.138_chrome_installer_uncompressed.exe"
 echo.
 mkdir "图像相关" 2>nul
 echo 📥 下载 → 图像相关 \ Umi-OCR_Paddle_v2.1.5.7z.exe
@@ -114,8 +114,8 @@ echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.32.1.crx
 curl -L -# -o "浏览器相关\Immersive_Translate_1.32.1.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
 echo.
 mkdir "运行库" 2>nul
-echo 📥 下载 → 运行库 \ dotnet-runtime-8.0.29-win-x64.exe
-curl -L -# -o "运行库\dotnet-runtime-8.0.29-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.29/dotnet-runtime-8.0.29-win-x64.exe"
+echo 📥 下载 → 运行库 \ dotnet-runtime-8.0.30-win-x64.exe
+curl -L -# -o "运行库\dotnet-runtime-8.0.30-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.30/dotnet-runtime-8.0.30-win-x64.exe"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ Tampermonkey_5.6.6239.crx
@@ -142,8 +142,8 @@ echo 📥 下载 → 文本办公 \ typora-windows-x64-1.9.5.exe
 curl -L -# -o "文本办公\typora-windows-x64-1.9.5.exe" "https://gh-proxy.com/https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/typora-windows-x64-1.9.5.exe"
 echo.
 mkdir "运行库" 2>nul
-echo 📥 下载 → 运行库 \ dotnet-runtime-10.0.10-win-x64.exe
-curl -L -# -o "运行库\dotnet-runtime-10.0.10-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.10/dotnet-runtime-10.0.10-win-x64.exe"
+echo 📥 下载 → 运行库 \ dotnet-runtime-10.0.11-win-x64.exe
+curl -L -# -o "运行库\dotnet-runtime-10.0.11-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.11/dotnet-runtime-10.0.11-win-x64.exe"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ MusicTag.zip
