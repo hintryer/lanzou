@@ -5,7 +5,7 @@
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
 | Thunder_12.4.9.3918.exe | 12.4.9.3918 | Thunder | [主页](https://www.52pojie.cn/thread-2090717-1-1.html) | [下载](https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQ0NCVS1wQ0RPTFM2amt2NXNJVmJmYUFlaEhMbk1zOHItUjBxbDB2c1VXTHFVP2U9eGVsZnhJ.exe) |
-| LocalSend-1.18.0-windows-x86-64.zip | v1.18.0 | 局域网文件互传工具 | [主页](https://localsend.org/) | [下载](https://gh-proxy.com/https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-windows-x86-64.zip) |
+|  | v1.18.1 | 局域网文件互传工具 | [主页](https://localsend.org/) |  |
 | lanzouyun-3.5.3-x64-win.zip | v3.5.3 | 蓝奏云非官方客户端 | [主页](https://github.com/chenhb23/lanzouyun-disk) | [下载](https://gh-proxy.com/https://github.com/chenhb23/lanzouyun-disk/releases/download/v3.5.3/lanzouyun-3.5.3-x64-win.zip) |
 
 ## 其它工具
@@ -15,7 +15,7 @@
 | 360FileSetup_None.exe | None | 360多标签文件管理器 | [主页](https://baoku.360.cn/soft/show/appid/2000003908) | [下载](https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140) |
 | Steamcommunity_302_AMD64_V14.0.02.zip | V14.0.02 | Steam 社区访问加速工具 | [主页](https://www.dogfight360.com/blog/18682/) | [下载](https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip) |
 | Clash.Verge_2.5.2_x64-setup.exe | v2.5.2 | Clash图形化代理客户端 | [主页](https://github.com/clash-verge-rev/clash-verge-rev) | [下载](https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64-setup.exe) |
-| Bili23-Downloade_v2.12.1_portable.zip | v2.12.1 | B站视频下载工具 | [主页](https://github.com/ScottSloan/Bili23-Downloader) | [下载](https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.12.1/Bili23-Downloader_2.12.1_windows_x64_portable.zip) |
+| Bili23-Downloade_v2.13.0_portable.zip | v2.13.0 | B站视频下载工具 | [主页](https://github.com/ScottSloan/Bili23-Downloader) | [下载](https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.13.0/Bili23-Downloader_2.13.0_windows_x64_portable.zip) |
 
 ## 单文件
 
@@ -39,8 +39,8 @@
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
 | PortableGit-2.55.0.4-64-bit.7z.exe | v2.55.0.windows.4 | 便携版Git版本控制工具 | [主页](https://gitforwindows.org/) | [下载](https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.4/PortableGit-2.55.0.4-64-bit.7z.exe) |
-| ffmpeg-9.0-full_build.7z | 9.0 | 完整版音视频处理工具 | [主页](https://ffmpeg.org/) | [下载](https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0/ffmpeg-9.0-full_build.7z) |
-| ffmpeg-9.0-essentials_build.7z | 9.0 | 精简版音视频处理工具 | [主页](https://ffmpeg.org/) | [下载](https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0/ffmpeg-9.0-essentials_build.7z) |
+| ffmpeg-9.0.1-full_build.7z | 9.0.1 | 完整版音视频处理工具 | [主页](https://ffmpeg.org/) | [下载](https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0.1/ffmpeg-9.0.1-full_build.7z) |
+| ffmpeg-9.0.1-essentials_build.7z | 9.0.1 | 精简版音视频处理工具 | [主页](https://ffmpeg.org/) | [下载](https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0.1/ffmpeg-9.0.1-essentials_build.7z) |
 
 ## 影音工具
 
@@ -70,7 +70,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 | SuperDrag_2.1.2.crx | 2.1.2 | 超级拖拽 + 鼠标手势 | [主页](https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc) |
 | SwitchyOmega_3.5.0.crx | 3.5.0 | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc) |
-| uBlockOriginLite_2026.811.1529.crx | 2026.811.1529 | 轻量版广告拦截 | [主页](https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc) |
+| uBlockOriginLite_2026.812.1211.crx | 2026.812.1211 | 轻量版广告拦截 | [主页](https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc) |
 | chrome_151.0.7922.138_uncompressed.exe | 151.0.7922.138 | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/151.0.7922.138/x64_151.0.7922.138_chrome_installer_uncompressed.exe) |
 | cat-catch_2.7.2.crx | 2.7.2 | 媒体资源嗅探下载 | [主页](https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc) |
 | LastPass_4.155.0.crx | 4.155.0 | Free Password Manager | [主页](https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc) |

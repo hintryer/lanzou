@@ -30,12 +30,12 @@ echo 📥 下载 → 其它工具 \ 360FileSetup_None.exe
 curl -L -# -o "其它工具\360FileSetup_None.exe" "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140"
 echo.
 mkdir "开发工具" 2>nul
-echo 📥 下载 → 开发工具 \ ffmpeg-9.0-full_build.7z
-curl -L -# -o "开发工具\ffmpeg-9.0-full_build.7z" "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0/ffmpeg-9.0-full_build.7z"
+echo 📥 下载 → 开发工具 \ ffmpeg-9.0.1-full_build.7z
+curl -L -# -o "开发工具\ffmpeg-9.0.1-full_build.7z" "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0.1/ffmpeg-9.0.1-full_build.7z"
 echo.
 mkdir "下载传输" 2>nul
-echo 📥 下载 → 下载传输 \ LocalSend-1.18.0-windows-x86-64.zip
-curl -L -# -o "下载传输\LocalSend-1.18.0-windows-x86-64.zip" "https://gh-proxy.com/https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-windows-x86-64.zip"
+echo 📥 下载 → 下载传输 \ 
+curl -L -# -o "下载传输\" ""
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ SuperDrag_2.1.2.crx
@@ -62,8 +62,8 @@ echo 📥 下载 → 文本办公 \ Notepad4_HD_zh-Hans_x64_v26.07r6234.zip
 curl -L -# -o "文本办公\Notepad4_HD_zh-Hans_x64_v26.07r6234.zip" "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.07r6234/Notepad4_HD_zh-Hans_x64_v26.07r6234.zip"
 echo.
 mkdir "其它工具" 2>nul
-echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.12.1_portable.zip
-curl -L -# -o "其它工具\Bili23-Downloade_v2.12.1_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.12.1/Bili23-Downloader_2.12.1_windows_x64_portable.zip"
+echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.13.0_portable.zip
+curl -L -# -o "其它工具\Bili23-Downloade_v2.13.0_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.13.0/Bili23-Downloader_2.13.0_windows_x64_portable.zip"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ SwitchyOmega_3.5.0.crx
@@ -78,8 +78,8 @@ echo 📥 下载 → 运行库 \ dotnet-runtime-9.0.19-win-x64.exe
 curl -L -# -o "运行库\dotnet-runtime-9.0.19-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.19/dotnet-runtime-9.0.19-win-x64.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.811.1529.crx
-curl -L -# -o "浏览器相关\uBlockOriginLite_2026.811.1529.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
+echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.812.1211.crx
+curl -L -# -o "浏览器相关\uBlockOriginLite_2026.812.1211.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
 echo.
 mkdir "单文件" 2>nul
 echo 📥 下载 → 单文件 \ ClickMonitorDDC.zip
@@ -166,8 +166,8 @@ echo 📥 下载 → 浏览器相关 \ SingleFile_1.22.98.crx
 curl -L -# -o "浏览器相关\SingleFile_1.22.98.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
 echo.
 mkdir "开发工具" 2>nul
-echo 📥 下载 → 开发工具 \ ffmpeg-9.0-essentials_build.7z
-curl -L -# -o "开发工具\ffmpeg-9.0-essentials_build.7z" "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0/ffmpeg-9.0-essentials_build.7z"
+echo 📥 下载 → 开发工具 \ ffmpeg-9.0.1-essentials_build.7z
+curl -L -# -o "开发工具\ffmpeg-9.0.1-essentials_build.7z" "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0.1/ffmpeg-9.0.1-essentials_build.7z"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ Scribe2SRT-v0.3.8-windows-x86_64.zip

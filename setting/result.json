@@ -48,20 +48,20 @@
         "url": "https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140"
     },
     {
-        "name": "ffmpeg-9.0-full_build.7z",
+        "name": "ffmpeg-9.0.1-full_build.7z",
         "category": "开发工具",
-        "version": "9.0",
+        "version": "9.0.1",
         "description": "完整版音视频处理工具",
         "homepage": "https://ffmpeg.org/",
-        "url": "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0/ffmpeg-9.0-full_build.7z"
+        "url": "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0.1/ffmpeg-9.0.1-full_build.7z"
     },
     {
-        "name": "LocalSend-1.18.0-windows-x86-64.zip",
+        "name": "",
         "category": "下载传输",
-        "version": "v1.18.0",
+        "version": "v1.18.1",
         "description": "局域网文件互传工具",
         "homepage": "https://localsend.org/",
-        "url": "https://gh-proxy.com/https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-windows-x86-64.zip"
+        "url": ""
     },
     {
         "name": "SuperDrag_2.1.2.crx",
@@ -112,12 +112,12 @@
         "url": "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.07r6234/Notepad4_HD_zh-Hans_x64_v26.07r6234.zip"
     },
     {
-        "name": "Bili23-Downloade_v2.12.1_portable.zip",
+        "name": "Bili23-Downloade_v2.13.0_portable.zip",
         "category": "其它工具",
-        "version": "v2.12.1",
+        "version": "v2.13.0",
         "description": "B站视频下载工具",
         "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
-        "url": "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.12.1/Bili23-Downloader_2.12.1_windows_x64_portable.zip"
+        "url": "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.13.0/Bili23-Downloader_2.13.0_windows_x64_portable.zip"
     },
     {
         "name": "SwitchyOmega_3.5.0.crx",
@@ -144,9 +144,9 @@
         "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.19/dotnet-runtime-9.0.19-win-x64.exe"
     },
     {
-        "name": "uBlockOriginLite_2026.811.1529.crx",
+        "name": "uBlockOriginLite_2026.812.1211.crx",
         "category": "浏览器相关",
-        "version": "2026.811.1529",
+        "version": "2026.812.1211",
         "description": "轻量版广告拦截",
         "homepage": "https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
@@ -320,12 +320,12 @@
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
     },
     {
-        "name": "ffmpeg-9.0-essentials_build.7z",
+        "name": "ffmpeg-9.0.1-essentials_build.7z",
         "category": "开发工具",
-        "version": "9.0",
+        "version": "9.0.1",
         "description": "精简版音视频处理工具",
         "homepage": "https://ffmpeg.org/",
-        "url": "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0/ffmpeg-9.0-essentials_build.7z"
+        "url": "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0.1/ffmpeg-9.0.1-essentials_build.7z"
     },
     {
         "name": "Scribe2SRT-v0.3.8-windows-x86_64.zip",
