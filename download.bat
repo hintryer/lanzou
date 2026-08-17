@@ -10,8 +10,8 @@ echo 📥 下载 → 影音工具 \ MusicTag.zip
 curl -L -# -o "影音工具\MusicTag.zip" "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/MusicTag_v1.0.9.0.zip"
 echo.
 mkdir "文本办公" 2>nul
-echo 📥 下载 → 文本办公 \ Notepad4_HD_zh-Hans_x64_v26.07r6234.zip
-curl -L -# -o "文本办公\Notepad4_HD_zh-Hans_x64_v26.07r6234.zip" "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.07r6234/Notepad4_HD_zh-Hans_x64_v26.07r6234.zip"
+echo 📥 下载 → 文本办公 \ Notepad4_HD_zh-Hans_x64_v26.08r6282.zip
+curl -L -# -o "文本办公\Notepad4_HD_zh-Hans_x64_v26.08r6282.zip" "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.08r6282/Notepad4_HD_zh-Hans_x64_v26.08r6282.zip"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ LastPass_4.155.0.crx

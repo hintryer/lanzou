@@ -57,7 +57,7 @@
 
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
-| Notepad4_HD_zh-Hans_x64_v26.07r6234.zip | v26.07r6234 | 轻量级文本编辑器 | [主页](https://github.com/zufuliu/notepad4) | [下载](https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.07r6234/Notepad4_HD_zh-Hans_x64_v26.07r6234.zip) |
+| Notepad4_HD_zh-Hans_x64_v26.08r6282.zip | v26.08r6282 | 轻量级文本编辑器 | [主页](https://github.com/zufuliu/notepad4) | [下载](https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.08r6282/Notepad4_HD_zh-Hans_x64_v26.08r6282.zip) |
 | EmEditor_portable.zip | 24.1.0 | 高性能文本编辑器 | [主页](https://www.emeditor.com/) | [下载](https://download.emeditor.info/emed64_24.1.0_portable.zip) |
 | typora-plugin@v1.19.2.zip | 1.19.2 | Typora 增强插件 | [主页](https://github.com/obgnail/typora_plugin) | [下载](https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.2/typora-plugin%40v1.19.2.zip) |
 | QQWubi_Setup_2.4.629.400.exe | 2.4.629.400 | QQ五笔输入法 | [主页](https://qq.pinyin.cn/wubi/) | [下载](https://qq.pinyin.cn/download_pc.php?t=wb) |
