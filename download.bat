@@ -46,8 +46,8 @@ echo 📥 下载 → 文本办公 \ typora-plugin@v1.19.2.zip
 curl -L -# -o "文本办公\typora-plugin@v1.19.2.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.2/typora-plugin%40v1.19.2.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_151.0.7922.138_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_151.0.7922.138_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/151.0.7922.138/x64_151.0.7922.138_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_151.0.7922.170_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_151.0.7922.170_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/151.0.7922.170/x64_151.0.7922.170_chrome_installer_uncompressed.exe"
 echo.
 mkdir "开发工具" 2>nul
 echo 📥 下载 → 开发工具 \ ffmpeg-9.0.1-full_build.7z
@@ -86,8 +86,8 @@ echo 📥 下载 → 单文件 \ ReNamerPro_7.9.0.0v2.exe
 curl -L -# -o "单文件\ReNamerPro_7.9.0.0v2.exe" "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQnYyUzBVdzNGeFI2M3A4QWU4d1BYb0FiN09HY1RQYWsteEwxRmxocDBYcjM0P2U9SXJodUhu.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.812.1211.crx
-curl -L -# -o "浏览器相关\uBlockOriginLite_2026.812.1211.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
+echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.818.1458.crx
+curl -L -# -o "浏览器相关\uBlockOriginLite_2026.818.1458.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ cat-catch_2.7.2.crx
