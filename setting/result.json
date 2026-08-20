@@ -72,12 +72,12 @@
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc"
     },
     {
-        "name": "typora-plugin@v1.19.2.zip",
+        "name": "typora-plugin@v1.19.3.zip",
         "category": "文本办公",
-        "version": "1.19.2",
+        "version": "1.19.3",
         "description": "Typora 增强插件",
         "homepage": "https://github.com/obgnail/typora_plugin",
-        "url": "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.2/typora-plugin%40v1.19.2.zip"
+        "url": "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.3/typora-plugin%40v1.19.3.zip"
     },
     {
         "name": "chrome_151.0.7922.170_uncompressed.exe",
@@ -96,9 +96,9 @@
         "url": "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0.1/ffmpeg-9.0.1-full_build.7z"
     },
     {
-        "name": "GeekUninstaller_1.5.3.170.zip",
+        "name": "GeekUninstaller_1.5.4.180.zip",
         "category": "单文件",
-        "version": "1.5.3.170",
+        "version": "1.5.4.180",
         "description": "Geek 卸载工具",
         "homepage": "https://geekuninstaller.com/",
         "url": "https://geekuninstaller.com/geek.zip"
@@ -160,9 +160,9 @@
         "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQnYyUzBVdzNGeFI2M3A4QWU4d1BYb0FiN09HY1RQYWsteEwxRmxocDBYcjM0P2U9SXJodUhu.exe"
     },
     {
-        "name": "uBlockOriginLite_2026.818.1458.crx",
+        "name": "uBlockOriginLite_2026.819.1210.crx",
         "category": "浏览器相关",
-        "version": "2026.818.1458",
+        "version": "2026.819.1210",
         "description": "轻量版广告拦截",
         "homepage": "https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
@@ -216,12 +216,12 @@
         "url": "https://gh-proxy.com/https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe"
     },
     {
-        "name": "Bili23-Downloade_v2.14.0_portable.zip",
+        "name": "Bili23-Downloade_v2.15.0_portable.zip",
         "category": "其它工具",
-        "version": "v2.14.0",
+        "version": "v2.15.0",
         "description": "B站视频下载工具",
         "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
-        "url": "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.14.0/Bili23-Downloader_2.14.0_windows_x64_portable.zip"
+        "url": "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.15.0/Bili23-Downloader_2.15.0_windows_x64_portable.zip"
     },
     {
         "name": "dotnet-runtime-9.0.19-win-x64.exe",

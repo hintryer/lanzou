@@ -14,7 +14,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 | Clash.Verge_2.5.2_x64-setup.exe | v2.5.2 | Clash图形化代理客户端 | [主页](https://github.com/clash-verge-rev/clash-verge-rev) | [下载](https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64-setup.exe) |
 | 360FileSetup_1.0.0.1180.exe | 1.0.0.1180 | 360多标签文件管理器 | [主页](https://baoku.360.cn/soft/show/appid/2000003908) | [下载](https://sfdl.360safe.com/pcnewapp/360FileSetup.exe?channel=9510140) |
-| Bili23-Downloade_v2.14.0_portable.zip | v2.14.0 | B站视频下载工具 | [主页](https://github.com/ScottSloan/Bili23-Downloader) | [下载](https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.14.0/Bili23-Downloader_2.14.0_windows_x64_portable.zip) |
+| Bili23-Downloade_v2.15.0_portable.zip | v2.15.0 | B站视频下载工具 | [主页](https://github.com/ScottSloan/Bili23-Downloader) | [下载](https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.15.0/Bili23-Downloader_2.15.0_windows_x64_portable.zip) |
 | Steamcommunity_302_AMD64_V14.0.02.zip | V14.0.02 | Steam 社区访问加速工具 | [主页](https://www.dogfight360.com/blog/18682/) | [下载](https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip) |
 
 ## 单文件
@@ -22,7 +22,7 @@
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
 | MouseClickTool.exe | 3.1.0.0 | 鼠标自动点击工具 | [主页](https://github.com/lalakii/MouseClickTool) | [下载](https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe) |
-| GeekUninstaller_1.5.3.170.zip | 1.5.3.170 | Geek 卸载工具 | [主页](https://geekuninstaller.com/) | [下载](https://geekuninstaller.com/geek.zip) |
+| GeekUninstaller_1.5.4.180.zip | 1.5.4.180 | Geek 卸载工具 | [主页](https://geekuninstaller.com/) | [下载](https://geekuninstaller.com/geek.zip) |
 | ReNamerPro_7.9.0.0v2.exe | 7.9.0.0v2 | 文件改名 | [主页](https://www.52pojie.cn/thread-2064422-1-1.html) | [下载](https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQnYyUzBVdzNGeFI2M3A4QWU4d1BYb0FiN09HY1RQYWsteEwxRmxocDBYcjM0P2U9SXJodUhu.exe) |
 | ClickMonitorDDC.zip |  7.2 | 显示器亮度音量调节软件 | [主页](https://www.52pojie.cn/thread-1761083-1-1.html) | [下载](https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip) |
 
@@ -59,7 +59,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 | Notepad4_HD_zh-Hans_x64_v26.08r6282.zip | v26.08r6282 | 轻量级文本编辑器 | [主页](https://github.com/zufuliu/notepad4) | [下载](https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.08r6282/Notepad4_HD_zh-Hans_x64_v26.08r6282.zip) |
 | EmEditor_portable.zip | 24.1.0 | 高性能文本编辑器 | [主页](https://www.emeditor.com/) | [下载](https://download.emeditor.info/emed64_24.1.0_portable.zip) |
-| typora-plugin@v1.19.2.zip | 1.19.2 | Typora 增强插件 | [主页](https://github.com/obgnail/typora_plugin) | [下载](https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.2/typora-plugin%40v1.19.2.zip) |
+| typora-plugin@v1.19.3.zip | 1.19.3 | Typora 增强插件 | [主页](https://github.com/obgnail/typora_plugin) | [下载](https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.3/typora-plugin%40v1.19.3.zip) |
 | QQWubi_Setup_2.4.629.400.exe | 2.4.629.400 | QQ五笔输入法 | [主页](https://qq.pinyin.cn/wubi/) | [下载](https://qq.pinyin.cn/download_pc.php?t=wb) |
 | app_asar_file_v1.9.5.zip | v1.9.5 | Typora 激活补丁工具 | [主页](https://github.com/Delppine1024/TGreen) | [下载](https://gh-proxy.com/https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/app_asar_file_v1.9.5.zip) |
 | typora-windows-x64-1.9.5.exe | v1.9.5 | Markdown 编辑器和阅读器 | [主页](https://typora.io/) | [下载](https://gh-proxy.com/https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/typora-windows-x64-1.9.5.exe) |
@@ -71,7 +71,7 @@
 | LastPass_4.155.0.crx | 4.155.0 | Free Password Manager | [主页](https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc) |
 | Tampermonkey_5.6.6239.crx | 5.6.6239 | 脚本管理工具 | [主页](https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc) |
 | chrome_151.0.7922.170_uncompressed.exe | 151.0.7922.170 | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/151.0.7922.170/x64_151.0.7922.170_chrome_installer_uncompressed.exe) |
-| uBlockOriginLite_2026.818.1458.crx | 2026.818.1458 | 轻量版广告拦截 | [主页](https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc) |
+| uBlockOriginLite_2026.819.1210.crx | 2026.819.1210 | 轻量版广告拦截 | [主页](https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc) |
 | cat-catch_2.7.2.crx | 2.7.2 | 媒体资源嗅探下载 | [主页](https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djfedfbgedapdagkghmgibemcoggfppbb%26uc) |
 | AllowCopy_2.1.6.crx | 2.1.6 | 网页限制解除 | [主页](https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc) |
 | Chrome++_v1.18.2_x86_x64_arm64.7z | 1.18.2 | Chrome增强工具集 | [主页](https://github.com/Bush2021/chrome_plus) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.18.2/Chrome%2B%2B_v1.18.2_x86_x64_arm64.7z) |

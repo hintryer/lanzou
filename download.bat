@@ -42,8 +42,8 @@ echo 📥 下载 → 浏览器相关 \ Tampermonkey_5.6.6239.crx
 curl -L -# -o "浏览器相关\Tampermonkey_5.6.6239.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc"
 echo.
 mkdir "文本办公" 2>nul
-echo 📥 下载 → 文本办公 \ typora-plugin@v1.19.2.zip
-curl -L -# -o "文本办公\typora-plugin@v1.19.2.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.2/typora-plugin%40v1.19.2.zip"
+echo 📥 下载 → 文本办公 \ typora-plugin@v1.19.3.zip
+curl -L -# -o "文本办公\typora-plugin@v1.19.3.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.3/typora-plugin%40v1.19.3.zip"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ chrome_151.0.7922.170_uncompressed.exe
@@ -54,8 +54,8 @@ echo 📥 下载 → 开发工具 \ ffmpeg-9.0.1-full_build.7z
 curl -L -# -o "开发工具\ffmpeg-9.0.1-full_build.7z" "https://gh-proxy.com/https://github.com/GyanD/codexffmpeg/releases/download/9.0.1/ffmpeg-9.0.1-full_build.7z"
 echo.
 mkdir "单文件" 2>nul
-echo 📥 下载 → 单文件 \ GeekUninstaller_1.5.3.170.zip
-curl -L -# -o "单文件\GeekUninstaller_1.5.3.170.zip" "https://geekuninstaller.com/geek.zip"
+echo 📥 下载 → 单文件 \ GeekUninstaller_1.5.4.180.zip
+curl -L -# -o "单文件\GeekUninstaller_1.5.4.180.zip" "https://geekuninstaller.com/geek.zip"
 echo.
 mkdir "其它工具" 2>nul
 echo 📥 下载 → 其它工具 \ Clash.Verge_2.5.2_x64-setup.exe
@@ -86,8 +86,8 @@ echo 📥 下载 → 单文件 \ ReNamerPro_7.9.0.0v2.exe
 curl -L -# -o "单文件\ReNamerPro_7.9.0.0v2.exe" "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQnYyUzBVdzNGeFI2M3A4QWU4d1BYb0FiN09HY1RQYWsteEwxRmxocDBYcjM0P2U9SXJodUhu.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.818.1458.crx
-curl -L -# -o "浏览器相关\uBlockOriginLite_2026.818.1458.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
+echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.819.1210.crx
+curl -L -# -o "浏览器相关\uBlockOriginLite_2026.819.1210.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ cat-catch_2.7.2.crx
@@ -114,8 +114,8 @@ echo 📥 下载 → 影音工具 \ VideoCaptioner-Setup-win64-v1.3.3.exe
 curl -L -# -o "影音工具\VideoCaptioner-Setup-win64-v1.3.3.exe" "https://gh-proxy.com/https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe"
 echo.
 mkdir "其它工具" 2>nul
-echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.14.0_portable.zip
-curl -L -# -o "其它工具\Bili23-Downloade_v2.14.0_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.14.0/Bili23-Downloader_2.14.0_windows_x64_portable.zip"
+echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.15.0_portable.zip
+curl -L -# -o "其它工具\Bili23-Downloade_v2.15.0_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.15.0/Bili23-Downloader_2.15.0_windows_x64_portable.zip"
 echo.
 mkdir "运行库" 2>nul
 echo 📥 下载 → 运行库 \ dotnet-runtime-9.0.19-win-x64.exe
