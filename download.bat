@@ -46,8 +46,8 @@ echo 📥 下载 → 文本办公 \ typora-plugin@v1.19.3.zip
 curl -L -# -o "文本办公\typora-plugin@v1.19.3.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.3/typora-plugin%40v1.19.3.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_151.0.7922.170_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_151.0.7922.170_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/151.0.7922.170/x64_151.0.7922.170_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_151.0.7922.174_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_151.0.7922.174_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/151.0.7922.174/x64_151.0.7922.174_chrome_installer_uncompressed.exe"
 echo.
 mkdir "开发工具" 2>nul
 echo 📥 下载 → 开发工具 \ ffmpeg-9.0.1-full_build.7z
@@ -74,8 +74,8 @@ echo 📥 下载 → 下载传输 \ Thunder_12.4.9.3918.exe
 curl -L -# -o "下载传输\Thunder_12.4.9.3918.exe" "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQ0NCVS1wQ0RPTFM2amt2NXNJVmJmYUFlaEhMbk1zOHItUjBxbDB2c1VXTHFVP2U9eGVsZnhJ.exe"
 echo.
 mkdir "开发工具" 2>nul
-echo 📥 下载 → 开发工具 \ PortableGit-2.55.0.4-64-bit.7z.exe
-curl -L -# -o "开发工具\PortableGit-2.55.0.4-64-bit.7z.exe" "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.4/PortableGit-2.55.0.4-64-bit.7z.exe"
+echo 📥 下载 → 开发工具 \ PortableGit-2.55.0.5-64-bit.7z.exe
+curl -L -# -o "开发工具\PortableGit-2.55.0.5-64-bit.7z.exe" "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/PortableGit-2.55.0.5-64-bit.7z.exe"
 echo.
 mkdir "文本办公" 2>nul
 echo 📥 下载 → 文本办公 \ QQWubi_Setup_2.4.629.400.exe
@@ -86,8 +86,8 @@ echo 📥 下载 → 单文件 \ ReNamerPro_7.9.0.0v2.exe
 curl -L -# -o "单文件\ReNamerPro_7.9.0.0v2.exe" "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQnYyUzBVdzNGeFI2M3A4QWU4d1BYb0FiN09HY1RQYWsteEwxRmxocDBYcjM0P2U9SXJodUhu.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.819.1210.crx
-curl -L -# -o "浏览器相关\uBlockOriginLite_2026.819.1210.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
+echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.820.1159.crx
+curl -L -# -o "浏览器相关\uBlockOriginLite_2026.820.1159.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ cat-catch_2.7.2.crx
@@ -142,8 +142,8 @@ echo 📥 下载 → 图像相关 \ FSCapture_11.3.zip
 curl -L -# -o "图像相关\FSCapture_11.3.zip" "https://www.faststonesoft.net/DN/FSCapture113.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.32.5.crx
-curl -L -# -o "浏览器相关\Immersive_Translate_1.32.5.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
+echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.32.6.crx
+curl -L -# -o "浏览器相关\Immersive_Translate_1.32.6.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ FFmpeg_Batch_AV_Converter_Portable_3.2.9_x64.zip
