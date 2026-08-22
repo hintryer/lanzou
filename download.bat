@@ -98,8 +98,8 @@ echo 📥 下载 → 图像相关 \ FSViewer_8.5.exe
 curl -L -# -o "图像相关\FSViewer_8.5.exe" "https://www.faststonesoft.net/DN/FSViewerSetup85.exe"
 echo.
 mkdir "下载传输" 2>nul
-echo 📥 下载 → 下载传输 \ 
-curl -L -# -o "下载传输\" ""
+echo 📥 下载 → 下载传输 \ LocalSend-1.18.2-windows-x86-64.zip
+curl -L -# -o "下载传输\LocalSend-1.18.2-windows-x86-64.zip" "https://gh-proxy.com/https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-windows-x86-64.zip"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ PotPlayer-260422.exe

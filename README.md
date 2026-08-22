@@ -6,7 +6,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 | lanzouyun-3.5.3-x64-win.zip | v3.5.3 | 蓝奏云非官方客户端 | [主页](https://github.com/chenhb23/lanzouyun-disk) | [下载](https://gh-proxy.com/https://github.com/chenhb23/lanzouyun-disk/releases/download/v3.5.3/lanzouyun-3.5.3-x64-win.zip) |
 | Thunder_12.4.9.3918.exe | 12.4.9.3918 | Thunder | [主页](https://www.52pojie.cn/thread-2090717-1-1.html) | [下载](https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQ0NCVS1wQ0RPTFM2amt2NXNJVmJmYUFlaEhMbk1zOHItUjBxbDB2c1VXTHFVP2U9eGVsZnhJ.exe) |
-|  | v1.18.1 | 局域网文件互传工具 | [主页](https://localsend.org/) |  |
+| LocalSend-1.18.2-windows-x86-64.zip | v1.18.2 | 局域网文件互传工具 | [主页](https://localsend.org/) | [下载](https://gh-proxy.com/https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-windows-x86-64.zip) |
 
 ## 其它工具
 

@@ -184,12 +184,12 @@
         "url": "https://www.faststonesoft.net/DN/FSViewerSetup85.exe"
     },
     {
-        "name": "",
+        "name": "LocalSend-1.18.2-windows-x86-64.zip",
         "category": "下载传输",
-        "version": "v1.18.1",
+        "version": "v1.18.2",
         "description": "局域网文件互传工具",
         "homepage": "https://localsend.org/",
-        "url": ""
+        "url": "https://gh-proxy.com/https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-windows-x86-64.zip"
     },
     {
         "name": "PotPlayer-260422.exe",
