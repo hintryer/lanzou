@@ -142,8 +142,8 @@ echo 📥 下载 → 图像相关 \ FSCapture_11.3.zip
 curl -L -# -o "图像相关\FSCapture_11.3.zip" "https://www.faststonesoft.net/DN/FSCapture113.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.32.6.crx
-curl -L -# -o "浏览器相关\Immersive_Translate_1.32.6.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
+echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.32.7.crx
+curl -L -# -o "浏览器相关\Immersive_Translate_1.32.7.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ FFmpeg_Batch_AV_Converter_Portable_3.2.9_x64.zip
