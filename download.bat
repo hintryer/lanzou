@@ -14,8 +14,8 @@ echo 📥 下载 → 文本办公 \ Notepad4_HD_zh-Hans_x64_v26.08r6282.zip
 curl -L -# -o "文本办公\Notepad4_HD_zh-Hans_x64_v26.08r6282.zip" "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.08r6282/Notepad4_HD_zh-Hans_x64_v26.08r6282.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ LastPass_4.155.0.crx
-curl -L -# -o "浏览器相关\LastPass_4.155.0.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
+echo 📥 下载 → 浏览器相关 \ LastPass_4.155.1.crx
+curl -L -# -o "浏览器相关\LastPass_4.155.1.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ Scribe2SRT-v0.3.8-windows-x86_64.zip
