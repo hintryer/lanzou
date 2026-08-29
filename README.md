@@ -59,7 +59,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 | Notepad4_HD_zh-Hans_x64_v26.08r6282.zip | v26.08r6282 | 轻量级文本编辑器 | [主页](https://github.com/zufuliu/notepad4) | [下载](https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.08r6282/Notepad4_HD_zh-Hans_x64_v26.08r6282.zip) |
 | EmEditor_portable.zip | 24.1.0 | 高性能文本编辑器 | [主页](https://www.emeditor.com/) | [下载](https://download.emeditor.info/emed64_24.1.0_portable.zip) |
-| typora-plugin@v1.19.3.zip | 1.19.3 | Typora 增强插件 | [主页](https://github.com/obgnail/typora_plugin) | [下载](https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.3/typora-plugin%40v1.19.3.zip) |
+| typora-plugin@v1.19.4.zip | 1.19.4 | Typora 增强插件 | [主页](https://github.com/obgnail/typora_plugin) | [下载](https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.4/typora-plugin%40v1.19.4.zip) |
 | QQWubi_Setup_2.4.629.400.exe | 2.4.629.400 | QQ五笔输入法 | [主页](https://qq.pinyin.cn/wubi/) | [下载](https://qq.pinyin.cn/download_pc.php?t=wb) |
 | app_asar_file_v1.9.5.zip | v1.9.5 | Typora 激活补丁工具 | [主页](https://github.com/Delppine1024/TGreen) | [下载](https://gh-proxy.com/https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/app_asar_file_v1.9.5.zip) |
 | typora-windows-x64-1.9.5.exe | v1.9.5 | Markdown 编辑器和阅读器 | [主页](https://typora.io/) | [下载](https://gh-proxy.com/https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/typora-windows-x64-1.9.5.exe) |
@@ -76,7 +76,7 @@
 | AllowCopy_2.1.6.crx | 2.1.6 | 网页限制解除 | [主页](https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc) |
 | Chrome++_v1.18.2_x86_x64_arm64.7z | 1.18.2 | Chrome增强工具集 | [主页](https://github.com/Bush2021/chrome_plus) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.18.2/Chrome%2B%2B_v1.18.2_x86_x64_arm64.7z) |
 | Immersive_Translate_1.32.7.crx | 1.32.7 | AI 网页翻译插件 | [主页](https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc) |
-| SingleFile_1.22.98.crx | 1.22.98 | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc) |
+| SingleFile_1.23.1.crx | 1.23.1 | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc) |
 | SwitchyOmega_3.5.1.crx | 3.5.1 | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc) |
 | SuperDrag_2.1.2.crx | 2.1.2 | 超级拖拽 + 鼠标手势 | [主页](https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc) |
 
