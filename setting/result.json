@@ -58,10 +58,10 @@
     {
         "name": "MouseClickTool.exe",
         "category": "单文件",
-        "version": "3.1.0.0",
+        "version": "3.2.0.0",
         "description": "鼠标自动点击工具",
         "homepage": "https://github.com/lalakii/MouseClickTool",
-        "url": "https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe"
+        "url": "https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.2.0.0/MouseClickTool.exe"
     },
     {
         "name": "Tampermonkey_5.6.6239.crx",
@@ -304,9 +304,9 @@
         "url": "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
     },
     {
-        "name": "SingleFile_1.23.1.crx",
+        "name": "SingleFile_1.23.2.crx",
         "category": "浏览器相关",
-        "version": "1.23.1",
+        "version": "1.23.2",
         "description": "网页单文件保存",
         "homepage": "https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"

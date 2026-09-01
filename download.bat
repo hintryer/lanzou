@@ -35,7 +35,7 @@ curl -L -# -o "运行库\dotnet-runtime-10.0.11-win-x64.exe" "https://builds.dot
 echo.
 mkdir "单文件" 2>nul
 echo 📥 下载 → 单文件 \ MouseClickTool.exe
-curl -L -# -o "单文件\MouseClickTool.exe" "https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe"
+curl -L -# -o "单文件\MouseClickTool.exe" "https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.2.0.0/MouseClickTool.exe"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ Tampermonkey_5.6.6239.crx
@@ -158,8 +158,8 @@ echo 📥 下载 → 单文件 \ ClickMonitorDDC.zip
 curl -L -# -o "单文件\ClickMonitorDDC.zip" "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ SingleFile_1.23.1.crx
-curl -L -# -o "浏览器相关\SingleFile_1.23.1.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
+echo 📥 下载 → 浏览器相关 \ SingleFile_1.23.2.crx
+curl -L -# -o "浏览器相关\SingleFile_1.23.2.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
 echo.
 mkdir "开发工具" 2>nul
 echo 📥 下载 → 开发工具 \ ffmpeg-9.0.1-essentials_build.7z

@@ -1,10 +1,10 @@
 {
   "name": "MouseClickTool.exe",
   "category": "单文件",
-  "version": "3.1.0.0",
+  "version": "3.2.0.0",
   "description": "鼠标自动点击工具",
   "homepage": "https://github.com/lalakii/MouseClickTool",
-  "url": "https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe",
+  "url": "https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.2.0.0/MouseClickTool.exe",
   "checkver": [
     {
       "apiurl": "https://api.github.com/repos/lalakii/MouseClickTool/releases/latest",
@@ -13,5 +13,5 @@
       "version": "$.tag_name"
     }
   ],
-  "oldurl": "https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe"
+  "oldurl": "https://github.com/lalakii/MouseClickTool/releases/download/3.2.0.0/MouseClickTool.exe"
 }

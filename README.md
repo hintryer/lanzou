@@ -21,7 +21,7 @@
 
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
-| MouseClickTool.exe | 3.1.0.0 | 鼠标自动点击工具 | [主页](https://github.com/lalakii/MouseClickTool) | [下载](https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.1.0.0/MouseClickTool.exe) |
+| MouseClickTool.exe | 3.2.0.0 | 鼠标自动点击工具 | [主页](https://github.com/lalakii/MouseClickTool) | [下载](https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.2.0.0/MouseClickTool.exe) |
 | GeekUninstaller_1.5.4.180.zip | 1.5.4.180 | Geek 卸载工具 | [主页](https://geekuninstaller.com/) | [下载](https://geekuninstaller.com/geek.zip) |
 | ReNamerPro_7.9.0.0v2.exe | 7.9.0.0v2 | 文件改名 | [主页](https://www.52pojie.cn/thread-2064422-1-1.html) | [下载](https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQnYyUzBVdzNGeFI2M3A4QWU4d1BYb0FiN09HY1RQYWsteEwxRmxocDBYcjM0P2U9SXJodUhu.exe) |
 | ClickMonitorDDC.zip |  7.2 | 显示器亮度音量调节软件 | [主页](https://www.52pojie.cn/thread-1761083-1-1.html) | [下载](https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip) |
@@ -76,7 +76,7 @@
 | AllowCopy_2.1.6.crx | 2.1.6 | 网页限制解除 | [主页](https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc) |
 | Chrome++_v1.18.2_x86_x64_arm64.7z | 1.18.2 | Chrome增强工具集 | [主页](https://github.com/Bush2021/chrome_plus) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.18.2/Chrome%2B%2B_v1.18.2_x86_x64_arm64.7z) |
 | Immersive_Translate_1.32.7.crx | 1.32.7 | AI 网页翻译插件 | [主页](https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc) |
-| SingleFile_1.23.1.crx | 1.23.1 | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc) |
+| SingleFile_1.23.2.crx | 1.23.2 | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc) |
 | SwitchyOmega_3.5.1.crx | 3.5.1 | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc) |
 | SuperDrag_2.1.2.crx | 2.1.2 | 超级拖拽 + 鼠标手势 | [主页](https://www.crxsoso.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc) |
 
