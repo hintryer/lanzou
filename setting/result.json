@@ -80,12 +80,12 @@
         "url": "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.4/typora-plugin%40v1.19.4.zip"
     },
     {
-        "name": "chrome_152.0.7977.65_uncompressed.exe",
+        "name": "chrome_152.0.7977.76_uncompressed.exe",
         "category": "浏览器相关",
-        "version": "152.0.7977.65",
+        "version": "152.0.7977.76",
         "description": "Chrome 离线安装包",
         "homepage": "https://github.com/Bush2021/chrome_installer",
-        "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/152.0.7977.65/x64_152.0.7977.65_chrome_installer_uncompressed.exe"
+        "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/152.0.7977.76/x64_152.0.7977.76_chrome_installer_uncompressed.exe"
     },
     {
         "name": "ffmpeg-9.0.1-full_build.7z",
@@ -160,9 +160,9 @@
         "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQnYyUzBVdzNGeFI2M3A4QWU4d1BYb0FiN09HY1RQYWsteEwxRmxocDBYcjM0P2U9SXJodUhu.exe"
     },
     {
-        "name": "uBlockOriginLite_2026.825.1619.crx",
+        "name": "uBlockOriginLite_2026.901.1442.crx",
         "category": "浏览器相关",
-        "version": "2026.825.1619",
+        "version": "2026.901.1442",
         "description": "轻量版广告拦截",
         "homepage": "https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
@@ -304,9 +304,9 @@
         "url": "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
     },
     {
-        "name": "SingleFile_1.23.2.crx",
+        "name": "SingleFile_1.23.3.crx",
         "category": "浏览器相关",
-        "version": "1.23.2",
+        "version": "1.23.3",
         "description": "网页单文件保存",
         "homepage": "https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"

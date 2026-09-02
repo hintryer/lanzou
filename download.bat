@@ -46,8 +46,8 @@ echo 📥 下载 → 文本办公 \ typora-plugin@v1.19.4.zip
 curl -L -# -o "文本办公\typora-plugin@v1.19.4.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.4/typora-plugin%40v1.19.4.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_152.0.7977.65_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_152.0.7977.65_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/152.0.7977.65/x64_152.0.7977.65_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_152.0.7977.76_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_152.0.7977.76_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/152.0.7977.76/x64_152.0.7977.76_chrome_installer_uncompressed.exe"
 echo.
 mkdir "开发工具" 2>nul
 echo 📥 下载 → 开发工具 \ ffmpeg-9.0.1-full_build.7z
@@ -86,8 +86,8 @@ echo 📥 下载 → 单文件 \ ReNamerPro_7.9.0.0v2.exe
 curl -L -# -o "单文件\ReNamerPro_7.9.0.0v2.exe" "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQnYyUzBVdzNGeFI2M3A4QWU4d1BYb0FiN09HY1RQYWsteEwxRmxocDBYcjM0P2U9SXJodUhu.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.825.1619.crx
-curl -L -# -o "浏览器相关\uBlockOriginLite_2026.825.1619.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
+echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.901.1442.crx
+curl -L -# -o "浏览器相关\uBlockOriginLite_2026.901.1442.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ cat-catch_2.7.2.crx
@@ -158,8 +158,8 @@ echo 📥 下载 → 单文件 \ ClickMonitorDDC.zip
 curl -L -# -o "单文件\ClickMonitorDDC.zip" "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ SingleFile_1.23.2.crx
-curl -L -# -o "浏览器相关\SingleFile_1.23.2.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
+echo 📥 下载 → 浏览器相关 \ SingleFile_1.23.3.crx
+curl -L -# -o "浏览器相关\SingleFile_1.23.3.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
 echo.
 mkdir "开发工具" 2>nul
 echo 📥 下载 → 开发工具 \ ffmpeg-9.0.1-essentials_build.7z
