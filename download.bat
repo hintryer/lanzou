@@ -42,12 +42,12 @@ echo 📥 下载 → 浏览器相关 \ Tampermonkey_5.6.6239.crx
 curl -L -# -o "浏览器相关\Tampermonkey_5.6.6239.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc"
 echo.
 mkdir "文本办公" 2>nul
-echo 📥 下载 → 文本办公 \ typora-plugin@v1.19.4.zip
-curl -L -# -o "文本办公\typora-plugin@v1.19.4.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.4/typora-plugin%40v1.19.4.zip"
+echo 📥 下载 → 文本办公 \ typora-plugin@v1.19.5.zip
+curl -L -# -o "文本办公\typora-plugin@v1.19.5.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.5/typora-plugin%40v1.19.5.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_152.0.7977.76_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_152.0.7977.76_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/152.0.7977.76/x64_152.0.7977.76_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_152.0.7977.83_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_152.0.7977.83_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/152.0.7977.83/x64_152.0.7977.83_chrome_installer_uncompressed.exe"
 echo.
 mkdir "开发工具" 2>nul
 echo 📥 下载 → 开发工具 \ ffmpeg-9.0.1-full_build.7z
@@ -158,8 +158,8 @@ echo 📥 下载 → 单文件 \ ClickMonitorDDC.zip
 curl -L -# -o "单文件\ClickMonitorDDC.zip" "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ SingleFile_1.23.3.crx
-curl -L -# -o "浏览器相关\SingleFile_1.23.3.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
+echo 📥 下载 → 浏览器相关 \ SingleFile_1.24.0.crx
+curl -L -# -o "浏览器相关\SingleFile_1.24.0.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
 echo.
 mkdir "开发工具" 2>nul
 echo 📥 下载 → 开发工具 \ ffmpeg-9.0.1-essentials_build.7z

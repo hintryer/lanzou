@@ -72,20 +72,20 @@
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc"
     },
     {
-        "name": "typora-plugin@v1.19.4.zip",
+        "name": "typora-plugin@v1.19.5.zip",
         "category": "文本办公",
-        "version": "1.19.4",
+        "version": "1.19.5",
         "description": "Typora 增强插件",
         "homepage": "https://github.com/obgnail/typora_plugin",
-        "url": "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.4/typora-plugin%40v1.19.4.zip"
+        "url": "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.5/typora-plugin%40v1.19.5.zip"
     },
     {
-        "name": "chrome_152.0.7977.76_uncompressed.exe",
+        "name": "chrome_152.0.7977.83_uncompressed.exe",
         "category": "浏览器相关",
-        "version": "152.0.7977.76",
+        "version": "152.0.7977.83",
         "description": "Chrome 离线安装包",
         "homepage": "https://github.com/Bush2021/chrome_installer",
-        "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/152.0.7977.76/x64_152.0.7977.76_chrome_installer_uncompressed.exe"
+        "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/152.0.7977.83/x64_152.0.7977.83_chrome_installer_uncompressed.exe"
     },
     {
         "name": "ffmpeg-9.0.1-full_build.7z",
@@ -304,9 +304,9 @@
         "url": "https://gh-proxy.com/https://github.com/hintryer/ra/releases/download/2.0/ClickMonitorDDC.7.2.zip"
     },
     {
-        "name": "SingleFile_1.23.3.crx",
+        "name": "SingleFile_1.24.0.crx",
         "category": "浏览器相关",
-        "version": "1.23.3",
+        "version": "1.24.0",
         "description": "网页单文件保存",
         "homepage": "https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
