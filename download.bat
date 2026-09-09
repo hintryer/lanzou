@@ -6,8 +6,8 @@ echo           批量下载工具（自动分类）
 echo ==============================================
 echo.
 mkdir "运行库" 2>nul
-echo 📥 下载 → 运行库 \ dotnet-runtime-9.0.19-win-x64.exe
-curl -L -# -o "运行库\dotnet-runtime-9.0.19-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.19/dotnet-runtime-9.0.19-win-x64.exe"
+echo 📥 下载 → 运行库 \ dotnet-runtime-9.0.20-win-x64.exe
+curl -L -# -o "运行库\dotnet-runtime-9.0.20-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.20/dotnet-runtime-9.0.20-win-x64.exe"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ SwitchyOmega_3.5.1.crx
@@ -18,8 +18,8 @@ echo 📥 下载 → 单文件 \ ReNamerPro_7.9.0.0v2.exe
 curl -L -# -o "单文件\ReNamerPro_7.9.0.0v2.exe" "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9kMTk2Y2Y1YmZjNWM1YmY3L0lRQnYyUzBVdzNGeFI2M3A4QWU4d1BYb0FiN09HY1RQYWsteEwxRmxocDBYcjM0P2U9SXJodUhu.exe"
 echo.
 mkdir "运行库" 2>nul
-echo 📥 下载 → 运行库 \ dotnet-runtime-10.0.11-win-x64.exe
-curl -L -# -o "运行库\dotnet-runtime-10.0.11-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.11/dotnet-runtime-10.0.11-win-x64.exe"
+echo 📥 下载 → 运行库 \ dotnet-runtime-10.0.12-win-x64.exe
+curl -L -# -o "运行库\dotnet-runtime-10.0.12-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.12/dotnet-runtime-10.0.12-win-x64.exe"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ MusicTag.zip
@@ -54,8 +54,8 @@ echo 📥 下载 → 开发工具 \ PortableGit-2.55.0.5-64-bit.7z.exe
 curl -L -# -o "开发工具\PortableGit-2.55.0.5-64-bit.7z.exe" "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/PortableGit-2.55.0.5-64-bit.7z.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ SingleFile_1.24.0.crx
-curl -L -# -o "浏览器相关\SingleFile_1.24.0.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
+echo 📥 下载 → 浏览器相关 \ SingleFile_1.24.2.crx
+curl -L -# -o "浏览器相关\SingleFile_1.24.2.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
 echo.
 mkdir "图像相关" 2>nul
 echo 📥 下载 → 图像相关 \ Umi-OCR_Paddle_v2.1.5.7z.exe
@@ -70,8 +70,8 @@ echo 📥 下载 → 文本办公 \ Notepad4_HD_zh-Hans_x64_v26.08r6282.zip
 curl -L -# -o "文本办公\Notepad4_HD_zh-Hans_x64_v26.08r6282.zip" "https://gh-proxy.com/https://github.com/zufuliu/notepad4/releases/download/v26.08r6282/Notepad4_HD_zh-Hans_x64_v26.08r6282.zip"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.32.10.crx
-curl -L -# -o "浏览器相关\Immersive_Translate_1.32.10.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
+echo 📥 下载 → 浏览器相关 \ Immersive_Translate_1.33.1.crx
+curl -L -# -o "浏览器相关\Immersive_Translate_1.33.1.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ Chrome++_v1.18.2_x86_x64_arm64.7z
@@ -102,8 +102,8 @@ echo 📥 下载 → 浏览器相关 \ SuperDrag_2.1.2.crx
 curl -L -# -o "浏览器相关\SuperDrag_2.1.2.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djaikcnhlohebodlpkmjepipngegjbfpg%26uc"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.901.1442.crx
-curl -L -# -o "浏览器相关\uBlockOriginLite_2026.901.1442.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
+echo 📥 下载 → 浏览器相关 \ uBlockOriginLite_2026.907.2003.crx
+curl -L -# -o "浏览器相关\uBlockOriginLite_2026.907.2003.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc"
 echo.
 mkdir "单文件" 2>nul
 echo 📥 下载 → 单文件 \ ClickMonitorDDC.zip
@@ -151,7 +151,7 @@ curl -L -# -o "运行库\dotnet-runtime-7.0.20-win-x64.exe" "https://builds.dotn
 echo.
 mkdir "单文件" 2>nul
 echo 📥 下载 → 单文件 \ MouseClickTool.exe
-curl -L -# -o "单文件\MouseClickTool.exe" "https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.2.0.0/MouseClickTool.exe"
+curl -L -# -o "单文件\MouseClickTool.exe" "https://gh-proxy.com/https://github.com/lalakii/MouseClickTool/releases/download/3.3.0.0/MouseClickTool.exe"
 echo.
 mkdir "图像相关" 2>nul
 echo 📥 下载 → 图像相关 \ FSCapture_11.3.zip
@@ -174,8 +174,8 @@ echo 📥 下载 → 影音工具 \ VideoCaptioner-Setup-win64-v1.3.3.exe
 curl -L -# -o "影音工具\VideoCaptioner-Setup-win64-v1.3.3.exe" "https://gh-proxy.com/https://github.com/WEIFENG2333/VideoCaptioner/releases/download/v1.3.3/VideoCaptioner-Setup-win64-v1.3.3.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ chrome_152.0.7977.83_uncompressed.exe
-curl -L -# -o "浏览器相关\chrome_152.0.7977.83_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/152.0.7977.83/x64_152.0.7977.83_chrome_installer_uncompressed.exe"
+echo 📥 下载 → 浏览器相关 \ chrome_153.0.8010.37_uncompressed.exe
+curl -L -# -o "浏览器相关\chrome_153.0.8010.37_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/153.0.8010.37/x64_153.0.8010.37_chrome_installer_uncompressed.exe"
 echo.
 mkdir "浏览器相关" 2>nul
 echo 📥 下载 → 浏览器相关 \ LastPass_4.155.1.crx
@@ -186,8 +186,8 @@ echo 📥 下载 → 文本办公 \ typora-windows-x64-1.9.5.exe
 curl -L -# -o "文本办公\typora-windows-x64-1.9.5.exe" "https://gh-proxy.com/https://github.com/Delppine1024/TGreen/releases/download/v1.9.5/typora-windows-x64-1.9.5.exe"
 echo.
 mkdir "运行库" 2>nul
-echo 📥 下载 → 运行库 \ dotnet-runtime-8.0.30-win-x64.exe
-curl -L -# -o "运行库\dotnet-runtime-8.0.30-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.30/dotnet-runtime-8.0.30-win-x64.exe"
+echo 📥 下载 → 运行库 \ dotnet-runtime-8.0.31-win-x64.exe
+curl -L -# -o "运行库\dotnet-runtime-8.0.31-win-x64.exe" "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.31/dotnet-runtime-8.0.31-win-x64.exe"
 echo.
 echo ==============================================
 echo                 ✅ 全部下载完成
