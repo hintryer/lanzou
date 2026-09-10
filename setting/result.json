@@ -8,9 +8,9 @@
         "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.20/dotnet-runtime-9.0.20-win-x64.exe"
     },
     {
-        "name": "SwitchyOmega_3.5.1.crx",
+        "name": "SwitchyOmega_3.5.2.crx",
         "category": "浏览器相关",
-        "version": "3.5.1",
+        "version": "3.5.2",
         "description": "代理切换工具",
         "homepage": "https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc"

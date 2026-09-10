@@ -68,7 +68,7 @@
 
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
-| SwitchyOmega_3.5.1.crx | 3.5.1 | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc) |
+| SwitchyOmega_3.5.2.crx | 3.5.2 | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc) |
 | SingleFile_1.24.2.crx | 1.24.2 | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc) |
 | Tampermonkey_5.6.6239.crx | 5.6.6239 | 脚本管理工具 | [主页](https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc) |
 | Immersive_Translate_1.33.1.crx | 1.33.1 | AI 网页翻译插件 | [主页](https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc) |
