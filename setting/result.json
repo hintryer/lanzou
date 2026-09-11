@@ -96,9 +96,9 @@
         "url": "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/PortableGit-2.55.0.5-64-bit.7z.exe"
     },
     {
-        "name": "SingleFile_1.24.2.crx",
+        "name": "SingleFile_1.24.3.crx",
         "category": "浏览器相关",
-        "version": "1.24.2",
+        "version": "1.24.3",
         "description": "网页单文件保存",
         "homepage": "https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
@@ -344,9 +344,9 @@
         "url": "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/153.0.8010.37/x64_153.0.8010.37_chrome_installer_uncompressed.exe"
     },
     {
-        "name": "LastPass_4.155.1.crx",
+        "name": "LastPass_4.155.2.crx",
         "category": "浏览器相关",
-        "version": "4.155.1",
+        "version": "4.155.2",
         "description": "Free Password Manager",
         "homepage": "https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd",
         "url": "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"

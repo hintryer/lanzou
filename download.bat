@@ -54,8 +54,8 @@ echo 📥 下载 → 开发工具 \ PortableGit-2.55.0.5-64-bit.7z.exe
 curl -L -# -o "开发工具\PortableGit-2.55.0.5-64-bit.7z.exe" "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/PortableGit-2.55.0.5-64-bit.7z.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ SingleFile_1.24.2.crx
-curl -L -# -o "浏览器相关\SingleFile_1.24.2.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
+echo 📥 下载 → 浏览器相关 \ SingleFile_1.24.3.crx
+curl -L -# -o "浏览器相关\SingleFile_1.24.3.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc"
 echo.
 mkdir "图像相关" 2>nul
 echo 📥 下载 → 图像相关 \ Umi-OCR_Paddle_v2.1.5.7z.exe
@@ -178,8 +178,8 @@ echo 📥 下载 → 浏览器相关 \ chrome_153.0.8010.37_uncompressed.exe
 curl -L -# -o "浏览器相关\chrome_153.0.8010.37_uncompressed.exe" "https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/153.0.8010.37/x64_153.0.8010.37_chrome_installer_uncompressed.exe"
 echo.
 mkdir "浏览器相关" 2>nul
-echo 📥 下载 → 浏览器相关 \ LastPass_4.155.1.crx
-curl -L -# -o "浏览器相关\LastPass_4.155.1.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
+echo 📥 下载 → 浏览器相关 \ LastPass_4.155.2.crx
+curl -L -# -o "浏览器相关\LastPass_4.155.2.crx" "https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc"
 echo.
 mkdir "文本办公" 2>nul
 echo 📥 下载 → 文本办公 \ typora-windows-x64-1.9.5.exe

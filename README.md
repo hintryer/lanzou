@@ -69,7 +69,7 @@
 | 名称 | 版本 | 描述 | 主页 | 下载 |
 | ---- | ---- | ---- | ---- | ---- |
 | SwitchyOmega_3.5.2.crx | 3.5.2 | 代理切换工具 | [主页](https://www.crxsoso.com/webstore/detail/pfnededegaaopdmhkdmcofjmoldfiped) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dpfnededegaaopdmhkdmcofjmoldfiped%26uc) |
-| SingleFile_1.24.2.crx | 1.24.2 | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc) |
+| SingleFile_1.24.3.crx | 1.24.3 | 网页单文件保存 | [主页](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dmpiodijhokgodhhofbcjdecpffjipkle%26uc) |
 | Tampermonkey_5.6.6239.crx | 5.6.6239 | 脚本管理工具 | [主页](https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26uc) |
 | Immersive_Translate_1.33.1.crx | 1.33.1 | AI 网页翻译插件 | [主页](https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dbpoadfkcbjbfhfodiogcnhhhpibjhbnh%26uc) |
 | Chrome++_v1.18.2_x86_x64_arm64.7z | 1.18.2 | Chrome增强工具集 | [主页](https://github.com/Bush2021/chrome_plus) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_plus/releases/download/1.18.2/Chrome%2B%2B_v1.18.2_x86_x64_arm64.7z) |
@@ -78,7 +78,7 @@
 | uBlockOriginLite_2026.907.2003.crx | 2026.907.2003 | 轻量版广告拦截 | [主页](https://www.crxsoso.com/webstore/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dddkjiahejlhfcafbddmgiahcphecmpfh%26uc) |
 | AllowCopy_2.1.6.crx | 2.1.6 | 网页限制解除 | [主页](https://www.crxsoso.com/webstore/detail/jhodmcfehicjonjdoljadkbkenaoehfm) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Djhodmcfehicjonjdoljadkbkenaoehfm%26uc) |
 | chrome_153.0.8010.37_uncompressed.exe | 153.0.8010.37 | Chrome 离线安装包 | [主页](https://github.com/Bush2021/chrome_installer) | [下载](https://gh-proxy.com/https://github.com/Bush2021/chrome_installer/releases/download/153.0.8010.37/x64_153.0.8010.37_chrome_installer_uncompressed.exe) |
-| LastPass_4.155.1.crx | 4.155.1 | Free Password Manager | [主页](https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc) |
+| LastPass_4.155.2.crx | 4.155.2 | Free Password Manager | [主页](https://www.crxsoso.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd) | [下载](https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=130.0.0.0&x=id%3Dhdokiejnpimakedhajhdlcegeplioahd%26uc) |
 
 ## 运行库
 
