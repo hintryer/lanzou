@@ -166,8 +166,8 @@ echo 📥 下载 → 其它工具 \ Bili23-Downloade_v2.15.0_portable.zip
 curl -L -# -o "其它工具\Bili23-Downloade_v2.15.0_portable.zip" "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.15.0/Bili23-Downloader_2.15.0_windows_x64_portable.zip"
 echo.
 mkdir "文本办公" 2>nul
-echo 📥 下载 → 文本办公 \ typora-plugin@v1.19.5.zip
-curl -L -# -o "文本办公\typora-plugin@v1.19.5.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.5/typora-plugin%40v1.19.5.zip"
+echo 📥 下载 → 文本办公 \ typora-plugin@v1.19.6.zip
+curl -L -# -o "文本办公\typora-plugin@v1.19.6.zip" "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.6/typora-plugin%40v1.19.6.zip"
 echo.
 mkdir "影音工具" 2>nul
 echo 📥 下载 → 影音工具 \ VideoCaptioner-Setup-win64-v1.3.3.exe

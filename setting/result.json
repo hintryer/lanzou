@@ -320,12 +320,12 @@
         "url": "https://gh-proxy.com/https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.15.0/Bili23-Downloader_2.15.0_windows_x64_portable.zip"
     },
     {
-        "name": "typora-plugin@v1.19.5.zip",
+        "name": "typora-plugin@v1.19.6.zip",
         "category": "文本办公",
-        "version": "1.19.5",
+        "version": "1.19.6",
         "description": "Typora 增强插件",
         "homepage": "https://github.com/obgnail/typora_plugin",
-        "url": "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.5/typora-plugin%40v1.19.5.zip"
+        "url": "https://gh-proxy.com/https://github.com/obgnail/typora_plugin/releases/download/1.19.6/typora-plugin%40v1.19.6.zip"
     },
     {
         "name": "VideoCaptioner-Setup-win64-v1.3.3.exe",
